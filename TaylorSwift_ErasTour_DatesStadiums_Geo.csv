@@ -1,0 +1,153 @@
+Date,Show_ID,City,State,Country,Stadium,Opener 1,Opener 2,Cancelled,Setlist_ID,Latitude,Longitude
+17-Mar-23,1,Glendale,AZ,United States of America,STATE FARM STADIUM,Paramore,GAYLE,0,1,33.527283,-112.263275
+18-Mar-23,2,Glendale,AZ,United States of America,STATE FARM STADIUM,Paramore,GAYLE,0,1,33.527283,-112.263275
+24-Mar-23,3,Las Vegas,NV,United States of America,ALLEGIANT STADIUM,beabadoobee,GAYLE,0,1,36.090794,-115.183952
+25-Mar-23,4,Las Vegas,NV,United States of America,ALLEGIANT STADIUM,beabadoobee,GAYLE,0,1,36.090794,-115.183952
+31-Mar-23,5,Arlington,TX,United States of America,AT&T STADIUM,MUNA,GAYLE,0,2,32.747841,-97.093628
+1-Apr-23,6,Arlington,TX,United States of America,AT&T STADIUM,beabadoobee,Gracie Abrams,0,2,32.747841,-97.093628
+2-Apr-23,7,Arlington,TX,United States of America,AT&T STADIUM,beabadoobee,Gracie Abrams,0,2,32.747841,-97.093628
+13-Apr-23,8,Tampa,FL,United States of America,RAYMOND JAMES STADIUM,beabadoobee,GAYLE,0,2,27.975958,-82.503693
+14-Apr-23,9,Tampa,FL,United States of America,RAYMOND JAMES STADIUM,beabadoobee,Gracie Abrams,0,2,27.975958,-82.503693
+15-Apr-23,10,Tampa,FL,United States of America,RAYMOND JAMES STADIUM,beabadoobee,Gracie Abrams,0,2,27.975958,-82.503693
+21-Apr-23,11,Houston,TX,United States of America,NRG STADIUM,beabadoobee,Gracie Abrams,0,2,29.68486,-95.411667
+22-Apr-23,12,Houston,TX,United States of America,NRG STADIUM,beabadoobee,Gracie Abrams,0,2,29.68486,-95.411667
+23-Apr-23,13,Houston,TX,United States of America,NRG STADIUM,beabadoobee,Gracie Abrams,0,2,29.68486,-95.411667
+28-Apr-23,14,Atlanta,GA,United States of America,MERCEDES-BENZ STADIUM,beabadoobee,Gracie Abrams,0,2,33.755489,-84.401993
+29-Apr-23,15,Atlanta,GA,United States of America,MERCEDES-BENZ STADIUM,beabadoobee,Gracie Abrams,0,2,33.755489,-84.401993
+30-Apr-23,16,Atlanta,GA,United States of America,MERCEDES-BENZ STADIUM,MUNA,GAYLE,0,2,33.755489,-84.401993
+5-May-23,17,Nashville,TN,United States of America,NISSAN STADIUM,Phoebe Bridgers,Gracie Abrams,0,7,36.166479,-86.7712898
+6-May-23,18,Nashville,TN,United States of America,NISSAN STADIUM,Phoebe Bridgers,GAYLE,0,7,36.166479,-86.7712898
+7-May-23,19,Nashville,TN,United States of America,NISSAN STADIUM,Phoebe Bridgers,Gracie Abrams,0,7,36.166479,-86.7712898
+12-May-23,20,Philadelphia,PA,United States of America,LINCOLN FINANCIAL FIELD,Phoebe Bridgers,GAYLE,0,7,39.900898,-75.168098
+13-May-23,21,Philadelphia,PA,United States of America,LINCOLN FINANCIAL FIELD,Phoebe Bridgers,GAYLE,0,7,39.900898,-75.168098
+14-May-23,22,Philadelphia,PA,United States of America,LINCOLN FINANCIAL FIELD,Phoebe Bridgers,Gracie Abrams,0,7,39.900898,-75.168098
+19-May-23,23,Foxborough,MA,United States of America,GILLETTE STADIUM,Phoebe Bridgers,GAYLE,0,7,42.0878,-71.2587
+20-May-23,24,Foxborough,MA,United States of America,GILLETTE STADIUM,Phoebe Bridgers,GAYLE,0,7,42.0878,-71.2587
+21-May-23,25,Foxborough,MA,United States of America,GILLETTE STADIUM,Phoebe Bridgers,Gracie Abrams,0,7,42.0878,-71.2587
+26-May-23,26,East Rutherford,NJ,United States of America,METLIFE STADIUM,Phoebe Bridgers,GAYLE,0,8,40.813778,-74.07431
+27-May-23,27,East Rutherford,NJ,United States of America,METLIFE STADIUM,Phoebe Bridgers,Gracie Abrams,0,8,40.813778,-74.07431
+28-May-23,28,East Rutherford,NJ,United States of America,METLIFE STADIUM,Phoebe Bridgers,OWENN,0,8,40.813778,-74.07431
+2-Jun-23,29,Chicago,IL,United States of America,SOLDIER FIELD,girl in red,OWENN,0,2,41.862366,-87.617256
+3-Jun-23,30,Chicago,IL,United States of America,SOLDIER FIELD,girl in red,OWENN,0,2,41.862366,-87.617256
+4-Jun-23,31,Chicago,IL,United States of America,SOLDIER FIELD,MUNA,Gracie Abrams,0,2,41.862366,-87.617256
+9-Jun-23,32,Detroit,MI,United States of America,FORD FIELD,girl in red,Gracie Abrams,0,2,42.340115,-83.046341
+10-Jun-23,33,Detroit,MI,United States of America,FORD FIELD,girl in red,OWENN,0,2,42.340115,-83.046341
+16-Jun-23,34,Pittsburgh,PA,United States of America,ACRISURE STADIUM,girl in red,Gracie Abrams,0,2,40.4469,-80.0158
+17-Jun-23,35,Pittsburgh,PA,United States of America,ACRISURE STADIUM,girl in red,OWENN,0,2,40.4469,-80.0158
+23-Jun-23,36,Minneapolis,MN,United States of America,U.S. BANK STADIUM,girl in red,Gracie Abrams,0,2,44.9737,-93.257
+24-Jun-23,37,Minneapolis,MN,United States of America,U.S. BANK STADIUM,girl in red,OWENN,0,2,44.9737,-93.257
+30-Jun-23,38,Cincinnati,OH,United States of America,PAYCOR STADIUM,MUNA,Gracie Abrams,0,2,39.0955,-84.5161
+1-Jul-23,39,Cincinnati,OH,United States of America,PAYCOR STADIUM,MUNA,Gracie Abrams,0,2,39.0955,-84.5161
+7-Jul-23,40,Kansas City,MO,United States of America,GEHA FIELD AT ARROWHEAD STADIUM,MUNA,Gracie Abrams,0,3,39.049,-94.4839
+8-Jul-23,41,Kansas City,MO,United States of America,GEHA FIELD AT ARROWHEAD STADIUM,MUNA,Gracie Abrams,0,3,39.049,-94.4839
+14-Jul-23,42,Denver,CO,United States of America,EMPOWER FIELD AT MILE HIGH,MUNA,Gracie Abrams,0,3,39.7439,-105.0201
+15-Jul-23,43,Denver,CO,United States of America,EMPOWER FIELD AT MILE HIGH,MUNA,Gracie Abrams,0,3,39.7439,-105.0201
+22-Jul-23,44,Seattle,WA,United States of America,LUMEN FIELD,MUNA,Gracie Abrams,0,3,47.5952,-122.3316
+23-Jul-23,45,Seattle,WA,United States of America,LUMEN FIELD,MUNA,Gracie Abrams,0,3,47.5952,-122.3316
+28-Jul-23,46,Santa Clara,CA,United States of America,LEVI'S STADIUM,HAIM,Gracie Abrams,0,6,37.403,-121.97
+29-Jul-23,47,Santa Clara,CA,United States of America,LEVI'S STADIUM,HAIM,Gracie Abrams,0,6,37.403,-121.97
+3-Aug-23,48,Los Angeles,CA,United States of America,SOFI STADIUM,HAIM,Gracie Abrams,0,6,33.9535,-118.3392
+4-Aug-23,49,Los Angeles,CA,United States of America,SOFI STADIUM,HAIM,OWENN,0,6,33.9535,-118.3392
+5-Aug-23,50,Los Angeles,CA,United States of America,SOFI STADIUM,HAIM,GAYLE,0,6,33.9535,-118.3392
+7-Aug-23,51,Los Angeles,CA,United States of America,SOFI STADIUM,HAIM,Gracie Abrams,0,6,33.9535,-118.3392
+8-Aug-23,52,Los Angeles,CA,United States of America,SOFI STADIUM,HAIM,Gracie Abrams,0,6,33.9535,-118.3392
+9-Aug-23,53,Los Angeles,CA,United States of America,SOFI STADIUM,HAIM,GAYLE,0,6,33.9535,-118.3392
+24-Aug-23,54,Mexico City,,Mexico,Foro Sol,Sabrina Carpenter,,0,3,19.4042,-99.0907
+25-Aug-23,55,Mexico City,,Mexico,Foro Sol,Sabrina Carpenter,,0,3,19.4042,-99.0907
+26-Aug-23,56,Mexico City,,Mexico,Foro Sol,Sabrina Carpenter,,0,3,19.4042,-99.0907
+27-Aug-23,57,Mexico City,,Mexico,Foro Sol,Sabrina Carpenter,,0,3,19.4042,-99.0907
+9-Nov-23,58,Buenos Aires,,Argentina,Estadio River Plate,Sabrina Carpenter,Louta,0,3,-34.5455,-58.4494
+11-Nov-23,60,Buenos Aires,,Argentina,Estadio River Plate,Sabrina Carpenter,Louta,0,3,-34.5455,-58.4494
+12-Nov-23,61,Buenos Aires,,Argentina,Estadio River Plate,Sabrina Carpenter,Louta,0,3,-34.5455,-58.4494
+17-Nov-23,62,Rio de Janeiro,,Brazil,Estadio Nilton Santos,Sabrina Carpenter,,0,3,-22.8926,-43.2964
+19-Nov-23,64,Rio de Janeiro,,Brazil,Estadio Nilton Santos,Sabrina Carpenter,,0,3,-22.8926,-43.2964
+20-Nov-23,65,Rio de Janeiro,,Brazil,Estadio Nilton Santos,Sabrina Carpenter,,0,3,-22.8926,-43.2964
+24-Nov-23,66,Sao Paulo,,Brazil,Allianz Parque,Sabrina Carpenter,,0,3,-23.5273,-46.678
+25-Nov-23,67,Sao Paulo,,Brazil,Allianz Parque,Sabrina Carpenter,,0,3,-23.5273,-46.678
+26-Nov-23,68,Sao Paulo,,Brazil,Allianz Parque,Sabrina Carpenter,,0,3,-23.5273,-46.678
+7-Feb-24,69,Tokyo,,Japan,Tokyo Dome,No Opener,,0,3,35.7056,139.7519
+8-Feb-24,70,Tokyo,,Japan,Tokyo Dome,No Opener,,0,3,35.7056,139.7519
+9-Feb-24,71,Tokyo,,Japan,Tokyo Dome,No Opener,,0,3,35.7056,139.7519
+10-Feb-24,72,Tokyo,,Japan,Tokyo Dome,No Opener,,0,3,35.7056,139.7519
+16-Feb-24,73,Melbourne,,Australia,MCG,Sabrina Carpenter,,0,3,-37.8199,144.9834
+17-Feb-24,74,Melbourne,,Australia,MCG,Sabrina Carpenter,,0,3,-37.8199,144.9834
+18-Feb-24,75,Melbourne,,Australia,MCG,Sabrina Carpenter,,0,3,-37.8199,144.9834
+23-Feb-24,76,Sydney,,Australia,Accor Stadium,Sabrina Carpenter,,0,3,-33.8474,151.0631
+24-Feb-24,77,Sydney,,Australia,Accor Stadium,Sabrina Carpenter,,0,3,-33.8474,151.0631
+25-Feb-24,78,Sydney,,Australia,Accor Stadium,Sabrina Carpenter,,0,3,-33.8474,151.0631
+26-Feb-24,79,Sydney,,Australia,Accor Stadium,Sabrina Carpenter,,0,3,-33.8474,151.0631
+2-Mar-24,80,Singapore,,Singapore,National Stadium,Sabrina Carpenter,,0,3,1.304,103.874
+3-Mar-24,81,Singapore,,Singapore,National Stadium,Sabrina Carpenter,,0,3,1.304,103.874
+4-Mar-24,82,Singapore,,Singapore,National Stadium,Sabrina Carpenter,,0,3,1.304,103.874
+7-Mar-24,83,Singapore,,Singapore,National Stadium,Sabrina Carpenter,,0,3,1.304,103.874
+8-Mar-24,84,Singapore,,Singapore,National Stadium,Sabrina Carpenter,,0,3,1.304,103.874
+9-Mar-24,85,Singapore,,Singapore,National Stadium,Sabrina Carpenter,,0,3,1.304,103.874
+9-May-24,86,Paris,,France,Paris La Defense Arena,Paramore,,0,4,48.8966,2.2399
+10-May-24,87,Paris,,France,Paris La Defense Arena,Paramore,,0,4,48.8966,2.2399
+11-May-24,88,Paris,,France,Paris La Defense Arena,Paramore,,0,4,48.8966,2.2399
+12-May-24,89,Paris,,France,Paris La Defense Arena,Paramore,,0,4,48.8966,2.2399
+17-May-24,90,Stockholm,,Sweden,Friends Arena,Paramore,,0,4,59.3728,18.0006
+18-May-24,91,Stockholm,,Sweden,Friends Arena,Paramore,,0,4,59.3728,18.0006
+19-May-24,92,Stockholm,,Sweden,Friends Arena,Paramore,,0,4,59.3728,18.0006
+24-May-24,93,Lisbon,,Portugal,Estadio da Luz,Paramore,,0,4,38.7528,-9.1847
+25-May-24,94,Lisbon,,Portugal,Estadio da Luz,Paramore,,0,4,38.7528,-9.1847
+29-May-24,95,Madrid,,Spain,Estadio Santiago Bernabeu,Paramore,,0,4,40.4531,-3.6883
+30-May-24,96,Madrid,,Spain,Estadio Santiago Bernabeu,Paramore,,0,4,40.4531,-3.6883
+2-Jun-24,97,Lyon,,France,Groupama Stadium,Paramore,,0,4,45.7652,4.9827
+3-Jun-24,98,Lyon,,France,Groupama Stadium,Paramore,,0,4,45.7652,4.9827
+7-Jun-24,99,Edinburgh,,United Kingdom,BT Murrayfield Stadium,Paramore,,0,4,55.9427,-3.24
+8-Jun-24,100,Edinburgh,,United Kingdom,BT Murrayfield Stadium,Paramore,,0,4,55.9427,-3.24
+9-Jun-24,101,Edinburgh,,United Kingdom,BT Murrayfield Stadium,Paramore,,0,4,55.9427,-3.24
+13-Jun-24,102,Liverpool,,United Kingdom,Anfield Stadium,Paramore,,0,4,53.4308,-2.9608
+14-Jun-24,103,Liverpool,,United Kingdom,Anfield Stadium,Paramore,,0,4,53.4308,-2.9608
+15-Jun-24,104,Liverpool,,United Kingdom,Anfield Stadium,Paramore,,0,4,53.4308,-2.9608
+18-Jun-24,105,Cardiff,,United Kingdom,Principality Stadium,Paramore,,0,4,51.4782,-3.1827
+21-Jun-24,106,London,,United Kingdom,Wembley Stadium,Paramore,METTE,0,4,51.556,-0.2796
+22-Jun-24,107,London,,United Kingdom,Wembley Stadium,Paramore,Griff,0,4,51.556,-0.2796
+23-Jun-24,108,London,,United Kingdom,Wembley Stadium,Paramore,Benson Boone,0,4,51.556,-0.2796
+28-Jun-24,109,Dublin,,Ireland,Aviva Stadium,Paramore,,0,4,53.3351,-6.2285
+29-Jun-24,110,Dublin,,Ireland,Aviva Stadium,Paramore,,0,4,53.3351,-6.2285
+30-Jun-24,111,Dublin,,Ireland,Aviva Stadium,Paramore,,0,4,53.3351,-6.2285
+4-Jul-24,112,Amsterdamn,,Netherlands,Johan Cruijff Arena,Paramore,,0,4,52.3144,4.9414
+5-Jul-24,113,Amsterdamn,,Netherlands,Johan Cruijff Arena,Paramore,,0,4,52.3144,4.9414
+6-Jul-24,114,Amsterdamn,,Netherlands,Johan Cruijff Arena,Paramore,,0,4,52.3144,4.9414
+9-Jul-24,115,Zurich,,Switzerland,Stadion Letzigrund Zurich,Paramore,,0,4,47.3663,8.5007
+10-Jul-24,116,Zurich,,Switzerland,Stadion Letzigrund Zurich,Paramore,,0,4,47.3663,8.5007
+13-Jul-24,117,Milan,,Italy,San Siro Stadium,Paramore,,0,4,45.4781,9.124
+14-Jul-24,118,Milan,,Italy,San Siro Stadium,Paramore,,0,4,45.4781,9.124
+17-Jul-24,119,Gelsenkirchsen,,Germany,VELTINS-Arena,Paramore,,0,4,51.5545,7.0675
+18-Jul-24,120,Gelsenkirchsen,,Germany,VELTINS-Arena,Paramore,,0,4,51.5545,7.0675
+19-Jul-24,121,Gelsenkirchsen,,Germany,VELTINS-Arena,Paramore,,0,4,51.5545,7.0675
+23-Jul-24,122,Hamburg,,Germany,Volksparkstadion,Paramore,,0,4,53.5875,9.8986
+24-Jul-24,123,Hamburg,,Germany,Volksparkstadion,Paramore,,0,4,53.5875,9.8986
+27-Jul-24,124,Munich,,Germany,Olympiastadion,Paramore,,0,4,48.1731,11.5466
+28-Jul-24,125,Munich,,Germany,Olympiastadion,Paramore,,0,4,48.1731,11.5466
+1-Aug-24,126,Warsaw,,Poland,PGE Narodowy,Paramore,,0,4,52.2394,21.0458
+2-Aug-24,127,Warsaw,,Poland,PGE Narodowy,Paramore,,0,4,52.2394,21.0458
+3-Aug-24,128,Warsaw,,Poland,PGE Narodowy,Paramore,,0,4,52.2394,21.0458
+8-Aug-24,129,Vienna,,Austria,Ernst-Happel-Stadion,Paramore,,1,,48.2067,16.4213
+9-Aug-24,130,Vienna,,Austria,Ernst-Happel-Stadion,Paramore,,1,,48.2067,16.4213
+10-Aug-24,131,Vienna,,Austria,Ernst-Happel-Stadion,Paramore,,1,,48.2067,16.4213
+15-Aug-24,132,London,,United Kingdom,Wembley Stadium,Paramore,SOFIA ISELLA,0,4,51.556,-0.2796
+16-Aug-24,133,London,,United Kingdom,Wembley Stadium,Paramore,Holly Humberstone,0,4,51.556,-0.2796
+17-Aug-24,134,London,,United Kingdom,Wembley Stadium,Paramore,Suki Waterhouse,0,4,51.556,-0.2796
+19-Aug-24,135,London,,United Kingdom,Wembley Stadium,Paramore,Maise Peters,0,4,51.556,-0.2796
+20-Aug-24,136,London,,United Kingdom,Wembley Stadium,Paramore,RAYE,0,5,51.556,-0.2796
+18-Oct-24,137,Miami,FL,United States of America,Hard Rock Stadium,Gracie Abrams,,0,5,25.958,-80.2389
+19-Oct-24,138,Miami,FL,United States of America,Hard Rock Stadium,Gracie Abrams,,0,5,25.958,-80.2389
+20-Oct-24,139,Miami,FL,United States of America,Hard Rock Stadium,Gracie Abrams,,0,5,25.958,-80.2389
+25-Oct-24,140,New Orleans,LA,United States of America,Caesar's Superdome,Gracie Abrams,,0,4,29.9509,-90.0814
+26-Oct-24,141,New Orleans,LA,United States of America,Caesar's Superdome,Gracie Abrams,,0,4,29.9509,-90.0814
+27-Oct-24,142,New Orleans,LA,United States of America,Caesar's Superdome,Gracie Abrams,,0,4,29.9509,-90.0814
+1-Nov-24,143,Indianapolis,IN,United States of America,Lucas Oil Stadium,Gracie Abrams,,0,4,39.7601,-86.1639
+2-Nov-24,144,Indianapolis,IN,United States of America,Lucas Oil Stadium,Gracie Abrams,,0,4,39.7601,-86.1639
+3-Nov-24,145,Indianapolis,IN,United States of America,Lucas Oil Stadium,Gracie Abrams,,0,4,39.7601,-86.1639
+14-Nov-24,146,Toronto,,Canda,Roger's Centre,Gracie Abrams,,0,4,43.6414,-79.3894
+15-Nov-24,147,Toronto,,Canda,Roger's Centre,Gracie Abrams,,0,4,43.6414,-79.3894
+16-Nov-24,148,Toronto,,Canda,Roger's Centre,Gracie Abrams,,0,4,43.6414,-79.3894
+21-Nov-24,149,Toronto,,Canda,Roger's Centre,Gracie Abrams,,0,4,43.6414,-79.3894
+22-Nov-24,150,Toronto,,Canda,Roger's Centre,Gracie Abrams,,0,4,43.6414,-79.3894
+23-Nov-24,151,Toronto,,Canda,Roger's Centre,Gracie Abrams,,0,4,43.6414,-79.3894
+6-Dec-24,152,Vancouver,,Canda,BC Place,Gracie Abrams,,0,4,49.2768,-123.1116
+7-Dec-24,153,Vancouver,,Canda,BC Place,Gracie Abrams,,0,4,49.2768,-123.1116
+8-Dec-24,154,Vancouver,,Canda,BC Place,Gracie Abrams,,0,4,49.2768,-123.1116
