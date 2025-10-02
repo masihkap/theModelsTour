@@ -1,0 +1,259 @@
+City,State,Country,Venue,Latitude,Longitude
+Glendale,AZ,United States,STATE FARM STADIUM,33.527283,-112.263275
+Las Vegas,NV,United States,ALLEGIANT STADIUM,36.090794,-115.183952
+Arlington,TX,United States,AT&T STADIUM,32.747841,-97.093628
+Tampa,FL,United States,RAYMOND JAMES STADIUM,27.975958,-82.503693
+Houston,TX,United States,NRG STADIUM,29.68486,-95.411667
+Atlanta,GA,United States,MERCEDES-BENZ STADIUM,33.755489,-84.401993
+Nashville,TN,United States,NISSAN STADIUM,36.166479,-86.7712898
+Philadelphia,PA,United States,LINCOLN FINANCIAL FIELD,39.900898,-75.168098
+Foxborough,MA,United States,GILLETTE STADIUM,42.0878,-71.2587
+East Rutherford,NJ,United States,METLIFE STADIUM,40.813778,-74.07431
+Chicago,IL,United States,SOLDIER FIELD,41.862366,-87.617256
+Detroit,MI,United States,FORD FIELD,42.340115,-83.046341
+Pittsburgh,PA,United States,ACRISURE STADIUM,40.4469,-80.0158
+Minneapolis,MN,United States,U.S. BANK STADIUM,44.9737,-93.257
+Cincinnati,OH,United States,PAYCOR STADIUM,39.0955,-84.5161
+Kansas City,MO,United States,GEHA FIELD AT ARROWHEAD STADIUM,39.049,-94.4839
+Denver,CO,United States,EMPOWER FIELD AT MILE HIGH,39.7439,-105.0201
+Seattle,WA,United States,LUMEN FIELD,47.5952,-122.3316
+Santa Clara,CA,United States,LEVI'S STADIUM,37.403,-121.97
+Los Angeles,CA,United States,SOFI STADIUM,33.9535,-118.3392
+Mexico City,,Mexico,Foro Sol,19.4042,-99.0907
+Buenos Aires,,Argentina,Estadio River Plate,-34.5455,-58.4494
+Rio de Janeiro,,Brazil,Estadio Nilton Santos,-22.8926,-43.2964
+Sao Paulo,,Brazil,Allianz Parque,-23.5273,-46.678
+Tokyo,,Japan,Tokyo Dome,35.7056,139.7519
+Melbourne,,Australia,MCG,-37.8199,144.9834
+Sydney,,Australia,Accor Stadium,-33.8474,151.0631
+Singapore,,Singapore,National Stadium,1.304,103.874
+Paris,,France,Paris La Defense Arena,48.8966,2.2399
+Stockholm,,Sweden,Friends Arena,59.3728,18.0006
+Lisbon,,Portugal,Estadio da Luz,38.7528,-9.1847
+Madrid,,Spain,Estadio Santiago Bernabeu,40.4531,-3.6883
+Lyon,,France,Groupama Stadium,45.7652,4.9827
+Edinburgh,,United Kingdom,BT Murrayfield Stadium,55.9427,-3.24
+Liverpool,,United Kingdom,Anfield Stadium,53.4308,-2.9608
+Cardiff,,United Kingdom,Principality Stadium,51.4782,-3.1827
+London,,United Kingdom,Wembley Stadium,51.556,-0.2796
+Dublin,,Ireland,Aviva Stadium,53.3351,-6.2285
+Amsterdamn,,Netherlands,Johan Cruijff Arena,52.3144,4.9414
+Zurich,,Switzerland,Stadion Letzigrund Zurich,47.3663,8.5007
+Milan,,Italy,San Siro Stadium,45.4781,9.124
+Gelsenkirchsen,,Germany,VELTINS-Arena,51.5545,7.0675
+Hamburg,,Germany,Volksparkstadion,53.5875,9.8986
+Munich,,Germany,Olympiastadion,48.1731,11.5466
+Warsaw,,Poland,PGE Narodowy,52.2394,21.0458
+Vienna,,Austria,Ernst-Happel-Stadion,48.2067,16.4213
+Miami,FL,United States,Hard Rock Stadium,25.958,-80.2389
+New Orleans,LA,United States,Caesar's Superdome,29.9509,-90.0814
+Indianapolis,IN,United States,Lucas Oil Stadium,39.7601,-86.1639
+Toronto,,Canda,Roger's Centre,43.6414,-79.3894
+Vancouver,,Canda,BC Place,49.2768,-123.1116
+Evansville,,United States,Roberts Municipal Stadium,,
+Jonesboro,,United States,Convocation Center,,
+St. Louis,,United States,Scottrade Center,,
+Alexandria,,United States,Bishop Ireton High School,,
+North Charleston,,United States,North Charleston Coliseum,,
+Jacksonville,,United States,Jacksonville Veterans Memorial Arena,,
+Biloxi,,United States,Mississippi Coast Coliseum,,
+London,,England,Shepherd's Bush Empire,,
+Spokane,,United States,Spokane Arena,,
+Seattle,,United States,KeyArena,,
+Portland,,United States,Rose Garden Arena,,
+Nampa,,United States,Ford Arena,,
+Glendale,,United States,Jobing.com Arena,,
+Los Angeles,,United States,Staples Center,,
+Paradise,,United States,Mandalay Bay Events Center,,
+San Diego,,United States,Valley View Casino Center,,
+Salt Lake City,,United States,EnergySolutions Arena,,
+New Brockton,,United States,BamaJam Farms,,
+Columbia,,United States,Merriweather Post Pavilion,,
+Greensboro,,United States,Greensboro Coliseum,,
+Oshkosh,,United States,Ford Festival Park,,
+Cadott,,United States,Amphitheatre Concert Grounds,,
+Calgary,,Canada,Pengrowth Saddledome,,
+Edmonton,,Canada,Rexall Place,,
+Craven,,Canada,Big Valley Park,,
+Winnipeg,,Canada,MTS Centre,,
+Twin Lakes,,United States,Country Thunder Festival,,
+Columbus,,United States,Value City Arena,,
+Charleston,,United States,Charleston Civic Center,,
+Cheyenne,,United States,Cheyenne Frontier Days Arena,,
+Rapid City,,United States,Barnett Arena,,
+Minot,,United States,North Dakota State Fair Grandstand,,
+Philadelphia,,United States,Wachovia Spectrum,,
+Detroit Lakes,,United States,Soo Pass Ranch,,
+Omaha,,United States,Qwest Center Omaha,,
+Chelmsford,,England,Hylands Park,,
+Weston-under-Lizard,,England,Weston Park,,
+New York City,,United States,Madison Square Garden,,
+Uncasville,,United States,Mohegan Sun Arena,,
+University Park,,United States,Bryce Jordan Center,,
+Louisville,,United States,Freedom Hall,,
+Duluth,,United States,Arena at Gwinnett Center,,
+Greenville,,United States,Bi-Lo Center,,
+Charlotte,,United States,Time Warner Cable Arena,,
+Lafayette,,United States,Cajundome,,
+Bossier City,,United States,CenturyTel Center,,
+Birmingham,,United States,BJCC Arena,,
+Nashville,,United States,Bridgestone Arena,,
+Dallas,,United States,American Airlines Center,,
+North Little Rock,,United States,Verizon Arena,,
+Tulsa,,United States,BOK Center,,
+Pittsburgh,,United States,Mellon Arena,,
+Grand Rapids,,United States,Van Andel Arena,,
+Cleveland,,United States,Quicken Loans Arena,,
+Indianapolis,,United States,Conseco Fieldhouse,,
+Rosemont,,United States,Allstate Arena,,
+Minneapolis,,United States,Target Center,,
+London,,England,Wembley Arena,,
+Manchester,,England,Manchester Evening News Arena,,
+Brisbane,,Australia,Brisbane Entertainment Centre,,
+Sydney,,Australia,Acer Arena,,
+Newcastle,,Australia,Newcastle Entertainment Centre,,
+Melbourne,,Australia,Rod Laver Arena,,
+Adelaide,,Australia,Adelaide Entertainment Centre,,
+Tokyo,,Japan,Zepp Tokyo,,
+Tampa,,United States,St. Pete Times Forum,,
+Orlando,,United States,Amway Arena,,
+Sunrise,,United States,BankAtlantic Center,,
+Austin,,United States,Frank Erwin Center,,
+Corpus Christi,,United States,American Bank Center Arena,,
+Philadelphia,,United States,Wachovia Center,,
+Charlottesville,,United States,John Paul Jones Arena,,
+Auburn Hills,,United States,The Palace of Auburn Hills,,
+Cincinnati,,United States,U.S. Bank Arena,,
+Oklahoma City,,United States,Ford Center,,
+Wichita,,United States,Intrust Bank Arena,,
+Kansas City,,United States,Sprint Center,,
+Denver,,United States,Pepsi Center,,
+Fresno,,United States,Save Mart Center,,
+San Jose,,United States,HP Pavilion,,
+Lexington,,United States,Rupp Arena,,
+Columbia,,United States,Colonial Life Arena,,
+Raleigh,,United States,RBC Center,,
+Des Moines,,United States,Wells Fargo Arena,,
+Saint Paul,,United States,Xcel Energy Center,,
+Moline,,United States,iWireless Center,,
+Newark,,United States,Prudential Center,,
+Uniondale,,United States,Nassau Veterans Memorial Coliseum,,
+Ottawa,,Canada,Scotiabank Place,,
+Toronto,,Canada,Air Canada Centre,,
+Houston,,United States,Toyota Center,,
+Baton Rouge,,United States,Tiger Stadium,,
+"Washington, D.C.",,United States,Verizon Center,,
+Foxborough,,United States,Gillette Stadium,,
+Nassau,,The Bahamas,Imperial Ballroom,,
+Cavendish,,Canada,Cavendish Beach Festival Grounds,,
+Singapore,,Singapore,Singapore Indoor Stadium,,
+Seoul,,South Korea,Olympic Gymnastics Arena,,
+Osaka,,Japan,Osaka-Jo Hall,,
+Tokyo,,Japan,Nippon Budokan,,
+Quezon City,,Philippines,Smart Araneta Coliseum,,
+Hong Kong,,China,AsiaWorld–Arena,,
+Brussels,,Belgium,Forest National,,
+Rotterdam,,Netherlands,Sportpaleis van Ahoy,,
+Oslo,,Norway,Oslo Spektrum,,
+Oberhausen,,Germany,König Pilsener Arena,,
+Milan,,Italy,Mediolanum Forum,,
+Paris,,France,Zénith de Paris,,
+Madrid,,Spain,Palacio de los Deportes,,
+Birmingham,,England,LG Arena,,
+Belfast,,Northern Ireland,Odyssey Arena,,
+Dublin,,Ireland,The O2,,
+London,,England,The O2 Arena,,
+Orlando,,United States,Amway Center,,
+Columbus,,United States,Nationwide Arena,,
+Milwaukee,,United States,Bradley Center,,
+Detroit,,United States,Ford Field,,
+Pittsburgh,,United States,Heinz Field,,
+Buffalo,,United States,First Niagara Center,,
+Hartford,,United States,XL Center,,
+Knoxville,,United States,Thompson–Boling Arena,,
+Montreal,,Canada,Bell Centre,,
+Washington,,United States,Verizon Center,,
+Philadelphia,,United States,Lincoln Financial Field,,
+Sacramento,,United States,Power Balance Pavilion,,
+Tacoma,,United States,Tacoma Dome,,
+Vancouver,,Canada,Rogers Arena,,
+Bossier City,,United States,CenturyLink Center,,
+Kansas City,,United States,Arrowhead Stadium,,
+Atlanta,,United States,Philips Arena,,
+New Orleans,,United States,New Orleans Arena,,
+Arlington,,United States,Cowboys Stadium,,
+Louisville,,United States,KFC Yum! Center,,
+Lubbock,,United States,United Spirit Arena,,
+Oklahoma City,,United States,Chesapeake Energy Arena,,
+San Antonio,,United States,AT&T Center,,
+Memphis,,United States,FedExForum,,
+Houston,,United States,Minute Maid Park,,
+Miami,,United States,American Airlines Arena,,
+Perth,,Australia,Burswood Dome,,
+Sydney,,Australia,Allphones Arena,,
+Auckland,,New Zealand,Vector Arena,,
+Omaha,,United States,CenturyLink Center Omaha,,
+Tampa,,United States,Tampa Bay Times Forum,,
+Indianapolis,,United States,Bankers Life Fieldhouse,,
+Toronto,,Canada,Rogers Centre,,
+Winnipeg,,Canada,Investors Group Field,,
+Vancouver,,Canada,BC Place Stadium,,
+East Rutherford,,United States,MetLife Stadium,,
+Chicago,,United States,Soldier Field,,
+Sacramento,,United States,Sleep Train Arena,,
+Portland,,United States,Moda Center,,
+Fargo,,United States,Fargodome,,
+Raleigh,,United States,PNC Arena,,
+Sydney,,Australia,Allianz Stadium,,
+Brisbane,,Australia,Suncorp Stadium,,
+Perth,,Australia,nib Stadium,,
+Melbourne,,Australia,Etihad Stadium,,
+Berlin,,Germany,O2 World,,
+Shanghai,,China,Mercedes-Benz Arena,,
+Saitama,,Japan,Saitama Super Arena,,
+Jakarta,,Indonesia,MEIS Ancol,,
+Pasay,,Philippines,Mall of Asia Arena,,
+Kuala Lumpur,,Malaysia,Putra Indoor Stadium,,
+Tokyo,,Japan,Tokyo Dome,,
+Winchester,,United States,City of Rock,,
+Baton Rouge,,United States,LSU Tiger Stadium,,
+Cologne,,Germany,Lanxess Arena,,
+Amsterdam,,Netherlands,Ziggo Dome,,
+Glasgow,,Scotland,SSE Hydro,,
+Manchester,,England,Manchester Arena,,
+London,,England,Hyde Park,,
+Dublin,,Ireland,3Arena,,
+Ottawa,,Canada,Canadian Tire Centre,,
+"Washington, D.C.",,United States,Nationals Park,,
+Vancouver,,Canada,BC Place,,
+Seattle,,United States,CenturyLink Field,,
+Santa Clara,,United States,Levi's Stadium,,
+Glendale,,United States,Gila River Arena,,
+San Diego,,United States,Petco Park,,
+Arlington,,United States,AT&T Stadium,,
+Atlanta,,United States,Georgia Dome,,
+Tampa,,United States,Raymond James Stadium,,
+Sydney,,Australia,ANZ Stadium,,
+Melbourne,,Australia,AAMI Park,,
+Glendale,,United States,University of Phoenix Stadium,,
+Pasadena,,United States,Rose Bowl,,
+Denver,,United States,Sports Authority Field at Mile High,,
+Manchester,,England,Etihad Stadium,,
+Dublin,,Ireland,Croke Park,,
+London,,England,Wembley Stadium,,
+Louisville,,United States,Cardinal Stadium,,
+Columbus,,United States,Ohio Stadium,,
+Landover,,United States,FedExField,,
+Cleveland,,United States,FirstEnergy Stadium,,
+Atlanta,,United States,Mercedes-Benz Stadium,,
+Miami Gardens,,United States,Hard Rock Stadium,,
+Nashville,,United States,Nissan Stadium,,
+Minneapolis,,United States,U.S. Bank Stadium,,
+Indianapolis,,United States,Lucas Oil Stadium,,
+St. Louis,,United States,The Dome at America's Center,,
+New Orleans,,United States,Mercedes-Benz Superdome,,
+Houston,,United States,NRG Stadium,,
+Perth,,Australia,Optus Stadium,,
+Melbourne,,Australia,Marvel Stadium,,
+Brisbane,,Australia,The Gabba,,
+Auckland,,New Zealand,Mount Smart Stadium,,
