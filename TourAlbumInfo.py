@@ -54,5 +54,7 @@ AlbumInfo['Album_ReleaseDate'] = pd.to_datetime(AlbumInfo['Album_ReleaseDate'], 
 Album_Tours = pd.merge(AlbumInfo, TourInfo, on='Tour_ID', how='left')
 Album_Tours['DateDiff_AlbumRel_TourStart'] = (Album_Tours['Tour_StartDate'] - Album_Tours['Album_ReleaseDate']).dt.days
 
+
+Album_Tours.to_csv("ToursPerAlbum.csv", index = False, encoding = 'utf-8')
 print(Album_Tours)
 

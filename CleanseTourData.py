@@ -18,15 +18,39 @@ def attendance_split(df):
         )
         df['Attendance'] = pd.to_numeric(df['Attendance'], errors='coerce')
         
-        df['Venue Capacity'] = (
+        df['Venue_Capacity'] = (
             split_cols[1]
             .str.replace(',', '', regex=False)
             .replace('—', '')
             .str.strip()
         )
-        df['Venue Capacity'] = pd.to_numeric(df['Venue Capacity'], errors='coerce')
-    return df
+        df['Venue_Capacity'] = pd.to_numeric(df['Venue_Capacity'], errors='coerce')
 
+    if 'Revenue' in df.columns:
+        df['Revenue'] = (
+            df['Revenue'].astype(str)
+            .str.replace(r'\[.*?\]', '', regex=True)
+            .str.replace('[$,]', '', regex=True)
+            .str.replace('—', '', regex=False)
+            .str.strip()
+        )
+        df['Revenue'] = pd.to_numeric(df['Revenue'], errors = 'coerce')
+
+
+        def split(x):
+            total = x.iloc[0]
+            n = len(x)
+            if pd.isna(total):
+                return [None] * n
+            base = total // n
+            remainder = total % n
+            return [base + 1 if i < remainder else base for i in range(n)]
+        
+        for col in ['Attendance', 'Venue_Capacity', 'Revenue']:
+            if col in df.columns:
+                df[col] = df.groupby('Venue')[col].transform(split)
+
+    return df
 
 ##Fearless
 FearlessTour = pd.read_csv('tour-fearless.csv')
@@ -48,7 +72,8 @@ SpeakNow4 = pd.read_csv('tour-speak IV.csv')
 #2011 dates I-III
 SpeakNowTour2011 = pd.concat([SpeakNow1, SpeakNow2, SpeakNow3], axis = 0)
 SpeakNowTour2011['Date (2011)'] = SpeakNowTour2011['Date (2011)'] + ', 2011'
-SpeakNowTour2011 = SpeakNowTour2011.rename(columns = {'Date (2011)' : 'Date'})
+SpeakNowTour2011 = SpeakNowTour2011.rename(columns = {'Attendance (tickets sold / available)' : 'Attendance', 'Date (2011)' : 'Date'})
+
 
 #2012 dates IV
 SpeakNow4['Date (2012)'] = SpeakNow4['Date (2012)'] + ', 2012'
@@ -60,6 +85,7 @@ SpeakNowTour['Date'] = pd.to_datetime(SpeakNowTour['Date'], format = '%B %d, %Y'
 SpeakNowTour = attendance_split(SpeakNowTour)
 SpeakNowTour['Tour_ID'] = 2
 SpeakNowTour = clean_string(SpeakNowTour)
+SpeakNowTour.drop('Attendance (tickets sold / available)', axis = 1, inplace = True)
 
 SpeakNowTour.to_csv('SpeakNowTour.csv', index = False, encoding = 'utf-8')
 
@@ -72,13 +98,13 @@ Red4 = pd.read_csv('tour-red IV.csv')
 #2013 dates II-II
 RedTour2013 = pd.concat([Red1, Red2], axis = 0)
 RedTour2013['Date (2013)'] = RedTour2013['Date (2013)'] + ', 2013'
-RedTour2013 = RedTour2013.rename(columns = {'Date (2013)' : 'Date'})
+RedTour2013 = RedTour2013.rename(columns = {'Attendance (tickets sold / available)' : 'Attendance', 'Date (2013)' : 'Date'})
 
 
 #2014 dates III-IV
 RedTour2014 = pd.concat([Red3, Red4])
 RedTour2014['Date (2014)'] = RedTour2014['Date (2014)'] + ', 2014'
-RedTour2014 = RedTour2014.rename(columns = {'Date (2014)' : 'Date'})
+RedTour2014 = RedTour2014.rename(columns = {'Attendance (tickets sold / available)' : 'Attendance', 'Date (2014)' : 'Date'})
 
 #Combine and cleanse
 RedTour = pd.concat([RedTour2013, RedTour2014], axis = 0)
@@ -86,6 +112,7 @@ RedTour['Date'] = pd.to_datetime(RedTour['Date'], format = '%B %d, %Y', errors =
 RedTour = attendance_split(RedTour)
 RedTour['Tour_ID'] = 3
 RedTour = clean_string(RedTour)
+SpeakNowTour.drop('Attendance (tickets sold / available)', axis = 1, inplace = True)
 
 RedTour.to_csv('RedTour.csv', index = False, encoding = 'utf-8')
 

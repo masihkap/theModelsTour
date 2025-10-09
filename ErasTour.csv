@@ -1,151 +1,151 @@
-Date,City,Country,Venue,Opening act(s),Attendance,Venue Capacity,Tour_ID
-2023-03-17,Glendale,United States,State Farm Stadium,Paramore Gayle,140000.0,140000.0,6
-2023-03-18,Glendale,United States,State Farm Stadium,Paramore Gayle,140000.0,140000.0,6
+Date,City,Country,Venue,Opening act(s),Attendance,Venue_Capacity,Tour_ID
+2023-03-17,Glendale,United States,State Farm Stadium,Paramore Gayle,70000.0,70000.0,6
+2023-03-18,Glendale,United States,State Farm Stadium,Paramore Gayle,70000.0,70000.0,6
 2023-03-24,Paradise,United States,Allegiant Stadium,Beabadoobee Gayle,,,6
 2023-03-25,Paradise,United States,Allegiant Stadium,Beabadoobee Gayle,,,6
-2023-03-31,Arlington,United States,AT&T Stadium,Muna Gayle,210607.0,210607.0,6
-2023-04-01,Arlington,United States,AT&T Stadium,Beabadoobee Gracie Abrams,210607.0,210607.0,6
-2023-04-02,Arlington,United States,AT&T Stadium,Beabadoobee Gracie Abrams,210607.0,210607.0,6
-2023-04-13,Tampa,United States,Raymond James Stadium,Beabadoobee Gayle,206459.0,206459.0,6
-2023-04-14,Tampa,United States,Raymond James Stadium,Beabadoobee Gracie Abrams,206459.0,206459.0,6
-2023-04-15,Tampa,United States,Raymond James Stadium,Beabadoobee Gracie Abrams,206459.0,206459.0,6
-2023-04-21,Houston,United States,NRG Stadium,Beabadoobee Gracie Abrams,216660.0,216660.0,6
-2023-04-22,Houston,United States,NRG Stadium,Beabadoobee Gracie Abrams,216660.0,216660.0,6
-2023-04-23,Houston,United States,NRG Stadium,Beabadoobee Gracie Abrams,216660.0,216660.0,6
-2023-04-28,Atlanta,United States,Mercedes-Benz Stadium,Beabadoobee Gracie Abrams,210000.0,210000.0,6
-2023-04-29,Atlanta,United States,Mercedes-Benz Stadium,Beabadoobee Gracie Abrams,210000.0,210000.0,6
-2023-04-30,Atlanta,United States,Mercedes-Benz Stadium,Muna Gayle,210000.0,210000.0,6
-2023-05-05,Nashville,United States,Nissan Stadium,Phoebe Bridgers Gracie Abrams,213000.0,213000.0,6
-2023-05-06,Nashville,United States,Nissan Stadium,Phoebe Bridgers Gayle,213000.0,213000.0,6
-2023-05-07,Nashville,United States,Nissan Stadium,—,213000.0,213000.0,6
-2023-05-12,Philadelphia,United States,Lincoln Financial Field,Phoebe Bridgers Gayle,202700.0,202700.0,6
-2023-05-13,Philadelphia,United States,Lincoln Financial Field,Phoebe Bridgers Gayle,202700.0,202700.0,6
-2023-05-14,Philadelphia,United States,Lincoln Financial Field,Phoebe Bridgers Gracie Abrams,202700.0,202700.0,6
-2023-05-19,Foxborough,United States,Gillette Stadium,Phoebe Bridgers Gayle,200000.0,200000.0,6
-2023-05-20,Foxborough,United States,Gillette Stadium,Phoebe Bridgers Gayle,200000.0,200000.0,6
-2023-05-21,Foxborough,United States,Gillette Stadium,Phoebe Bridgers Gracie Abrams,200000.0,200000.0,6
-2023-05-26,East Rutherford,United States,MetLife Stadium,Phoebe Bridgers Gayle,217635.0,217635.0,6
-2023-05-27,East Rutherford,United States,MetLife Stadium,Phoebe Bridgers Gracie Abrams,217635.0,217635.0,6
-2023-05-28,East Rutherford,United States,MetLife Stadium,Phoebe Bridgers Owenn,217635.0,217635.0,6
-2023-06-02,Chicago,United States,Soldier Field,Girl in Red Owenn,150000.0,150000.0,6
-2023-06-03,Chicago,United States,Soldier Field,Girl in Red Owenn,150000.0,150000.0,6
-2023-06-04,Chicago,United States,Soldier Field,Muna Gracie Abrams,150000.0,150000.0,6
-2023-06-09,Detroit,United States,Ford Field,Girl in Red Gracie Abrams,118661.0,118661.0,6
-2023-06-10,Detroit,United States,Ford Field,Girl in Red Owenn,118661.0,118661.0,6
-2023-06-16,Pittsburgh,United States,Acrisure Stadium,Girl in Red Gracie Abrams,146234.0,146234.0,6
-2023-06-17,Pittsburgh,United States,Acrisure Stadium,Girl in Red Owenn,146234.0,146234.0,6
-2023-06-23,Minneapolis,United States,U.S. Bank Stadium,Girl in Red Gracie Abrams,128906.0,128906.0,6
-2023-06-24,Minneapolis,United States,U.S. Bank Stadium,Girl in Red Owenn,128906.0,128906.0,6
-2023-06-30,Cincinnati,United States,Paycor Stadium,Muna Gracie Abrams,130000.0,130000.0,6
-2023-07-01,Cincinnati,United States,Paycor Stadium,Muna,130000.0,130000.0,6
-2023-07-07,Kansas City,United States,GEHA Field at Arrowhead Stadium,Muna Gracie Abrams,110000.0,110000.0,6
-2023-07-08,Kansas City,United States,GEHA Field at Arrowhead Stadium,Muna Gracie Abrams,110000.0,110000.0,6
-2023-07-14,Denver,United States,Empower Field at Mile High,Muna Gracie Abrams,150000.0,150000.0,6
-2023-07-15,Denver,United States,Empower Field at Mile High,Muna Gracie Abrams,150000.0,150000.0,6
-2023-07-22,Seattle,United States,Lumen Field,Haim Gracie Abrams,144342.0,144342.0,6
-2023-07-23,Seattle,United States,Lumen Field,Haim Gracie Abrams,144342.0,144342.0,6
-2023-07-28,Santa Clara,United States,Levi's Stadium,Haim Gracie Abrams,140000.0,140000.0,6
-2023-07-29,Santa Clara,United States,Levi's Stadium,Haim Gracie Abrams,140000.0,140000.0,6
-2023-08-03,Inglewood,United States,SoFi Stadium,Haim Gracie Abrams,420000.0,420000.0,6
-2023-08-04,Inglewood,United States,SoFi Stadium,Haim Owenn,420000.0,420000.0,6
-2023-08-05,Inglewood,United States,SoFi Stadium,Haim Gayle,420000.0,420000.0,6
-2023-08-07,Inglewood,United States,SoFi Stadium,Haim Gracie Abrams,420000.0,420000.0,6
-2023-08-08,Inglewood,United States,SoFi Stadium,Haim Gracie Abrams,420000.0,420000.0,6
-2023-08-09,Inglewood,United States,SoFi Stadium,Haim Gayle,420000.0,420000.0,6
-2023-08-24,Mexico City,Mexico,Foro Sol,Sabrina Carpenter,180000.0,180000.0,6
-2023-08-25,Mexico City,Mexico,Foro Sol,Sabrina Carpenter,180000.0,180000.0,6
-2023-08-26,Mexico City,Mexico,Foro Sol,Sabrina Carpenter,180000.0,180000.0,6
-2023-08-27,Mexico City,Mexico,Foro Sol,Sabrina Carpenter,180000.0,180000.0,6
-2023-11-09,Buenos Aires,Argentina,Estadio River Plate,Sabrina Carpenter Louta,220000.0,220000.0,6
-2023-11-11,Buenos Aires,Argentina,Estadio River Plate,Sabrina Carpenter Louta,220000.0,220000.0,6
-2023-11-12,Buenos Aires,Argentina,Estadio River Plate,Sabrina Carpenter Louta,220000.0,220000.0,6
-2023-11-17,Rio de Janeiro,Brazil,Estádio Olímpico Nilton Santos,Sabrina Carpenter,180000.0,180000.0,6
-2023-11-19,Rio de Janeiro,Brazil,Estádio Olímpico Nilton Santos,Sabrina Carpenter,180000.0,180000.0,6
-2023-11-20,Rio de Janeiro,Brazil,Estádio Olímpico Nilton Santos,Sabrina Carpenter,180000.0,180000.0,6
-2023-11-24,São Paulo,Brazil,Allianz Parque,Sabrina Carpenter,150000.0,150000.0,6
-2023-11-25,São Paulo,Brazil,Allianz Parque,Sabrina Carpenter,150000.0,150000.0,6
-2023-11-26,São Paulo,Brazil,Allianz Parque,Sabrina Carpenter,150000.0,150000.0,6
-2024-02-07,Tokyo,Japan,Tokyo Dome,—,220000.0,220000.0,6
-2024-02-08,Tokyo,Japan,Tokyo Dome,—,220000.0,220000.0,6
-2024-02-09,Tokyo,Japan,Tokyo Dome,—,220000.0,220000.0,6
-2024-02-10,Tokyo,Japan,Tokyo Dome,—,220000.0,220000.0,6
-2024-02-16,Melbourne,Australia,Melbourne Cricket Ground,Sabrina Carpenter,288000.0,288000.0,6
-2024-02-17,Melbourne,Australia,Melbourne Cricket Ground,Sabrina Carpenter,288000.0,288000.0,6
-2024-02-18,Melbourne,Australia,Melbourne Cricket Ground,Sabrina Carpenter,288000.0,288000.0,6
-2024-02-23,Sydney,Australia,Accor Stadium,—,320000.0,320000.0,6
-2024-02-24,Sydney,Australia,Accor Stadium,Sabrina Carpenter,320000.0,320000.0,6
-2024-02-25,Sydney,Australia,Accor Stadium,Sabrina Carpenter,320000.0,320000.0,6
-2024-02-26,Sydney,Australia,Accor Stadium,Sabrina Carpenter,320000.0,320000.0,6
-2024-03-02,Singapore,Singapore,Singapore National Stadium,Sabrina Carpenter,378000.0,378000.0,6
-2024-03-03,Singapore,Singapore,Singapore National Stadium,Sabrina Carpenter,378000.0,378000.0,6
-2024-03-04,Singapore,Singapore,Singapore National Stadium,Sabrina Carpenter,378000.0,378000.0,6
-2024-03-07,Singapore,Singapore,Singapore National Stadium,Sabrina Carpenter,378000.0,378000.0,6
-2024-03-08,Singapore,Singapore,Singapore National Stadium,Sabrina Carpenter,378000.0,378000.0,6
-2024-03-09,Singapore,Singapore,Singapore National Stadium,Sabrina Carpenter,378000.0,378000.0,6
-2024-05-09,Nanterre,France,Paris La Défense Arena,Paramore,180000.0,180000.0,7
-2024-05-10,Nanterre,France,Paris La Défense Arena,Paramore,180000.0,180000.0,7
-2024-05-11,Nanterre,France,Paris La Défense Arena,Paramore,180000.0,180000.0,7
-2024-05-12,Nanterre,France,Paris La Défense Arena,Paramore,180000.0,180000.0,7
-2024-05-17,Stockholm,Sweden,Friends Arena,Paramore,178679.0,178679.0,7
-2024-05-18,Stockholm,Sweden,Friends Arena,Paramore,178679.0,178679.0,7
-2024-05-19,Stockholm,Sweden,Friends Arena,Paramore,178679.0,178679.0,7
-2024-05-24,Lisbon,Portugal,Estádio da Luz,Paramore,120000.0,120000.0,7
-2024-05-25,Lisbon,Portugal,Estádio da Luz,Paramore,120000.0,120000.0,7
-2024-05-29,Madrid,Spain,Estadio Santiago Bernabéu,Paramore,130000.0,130000.0,7
-2024-05-30,Madrid,Spain,Estadio Santiago Bernabéu,Paramore,130000.0,130000.0,7
-2024-06-02,Décines-Charpieu,France,Groupama Stadium,Paramore,122000.0,122000.0,7
-2024-06-03,Décines-Charpieu,France,Groupama Stadium,Paramore,122000.0,122000.0,7
-2024-06-07,Edinburgh,Scotland,Murrayfield Stadium,Paramore,219000.0,219000.0,7
-2024-06-08,Edinburgh,Scotland,Murrayfield Stadium,Paramore,219000.0,219000.0,7
-2024-06-09,Edinburgh,Scotland,Murrayfield Stadium,Paramore,219000.0,219000.0,7
-2024-06-13,Liverpool,England,Anfield,Paramore,186000.0,186000.0,7
-2024-06-14,Liverpool,England,Anfield,Paramore,186000.0,186000.0,7
-2024-06-15,Liverpool,England,Anfield,Paramore,186000.0,186000.0,7
-2024-06-18,Cardiff,Wales,Principality Stadium,Paramore,70000.0,70000.0,7
-2024-06-21,London,England,Wembley Stadium,Paramore Mette,753112.0,753112.0,7
-2024-06-22,London,England,Wembley Stadium,Paramore Griff,753112.0,753112.0,7
-2024-06-23,London,England,Wembley Stadium,Paramore Benson Boone,753112.0,753112.0,7
-2024-06-28,Dublin,Ireland,Aviva Stadium,Paramore,150000.0,150000.0,7
-2024-06-29,Dublin,Ireland,Aviva Stadium,Paramore,150000.0,150000.0,7
-2024-06-30,Dublin,Ireland,Aviva Stadium,Paramore,150000.0,150000.0,7
-2024-07-04,Amsterdam,Netherlands,Johan Cruyff Arena,Paramore,165000.0,165000.0,7
-2024-07-05,Amsterdam,Netherlands,Johan Cruyff Arena,Paramore,165000.0,165000.0,7
-2024-07-06,Amsterdam,Netherlands,Johan Cruyff Arena,Paramore,165000.0,165000.0,7
-2024-07-09,Zürich,Switzerland,Letzigrund,Paramore,95000.0,95000.0,7
-2024-07-10,Zürich,Switzerland,Letzigrund,Paramore,95000.0,95000.0,7
-2024-07-13,Milan,Italy,San Siro,Paramore,160000.0,160000.0,7
-2024-07-14,Milan,Italy,San Siro,Paramore,160000.0,160000.0,7
-2024-07-17,Gelsenkirchen,Germany,Veltins-Arena,Paramore,180000.0,180000.0,7
-2024-07-18,Gelsenkirchen,Germany,Veltins-Arena,Paramore,180000.0,180000.0,7
-2024-07-19,Gelsenkirchen,Germany,Veltins-Arena,Paramore,180000.0,180000.0,7
-2024-07-23,Hamburg,Germany,Volksparkstadion,Paramore,100000.0,100000.0,7
-2024-07-24,Hamburg,Germany,Volksparkstadion,Paramore,100000.0,100000.0,7
-2024-07-27,Munich,Germany,Olympiastadion,Paramore,148000.0,148000.0,7
-2024-07-28,Munich,Germany,Olympiastadion,Paramore,148000.0,148000.0,7
-2024-08-01,Warsaw,Poland,PGE Narodowy,Paramore,195000.0,195000.0,7
-2024-08-02,Warsaw,Poland,PGE Narodowy,Paramore,195000.0,195000.0,7
-2024-08-03,Warsaw,Poland,PGE Narodowy,Paramore,195000.0,195000.0,7
-2024-08-15,London,England,Wembley Stadium,Paramore  Sofia Isella,753112.0,753112.0,7
-2024-08-16,London,England,Wembley Stadium,Paramore  Holly Humberstone,753112.0,753112.0,7
-2024-08-17,London,England,Wembley Stadium,Paramore  Suki Waterhouse,753112.0,753112.0,7
-2024-08-19,London,England,Wembley Stadium,Paramore  Maisie Peters,753112.0,753112.0,7
-2024-08-20,London,England,Wembley Stadium,Paramore  Raye,753112.0,753112.0,7
-2024-10-18,Miami Gardens,United States,Hard Rock Stadium,Gracie Abrams,183000.0,183000.0,7
-2024-10-19,Miami Gardens,United States,Hard Rock Stadium,Gracie Abrams,183000.0,183000.0,7
-2024-10-20,Miami Gardens,United States,Hard Rock Stadium,Gracie Abrams,183000.0,183000.0,7
-2024-10-25,New Orleans,United States,Caesars Superdome,Gracie Abrams,195000.0,195000.0,7
-2024-10-26,New Orleans,United States,Caesars Superdome,Gracie Abrams,195000.0,195000.0,7
-2024-10-27,New Orleans,United States,Caesars Superdome,Gracie Abrams,195000.0,195000.0,7
-2024-11-01,Indianapolis,United States,Lucas Oil Stadium,Gracie Abrams,207000.0,207000.0,7
-2024-11-02,Indianapolis,United States,Lucas Oil Stadium,Gracie Abrams,207000.0,207000.0,7
-2024-11-03,Indianapolis,United States,Lucas Oil Stadium,Gracie Abrams,207000.0,207000.0,7
-2024-11-14,Toronto,Canada,Rogers Centre,Gracie Abrams,287220.0,287220.0,7
-2024-11-15,Toronto,Canada,Rogers Centre,Gracie Abrams,287220.0,287220.0,7
-2024-11-16,Toronto,Canada,Rogers Centre,Gracie Abrams,287220.0,287220.0,7
-2024-11-21,Toronto,Canada,Rogers Centre,Gracie Abrams,287220.0,287220.0,7
-2024-11-22,Toronto,Canada,Rogers Centre,Gracie Abrams,287220.0,287220.0,7
-2024-11-23,Toronto,Canada,Rogers Centre,Gracie Abrams,287220.0,287220.0,7
-2024-12-06,Vancouver,Canada,BC Place,Gracie Abrams,160000.0,160000.0,7
-2024-12-07,Vancouver,Canada,BC Place,Gracie Abrams,160000.0,160000.0,7
-2024-12-08,Vancouver,Canada,BC Place,Gracie Abrams,160000.0,160000.0,7
-,Total,Total,Total,Total,10168008.0,,7
+2023-03-31,Arlington,United States,AT&T Stadium,Muna Gayle,70203.0,70203.0,6
+2023-04-01,Arlington,United States,AT&T Stadium,Beabadoobee Gracie Abrams,70202.0,70202.0,6
+2023-04-02,Arlington,United States,AT&T Stadium,Beabadoobee Gracie Abrams,70202.0,70202.0,6
+2023-04-13,Tampa,United States,Raymond James Stadium,Beabadoobee Gayle,68820.0,68820.0,6
+2023-04-14,Tampa,United States,Raymond James Stadium,Beabadoobee Gracie Abrams,68820.0,68820.0,6
+2023-04-15,Tampa,United States,Raymond James Stadium,Beabadoobee Gracie Abrams,68819.0,68819.0,6
+2023-04-21,Houston,United States,NRG Stadium,Beabadoobee Gracie Abrams,72220.0,72220.0,6
+2023-04-22,Houston,United States,NRG Stadium,Beabadoobee Gracie Abrams,72220.0,72220.0,6
+2023-04-23,Houston,United States,NRG Stadium,Beabadoobee Gracie Abrams,72220.0,72220.0,6
+2023-04-28,Atlanta,United States,Mercedes-Benz Stadium,Beabadoobee Gracie Abrams,70000.0,70000.0,6
+2023-04-29,Atlanta,United States,Mercedes-Benz Stadium,Beabadoobee Gracie Abrams,70000.0,70000.0,6
+2023-04-30,Atlanta,United States,Mercedes-Benz Stadium,Muna Gayle,70000.0,70000.0,6
+2023-05-05,Nashville,United States,Nissan Stadium,Phoebe Bridgers Gracie Abrams,71000.0,71000.0,6
+2023-05-06,Nashville,United States,Nissan Stadium,Phoebe Bridgers Gayle,71000.0,71000.0,6
+2023-05-07,Nashville,United States,Nissan Stadium,—,71000.0,71000.0,6
+2023-05-12,Philadelphia,United States,Lincoln Financial Field,Phoebe Bridgers Gayle,67567.0,67567.0,6
+2023-05-13,Philadelphia,United States,Lincoln Financial Field,Phoebe Bridgers Gayle,67567.0,67567.0,6
+2023-05-14,Philadelphia,United States,Lincoln Financial Field,Phoebe Bridgers Gracie Abrams,67566.0,67566.0,6
+2023-05-19,Foxborough,United States,Gillette Stadium,Phoebe Bridgers Gayle,66667.0,66667.0,6
+2023-05-20,Foxborough,United States,Gillette Stadium,Phoebe Bridgers Gayle,66667.0,66667.0,6
+2023-05-21,Foxborough,United States,Gillette Stadium,Phoebe Bridgers Gracie Abrams,66666.0,66666.0,6
+2023-05-26,East Rutherford,United States,MetLife Stadium,Phoebe Bridgers Gayle,72545.0,72545.0,6
+2023-05-27,East Rutherford,United States,MetLife Stadium,Phoebe Bridgers Gracie Abrams,72545.0,72545.0,6
+2023-05-28,East Rutherford,United States,MetLife Stadium,Phoebe Bridgers Owenn,72545.0,72545.0,6
+2023-06-02,Chicago,United States,Soldier Field,Girl in Red Owenn,50000.0,50000.0,6
+2023-06-03,Chicago,United States,Soldier Field,Girl in Red Owenn,50000.0,50000.0,6
+2023-06-04,Chicago,United States,Soldier Field,Muna Gracie Abrams,50000.0,50000.0,6
+2023-06-09,Detroit,United States,Ford Field,Girl in Red Gracie Abrams,59331.0,59331.0,6
+2023-06-10,Detroit,United States,Ford Field,Girl in Red Owenn,59330.0,59330.0,6
+2023-06-16,Pittsburgh,United States,Acrisure Stadium,Girl in Red Gracie Abrams,73117.0,73117.0,6
+2023-06-17,Pittsburgh,United States,Acrisure Stadium,Girl in Red Owenn,73117.0,73117.0,6
+2023-06-23,Minneapolis,United States,U.S. Bank Stadium,Girl in Red Gracie Abrams,64453.0,64453.0,6
+2023-06-24,Minneapolis,United States,U.S. Bank Stadium,Girl in Red Owenn,64453.0,64453.0,6
+2023-06-30,Cincinnati,United States,Paycor Stadium,Muna Gracie Abrams,65000.0,65000.0,6
+2023-07-01,Cincinnati,United States,Paycor Stadium,Muna,65000.0,65000.0,6
+2023-07-07,Kansas City,United States,GEHA Field at Arrowhead Stadium,Muna Gracie Abrams,55000.0,55000.0,6
+2023-07-08,Kansas City,United States,GEHA Field at Arrowhead Stadium,Muna Gracie Abrams,55000.0,55000.0,6
+2023-07-14,Denver,United States,Empower Field at Mile High,Muna Gracie Abrams,75000.0,75000.0,6
+2023-07-15,Denver,United States,Empower Field at Mile High,Muna Gracie Abrams,75000.0,75000.0,6
+2023-07-22,Seattle,United States,Lumen Field,Haim Gracie Abrams,72171.0,72171.0,6
+2023-07-23,Seattle,United States,Lumen Field,Haim Gracie Abrams,72171.0,72171.0,6
+2023-07-28,Santa Clara,United States,Levi's Stadium,Haim Gracie Abrams,70000.0,70000.0,6
+2023-07-29,Santa Clara,United States,Levi's Stadium,Haim Gracie Abrams,70000.0,70000.0,6
+2023-08-03,Inglewood,United States,SoFi Stadium,Haim Gracie Abrams,70000.0,70000.0,6
+2023-08-04,Inglewood,United States,SoFi Stadium,Haim Owenn,70000.0,70000.0,6
+2023-08-05,Inglewood,United States,SoFi Stadium,Haim Gayle,70000.0,70000.0,6
+2023-08-07,Inglewood,United States,SoFi Stadium,Haim Gracie Abrams,70000.0,70000.0,6
+2023-08-08,Inglewood,United States,SoFi Stadium,Haim Gracie Abrams,70000.0,70000.0,6
+2023-08-09,Inglewood,United States,SoFi Stadium,Haim Gayle,70000.0,70000.0,6
+2023-08-24,Mexico City,Mexico,Foro Sol,Sabrina Carpenter,45000.0,45000.0,6
+2023-08-25,Mexico City,Mexico,Foro Sol,Sabrina Carpenter,45000.0,45000.0,6
+2023-08-26,Mexico City,Mexico,Foro Sol,Sabrina Carpenter,45000.0,45000.0,6
+2023-08-27,Mexico City,Mexico,Foro Sol,Sabrina Carpenter,45000.0,45000.0,6
+2023-11-09,Buenos Aires,Argentina,Estadio River Plate,Sabrina Carpenter Louta,73334.0,73334.0,6
+2023-11-11,Buenos Aires,Argentina,Estadio River Plate,Sabrina Carpenter Louta,73333.0,73333.0,6
+2023-11-12,Buenos Aires,Argentina,Estadio River Plate,Sabrina Carpenter Louta,73333.0,73333.0,6
+2023-11-17,Rio de Janeiro,Brazil,Estádio Olímpico Nilton Santos,Sabrina Carpenter,60000.0,60000.0,6
+2023-11-19,Rio de Janeiro,Brazil,Estádio Olímpico Nilton Santos,Sabrina Carpenter,60000.0,60000.0,6
+2023-11-20,Rio de Janeiro,Brazil,Estádio Olímpico Nilton Santos,Sabrina Carpenter,60000.0,60000.0,6
+2023-11-24,São Paulo,Brazil,Allianz Parque,Sabrina Carpenter,50000.0,50000.0,6
+2023-11-25,São Paulo,Brazil,Allianz Parque,Sabrina Carpenter,50000.0,50000.0,6
+2023-11-26,São Paulo,Brazil,Allianz Parque,Sabrina Carpenter,50000.0,50000.0,6
+2024-02-07,Tokyo,Japan,Tokyo Dome,—,55000,55000.0,6
+2024-02-08,Tokyo,Japan,Tokyo Dome,—,55000,55000.0,6
+2024-02-09,Tokyo,Japan,Tokyo Dome,—,55000,55000.0,6
+2024-02-10,Tokyo,Japan,Tokyo Dome,—,55000,55000.0,6
+2024-02-16,Melbourne,Australia,Melbourne Cricket Ground,Sabrina Carpenter,96000,96000.0,6
+2024-02-17,Melbourne,Australia,Melbourne Cricket Ground,Sabrina Carpenter,96000,96000.0,6
+2024-02-18,Melbourne,Australia,Melbourne Cricket Ground,Sabrina Carpenter,96000,96000.0,6
+2024-02-23,Sydney,Australia,Accor Stadium,—,80000,80000.0,6
+2024-02-24,Sydney,Australia,Accor Stadium,Sabrina Carpenter,80000,80000.0,6
+2024-02-25,Sydney,Australia,Accor Stadium,Sabrina Carpenter,80000,80000.0,6
+2024-02-26,Sydney,Australia,Accor Stadium,Sabrina Carpenter,80000,80000.0,6
+2024-03-02,Singapore,Singapore,Singapore National Stadium,Sabrina Carpenter,63000,63000.0,6
+2024-03-03,Singapore,Singapore,Singapore National Stadium,Sabrina Carpenter,63000,63000.0,6
+2024-03-04,Singapore,Singapore,Singapore National Stadium,Sabrina Carpenter,63000,63000.0,6
+2024-03-07,Singapore,Singapore,Singapore National Stadium,Sabrina Carpenter,63000,63000.0,6
+2024-03-08,Singapore,Singapore,Singapore National Stadium,Sabrina Carpenter,63000,63000.0,6
+2024-03-09,Singapore,Singapore,Singapore National Stadium,Sabrina Carpenter,63000,63000.0,6
+2024-05-09,Nanterre,France,Paris La Défense Arena,Paramore,45000,45000.0,7
+2024-05-10,Nanterre,France,Paris La Défense Arena,Paramore,45000,45000.0,7
+2024-05-11,Nanterre,France,Paris La Défense Arena,Paramore,45000,45000.0,7
+2024-05-12,Nanterre,France,Paris La Défense Arena,Paramore,45000,45000.0,7
+2024-05-17,Stockholm,Sweden,Friends Arena,Paramore,59560,59560.0,7
+2024-05-18,Stockholm,Sweden,Friends Arena,Paramore,59560,59560.0,7
+2024-05-19,Stockholm,Sweden,Friends Arena,Paramore,59559,59559.0,7
+2024-05-24,Lisbon,Portugal,Estádio da Luz,Paramore,60000,60000.0,7
+2024-05-25,Lisbon,Portugal,Estádio da Luz,Paramore,60000,60000.0,7
+2024-05-29,Madrid,Spain,Estadio Santiago Bernabéu,Paramore,65000,65000.0,7
+2024-05-30,Madrid,Spain,Estadio Santiago Bernabéu,Paramore,65000,65000.0,7
+2024-06-02,Décines-Charpieu,France,Groupama Stadium,Paramore,61000,61000.0,7
+2024-06-03,Décines-Charpieu,France,Groupama Stadium,Paramore,61000,61000.0,7
+2024-06-07,Edinburgh,Scotland,Murrayfield Stadium,Paramore,73000,73000.0,7
+2024-06-08,Edinburgh,Scotland,Murrayfield Stadium,Paramore,73000,73000.0,7
+2024-06-09,Edinburgh,Scotland,Murrayfield Stadium,Paramore,73000,73000.0,7
+2024-06-13,Liverpool,England,Anfield,Paramore,62000,62000.0,7
+2024-06-14,Liverpool,England,Anfield,Paramore,62000,62000.0,7
+2024-06-15,Liverpool,England,Anfield,Paramore,62000,62000.0,7
+2024-06-18,Cardiff,Wales,Principality Stadium,Paramore,70000,70000.0,7
+2024-06-21,London,England,Wembley Stadium,Paramore Mette,94139,94139.0,7
+2024-06-22,London,England,Wembley Stadium,Paramore Griff,94139,94139.0,7
+2024-06-23,London,England,Wembley Stadium,Paramore Benson Boone,94139,94139.0,7
+2024-06-28,Dublin,Ireland,Aviva Stadium,Paramore,50000,50000.0,7
+2024-06-29,Dublin,Ireland,Aviva Stadium,Paramore,50000,50000.0,7
+2024-06-30,Dublin,Ireland,Aviva Stadium,Paramore,50000,50000.0,7
+2024-07-04,Amsterdam,Netherlands,Johan Cruyff Arena,Paramore,55000,55000.0,7
+2024-07-05,Amsterdam,Netherlands,Johan Cruyff Arena,Paramore,55000,55000.0,7
+2024-07-06,Amsterdam,Netherlands,Johan Cruyff Arena,Paramore,55000,55000.0,7
+2024-07-09,Zürich,Switzerland,Letzigrund,Paramore,47500,47500.0,7
+2024-07-10,Zürich,Switzerland,Letzigrund,Paramore,47500,47500.0,7
+2024-07-13,Milan,Italy,San Siro,Paramore,80000,80000.0,7
+2024-07-14,Milan,Italy,San Siro,Paramore,80000,80000.0,7
+2024-07-17,Gelsenkirchen,Germany,Veltins-Arena,Paramore,60000,60000.0,7
+2024-07-18,Gelsenkirchen,Germany,Veltins-Arena,Paramore,60000,60000.0,7
+2024-07-19,Gelsenkirchen,Germany,Veltins-Arena,Paramore,60000,60000.0,7
+2024-07-23,Hamburg,Germany,Volksparkstadion,Paramore,50000,50000.0,7
+2024-07-24,Hamburg,Germany,Volksparkstadion,Paramore,50000,50000.0,7
+2024-07-27,Munich,Germany,Olympiastadion,Paramore,74000,74000.0,7
+2024-07-28,Munich,Germany,Olympiastadion,Paramore,74000,74000.0,7
+2024-08-01,Warsaw,Poland,PGE Narodowy,Paramore,65000,65000.0,7
+2024-08-02,Warsaw,Poland,PGE Narodowy,Paramore,65000,65000.0,7
+2024-08-03,Warsaw,Poland,PGE Narodowy,Paramore,65000,65000.0,7
+2024-08-15,London,England,Wembley Stadium,Paramore  Sofia Isella,94139,94139.0,7
+2024-08-16,London,England,Wembley Stadium,Paramore  Holly Humberstone,94139,94139.0,7
+2024-08-17,London,England,Wembley Stadium,Paramore  Suki Waterhouse,94139,94139.0,7
+2024-08-19,London,England,Wembley Stadium,Paramore  Maisie Peters,94139,94139.0,7
+2024-08-20,London,England,Wembley Stadium,Paramore  Raye,94139,94139.0,7
+2024-10-18,Miami Gardens,United States,Hard Rock Stadium,Gracie Abrams,61000,61000.0,7
+2024-10-19,Miami Gardens,United States,Hard Rock Stadium,Gracie Abrams,61000,61000.0,7
+2024-10-20,Miami Gardens,United States,Hard Rock Stadium,Gracie Abrams,61000,61000.0,7
+2024-10-25,New Orleans,United States,Caesars Superdome,Gracie Abrams,65000,65000.0,7
+2024-10-26,New Orleans,United States,Caesars Superdome,Gracie Abrams,65000,65000.0,7
+2024-10-27,New Orleans,United States,Caesars Superdome,Gracie Abrams,65000,65000.0,7
+2024-11-01,Indianapolis,United States,Lucas Oil Stadium,Gracie Abrams,69000,69000.0,7
+2024-11-02,Indianapolis,United States,Lucas Oil Stadium,Gracie Abrams,69000,69000.0,7
+2024-11-03,Indianapolis,United States,Lucas Oil Stadium,Gracie Abrams,69000,69000.0,7
+2024-11-14,Toronto,Canada,Rogers Centre,Gracie Abrams,47870,47870.0,7
+2024-11-15,Toronto,Canada,Rogers Centre,Gracie Abrams,47870,47870.0,7
+2024-11-16,Toronto,Canada,Rogers Centre,Gracie Abrams,47870,47870.0,7
+2024-11-21,Toronto,Canada,Rogers Centre,Gracie Abrams,47870,47870.0,7
+2024-11-22,Toronto,Canada,Rogers Centre,Gracie Abrams,47870,47870.0,7
+2024-11-23,Toronto,Canada,Rogers Centre,Gracie Abrams,47870,47870.0,7
+2024-12-06,Vancouver,Canada,BC Place,Gracie Abrams,53334,53334.0,7
+2024-12-07,Vancouver,Canada,BC Place,Gracie Abrams,53333,53333.0,7
+2024-12-08,Vancouver,Canada,BC Place,Gracie Abrams,53333,53333.0,7
+,Total,Total,Total,Total,10168008,,7
