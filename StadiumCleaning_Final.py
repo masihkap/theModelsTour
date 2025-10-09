@@ -4,39 +4,27 @@ from geopy.extra.rate_limiter import RateLimiter
 
 # Eras sheet has latitude/longitude data from a previous project I did
 ErasStadiumCol = ['City', 'State', 'Country', 'Stadium', 'Latitude', 'Longitude']
-ErasStadium = pd.read_csv('TaylorSwift_ErasTour_DatesStadiums_Geo.csv'
-                          , usecols = ErasStadiumCol)
+ErasStadium = pd.read_csv('ErasTour_Post.csv'
+                          )
 ErasStadium = ErasStadium.drop_duplicates()
-ErasStadium = ErasStadium.rename(columns = {'Stadium' : 'Venue'})
-ErasStadium['Country'] = ErasStadium['Country'].replace('United States of America', 'United States')
-ErasStadium['Country'] = ErasStadium['Country'].replace('Canda', 'Canada')
-ErasStadium['City'] = ErasStadium['City'].replace('Gelsenkirchsen', 'Gelsenkirchen')
-ErasStadium['Venue'] = ErasStadium['Venue'].replace("'Roger's Centre'", 'Rogers Centre')
+# ErasStadium = ErasStadium.rename(columns = {'Stadium' : 'Venue'})
+# ErasStadium['Country'] = ErasStadium['Country'].replace('United States of America', 'United States')
+# ErasStadium['Country'] = ErasStadium['Country'].replace('Canda', 'Canada')
+# ErasStadium['City'] = ErasStadium['City'].replace('Gelsenkirchsen', 'Gelsenkirchen')
+# ErasStadium['Venue'] = ErasStadium['Venue'].replace("'Roger's Centre'", 'Rogers Centre')
 #print(ErasStadium.head())
 
 #other tours does not have this information
 StadiumColumnsPre = ['City', 'Country', 'Venue']
 
-FearlessStadium = pd.read_csv('FearlessTour.csv', usecols=StadiumColumnsPre)
-SpeakNowStadium = pd.read_csv('SpeakNowTour.csv', usecols=StadiumColumnsPre)
-RedStadium = pd.read_csv('RedTour.csv', usecols=StadiumColumnsPre)
-Stadium1989 = pd.read_csv('1989Tour.csv', usecols=StadiumColumnsPre)
-ReputationStadium = pd.read_csv('ReputationTour.csv', usecols=StadiumColumnsPre)
+FearlessStadium = pd.read_csv('FearlessTour.csv')
+SpeakNowStadium = pd.read_csv('SpeakNowTour.csv')
+RedStadium = pd.read_csv('RedTour.csv')
+Stadium1989 = pd.read_csv('1989Tour.csv')
+ReputationStadium = pd.read_csv('ReputationTour.csv')
 
 
 ##had to find which files had these values since I did not know so took different approach from earlier
-find_value_Am = 'Amsterdamn'
-if find_value_Am in ErasStadium['City'].values:
-    ErasStadium.replace(find_value_Am, 'Amsterdam', inplace = True)
-else:
-    print(f'{find_value_Am} was not found')
-
-## Post run check
-# if find_value in ErasStadium['City'].values:
-#     print(f'{find_value} was found')
-# else:
-#     print(f'{find_value} was not found')
-
 find_value_Wash = 'Washington'
 if find_value_Wash in SpeakNowStadium['City'].values:
     SpeakNowStadium.replace(find_value_Wash, '"Washington, D.C."', inplace = True)
@@ -54,14 +42,19 @@ else:
 # else:
 #     print(f'{find_value_Tiger} was not found')
 
-##update country based off of city; again different approach from either above
-England_Cities = ['Liverpool', 'London']
-ErasStadium.loc[ErasStadium['City'].isin(England_Cities), 'Country'] = 'England'
-ErasStadium.loc[ErasStadium['City'] == 'Edinburg', 'Country'] = 'Scotland'
-ErasStadium.loc[ErasStadium['City'] == 'Cardiff', 'Country'] = 'Wales'
+# ##update country based off of city; again different approach from either above
+# England_Cities = ['Liverpool', 'London']
+# ErasStadium.loc[ErasStadium['City'].isin(England_Cities), 'Country'] = 'England'
+# ErasStadium.loc[ErasStadium['City'] == 'Edinburg', 'Country'] = 'Scotland'
+# ErasStadium.loc[ErasStadium['City'] == 'Cardiff', 'Country'] = 'Wales'
 
-ErasStadium.to_csv('ErasTour.csv', index = False, encoding = 'utf-8')
-
+ErasStadium.to_csv('ErasTour_PostCleanse.csv', index = False, encoding = 'utf-8')
+FearlessStadium.to_csv('FearlessTour_PostCleanse.csv', index = False, encoding = 'utf-8')
+SpeakNowStadium.to_csv('SpeakNowTour_PostCleanse.csv', index = False, encoding = 'utf-8')
+RedStadium.to_csv('RedTour_PostCleanse.csv', index = False, encoding = 'utf-8')
+Stadium1989.to_csv('1989Tour_PostCleanse.csv', index = False, encoding = 'utf-8')
+ReputationStadium.to_csv('ReputationTour_PostCleanse.csv', index = False, encoding = 'utf-8')
+print(f'Stadium, City and country name cleansing complete.')
 
 
 StadiumsCombined = pd.concat([FearlessStadium, SpeakNowStadium, RedStadium, Stadium1989, ReputationStadium]
@@ -80,6 +73,7 @@ StadiumsCountEras = len(ErasStadium)
 
 #combine all lists
 StadiumList = pd.concat([ErasStadium, StadiumsCombined], ignore_index = True).drop_duplicates()
+print(f'Stadium List has been created')
 
 #add primary key
 StadiumList.insert(0, "Venue_ID", range(1, len(StadiumList) + 1))
@@ -256,7 +250,7 @@ StadiumList.to_csv("StadiumList.csv", index = False, encoding = 'utf-8')
 print(f'StadiumList CSV created')
 
 
-def venue_id(tour, stadium, output_file):
+def add_venue_id(tour, stadium, output_file):
     tour_files = pd.read(tour)
 
     merged = tour_files.merge(stadium[['Venue_ID', 'Venue', 'City', 'Country']],
@@ -265,3 +259,11 @@ def venue_id(tour, stadium, output_file):
     print(f'{tour} merged')
     merged.to_csv(output_file, index = False, encoding = 'utf-8')
     return merged
+
+add_venue_id('FearlessTour_PostStad.csv', StadiumList, 'FearlessTour_VenueID.csv')
+add_venue_id('SpeakNowTour_PostStad.csv', StadiumList, 'SpeakNowTour_VenueID.csv')
+add_venue_id('RedTour_PostStad.csv', StadiumList, 'RedTour_VenueID.csv')
+add_venue_id('1989Tour_PostStad.csv', StadiumList, '1989Tour_VenueID.csv')
+add_venue_id('ReputationTour_PostStad.csv', StadiumList, 'ReputationTour_VenueID.csv')
+add_venue_id('ErasTour_PostStad.csv', StadiumList, 'ErasTour_VenueID.csv')
+print('Venue ID Added, files created.')

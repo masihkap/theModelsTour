@@ -1,7 +1,7 @@
 Date,City,Country,Venue,Opening acts,Attendance,Revenue,Venue_Capacity,Tour_ID
 2015-05-05,Tokyo,Japan,Tokyo Dome,—,50160.0,5293414.0,50160.0,4
 2015-05-06,Tokyo,Japan,Tokyo Dome,—,50160.0,5293414.0,50160.0,4
-2015-05-15,Winchester,United States,City of Rock,—,None,None,None,4
+2015-05-15,Winchester,United States,City of Rock,—,,,,4
 2015-05-20,Bossier City,United States,CenturyLink Center,Vance Joy,12459.0,1458197.0,12459.0,4
 2015-05-22,Baton Rouge,United States,LSU Tiger Stadium,"Vance Joy
 Shawn Mendes",50227.0,4119670.0,50227.0,4
@@ -22,7 +22,7 @@ Shawn Mendes",50526.0,5993908.0,50526.0,4
 2015-06-21,Amsterdam,Netherlands,Ziggo Dome,James Bay,11166.0,800829.0,11166.0,4
 2015-06-23,Glasgow,Scotland,SSE Hydro,Vance Joy,11021.0,1119300.0,11021.0,4
 2015-06-24,Manchester,England,Manchester Arena,Vance Joy,14773.0,1478760.0,14773.0,4
-2015-06-27,London,England,Hyde Park,—,None,None,None,4
+2015-06-27,London,England,Hyde Park,—,,,,4
 2015-06-29,Dublin,Ireland,3Arena,Vance Joy,12594.0,987755.0,12594.0,4
 2015-06-30,Dublin,Ireland,3Arena,Vance Joy,12594.0,987755.0,12594.0,4
 2015-07-06,Ottawa,Canada,Canadian Tire Centre,Vance Joy,13480.0,1325480.0,13480.0,4

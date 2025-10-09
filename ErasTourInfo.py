@@ -1,5 +1,6 @@
 import pandas as pd
 import wikipedia as wp
+from io import StringIO
 import re
 
 # clean out footnote references
@@ -22,13 +23,30 @@ def attendance_split(df):
         )
         df['Attendance'] = pd.to_numeric(df['Attendance'], errors='coerce')
         
-        df['Venue Capacity'] = (
+        df['Venue_Capacity'] = (
             split_cols[1]
             .str.replace(',', '', regex=False)
             .replace('—', '')
             .str.strip()
         )
-        df['Venue Capacity'] = pd.to_numeric(df['Venue Capacity'], errors='coerce')
+        df['Venue_Capacity'] = pd.to_numeric(df['Venue_Capacity'], errors='coerce')
+
+
+
+        def split(series):
+            total = series.dropna().unique()
+            if len(total) == 0:
+                return [None] * len(series)
+            total = total[0]
+            n = len(series)
+            base = total // n
+            remainder = total % n
+            return [base + 1 if i < remainder else base for i in range(n)]
+        
+        for col in ['Attendance', 'Venue_Capacity']:
+            if col in df.columns:
+                df[col] = df.groupby('Venue')[col].transform(split)
+
     return df
 
 
@@ -39,7 +57,7 @@ except wp.exceptions.PageError:
     print(f'Error: Page not found.')
     exit()
 
-tables = pd.read_html(html_content)
+tables = pd.read_html(StringIO(html_content))
 
 if tables:
     Dates2023 = clean_string(tables[8])

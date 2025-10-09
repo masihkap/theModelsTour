@@ -32,7 +32,7 @@ Venue_ID,City,State,Country,Venue,Latitude,Longitude,Location,Method
 31,Lisbon,,Portugal,Estadio da Luz,38.7526893,-9.1846899,"Estádio do Sport Lisboa e Benfica, Avenida Lusíada, São Domingos de Benfica, Lisboa, 1500-313, Portugal",Venue
 32,Madrid,,Spain,Estadio Santiago Bernabeu,40.4530225,-3.687422,"Estadio Santiago Bernabéu, 1, Avenida de Concha Espina, Hispanoamérica, Chamartín, Madrid, Comunidad de Madrid, 28036, España",Venue
 33,Lyon,,France,Groupama Stadium,45.7653624,4.9820543,"Groupama Stadium, Allée Sud-Ouest, Le Grand Montout, Charpieu, Décines-Charpieu, Lyon, Métropole de Lyon, Rhône, Auvergne-Rhône-Alpes, France métropolitaine, 69150, France",Venue
-34,Edinburgh,,United Kingdom,BT Murrayfield Stadium,55.9533456,-3.1883749,"City of Edinburgh, Alba / Scotland, United Kingdom",City
+34,Edinburgh,,United Kingdom,BT Murrayfield Stadium,55.9423132,-3.2408951,"Murrayfield Stadium, West Approach Road, Tynecastle, Gorgie/Dalry, City of Edinburgh, Alba / Scotland, EH12 5PJ, United Kingdom",Alternative
 35,Liverpool,,England,Anfield Stadium,53.4302124,-2.9619309,"LFC Museum, Anfield Road, Anfield, Liverpool, Liverpool City Region, England, L4 0TF, United Kingdom",Venue
 36,Cardiff,,Wales,Principality Stadium,51.4782485,-3.1826256,"Principality Stadium, Scott Road, Castle Quarter, Castle, Cardiff, Cymru / Wales, CF10 1XR, United Kingdom",Venue
 37,London,,England,Wembley Stadium,51.5560695,-0.2796034,"Wembley Stadium, South Way, London Borough of Brent, London, Greater London, England, HA9 0QB, United Kingdom",Venue
@@ -40,22 +40,22 @@ Venue_ID,City,State,Country,Venue,Latitude,Longitude,Location,Method
 39,Amsterdam,,Netherlands,Johan Cruijff Arena,52.314353,4.9428431,"Johan Cruijff ArenA, 1, Johan Cruijff Boulevard, Zuidoost, Amsterdam, Noord-Holland, Nederland, 1100 DL, Nederland",Venue
 40,Zurich,,Switzerland,Stadion Letzigrund Zurich,47.3828206,8.5037387,"Stadion Letzigrund, Hardgutstrasse, Altstetten, Kreis 9, Zürich, Bezirk Zürich, Zürich, 8047, Schweiz/Suisse/Svizzera/Svizra",Venue
 41,Milan,,Italy,San Siro Stadium,45.4782003,9.123964,"Stadio Giuseppe Meazza, Via dei Piccolomini, San Siro, Municipio 7, Milano, Lombardia, 20148, Italia",Venue
-42,Gelsenkirchsen,,Germany,VELTINS-Arena,,,,Fail
+42,Gelsenkirchen,,Germany,VELTINS-Arena,51.5545938,7.0676001,"VELTINS-Arena, 1, Rudi-Assauer-Platz, Erle-Berger Feld, Erle, Gelsenkirchen-Ost, Gelsenkirchen, Nordrhein-Westfalen, 45891, Deutschland",Alternative
 43,Hamburg,,Germany,Volksparkstadion,53.5871535,9.8987056,"Volksparkstadion, 9, Uwe-Seeler-Allee, Bahrenfeld, Altona, Hamburg, 22525, Deutschland",Venue
 44,Munich,,Germany,Olympiastadion,48.1731314,11.5464786,"Olympiastadion München, 27, Spiridon-Louis-Ring, 11.2, Milbertshofen-Am Hart, München, Bayern, 80809, Deutschland",Venue
 45,Warsaw,,Poland,PGE Narodowy,52.2399367,21.0452877,"Stadion Narodowy, Aleja Księcia Józefa Poniatowskiego, Kamionek, Praga-Południe, Warszawa, województwo mazowieckie, 03-903, Polska",Venue
 46,Vienna,,Austria,Ernst-Happel-Stadion,48.2071894,16.4209171,"Ernst-Happel-Stadion, 7, Meiereistraße, KG Leopoldstadt, Leopoldstadt, Wien, 1020, Österreich",Venue
 47,Miami,FL,United States,Hard Rock Stadium,25.9579031,-80.2388497,"Hard Rock Stadium, 347, Northwest 199th Street, Miami Gardens, Miami-Dade County, Florida, 33056, United States",Venue
-48,New Orleans,LA,United States,Caesar's Superdome,29.9559145,-90.0730259,"New Orleans, Orleans Parish, Louisiana, United States",City
+48,New Orleans,LA,United States,Caesar's Superdome,29.9510489,-90.0823076,"Caesars Superdome, 1500, Sugar Bowl Drive, New Orleans, Orleans Parish, Louisiana, 70112, United States",Alternative
 49,Indianapolis,IN,United States,Lucas Oil Stadium,39.7590621,-86.1638376,"Lucas Oil Stadium, Indianapolis Cultural Trail, Old Southside, Indianapolis, Marion County, Indiana, 46206, United States",Venue
-50,Toronto,,Canda,Roger's Centre,,,,Fail
-51,Vancouver,,Canda,BC Place,49.191212,-122.9770759,"Canda Six Fortune, 8138, North Fraser Way, Burnaby, Metro Vancouver Regional District, British Columbia, V3N 0B2, Canada",City
+50,Toronto,,Canada,Roger's Centre,43.6534817,-79.3839347,"Toronto, Golden Horseshoe, Ontario, Canada",City
+51,Vancouver,,Canada,BC Place,49.2766905,-123.1120062,"BC Place, 777, Pacific Boulevard, Yaletown, Downtown, Vancouver, Metro Vancouver Regional District, British Columbia, V6B, Canada",Alternative
 52,Evansville,,United States,Roberts Municipal Stadium,37.970495,-87.5715641,"Evansville, Vanderburgh County, Indiana, United States",City
 53,Jonesboro,,United States,Convocation Center,35.8453739,-90.6703443,"First National Bank Arena, 217, Olympic Drive, Jonesboro, Craighead County, Arkansas, 72467, United States",Venue
 54,St. Louis,,United States,Scottrade Center,38.6268005,-90.20262,"Enterprise Center, 1401, Clark Avenue, Downtown West, Saint Louis, Missouri, 63103, United States",Alternative
 55,Alexandria,,United States,Bishop Ireton High School,38.8090294,-77.0808841,"Bishop Ireton High School, 201, Cambridge Road, College Park, Douglas MacArthur, Eisenhower East, Alexandria, Virginia, 22314, United States",Venue
 56,North Charleston,,United States,North Charleston Coliseum,32.865567,-80.0223423,"North Charleston Coliseum, Darius Rucker Boulevard, Bennett, North Charleston, Charleston County, South Carolina, 29405, United States",Venue
-57,Jacksonville,,United States,Jacksonville Veterans Memorial Arena,30.3321838,-81.655651,"Jacksonville, Duval County, Florida, United States",City
+57,Jacksonville,,United States,Jacksonville Veterans Memorial Arena,30.3257439,-81.6449801,"VyStar Veterans Memorial Arena, 300, A. Philip Randolph Boulevard, Jacksonville, Duval County, Florida, 32202, United States",Alternative
 58,Biloxi,,United States,Mississippi Coast Coliseum,30.3943904,-88.9739883,"Mississippi Coast Coliseum and Convention Center, Oakwood Drive, Biloxi, Harrison County, Mississippi, 39531, United States",Venue
 59,London,,England,Shepherd's Bush Empire,51.5034474,-0.2244489,"O2 Empire, Shepherds Bush Green, Shepherd's Bush, London Borough of Hammersmith and Fulham, London, Greater London, England, W12 8TT, United Kingdom",Venue
 60,Spokane,,United States,Spokane Arena,47.6664718,-117.4231203,"Spokane Arena, West Joe Albi Way, North Bank, Spokane, Spokane County, Washington, 99201, United States",Venue
@@ -64,14 +64,14 @@ Venue_ID,City,State,Country,Venue,Latitude,Longitude,Location,Method
 63,Nampa,,United States,Ford Arena,43.6080574,-116.5080492,"Ford Idaho Center, 16200, Idaho Center Boulevard, Nampa, Canyon County, Idaho, 83687, United States",Venue
 64,Glendale,,United States,Jobing.com Arena,33.5319666,-112.2613181,"Desert Diamond Arena, 9400, West Maryland Avenue, Glendale, Maricopa County, Arizona, 85305, United States",Alternative
 65,Los Angeles,,United States,Staples Center,34.0429979,-118.2671352,"Crypto.com Arena, 1111, South Figueroa Street, South Park, Downtown, Los Angeles, Los Angeles County, California, 90015, United States",Alternative
-66,Paradise,,United States,Mandalay Bay Events Center,36.1010292,-115.1499047,"Paradise, Clark County, Nevada, 89119, United States",City
+66,Paradise,,United States,Mandalay Bay Events Center,36.0906483,-115.1790209,"Michelob Ultra Arena, Frank Sinatra Drive, Clark County, Nevada, 89158, United States",Alternative
 67,San Diego,,United States,Valley View Casino Center,33.2195241,-116.9730009,"Valley View Casino and Hotel, 16300, Nyemii Pass Road, Valley Center, San Diego County, California, 92082, United States",Venue
 68,Salt Lake City,,United States,EnergySolutions Arena,40.7683274,-111.9010551,"Delta Center, 301, South Temple, Downtown, Salt Lake City, Salt Lake County, Utah, 84101, United States",Venue
 69,New Brockton,,United States,BamaJam Farms,31.3857239,-85.9293861,"New Brockton, Coffee County, Alabama, 36351, United States",City
 70,Columbia,,United States,Merriweather Post Pavilion,39.2088351,-76.8625061,"Merriweather Post Pavilion, Dennis Lane, Columbia Town Center, Howard County, Maryland, 21044, United States",Venue
 71,Greensboro,,United States,Greensboro Coliseum,36.0618209,-79.8174039,"U-Haul Storage at Greensboro Coliseum, 1560, West Gate City Boulevard, Piedmont Heights, Greensboro, Guilford County, North Carolina, 27403, United States",Venue
 72,Oshkosh,,United States,Ford Festival Park,43.9607336,-88.5909394,"Ford Festival Park, Town of Nekimi, Winnebago County, Wisconsin, United States",Venue
-73,Cadott,,United States,Amphitheatre Concert Grounds,44.9480187,-91.1507031,"Cadott, Chippewa County, Wisconsin, United States",City
+73,Cadott,,United States,Amphitheatre Concert Grounds,45.0445878,-91.1840534,"Rock Fest/Country Fest/Forcefields Festival Grounds, 24447, Drywood, Cadott, Chippewa County, Wisconsin, 54727, United States",Alternative
 74,Calgary,,Canada,Pengrowth Saddledome,51.0374124,-114.0519642,"Scotiabank Saddledome, 555, Saddledome Rise SE, Victoria Park, Beltline, Calgary, Alberta, T2G 2W1, Canada",Venue
 75,Edmonton,,Canada,Rexall Place,53.5325073,-113.60386,"Rexall, 9540, 163 Street NW, Glenwood, Jasper Place, Edmonton, Alberta, T5P 3M7, Canada",Venue
 76,Craven,,Canada,Big Valley Park,50.7072638,-104.809204,"Craven, Saskatchewan, S0G 0W0, Canada",City
@@ -91,9 +91,9 @@ Venue_ID,City,State,Country,Venue,Latitude,Longitude,Location,Method
 90,Uncasville,,United States,Mohegan Sun Arena,41.4911056,-72.0897112,"Mohegan Sun Arena, 1, Mohegan Sun Boulevard, Mohegan, Montville, Southeastern Connecticut Planning Region, Connecticut, 06382, United States",Venue
 91,University Park,,United States,Bryce Jordan Center,40.808572,-77.8554679,"Bryce Jordan Center, 720, Curtin Road, College Township, Centre County, Pennsylvania, 16801, United States",Venue
 92,Louisville,,United States,Freedom Hall,38.2001655,-85.7418363,"Freedom Hall, 3350, Freedom Way, Louisville, Jefferson County, Kentucky, 40209, United States",Venue
-93,Duluth,,United States,Arena at Gwinnett Center,46.7838287,-92.1052679,"Duluth, Saint Louis County, Minnesota, United States",City
-94,Greenville,,United States,Bi-Lo Center,34.851354,-82.3984882,"Greenville, Greenville County, South Carolina, United States",City
-95,Charlotte,,United States,Time Warner Cable Arena,35.2272086,-80.8430827,"Charlotte, Mecklenburg County, North Carolina, United States",City
+93,Duluth,,United States,Arena at Gwinnett Center,33.9916013,-84.0938397,"Gas South Arena, 6400, Sugarloaf Parkway, Duluth, Gwinnett County, Georgia, 30097, United States",Alternative
+94,Greenville,,United States,Bi-Lo Center,34.852706,-82.3915606,"Bon Secours Wellness Arena, 650, North Academy Street, Boyce Lawn, Greenville, Greenville County, South Carolina, 29601, United States",Alternative
+95,Charlotte,,United States,Time Warner Cable Arena,35.225098,-80.8391541,"Spectrum Center, 333, East Trade Street, Second Ward, Uptown, Charlotte, Mecklenburg County, North Carolina, 28202, United States",Alternative
 96,Lafayette,,United States,Cajundome,30.2130574,-92.0365594,"Cajundome Boulevard, Lafayette, Lafayette Parish, Louisiana, 70504, United States",Venue
 97,Bossier City,,United States,CenturyTel Center,32.4651746,-93.6736922,"Brookshire Grocery Arena, 2000, CenturyTel Center Drive, Bossier City, Bossier Parish, Louisiana, 71112, United States",Alternative
 98,Birmingham,,United States,BJCC Arena,33.5237958,-86.8128958,"Legacy Arena, 19th Street North, Fourth Avenue Historic District, Birmingham, Jefferson County, Alabama, 35234, United States",Alternative
@@ -116,10 +116,10 @@ Venue_ID,City,State,Country,Venue,Latitude,Longitude,Location,Method
 115,Adelaide,,Australia,Adelaide Entertainment Centre,-34.9079418,138.5738004,"Adelaide Entertainment Centre, Mary Street, Hindmarsh, Adelaide, City of Charles Sturt, South Australia, 5007, Australia",Venue
 116,Tokyo,,Japan,Zepp Tokyo,35.6955539,139.7008455,"Zepp Shinjuku (Tokyo), 東急歌舞伎町タワー地下1階～地下4階出入口, 歌舞伎町一丁目, 歌舞伎町, 新宿区, 東京都, 160-0021, 日本",Venue
 117,Tampa,,United States,St. Pete Times Forum,27.942704,-82.4518903,"Benchmark International Arena, 401, Channelside Drive, Wilhelmina, Tampa, Hillsborough County, Florida, 33602, United States",Alternative
-118,Orlando,,United States,Amway Arena,28.5421109,-81.3790304,"Orlando, Orange County, Florida, United States",City
-119,Sunrise,,United States,BankAtlantic Center,26.1666888,-80.2787573,"Sunrise, Broward County, Florida, United States",City
+118,Orlando,,United States,Amway Arena,28.5392739,-81.3840071,"Amway Center, South Hughey Avenue, Callahan, Orlando, Orange County, Florida, 32801, United States",Alternative
+119,Sunrise,,United States,BankAtlantic Center,26.1583701,-80.3254289,"Amerant Bank Arena, 1, Northwest 137th Way, Sunrise, Broward County, Florida, 33323, United States",Alternative
 120,Austin,,United States,Frank Erwin Center,30.2769192,-97.7322018,"Permanently CLOSED: Frank Erwin  Center, Medical District, Austin, Travis County, Texas, United States",Venue
-121,Corpus Christi,,United States,American Bank Center Arena,27.7635302,-97.4033191,"Corpus Christi, Nueces County, Texas, United States",City
+121,Corpus Christi,,United States,American Bank Center Arena,27.8072288,-97.393453,"American Bank Center, 1901, North Shoreline Boulevard, SEA District, Corpus Christi, Nueces County, Texas, 78401, United States",Alternative
 122,Philadelphia,,United States,Wachovia Center,39.9011004,-75.1720165,"Xfinity Mobile Arena, Zinkoff Boulevard, South Philadelphia, Philadelphia, Philadelphia County, Pennsylvania, 19112, United States",Alternative
 123,Charlottesville,,United States,John Paul Jones Arena,38.0459828,-78.5066437,"John Paul Jones Arena, Massie Road, Carr's Hill, University of Virginia, Albemarle County, Virginia, 22903, United States",Venue
 124,Auburn Hills,,United States,The Palace of Auburn Hills,42.6875323,-83.2341028,"Auburn Hills, Oakland County, Michigan, 48326, United States",City
@@ -135,7 +135,7 @@ Venue_ID,City,State,Country,Venue,Latitude,Longitude,Location,Method
 134,Raleigh,,United States,RBC Center,35.7803977,-78.6390989,"Raleigh, Wake County, North Carolina, United States",City
 135,Des Moines,,United States,Wells Fargo Arena,41.5868654,-93.6249494,"Des Moines, Polk County, Iowa, United States",City
 136,Saint Paul,,United States,Xcel Energy Center,44.9497487,-93.0931028,"Saint Paul, Ramsey County, Minnesota, United States",City
-137,Moline,,United States,iWireless Center,41.5058344,-90.5136642,"Moline, Rock Island County, Illinois, 61265, United States",City
+137,Moline,,United States,iWireless Center,41.507997,-90.5204015,"Vibrant Arena at the MARK, 1201, River Drive, Moline, Rock Island County, Illinois, 61265, United States",Alternative
 138,Newark,,United States,Prudential Center,40.7334302,-74.1711482,"Prudential Center, 25, Lafayette Street, Teachers Village, The Ironbound, Newark, Essex County, New Jersey, 07101, United States",Venue
 139,Uniondale,,United States,Nassau Veterans Memorial Coliseum,40.7229344,-73.5907243,"Nassau Veterans Memorial Coliseum, 1255, Hempstead Turnpike, Uniondale, Town of Hempstead, Nassau County, New York, 11553, United States",Venue
 140,Ottawa,,Canada,Scotiabank Place,45.2969069,-75.9268973,"Canadian Tire Centre, 1000, Palladium Drive, Kanata, Stittsville, Ottawa, Eastern Ontario, Ontario, K2V 1C9, Canada",Alternative
@@ -153,13 +153,13 @@ Venue_ID,City,State,Country,Venue,Latitude,Longitude,Location,Method
 152,Quezon City,,Philippines,Smart Araneta Coliseum,14.6207157,121.0533557,"Smart Araneta Coliseum, General Araneta Avenue, Socorro, Cubao, 3rd District, Quezon City, Eastern Manila District, Metro Manila, 1109, Philippines",Venue
 153,Hong Kong,,China,AsiaWorld–Arena,22.350627,114.1849161,"香港 Hong Kong, 中国",City
 154,Brussels,,Belgium,Forest National,50.8096461,4.3260748,"Forest National - Vorst Nationaal, Avenue Victor Rousseau - Victor Rousseaulaan, Altitude Cent - Hoogte Honderd, Forest - Vorst, Brussel-Hoofdstad - Bruxelles-Capitale, Région de Bruxelles-Capitale - Brussels Hoofdstedelijk Gewest, 1190, België / Belgique / Belgien",Venue
-155,Rotterdam,,Netherlands,Sportpaleis van Ahoy,51.9244424,4.47775,"Rotterdam, Zuid-Holland, Nederland",City
+155,Rotterdam,,Netherlands,Sportpaleis van Ahoy,51.8832963,4.4883655,"Rotterdam Ahoy, 10, Ahoyweg, Charlois, Rotterdam, Zuid-Holland, Nederland, 3084 BA, Nederland",Alternative
 156,Oslo,,Norway,Oslo Spektrum,59.9129638,10.7546593,"Oslo Spektrum, Stenersgata, Vaterland, Sentrum, Oslo, 0050, Norge",Venue
 157,Oberhausen,,Germany,König Pilsener Arena,51.4900923,6.872449,"Rudolf Weber-ARENA, 1, Arenastraße, Neue Mitte, Alt-Oberhausen, Oberhausen, Nordrhein-Westfalen, 46047, Deutschland",Venue
 158,Milan,,Italy,Mediolanum Forum,45.4013592,9.1423018,"Unipol Forum, 6, Via Giuseppe Di Vittorio, Bazzana Inferiore, Assago, Milano, Lombardia, 20090, Italia",Venue
 159,Paris,,France,Zénith de Paris,48.8942078,2.3931778,"Le Zénith Paris - La Villette, 211, Avenue Jean Jaurès, Quartier du Pont-de-Flandre, Paris 19e Arrondissement, Paris, France métropolitaine, 75019, France",Venue
 160,Madrid,,Spain,Palacio de los Deportes,40.4238624,-3.6717885,"Movistar Arena, Calle de Jorge Juan, Goya, Salamanca, Madrid, Comunidad de Madrid, 28009, España",Alternative
-161,Birmingham,,England,LG Arena,52.4796992,-1.9026911,"Birmingham, West Midlands, England, United Kingdom",City
+161,Birmingham,,England,LG Arena,52.4484171,-1.7204631,"Resorts World Arena, Perimeter Road, Bickenhill and Marston Green, Birmingham, West Midlands, England, B40 1NT, United Kingdom",Alternative
 162,Belfast,,Northern Ireland,Odyssey Arena,54.6038109,-5.91426,"SSE Arena, 2, Sydenham Road, Titanic Quarter, Belfast, Belfast City District, County Down, Northern Ireland / Tuaisceart Éireann, BT3 9QQ, United Kingdom",Venue
 163,Dublin,,Ireland,The O2,53.3476206,-6.2284132,"3Arena, North Wall Quay, North Wall, North Dock B Ward 1986, Dublin, County Dublin, Leinster, D01 V8Y6, Éire / Ireland",Alternative
 164,London,,England,The O2 Arena,51.5029316,0.0031839,"The O2 Arena, Up at The O2, Greenwich Peninsula, Royal Borough of Greenwich, London, Greater London, England, SE10 0DX, United Kingdom",Venue
@@ -211,20 +211,20 @@ Venue_ID,City,State,Country,Venue,Latitude,Longitude,Location,Method
 210,Berlin,,Germany,O2 World,52.5063687,13.4437652,"Uber Arena, 1, Uber Platz, Friedrichshain, Friedrichshain-Kreuzberg, Berlin, 10243, Deutschland",Venue
 211,Shanghai,,China,Mercedes-Benz Arena,31.1909263,121.488699,"梅赛德斯-奔驰文化中心, 1200, 世博大道, 白莲泾, 周家渡街道, 周家渡, 浦东新区, 上海市, 200126, 中国",Venue
 212,Saitama,,Japan,Saitama Super Arena,35.8951196,139.630753,"さいたまスーパーアリーナ, 新都心, 中央区, さいたま市, 埼玉県, 330-0081, 日本",Venue
-213,Jakarta,,Indonesia,MEIS Ancol,-6.1754049,106.827168,"Daerah Khusus ibukota Jakarta, Jawa, Indonesia",City
+213,Jakarta,,Indonesia,MEIS Ancol,-6.1441524,106.8478499,"Jiexpo Kemayoran, RW.10, Jalan Pesanggrahan Raya, PPK Kemayoran, Jakarta International Expo, Pademangan, Jakarta Utara, Daerah Khusus ibukota Jakarta, Jawa, 10610, Indonesia",Alternative
 214,Pasay,,Philippines,Mall of Asia Arena,14.532191,120.9837424,"Mall of Asia Arena, Marina Way, Barangay 76, Zone 10, District 1, Pasay, Southern Manila District, Metro Manila, 1300, Philippines",Venue
 215,Kuala Lumpur,,Malaysia,Putra Indoor Stadium,3.0537311,101.6934618,"Axiata Arena, Persiaran Putra, Sri Petaling, Kuala Lumpur, 57000, Malaysia",Venue
 216,Tokyo,,Japan,Tokyo Dome,35.7055705,139.7519705,"東京ドーム, 61, 外堀通り, 後楽一丁目, 後楽, 文京区, 東京都, 112-0004, 日本",Venue
 217,Winchester,,United States,City of Rock,39.1852184,-78.1652404,"Winchester, Virginia, United States",City
 218,Cologne,,Germany,Lanxess Arena,50.9384967,6.9828844,"LANXESS arena, Willy-Brandt-Platz, Deutz, Innenstadt, Köln, Nordrhein-Westfalen, 50679, Deutschland",Venue
 219,Amsterdam,,Netherlands,Ziggo Dome,52.3134068,4.937123,"Ziggo Dome, 100, De passage, Zuidoost, Amsterdam, Noord-Holland, Nederland, 1101 AX, Nederland",Venue
-220,Glasgow,,Scotland,SSE Hydro,55.861155,-4.2501687,"Glasgow, Glasgow City, Alba / Scotland, G2 1AL, United Kingdom",City
+220,Glasgow,,Scotland,SSE Hydro,55.8601411,-4.2852072,"OVO Hydro, Stobcross Road, Stobcross, Kelvinhaugh, Glasgow, Glasgow City, Alba / Scotland, G3 8GF, United Kingdom",Alternative
 221,Manchester,,England,Manchester Arena,53.4880867,-2.2441724,"AO Arena, Hunts Bank, Medieval Quarter, City Centre, Manchester, Greater Manchester, England, M3 1AR, United Kingdom",Alternative
 222,London,,England,Hyde Park,51.5074889,-0.1622074,"Hyde Park, Knightsbridge, London, Greater London, England, United Kingdom",Venue
 223,Dublin,,Ireland,3Arena,53.3481083,-6.2269939,"The 'O2' / Point Depot - (East Wall Road), East Wall Road, North Wall, North Dock B Ward 1986, Dublin, County Dublin, Leinster, D01 CF99, Éire / Ireland",Alternative
 224,Ottawa,,Canada,Canadian Tire Centre,45.2969069,-75.9268973,"Canadian Tire Centre, 1000, Palladium Drive, Kanata, Stittsville, Ottawa, Eastern Ontario, Ontario, K2V 1C9, Canada",Venue
 225,"Washington, D.C.",,United States,Nationals Park,38.8727332,-77.0074815,"Nationals Park, 1500, South Capitol Street Southeast, Ward 8, Washington, District of Columbia, 20590, United States",Venue
-226,Vancouver,,Canada,BC Place,49.2766905,-123.1120062,"BC Place, 777, Pacific Boulevard, Yaletown, Downtown, Vancouver, Metro Vancouver Regional District, British Columbia, V6B, Canada",Venue
+226,Vancouver,,Canada,BC Place,49.2766905,-123.1120062,"BC Place, 777, Pacific Boulevard, Yaletown, Downtown, Vancouver, Metro Vancouver Regional District, British Columbia, V6B, Canada",Alternative
 227,Seattle,,United States,CenturyLink Field,47.5953459,-122.3316443,"Lumen Field, 800, Occidental Avenue South, Yesler Terrace, Seattle, King County, Washington, 98134, United States",Alternative
 228,Santa Clara,,United States,Levi's Stadium,37.4029867,-121.9696489,"Levi’s Stadium, 4900, Marie P. DeBartolo Way, Santa Clara, Santa Clara County, California, 95054, United States",Venue
 229,Glendale,,United States,Gila River Arena,33.5319666,-112.2613181,"Desert Diamond Arena, 9400, West Maryland Avenue, Glendale, Maricopa County, Arizona, 85305, United States",Alternative
