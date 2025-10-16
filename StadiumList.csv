@@ -1,258 +1,858 @@
-Venue_ID,City,State,Country,Venue,Latitude,Longitude,Location,Method
-1,Glendale,AZ,United States,STATE FARM STADIUM,33.5277957,-112.2626719,"State Farm Stadium, 1, Cardinals Drive, Glendale, Maricopa County, Arizona, 85305, United States",Venue
-2,Las Vegas,NV,United States,ALLEGIANT STADIUM,36.0907359,-115.1833303,"Allegiant Stadium, 3333, Al Davis Way, Las Vegas, Clark County, Nevada, 89118, United States",Venue
-3,Arlington,TX,United States,AT&T STADIUM,32.7478502,-97.0928337,"AT&T Stadium, 900, East Randol Mill Road, Arlington, Tarrant County, Texas, 76011, United States",Venue
-4,Tampa,FL,United States,RAYMOND JAMES STADIUM,27.9759793,-82.5033545,"Raymond James Stadium, West Tampa Bay Boulevard, Fair Ground Farms, Tampa, Hillsborough County, Florida, 33607, United States",Venue
-5,Houston,TX,United States,NRG STADIUM,29.6848581,-95.4108015,"NRG Stadium, 1, NRG Parkway, Houston, Harris County, Texas, 77054, United States",Venue
-6,Atlanta,GA,United States,MERCEDES-BENZ STADIUM,33.7554123,-84.4008493,"Mercedes-Benz Stadium, 1414, Andrew Young International Boulevard, Castleberry Hill, Atlanta, Fulton County, Georgia, 30313, United States",Venue
-7,Nashville,TN,United States,NISSAN STADIUM,36.1665236,-86.7713148,"Nissan Stadium, 1, Titans Way, East Nashville, Nashville, Davidson County, Middle Tennessee, Tennessee, 37201, United States",Venue
-8,Philadelphia,PA,United States,LINCOLN FINANCIAL FIELD,39.9009099,-75.1674892,"Lincoln Financial Field, 1, South Darien Street, South Philadelphia, Philadelphia, Philadelphia County, Pennsylvania, 19147, United States",Venue
-9,Foxborough,MA,United States,GILLETTE STADIUM,42.0908879,-71.2641731,"Gillette Stadium, 1, Patriot Place, Foxborough, Norfolk County, Massachusetts, 02035, United States",Venue
-10,East Rutherford,NJ,United States,METLIFE STADIUM,40.813507,-74.0743442,"MetLife Stadium, 1, MetLife Stadium Drive, East Rutherford, Bergen County, New Jersey, 07073, United States",Venue
-11,Chicago,IL,United States,SOLDIER FIELD,41.8623356,-87.6176477,"Soldier Field, 425, East McFetridge Drive, Central Station, Near South Side, Chicago, Cook County, Illinois, 60605, United States",Venue
-12,Detroit,MI,United States,FORD FIELD,42.3399567,-83.0456166,"Ford Field, Saint Antoine Street, Lafayette Park, Midtown, Detroit, Wayne County, Michigan, 48226, United States",Venue
-13,Pittsburgh,PA,United States,ACRISURE STADIUM,40.4467166,-80.0157199,"Acrisure Stadium, Art Rooney Avenue, North Shore, Pittsburgh, Allegheny County, Pennsylvania, 15290, United States",Venue
-14,Minneapolis,MN,United States,U.S. BANK STADIUM,44.9751097,-93.2593387,"U.S. Bank Stadium, US Bank Stadium Station, Minneapolis, Hennepin County, Minnesota, 55415, United States",Venue
-15,Cincinnati,OH,United States,PAYCOR STADIUM,39.0954645,-84.5160488,"Paycor Stadium, 1, Elm Street, The Banks, Central Business District, Cincinnati, Hamilton County, Ohio, 45202, United States",Venue
-16,Kansas City,MO,United States,GEHA FIELD AT ARROWHEAD STADIUM,39.0489357,-94.4839993,"Arrowhead Stadium, 1, Arrowhead Drive, Kansas City, Jackson County, Missouri, 64129, United States",Alternative
-17,Denver,CO,United States,EMPOWER FIELD AT MILE HIGH,39.743952,-105.0192228,"Empower Field at Mile High, 1701, Mile High Stadium Circle, Jefferson Park, Denver, Colorado, 80204, United States",Venue
-18,Seattle,WA,United States,LUMEN FIELD,47.5953459,-122.3316443,"Lumen Field, 800, Occidental Avenue South, Yesler Terrace, Seattle, King County, Washington, 98134, United States",Venue
-19,Santa Clara,CA,United States,LEVI'S STADIUM,37.4029867,-121.9696489,"Levi’s Stadium, 4900, Marie P. DeBartolo Way, Santa Clara, Santa Clara County, California, 95054, United States",Venue
-20,Los Angeles,CA,United States,SOFI STADIUM,33.9534074,-118.3390098,"SoFi Stadium, 1001, Champion Drive, Hollywood Park, Inglewood, Los Angeles County, California, 90301, United States",Venue
-21,Mexico City,,Mexico,Foro Sol,19.4050223,-99.0955714,"Estadio GNP Seguros, Avenida Río Churubusco, Colonia Mario Moreno, Ciudad de México, Iztacalco, Ciudad de México, 08400, México",Venue
-22,Buenos Aires,,Argentina,Estadio River Plate,-34.5825297,-58.3990538,"Solar Estadio River Plate (1923-1937), Ciclovía del Libertador, Palermo Norte, Recoleta, Buenos Aires, Comuna 2, Ciudad Autónoma de Buenos Aires, C1425DCO, Argentina",Venue
-23,Rio de Janeiro,,Brazil,Estadio Nilton Santos,-22.893194,-43.2935691,"Estádio Olímpico Nilton Santos, 425, Rua José dos Reis, Engenho de Dentro, Rio de Janeiro, Região Geográfica Imediata do Rio de Janeiro, Região Metropolitana do Rio de Janeiro, Região Geográfica Intermediária do Rio de Janeiro, Rio de Janeiro, Região Sudeste, 20770-001, Brasil",Venue
-24,Sao Paulo,,Brazil,Allianz Parque,-23.5274971,-46.6785281,"Allianz Parque, 1840, Rua Turiassu, Barra Funda, Perdizes, São Paulo, Região Imediata de São Paulo, Região Metropolitana de São Paulo, Região Geográfica Intermediária de São Paulo, São Paulo, Região Sudeste, 05005-000, Brasil",Venue
-25,Tokyo,,Japan,Tokyo Dome,35.7055705,139.7519705,"東京ドーム, 61, 外堀通り, 後楽一丁目, 後楽, 文京区, 東京都, 112-0004, 日本",Venue
-26,Melbourne,,Australia,MCG,-37.819909,144.983225,"Melbourne Cricket Ground, 120, Brunton Avenue, Jolimont, East Melbourne, Melbourne, City of Melbourne, Victoria, 3002, Australia",Venue
-27,Sydney,,Australia,Accor Stadium,-33.8471082,151.0633848,"Accor Stadium, 15, Edwin Flack Avenue, Sydney Olympic Park, Sydney, City of Parramatta Council, New South Wales, 2127, Australia",Venue
-28,Singapore,,Singapore,National Stadium,1.304491,103.8743437,"National Stadium, Stadium Drive, Singapur East, Kallang, Southeast, Singapore, 397750, Singapore",Venue
-29,Paris,,France,Paris La Defense Arena,48.8588897,2.320041,"Paris, Île-de-France, France métropolitaine, France",City
-30,Stockholm,,Sweden,Friends Arena,59.3725039,18.0016672,"Strawberry Arena, Råsta strandväg, Arenastaden, Bagartorp, Solna, Solna kommun, Stockholms län, 169 79, Sverige",Venue
-31,Lisbon,,Portugal,Estadio da Luz,38.7526893,-9.1846899,"Estádio do Sport Lisboa e Benfica, Avenida Lusíada, São Domingos de Benfica, Lisboa, 1500-313, Portugal",Venue
-32,Madrid,,Spain,Estadio Santiago Bernabeu,40.4530225,-3.687422,"Estadio Santiago Bernabéu, 1, Avenida de Concha Espina, Hispanoamérica, Chamartín, Madrid, Comunidad de Madrid, 28036, España",Venue
-33,Lyon,,France,Groupama Stadium,45.7653624,4.9820543,"Groupama Stadium, Allée Sud-Ouest, Le Grand Montout, Charpieu, Décines-Charpieu, Lyon, Métropole de Lyon, Rhône, Auvergne-Rhône-Alpes, France métropolitaine, 69150, France",Venue
-34,Edinburgh,,United Kingdom,BT Murrayfield Stadium,55.9423132,-3.2408951,"Murrayfield Stadium, West Approach Road, Tynecastle, Gorgie/Dalry, City of Edinburgh, Alba / Scotland, EH12 5PJ, United Kingdom",Alternative
-35,Liverpool,,England,Anfield Stadium,53.4302124,-2.9619309,"LFC Museum, Anfield Road, Anfield, Liverpool, Liverpool City Region, England, L4 0TF, United Kingdom",Venue
-36,Cardiff,,Wales,Principality Stadium,51.4782485,-3.1826256,"Principality Stadium, Scott Road, Castle Quarter, Castle, Cardiff, Cymru / Wales, CF10 1XR, United Kingdom",Venue
-37,London,,England,Wembley Stadium,51.5560695,-0.2796034,"Wembley Stadium, South Way, London Borough of Brent, London, Greater London, England, HA9 0QB, United Kingdom",Venue
-38,Dublin,,Ireland,Aviva Stadium,53.3352254,-6.2281851,"Aviva Stadium, Lansdowne Road, Pembroke West A Ward, Dublin, County Dublin, Leinster, D04 W268, Éire / Ireland",Venue
-39,Amsterdam,,Netherlands,Johan Cruijff Arena,52.314353,4.9428431,"Johan Cruijff ArenA, 1, Johan Cruijff Boulevard, Zuidoost, Amsterdam, Noord-Holland, Nederland, 1100 DL, Nederland",Venue
-40,Zurich,,Switzerland,Stadion Letzigrund Zurich,47.3828206,8.5037387,"Stadion Letzigrund, Hardgutstrasse, Altstetten, Kreis 9, Zürich, Bezirk Zürich, Zürich, 8047, Schweiz/Suisse/Svizzera/Svizra",Venue
-41,Milan,,Italy,San Siro Stadium,45.4782003,9.123964,"Stadio Giuseppe Meazza, Via dei Piccolomini, San Siro, Municipio 7, Milano, Lombardia, 20148, Italia",Venue
-42,Gelsenkirchen,,Germany,VELTINS-Arena,51.5545938,7.0676001,"VELTINS-Arena, 1, Rudi-Assauer-Platz, Erle-Berger Feld, Erle, Gelsenkirchen-Ost, Gelsenkirchen, Nordrhein-Westfalen, 45891, Deutschland",Alternative
-43,Hamburg,,Germany,Volksparkstadion,53.5871535,9.8987056,"Volksparkstadion, 9, Uwe-Seeler-Allee, Bahrenfeld, Altona, Hamburg, 22525, Deutschland",Venue
-44,Munich,,Germany,Olympiastadion,48.1731314,11.5464786,"Olympiastadion München, 27, Spiridon-Louis-Ring, 11.2, Milbertshofen-Am Hart, München, Bayern, 80809, Deutschland",Venue
-45,Warsaw,,Poland,PGE Narodowy,52.2399367,21.0452877,"Stadion Narodowy, Aleja Księcia Józefa Poniatowskiego, Kamionek, Praga-Południe, Warszawa, województwo mazowieckie, 03-903, Polska",Venue
-46,Vienna,,Austria,Ernst-Happel-Stadion,48.2071894,16.4209171,"Ernst-Happel-Stadion, 7, Meiereistraße, KG Leopoldstadt, Leopoldstadt, Wien, 1020, Österreich",Venue
-47,Miami,FL,United States,Hard Rock Stadium,25.9579031,-80.2388497,"Hard Rock Stadium, 347, Northwest 199th Street, Miami Gardens, Miami-Dade County, Florida, 33056, United States",Venue
-48,New Orleans,LA,United States,Caesar's Superdome,29.9510489,-90.0823076,"Caesars Superdome, 1500, Sugar Bowl Drive, New Orleans, Orleans Parish, Louisiana, 70112, United States",Alternative
-49,Indianapolis,IN,United States,Lucas Oil Stadium,39.7590621,-86.1638376,"Lucas Oil Stadium, Indianapolis Cultural Trail, Old Southside, Indianapolis, Marion County, Indiana, 46206, United States",Venue
-50,Toronto,,Canada,Roger's Centre,43.6534817,-79.3839347,"Toronto, Golden Horseshoe, Ontario, Canada",City
-51,Vancouver,,Canada,BC Place,49.2766905,-123.1120062,"BC Place, 777, Pacific Boulevard, Yaletown, Downtown, Vancouver, Metro Vancouver Regional District, British Columbia, V6B, Canada",Alternative
-52,Evansville,,United States,Roberts Municipal Stadium,37.970495,-87.5715641,"Evansville, Vanderburgh County, Indiana, United States",City
-53,Jonesboro,,United States,Convocation Center,35.8453739,-90.6703443,"First National Bank Arena, 217, Olympic Drive, Jonesboro, Craighead County, Arkansas, 72467, United States",Venue
-54,St. Louis,,United States,Scottrade Center,38.6268005,-90.20262,"Enterprise Center, 1401, Clark Avenue, Downtown West, Saint Louis, Missouri, 63103, United States",Alternative
-55,Alexandria,,United States,Bishop Ireton High School,38.8090294,-77.0808841,"Bishop Ireton High School, 201, Cambridge Road, College Park, Douglas MacArthur, Eisenhower East, Alexandria, Virginia, 22314, United States",Venue
-56,North Charleston,,United States,North Charleston Coliseum,32.865567,-80.0223423,"North Charleston Coliseum, Darius Rucker Boulevard, Bennett, North Charleston, Charleston County, South Carolina, 29405, United States",Venue
-57,Jacksonville,,United States,Jacksonville Veterans Memorial Arena,30.3257439,-81.6449801,"VyStar Veterans Memorial Arena, 300, A. Philip Randolph Boulevard, Jacksonville, Duval County, Florida, 32202, United States",Alternative
-58,Biloxi,,United States,Mississippi Coast Coliseum,30.3943904,-88.9739883,"Mississippi Coast Coliseum and Convention Center, Oakwood Drive, Biloxi, Harrison County, Mississippi, 39531, United States",Venue
-59,London,,England,Shepherd's Bush Empire,51.5034474,-0.2244489,"O2 Empire, Shepherds Bush Green, Shepherd's Bush, London Borough of Hammersmith and Fulham, London, Greater London, England, W12 8TT, United Kingdom",Venue
-60,Spokane,,United States,Spokane Arena,47.6664718,-117.4231203,"Spokane Arena, West Joe Albi Way, North Bank, Spokane, Spokane County, Washington, 99201, United States",Venue
-61,Seattle,,United States,KeyArena,47.6219014,-122.3539905,"Climate Pledge Arena, 334, 1st Avenue North, Uptown, Belltown, Seattle, King County, Washington, 98109, United States",Venue
-62,Portland,,United States,Rose Garden Arena,45.5315787,-122.6668337,"Moda Center, North Multnomah Street, Lloyd District, Portland, Multnomah County, Oregon, 97240, United States",Alternative
-63,Nampa,,United States,Ford Arena,43.6080574,-116.5080492,"Ford Idaho Center, 16200, Idaho Center Boulevard, Nampa, Canyon County, Idaho, 83687, United States",Venue
-64,Glendale,,United States,Jobing.com Arena,33.5319666,-112.2613181,"Desert Diamond Arena, 9400, West Maryland Avenue, Glendale, Maricopa County, Arizona, 85305, United States",Alternative
-65,Los Angeles,,United States,Staples Center,34.0429979,-118.2671352,"Crypto.com Arena, 1111, South Figueroa Street, South Park, Downtown, Los Angeles, Los Angeles County, California, 90015, United States",Alternative
-66,Paradise,,United States,Mandalay Bay Events Center,36.0906483,-115.1790209,"Michelob Ultra Arena, Frank Sinatra Drive, Clark County, Nevada, 89158, United States",Alternative
-67,San Diego,,United States,Valley View Casino Center,33.2195241,-116.9730009,"Valley View Casino and Hotel, 16300, Nyemii Pass Road, Valley Center, San Diego County, California, 92082, United States",Venue
-68,Salt Lake City,,United States,EnergySolutions Arena,40.7683274,-111.9010551,"Delta Center, 301, South Temple, Downtown, Salt Lake City, Salt Lake County, Utah, 84101, United States",Venue
-69,New Brockton,,United States,BamaJam Farms,31.3857239,-85.9293861,"New Brockton, Coffee County, Alabama, 36351, United States",City
-70,Columbia,,United States,Merriweather Post Pavilion,39.2088351,-76.8625061,"Merriweather Post Pavilion, Dennis Lane, Columbia Town Center, Howard County, Maryland, 21044, United States",Venue
-71,Greensboro,,United States,Greensboro Coliseum,36.0618209,-79.8174039,"U-Haul Storage at Greensboro Coliseum, 1560, West Gate City Boulevard, Piedmont Heights, Greensboro, Guilford County, North Carolina, 27403, United States",Venue
-72,Oshkosh,,United States,Ford Festival Park,43.9607336,-88.5909394,"Ford Festival Park, Town of Nekimi, Winnebago County, Wisconsin, United States",Venue
-73,Cadott,,United States,Amphitheatre Concert Grounds,45.0445878,-91.1840534,"Rock Fest/Country Fest/Forcefields Festival Grounds, 24447, Drywood, Cadott, Chippewa County, Wisconsin, 54727, United States",Alternative
-74,Calgary,,Canada,Pengrowth Saddledome,51.0374124,-114.0519642,"Scotiabank Saddledome, 555, Saddledome Rise SE, Victoria Park, Beltline, Calgary, Alberta, T2G 2W1, Canada",Venue
-75,Edmonton,,Canada,Rexall Place,53.5325073,-113.60386,"Rexall, 9540, 163 Street NW, Glenwood, Jasper Place, Edmonton, Alberta, T5P 3M7, Canada",Venue
-76,Craven,,Canada,Big Valley Park,50.7072638,-104.809204,"Craven, Saskatchewan, S0G 0W0, Canada",City
-77,Winnipeg,,Canada,MTS Centre,49.8925938,-97.1437389,"Canada Life Centre, 300, Portage Avenue, Portage–Ellice, Daniel McIntyre, Winnipeg, Manitoba, R3B 2B9, Canada",Alternative
-78,Twin Lakes,,United States,Country Thunder Festival,43.5596779,-93.4229885,"Twin Lakes, Freeborn County, Minnesota, 56089, United States",City
-79,Columbus,,United States,Value City Arena,40.0076033,-83.0249567,"Schottenstein Center & Value City Arena, 555, Borror Drive, Carmenton, Columbus, Sharon, Franklin County, Ohio, 43210, United States",Venue
-80,Charleston,,United States,Charleston Civic Center,38.3561795,-81.6406084,"Charleston Civic Center, Reynolds Street, Elk City Historic District, East Side, Charleston, Kanawha County, West Virginia, 25301, United States",Venue
-81,Cheyenne,,United States,Cheyenne Frontier Days Arena,41.139981,-104.820246,"Cheyenne, Laramie County, Wyoming, United States",City
-82,Rapid City,,United States,Barnett Arena,44.0806041,-103.228023,"Rapid City, Pennington County, South Dakota, United States",City
-83,Minot,,United States,North Dakota State Fair Grandstand,48.23251,-101.296273,"Minot, Ward County, North Dakota, United States",City
-84,Philadelphia,,United States,Wachovia Spectrum,39.9527237,-75.1635262,"Philadelphia, Philadelphia County, Pennsylvania, United States",City
-85,Detroit Lakes,,United States,Soo Pass Ranch,46.817181,-95.845325,"Detroit Lakes, Becker County, Minnesota, United States",City
-86,Omaha,,United States,Qwest Center Omaha,41.2636669,-95.9279385,"CHI Health Center Omaha, 455, North 10th Street, NoDo, Omaha, Douglas County, Nebraska, 68102, United States",Alternative
-87,Chelmsford,,England,Hylands Park,51.7118686,0.4329385,"Hylands Park, Margaretting, Chelmsford, Essex, England, United Kingdom",Venue
-88,Weston-under-Lizard,,England,Weston Park,52.6849394,-2.2850271,"Weston Park, Weston under Lizard, South Staffordshire, Staffordshire, England, United Kingdom",Venue
-89,New York City,,United States,Madison Square Garden,40.7505129,-73.9935159,"Madison Square Garden, 4, Pennsylvania Plaza, Garment District, Chelsea District, Manhattan, New York County, City of New York, New York, 10001, United States",Venue
-90,Uncasville,,United States,Mohegan Sun Arena,41.4911056,-72.0897112,"Mohegan Sun Arena, 1, Mohegan Sun Boulevard, Mohegan, Montville, Southeastern Connecticut Planning Region, Connecticut, 06382, United States",Venue
-91,University Park,,United States,Bryce Jordan Center,40.808572,-77.8554679,"Bryce Jordan Center, 720, Curtin Road, College Township, Centre County, Pennsylvania, 16801, United States",Venue
-92,Louisville,,United States,Freedom Hall,38.2001655,-85.7418363,"Freedom Hall, 3350, Freedom Way, Louisville, Jefferson County, Kentucky, 40209, United States",Venue
-93,Duluth,,United States,Arena at Gwinnett Center,33.9916013,-84.0938397,"Gas South Arena, 6400, Sugarloaf Parkway, Duluth, Gwinnett County, Georgia, 30097, United States",Alternative
-94,Greenville,,United States,Bi-Lo Center,34.852706,-82.3915606,"Bon Secours Wellness Arena, 650, North Academy Street, Boyce Lawn, Greenville, Greenville County, South Carolina, 29601, United States",Alternative
-95,Charlotte,,United States,Time Warner Cable Arena,35.225098,-80.8391541,"Spectrum Center, 333, East Trade Street, Second Ward, Uptown, Charlotte, Mecklenburg County, North Carolina, 28202, United States",Alternative
-96,Lafayette,,United States,Cajundome,30.2130574,-92.0365594,"Cajundome Boulevard, Lafayette, Lafayette Parish, Louisiana, 70504, United States",Venue
-97,Bossier City,,United States,CenturyTel Center,32.4651746,-93.6736922,"Brookshire Grocery Arena, 2000, CenturyTel Center Drive, Bossier City, Bossier Parish, Louisiana, 71112, United States",Alternative
-98,Birmingham,,United States,BJCC Arena,33.5237958,-86.8128958,"Legacy Arena, 19th Street North, Fourth Avenue Historic District, Birmingham, Jefferson County, Alabama, 35234, United States",Alternative
-99,Nashville,,United States,Bridgestone Arena,36.1589806,-86.7783819,"Bridgestone Arena, 501, Broadway, Downtown Nashville, Nashville, Davidson County, Middle Tennessee, Tennessee, 37203, United States",Venue
-100,Dallas,,United States,American Airlines Center,32.7905076,-96.8102721,"American Airlines Center, 2500, Victory Avenue, Harwood District, Dallas, Dallas County, Texas, 75219, United States",Venue
-101,North Little Rock,,United States,Verizon Arena,34.769536,-92.2670941,"North Little Rock, Hill Township, Pulaski County, Arkansas, United States",City
-102,Tulsa,,United States,BOK Center,36.1526653,-95.9963745,"BOK Center, West 3rd Street, Downtown Tulsa, Tulsa, Tulsa County, Oklahoma, 74103, United States",Venue
-103,Pittsburgh,,United States,Mellon Arena,40.4416941,-79.9900861,"Pittsburgh, Allegheny County, Pennsylvania, United States",City
-104,Grand Rapids,,United States,Van Andel Arena,42.9622423,-85.6715921,"Van Andel Arena, 130, Fulton Street West, Grand Rapids, Kent County, Michigan, 49503, United States",Venue
-105,Cleveland,,United States,Quicken Loans Arena,41.4966862,-81.6885754,"Rocket Arena, 1, Ontario Street, Downtown Cleveland, Cleveland, Cuyahoga County, Ohio, 44115, United States",Alternative
-106,Indianapolis,,United States,Conseco Fieldhouse,39.7639331,-86.1555024,"Gainbridge Fieldhouse, 125, South Pennsylvania Street, Indianapolis, Marion, Indiana, 46204, United States",Alternative
-107,Rosemont,,United States,Allstate Arena,42.0052766,-87.8877714,"Allstate Arena, 6920, Mannheim Road, Rosemont, Maine Township, Cook County, Illinois, 60018, United States",Venue
-108,Minneapolis,,United States,Target Center,44.9795917,-93.2759828,"Target Center, Minneapolis Skyway, Minneapolis, Hennepin County, Minnesota, 55401, United States",Venue
-109,London,,England,Wembley Arena,51.559406,-0.284613,"Wembley Arena, Empire Way, London Borough of Brent, London, Greater London, England, HA9 0EW, United Kingdom",Venue
-110,Manchester,,England,Manchester Evening News Arena,53.4880867,-2.2441724,"AO Arena, Hunts Bank, Medieval Quarter, City Centre, Manchester, Greater Manchester, England, M3 1AR, United Kingdom",Alternative
-111,Brisbane,,Australia,Brisbane Entertainment Centre,-27.3426971,153.0692109,"Brisbane Entertainment Centre, Boondall, City of Brisbane, Queensland, 4034, Australia",Venue
-112,Sydney,,Australia,Acer Arena,-33.844289,151.0622385,"Qudos Bank Arena, Edwin Flack Avenue, Sydney Olympic Park, Sydney, City of Parramatta Council, New South Wales, 2127, Australia",Alternative
-113,Newcastle,,Australia,Newcastle Entertainment Centre,-32.9204641,151.7366897,"Newcastle Entertainment Centre, Chatham Road, Nine ways, Broadmeadow, Newcastle, Newcastle-Maitland, City of Newcastle, New South Wales, 2292, Australia",Venue
-114,Melbourne,,Australia,Rod Laver Arena,-37.8215688,144.9785875,"Rod Laver Arena, 200, Batman Avenue, Melbourne, City of Melbourne, Victoria, 3000, Australia",Venue
-115,Adelaide,,Australia,Adelaide Entertainment Centre,-34.9079418,138.5738004,"Adelaide Entertainment Centre, Mary Street, Hindmarsh, Adelaide, City of Charles Sturt, South Australia, 5007, Australia",Venue
-116,Tokyo,,Japan,Zepp Tokyo,35.6955539,139.7008455,"Zepp Shinjuku (Tokyo), 東急歌舞伎町タワー地下1階～地下4階出入口, 歌舞伎町一丁目, 歌舞伎町, 新宿区, 東京都, 160-0021, 日本",Venue
-117,Tampa,,United States,St. Pete Times Forum,27.942704,-82.4518903,"Benchmark International Arena, 401, Channelside Drive, Wilhelmina, Tampa, Hillsborough County, Florida, 33602, United States",Alternative
-118,Orlando,,United States,Amway Arena,28.5392739,-81.3840071,"Amway Center, South Hughey Avenue, Callahan, Orlando, Orange County, Florida, 32801, United States",Alternative
-119,Sunrise,,United States,BankAtlantic Center,26.1583701,-80.3254289,"Amerant Bank Arena, 1, Northwest 137th Way, Sunrise, Broward County, Florida, 33323, United States",Alternative
-120,Austin,,United States,Frank Erwin Center,30.2769192,-97.7322018,"Permanently CLOSED: Frank Erwin  Center, Medical District, Austin, Travis County, Texas, United States",Venue
-121,Corpus Christi,,United States,American Bank Center Arena,27.8072288,-97.393453,"American Bank Center, 1901, North Shoreline Boulevard, SEA District, Corpus Christi, Nueces County, Texas, 78401, United States",Alternative
-122,Philadelphia,,United States,Wachovia Center,39.9011004,-75.1720165,"Xfinity Mobile Arena, Zinkoff Boulevard, South Philadelphia, Philadelphia, Philadelphia County, Pennsylvania, 19112, United States",Alternative
-123,Charlottesville,,United States,John Paul Jones Arena,38.0459828,-78.5066437,"John Paul Jones Arena, Massie Road, Carr's Hill, University of Virginia, Albemarle County, Virginia, 22903, United States",Venue
-124,Auburn Hills,,United States,The Palace of Auburn Hills,42.6875323,-83.2341028,"Auburn Hills, Oakland County, Michigan, 48326, United States",City
-125,Cincinnati,,United States,U.S. Bank Arena,39.0979261,-84.5044458,"Heritage Bank Center, East Mehring Way, Lytle Park Historic District, Central Business District, Cincinnati, Hamilton County, Ohio, 45202, United States",Venue
-126,Oklahoma City,,United States,Ford Center,35.4633961,-97.5150815,"Paycom Center, 100, West Reno Avenue, Oklahoma City, Oklahoma County, Oklahoma, 73102, United States",Alternative
-127,Wichita,,United States,Intrust Bank Arena,37.6833852,-97.3319986,"Intrust Bank Arena, South Emporia Street, Wichita, Sedgwick County, Kansas, 67202, United States",Venue
-128,Kansas City,,United States,Sprint Center,39.0972952,-94.5799495,"T-Mobile Center, 1407, Grand Boulevard, Power & Light District, Downtown Kansas City, Kansas City, Jackson County, Missouri, 64106, United States",Alternative
-129,Denver,,United States,Pepsi Center,39.7486838,-105.007544,"Ball Arena, 1000, Chopper Circle, Auraria, Denver, Colorado, 80204, United States",Venue
-130,Fresno,,United States,Save Mart Center,36.809685,-119.7385104,"Save Mart Center, 2650, East Shaw Avenue, Fresno, Fresno County, California, 93710, United States",Venue
-131,San Jose,,United States,HP Pavilion,37.3328603,-121.9012247,"SAP Center, 525, West Santa Clara Street, Little Italy, Buena Vista, San Jose, Santa Clara County, California, 95113, United States",Venue
-132,Lexington,,United States,Rupp Arena,38.0494123,-84.5023586,"Rupp Arena, 432, West Vine Street, Central Business District, Lexington, Fayette County, Kentucky, 40507, United States",Venue
-133,Columbia,,United States,Colonial Life Arena,33.9947839,-81.0373546,"Colonial Life Arena, 801, Lincoln Street, The Vista, Columbia, Richland County, South Carolina, 29208, United States",Venue
-134,Raleigh,,United States,RBC Center,35.7803977,-78.6390989,"Raleigh, Wake County, North Carolina, United States",City
-135,Des Moines,,United States,Wells Fargo Arena,41.5868654,-93.6249494,"Des Moines, Polk County, Iowa, United States",City
-136,Saint Paul,,United States,Xcel Energy Center,44.9497487,-93.0931028,"Saint Paul, Ramsey County, Minnesota, United States",City
-137,Moline,,United States,iWireless Center,41.507997,-90.5204015,"Vibrant Arena at the MARK, 1201, River Drive, Moline, Rock Island County, Illinois, 61265, United States",Alternative
-138,Newark,,United States,Prudential Center,40.7334302,-74.1711482,"Prudential Center, 25, Lafayette Street, Teachers Village, The Ironbound, Newark, Essex County, New Jersey, 07101, United States",Venue
-139,Uniondale,,United States,Nassau Veterans Memorial Coliseum,40.7229344,-73.5907243,"Nassau Veterans Memorial Coliseum, 1255, Hempstead Turnpike, Uniondale, Town of Hempstead, Nassau County, New York, 11553, United States",Venue
-140,Ottawa,,Canada,Scotiabank Place,45.2969069,-75.9268973,"Canadian Tire Centre, 1000, Palladium Drive, Kanata, Stittsville, Ottawa, Eastern Ontario, Ontario, K2V 1C9, Canada",Alternative
-141,Toronto,,Canada,Air Canada Centre,43.6434337,-79.3790777,"Scotiabank Arena, 40, Bay Street, St Lawrence-East Bayfront-The Islands, Spadina—Fort York, Toronto, Golden Horseshoe, Ontario, M5J 2J2, Canada",Alternative
-142,Houston,,United States,Toyota Center,29.7507473,-95.3622315,"Toyota Center, 1510, Polk Street, Downtown, Houston, Harris County, Texas, 77010, United States",Venue
-143,Baton Rouge,,United States,LSU Tiger Stadium,30.4494155,-91.1869659,"Baton Rouge, East Baton Rouge Parish, Louisiana, United States",City
-144,"Washington, D.C.",,United States,Verizon Center,38.8981883,-77.0209378,"Capital One Arena, 601, F Street Northwest, Penn Quarter, Ward 2, Washington, District of Columbia, 20004, United States",Alternative
-145,Foxborough,,United States,Gillette Stadium,42.0908879,-71.2641731,"Gillette Stadium, 1, Patriot Place, Foxborough, Norfolk County, Massachusetts, 02035, United States",Venue
-146,Nassau,,The Bahamas,Imperial Ballroom,25.0782266,-77.3383438,"Nassau, New Providence, The Bahamas",City
-147,Cavendish,,Canada,Cavendish Beach Festival Grounds,46.4912529,-63.3785021,"Cavendish, Resort Municipality of Stanley Bridge, Hope River, Bayview, Cavendish and North Rustico, Queens County, Prince Edward Island, Canada",City
-148,Singapore,,Singapore,Singapore Indoor Stadium,1.3008679,103.8743508,"Singapore Indoor Stadium, Stadium Crescent, Tanjong Rhu, Singapur East, Kallang, Southeast, Singapore, 397693, Singapore",Venue
-149,Seoul,,South Korea,Olympic Gymnastics Arena,37.5666791,126.9782914,"서울특별시, 대한민국",City
-150,Osaka,,Japan,Osaka-Jo Hall,34.6896441,135.5301038,"大阪城 ホール, 大阪城新橋, 大阪城, 中央区, 大阪市, 大阪府, 540-8510, 日本",Venue
-151,Tokyo,,Japan,Nippon Budokan,35.6933554,139.7498704,"日本武道館, 3, 北の丸公園, 千代田区, 東京都, 102-8321, 日本",Venue
-152,Quezon City,,Philippines,Smart Araneta Coliseum,14.6207157,121.0533557,"Smart Araneta Coliseum, General Araneta Avenue, Socorro, Cubao, 3rd District, Quezon City, Eastern Manila District, Metro Manila, 1109, Philippines",Venue
-153,Hong Kong,,China,AsiaWorld–Arena,22.350627,114.1849161,"香港 Hong Kong, 中国",City
-154,Brussels,,Belgium,Forest National,50.8096461,4.3260748,"Forest National - Vorst Nationaal, Avenue Victor Rousseau - Victor Rousseaulaan, Altitude Cent - Hoogte Honderd, Forest - Vorst, Brussel-Hoofdstad - Bruxelles-Capitale, Région de Bruxelles-Capitale - Brussels Hoofdstedelijk Gewest, 1190, België / Belgique / Belgien",Venue
-155,Rotterdam,,Netherlands,Sportpaleis van Ahoy,51.8832963,4.4883655,"Rotterdam Ahoy, 10, Ahoyweg, Charlois, Rotterdam, Zuid-Holland, Nederland, 3084 BA, Nederland",Alternative
-156,Oslo,,Norway,Oslo Spektrum,59.9129638,10.7546593,"Oslo Spektrum, Stenersgata, Vaterland, Sentrum, Oslo, 0050, Norge",Venue
-157,Oberhausen,,Germany,König Pilsener Arena,51.4900923,6.872449,"Rudolf Weber-ARENA, 1, Arenastraße, Neue Mitte, Alt-Oberhausen, Oberhausen, Nordrhein-Westfalen, 46047, Deutschland",Venue
-158,Milan,,Italy,Mediolanum Forum,45.4013592,9.1423018,"Unipol Forum, 6, Via Giuseppe Di Vittorio, Bazzana Inferiore, Assago, Milano, Lombardia, 20090, Italia",Venue
-159,Paris,,France,Zénith de Paris,48.8942078,2.3931778,"Le Zénith Paris - La Villette, 211, Avenue Jean Jaurès, Quartier du Pont-de-Flandre, Paris 19e Arrondissement, Paris, France métropolitaine, 75019, France",Venue
-160,Madrid,,Spain,Palacio de los Deportes,40.4238624,-3.6717885,"Movistar Arena, Calle de Jorge Juan, Goya, Salamanca, Madrid, Comunidad de Madrid, 28009, España",Alternative
-161,Birmingham,,England,LG Arena,52.4484171,-1.7204631,"Resorts World Arena, Perimeter Road, Bickenhill and Marston Green, Birmingham, West Midlands, England, B40 1NT, United Kingdom",Alternative
-162,Belfast,,Northern Ireland,Odyssey Arena,54.6038109,-5.91426,"SSE Arena, 2, Sydenham Road, Titanic Quarter, Belfast, Belfast City District, County Down, Northern Ireland / Tuaisceart Éireann, BT3 9QQ, United Kingdom",Venue
-163,Dublin,,Ireland,The O2,53.3476206,-6.2284132,"3Arena, North Wall Quay, North Wall, North Dock B Ward 1986, Dublin, County Dublin, Leinster, D01 V8Y6, Éire / Ireland",Alternative
-164,London,,England,The O2 Arena,51.5029316,0.0031839,"The O2 Arena, Up at The O2, Greenwich Peninsula, Royal Borough of Greenwich, London, Greater London, England, SE10 0DX, United Kingdom",Venue
-165,Orlando,,United States,Amway Center,28.5392867,-81.3838892,"Kia Center, 400, West Church Street, Parramore, Orlando, Orange County, Florida, 32801, United States",Alternative
-166,Columbus,,United States,Nationwide Arena,39.9691873,-83.00608,"Nationwide Arena, 200, West Nationwide Boulevard, Arena District, Columbus, Franklin County, Ohio, 43215, United States",Venue
-167,Milwaukee,,United States,Bradley Center,43.0392485,-87.9134008,"Bradley Symphony Center, 212, West Wisconsin Avenue, Theater District, Downtown, Milwaukee, Milwaukee County, Wisconsin, 53203, United States",Venue
-168,Detroit,,United States,Ford Field,42.3399567,-83.0456166,"Ford Field, Saint Antoine Street, Lafayette Park, Midtown, Detroit, Wayne County, Michigan, 48226, United States",Venue
-169,Pittsburgh,,United States,Heinz Field,40.4467166,-80.0157199,"Acrisure Stadium, Art Rooney Avenue, North Shore, Pittsburgh, Allegheny County, Pennsylvania, 15290, United States",Alternative
-170,Buffalo,,United States,First Niagara Center,42.8751467,-78.8766359,"KeyBank Center, 1, Seymore H. Knox III Plaza, Canalside, Downtown, Buffalo, Erie County, New York, 14203, United States",Venue
-171,Hartford,,United States,XL Center,41.764582,-72.6908547,"Hartford, Capitol Planning Region, Connecticut, United States",City
-172,Knoxville,,United States,Thompson–Boling Arena,35.9511756,-83.925013,"Thompson-Boling Arena, 1600, Phillip Fulmer Way, Fort Sanders, Knoxville, Knox County, East Tennessee, Tennessee, 37996, United States",Venue
-173,Montreal,,Canada,Bell Centre,45.4960358,-73.5692029,"Centre Bell, Rue Saint-Antoine Ouest, Ville-Marie, Montréal, Agglomération de Montréal, Montréal (région administrative), Québec, H3C 1B4, Canada",Venue
-174,"""Washington, D.C.""",,United States,Verizon Center,38.8981883,-77.0209378,"Capital One Arena, 601, F Street Northwest, Penn Quarter, Ward 2, Washington, District of Columbia, 20004, United States",Alternative
-175,Philadelphia,,United States,Lincoln Financial Field,39.9009099,-75.1674892,"Lincoln Financial Field, 1, South Darien Street, South Philadelphia, Philadelphia, Philadelphia County, Pennsylvania, 19147, United States",Venue
-176,Sacramento,,United States,Power Balance Pavilion,38.6474476,-121.4990511,"Arco Arena I, North Market Boulevard, Sacramento County, California, 94834, United States",Alternative
-177,Tacoma,,United States,Tacoma Dome,47.2368873,-122.4269522,"Tacoma Dome, 2727, East D Street, Dome District, Tacoma, Pierce County, Washington, 98421, United States",Venue
-178,Vancouver,,Canada,Rogers Arena,49.2779085,-123.1089417,"Rogers Arena, 800, Griffiths Way, Gastown, Downtown, Vancouver, Metro Vancouver Regional District, British Columbia, V6B, Canada",Venue
-179,Bossier City,,United States,CenturyLink Center,32.4651746,-93.6736922,"Brookshire Grocery Arena, 2000, CenturyTel Center Drive, Bossier City, Bossier Parish, Louisiana, 71112, United States",Alternative
-180,Kansas City,,United States,Arrowhead Stadium,39.0489357,-94.4839993,"Arrowhead Stadium, 1, Arrowhead Drive, Kansas City, Jackson County, Missouri, 64129, United States",Venue
-181,Atlanta,,United States,Philips Arena,33.7573698,-84.3963848,"State Farm Arena, 1, Five Points, Atlanta, Fulton County, Georgia, 30303, United States",Alternative
-182,New Orleans,,United States,New Orleans Arena,29.9490392,-90.082069,"Smoothie King Center, 2500, Howard Avenue, New Orleans, Orleans Parish, Louisiana, 70113, United States",Alternative
-183,Arlington,,United States,Cowboys Stadium,32.7478502,-97.0928337,"AT&T Stadium, 900, East Randol Mill Road, Arlington, Tarrant County, Texas, 76011, United States",Alternative
-184,Louisville,,United States,KFC Yum! Center,38.2576964,-85.7538599,"KFC Yum! Center, 1, North 3rd Street, Louisville, Jefferson County, Kentucky, 40202, United States",Venue
-185,Lubbock,,United States,United Spirit Arena,33.5804027,-101.8859684,"United Spirit Arena, 2500, Broadway, Lubbock, Lubbock County, Texas, 79409, United States",Venue
-186,Oklahoma City,,United States,Chesapeake Energy Arena,35.4633961,-97.5150815,"Paycom Center, 100, West Reno Avenue, Oklahoma City, Oklahoma County, Oklahoma, 73102, United States",Alternative
-187,San Antonio,,United States,AT&T Center,29.4270504,-98.4375071,"Frost Bank Center, 1, Frost Bank Center Drive, San Antonio, Bexar County, Texas, 78219, United States",Venue
-188,Memphis,,United States,FedExForum,35.1382401,-90.0506946,"FedExForum, 191, Beale Street, Beale Street Historic District, Downtown, Memphis, Shelby County, West Tennessee, Tennessee, 38103, United States",Venue
-189,Houston,,United States,Minute Maid Park,29.7572321,-95.3552344,"Daikin Park, 501, Crawford Street, Downtown, Houston, Harris County, Texas, 77004, United States",Alternative
-190,Miami,,United States,American Airlines Arena,25.7813595,-80.1879435,"Kaseya Center, 601, Biscayne Boulevard, HMS Bounty, Miami, Miami-Dade County, Florida, 33132, United States",Alternative
-191,Perth,,Australia,Burswood Dome,-31.9558967,115.8605784,"Perth, City of Perth, Western Australia, 6000, Australia",City
-192,Sydney,,Australia,Allphones Arena,-33.844289,151.0622385,"Qudos Bank Arena, Edwin Flack Avenue, Sydney Olympic Park, Sydney, City of Parramatta Council, New South Wales, 2127, Australia",Alternative
-193,Auckland,,New Zealand,Vector Arena,-36.8471826,174.7769794,"Spark Arena, 42, Māhuhu Crescent, Te Tōangaroa, City Centre, Waitematā, Auckland, 1010, New Zealand / Aotearoa",Alternative
-194,Omaha,,United States,CenturyLink Center Omaha,41.2636669,-95.9279385,"CHI Health Center Omaha, 455, North 10th Street, NoDo, Omaha, Douglas County, Nebraska, 68102, United States",Alternative
-195,Tampa,,United States,Tampa Bay Times Forum,27.942704,-82.4518903,"Benchmark International Arena, 401, Channelside Drive, Wilhelmina, Tampa, Hillsborough County, Florida, 33602, United States",Alternative
-196,Indianapolis,,United States,Bankers Life Fieldhouse,39.7639331,-86.1555024,"Gainbridge Fieldhouse, 125, South Pennsylvania Street, Indianapolis, Marion, Indiana, 46204, United States",Alternative
-197,Toronto,,Canada,Rogers Centre,43.6416599,-79.3891976,"Rogers Centre, 1, Blue Jays Way, Harbourfront-CityPlace, Spadina—Fort York, Toronto, Golden Horseshoe, Ontario, M5V 1J1, Canada",Venue
-198,Winnipeg,,Canada,Investors Group Field,49.8077586,-97.1429177,"Princess Auto Stadium, Chancellor Matheson Road, St. Norbert - Seine River, Winnipeg, Manitoba, R3T 2V9, Canada",Alternative
-199,Vancouver,,Canada,BC Place Stadium,49.2766905,-123.1120062,"BC Place, 777, Pacific Boulevard, Yaletown, Downtown, Vancouver, Metro Vancouver Regional District, British Columbia, V6B, Canada",Venue
-200,East Rutherford,,United States,MetLife Stadium,40.813507,-74.0743442,"MetLife Stadium, 1, MetLife Stadium Drive, East Rutherford, Bergen County, New Jersey, 07073, United States",Venue
-201,Chicago,,United States,Soldier Field,41.8623356,-87.6176477,"Soldier Field, 425, East McFetridge Drive, Central Station, Near South Side, Chicago, Cook County, Illinois, 60605, United States",Venue
-202,Sacramento,,United States,Sleep Train Arena,38.6474476,-121.4990511,"Arco Arena I, North Market Boulevard, Sacramento County, California, 94834, United States",Alternative
-203,Portland,,United States,Moda Center,45.5315787,-122.6668337,"Moda Center, North Multnomah Street, Lloyd District, Portland, Multnomah County, Oregon, 97240, United States",Venue
-204,Fargo,,United States,Fargodome,46.9030223,-96.8013419,"Fargodome, 1800, North University Drive, Washington, Fargo, Cass County, North Dakota, 58102, United States",Venue
-205,Raleigh,,United States,PNC Arena,35.803398,-78.7219166,"Lenovo Center, 1400, Edwards Mill Road, Wade, Raleigh, Wake County, North Carolina, 27607, United States",Venue
-206,Sydney,,Australia,Allianz Stadium,-33.8891572,151.2251352,"Allianz Stadium, Moore Park Road, Five Ways, Paddington, Sydney, Council of the City of Sydney, New South Wales, 2021, Australia",Venue
-207,Brisbane,,Australia,Suncorp Stadium,-27.4648603,153.0096055,"Suncorp Stadium, 40, Castlemaine Street, Milton, Greater Brisbane, Queensland, 4064, Australia",Venue
-208,Perth,,Australia,nib Stadium,-31.9457271,115.8699183,"HBF Park, 310, Pier Street, Perth, City of Vincent, Western Australia, 6000, Australia",Alternative
-209,Melbourne,,Australia,Etihad Stadium,-37.816529,144.947517,"Marvel Stadium, 740, Bourke Street, Yarra’s Edge, Docklands, Melbourne, City of Melbourne, Victoria, 3008, Australia",Alternative
-210,Berlin,,Germany,O2 World,52.5063687,13.4437652,"Uber Arena, 1, Uber Platz, Friedrichshain, Friedrichshain-Kreuzberg, Berlin, 10243, Deutschland",Venue
-211,Shanghai,,China,Mercedes-Benz Arena,31.1909263,121.488699,"梅赛德斯-奔驰文化中心, 1200, 世博大道, 白莲泾, 周家渡街道, 周家渡, 浦东新区, 上海市, 200126, 中国",Venue
-212,Saitama,,Japan,Saitama Super Arena,35.8951196,139.630753,"さいたまスーパーアリーナ, 新都心, 中央区, さいたま市, 埼玉県, 330-0081, 日本",Venue
-213,Jakarta,,Indonesia,MEIS Ancol,-6.1441524,106.8478499,"Jiexpo Kemayoran, RW.10, Jalan Pesanggrahan Raya, PPK Kemayoran, Jakarta International Expo, Pademangan, Jakarta Utara, Daerah Khusus ibukota Jakarta, Jawa, 10610, Indonesia",Alternative
-214,Pasay,,Philippines,Mall of Asia Arena,14.532191,120.9837424,"Mall of Asia Arena, Marina Way, Barangay 76, Zone 10, District 1, Pasay, Southern Manila District, Metro Manila, 1300, Philippines",Venue
-215,Kuala Lumpur,,Malaysia,Putra Indoor Stadium,3.0537311,101.6934618,"Axiata Arena, Persiaran Putra, Sri Petaling, Kuala Lumpur, 57000, Malaysia",Venue
-216,Tokyo,,Japan,Tokyo Dome,35.7055705,139.7519705,"東京ドーム, 61, 外堀通り, 後楽一丁目, 後楽, 文京区, 東京都, 112-0004, 日本",Venue
-217,Winchester,,United States,City of Rock,39.1852184,-78.1652404,"Winchester, Virginia, United States",City
-218,Cologne,,Germany,Lanxess Arena,50.9384967,6.9828844,"LANXESS arena, Willy-Brandt-Platz, Deutz, Innenstadt, Köln, Nordrhein-Westfalen, 50679, Deutschland",Venue
-219,Amsterdam,,Netherlands,Ziggo Dome,52.3134068,4.937123,"Ziggo Dome, 100, De passage, Zuidoost, Amsterdam, Noord-Holland, Nederland, 1101 AX, Nederland",Venue
-220,Glasgow,,Scotland,SSE Hydro,55.8601411,-4.2852072,"OVO Hydro, Stobcross Road, Stobcross, Kelvinhaugh, Glasgow, Glasgow City, Alba / Scotland, G3 8GF, United Kingdom",Alternative
-221,Manchester,,England,Manchester Arena,53.4880867,-2.2441724,"AO Arena, Hunts Bank, Medieval Quarter, City Centre, Manchester, Greater Manchester, England, M3 1AR, United Kingdom",Alternative
-222,London,,England,Hyde Park,51.5074889,-0.1622074,"Hyde Park, Knightsbridge, London, Greater London, England, United Kingdom",Venue
-223,Dublin,,Ireland,3Arena,53.3481083,-6.2269939,"The 'O2' / Point Depot - (East Wall Road), East Wall Road, North Wall, North Dock B Ward 1986, Dublin, County Dublin, Leinster, D01 CF99, Éire / Ireland",Alternative
-224,Ottawa,,Canada,Canadian Tire Centre,45.2969069,-75.9268973,"Canadian Tire Centre, 1000, Palladium Drive, Kanata, Stittsville, Ottawa, Eastern Ontario, Ontario, K2V 1C9, Canada",Venue
-225,"Washington, D.C.",,United States,Nationals Park,38.8727332,-77.0074815,"Nationals Park, 1500, South Capitol Street Southeast, Ward 8, Washington, District of Columbia, 20590, United States",Venue
-226,Vancouver,,Canada,BC Place,49.2766905,-123.1120062,"BC Place, 777, Pacific Boulevard, Yaletown, Downtown, Vancouver, Metro Vancouver Regional District, British Columbia, V6B, Canada",Alternative
-227,Seattle,,United States,CenturyLink Field,47.5953459,-122.3316443,"Lumen Field, 800, Occidental Avenue South, Yesler Terrace, Seattle, King County, Washington, 98134, United States",Alternative
-228,Santa Clara,,United States,Levi's Stadium,37.4029867,-121.9696489,"Levi’s Stadium, 4900, Marie P. DeBartolo Way, Santa Clara, Santa Clara County, California, 95054, United States",Venue
-229,Glendale,,United States,Gila River Arena,33.5319666,-112.2613181,"Desert Diamond Arena, 9400, West Maryland Avenue, Glendale, Maricopa County, Arizona, 85305, United States",Alternative
-230,San Diego,,United States,Petco Park,32.7071882,-117.1568773,"Petco Park, 100, Park Boulevard, East Village, San Diego, San Diego County, California, 92101, United States",Venue
-231,Arlington,,United States,AT&T Stadium,32.7478502,-97.0928337,"AT&T Stadium, 900, East Randol Mill Road, Arlington, Tarrant County, Texas, 76011, United States",Venue
-232,Atlanta,,United States,Georgia Dome,33.7544657,-84.3898151,"Atlanta, Fulton County, Georgia, United States",City
-233,Tampa,,United States,Raymond James Stadium,27.9759793,-82.5033545,"Raymond James Stadium, West Tampa Bay Boulevard, Fair Ground Farms, Tampa, Hillsborough County, Florida, 33607, United States",Venue
-234,Sydney,,Australia,ANZ Stadium,-33.8471082,151.0633848,"Accor Stadium, 15, Edwin Flack Avenue, Sydney Olympic Park, Sydney, City of Parramatta Council, New South Wales, 2127, Australia",Alternative
-235,Melbourne,,Australia,AAMI Park,-37.8251047,144.983743,"AAMI Park, 60, Olympic Boulevard, Melbourne, City of Melbourne, Victoria, 3000, Australia",Venue
-236,Glendale,,United States,University of Phoenix Stadium,34.1469416,-118.2478471,"Glendale, Los Angeles County, California, United States",City
-237,Pasadena,,United States,Rose Bowl,34.1613492,-118.1676674,"Rose Bowl Stadium, Stivers Way, Pasadena Council District 1, Pasadena, Los Angeles County, California, 91109, United States",Venue
-238,Denver,,United States,Sports Authority Field at Mile High,39.743952,-105.0192228,"Empower Field at Mile High, 1701, Mile High Stadium Circle, Jefferson Park, Denver, Colorado, 80204, United States",Alternative
-239,Manchester,,England,Etihad Stadium,53.4831448,-2.2005273,"Etihad Stadium, Joe Mercer Way, Bradford, Manchester, Greater Manchester, England, M11 3FF, United Kingdom",Venue
-240,Dublin,,Ireland,Croke Park,53.3603576,-6.2509812,"Croke Park, Jones's Road, Ballybough, Ballybough B Ward 1986, Dublin, County Dublin, Leinster, D03 A095, Éire / Ireland",Venue
-241,London,,England,Wembley Stadium,51.5560695,-0.2796034,"Wembley Stadium, South Way, London Borough of Brent, London, Greater London, England, HA9 0QB, United Kingdom",Venue
-242,Louisville,,United States,Cardinal Stadium,38.2060161,-85.7587734,"L&N Federal Credit Union Stadium, South Floyd Street, Louisville, Jefferson County, Kentucky, 40292, United States",Alternative
-243,Columbus,,United States,Ohio Stadium,40.0016458,-83.0197374,"Ohio Stadium, 411, Woody Hayes Drive, University District District 2, Columbus, Sharon, Franklin County, Ohio, 43210, United States",Venue
-244,Landover,,United States,FedExField,38.9076875,-76.8644869,"Northwest Stadium, 1600, Ring Road, Landover, Prince George's County, Maryland, 20785, United States",Alternative
-245,Cleveland,,United States,FirstEnergy Stadium,41.5060559,-81.6997118,"Huntington Bank Field, 100, Alfred Lerner Way, Downtown Cleveland, Cleveland, Cuyahoga County, Ohio, 44113, United States",Alternative
-246,Atlanta,,United States,Mercedes-Benz Stadium,33.7554123,-84.4008493,"Mercedes-Benz Stadium, 1414, Andrew Young International Boulevard, Castleberry Hill, Atlanta, Fulton County, Georgia, 30313, United States",Venue
-247,Miami Gardens,,United States,Hard Rock Stadium,25.9579031,-80.2388497,"Hard Rock Stadium, 347, Northwest 199th Street, Miami Gardens, Miami-Dade County, Florida, 33056, United States",Venue
-248,Nashville,,United States,Nissan Stadium,36.1665236,-86.7713148,"Nissan Stadium, 1, Titans Way, East Nashville, Nashville, Davidson County, Middle Tennessee, Tennessee, 37201, United States",Venue
-249,Minneapolis,,United States,U.S. Bank Stadium,44.9751097,-93.2593387,"U.S. Bank Stadium, US Bank Stadium Station, Minneapolis, Hennepin County, Minnesota, 55415, United States",Venue
-250,Indianapolis,,United States,Lucas Oil Stadium,39.7590621,-86.1638376,"Lucas Oil Stadium, Indianapolis Cultural Trail, Old Southside, Indianapolis, Marion County, Indiana, 46206, United States",Venue
-251,St. Louis,,United States,The Dome at America's Center,38.6327852,-90.188551,"The Dome at America's Center, 701, Convention Plaza, Downtown, Saint Louis, Missouri, 63101, United States",Venue
-252,New Orleans,,United States,Mercedes-Benz Superdome,29.9510489,-90.0823076,"Caesars Superdome, 1500, Sugar Bowl Drive, New Orleans, Orleans Parish, Louisiana, 70112, United States",Alternative
-253,Houston,,United States,NRG Stadium,29.6848581,-95.4108015,"NRG Stadium, 1, NRG Parkway, Houston, Harris County, Texas, 77054, United States",Venue
-254,Perth,,Australia,Optus Stadium,-31.9558967,115.8605784,"Perth, City of Perth, Western Australia, 6000, Australia",City
-255,Melbourne,,Australia,Marvel Stadium,-37.816529,144.947517,"Marvel Stadium, 740, Bourke Street, Yarra’s Edge, Docklands, Melbourne, City of Melbourne, Victoria, 3008, Australia",Venue
-256,Brisbane,,Australia,The Gabba,-27.4858851,153.0379847,"Brisbane Cricket Ground, Vulture Street, Woolloongabba, Greater Brisbane, Queensland, 4102, Australia",Venue
-257,Auckland,,New Zealand,Mount Smart Stadium,-36.9178349,174.8122802,"Go Media Stadium Mount Smart, 2, Beasley Avenue, Penrose, Maungakiekie-Tāmaki, Auckland, 1061, New Zealand / Aotearoa",Alternative
+Venue_ID,Date,City,Country,Venue,Opening act(s),Attendance,Venue_Capacity,Tour_ID,Latitude,Longitude,Opening acts,Revenue,Opening act
+1,2023-03-17,Glendale,United States,State Farm Stadium,Paramore Gayle,70000.0,70000.0,6,33.527283,-112.263275,,,
+2,2023-03-18,Glendale,United States,State Farm Stadium,Paramore Gayle,70000.0,70000.0,6,33.527283,-112.263275,,,
+3,2023-03-24,Paradise,United States,Allegiant Stadium,Beabadoobee Gayle,,,6,36.090794,-115.183952,,,
+4,2023-03-25,Paradise,United States,Allegiant Stadium,Beabadoobee Gayle,,,6,36.090794,-115.183952,,,
+5,2023-03-31,Arlington,United States,AT&T Stadium,Muna Gayle,70203.0,70203.0,6,32.747841,-97.093628,,,
+6,2023-04-01,Arlington,United States,AT&T Stadium,Beabadoobee Gracie Abrams,70202.0,70202.0,6,32.747841,-97.093628,,,
+7,2023-04-02,Arlington,United States,AT&T Stadium,Beabadoobee Gracie Abrams,70202.0,70202.0,6,32.747841,-97.093628,,,
+8,2023-04-13,Tampa,United States,Raymond James Stadium,Beabadoobee Gayle,68820.0,68820.0,6,27.975958,-82.503693,,,
+9,2023-04-14,Tampa,United States,Raymond James Stadium,Beabadoobee Gracie Abrams,68820.0,68820.0,6,27.975958,-82.503693,,,
+10,2023-04-15,Tampa,United States,Raymond James Stadium,Beabadoobee Gracie Abrams,68819.0,68819.0,6,27.975958,-82.503693,,,
+11,2023-04-21,Houston,United States,NRG Stadium,Beabadoobee Gracie Abrams,72220.0,72220.0,6,29.68486,-95.411667,,,
+12,2023-04-22,Houston,United States,NRG Stadium,Beabadoobee Gracie Abrams,72220.0,72220.0,6,29.68486,-95.411667,,,
+13,2023-04-23,Houston,United States,NRG Stadium,Beabadoobee Gracie Abrams,72220.0,72220.0,6,29.68486,-95.411667,,,
+14,2023-04-28,Atlanta,United States,Mercedes-Benz Stadium,Beabadoobee Gracie Abrams,70000.0,70000.0,6,33.755489,-84.401993,,,
+15,2023-04-29,Atlanta,United States,Mercedes-Benz Stadium,Beabadoobee Gracie Abrams,70000.0,70000.0,6,33.755489,-84.401993,,,
+16,2023-04-30,Atlanta,United States,Mercedes-Benz Stadium,Muna Gayle,70000.0,70000.0,6,33.755489,-84.401993,,,
+17,2023-05-05,Nashville,United States,Nissan Stadium,Phoebe Bridgers Gracie Abrams,71000.0,71000.0,6,36.166479,-86.7712898,,,
+18,2023-05-06,Nashville,United States,Nissan Stadium,Phoebe Bridgers Gayle,71000.0,71000.0,6,36.166479,-86.7712898,,,
+19,2023-05-07,Nashville,United States,Nissan Stadium,—,71000.0,71000.0,6,36.166479,-86.7712898,,,
+20,2023-05-12,Philadelphia,United States,Lincoln Financial Field,Phoebe Bridgers Gayle,67567.0,67567.0,6,39.900898,-75.168098,,,
+21,2023-05-13,Philadelphia,United States,Lincoln Financial Field,Phoebe Bridgers Gayle,67567.0,67567.0,6,39.900898,-75.168098,,,
+22,2023-05-14,Philadelphia,United States,Lincoln Financial Field,Phoebe Bridgers Gracie Abrams,67566.0,67566.0,6,39.900898,-75.168098,,,
+23,2023-05-19,Foxborough,United States,Gillette Stadium,Phoebe Bridgers Gayle,66667.0,66667.0,6,42.0878,-71.2587,,,
+24,2023-05-20,Foxborough,United States,Gillette Stadium,Phoebe Bridgers Gayle,66667.0,66667.0,6,42.0878,-71.2587,,,
+25,2023-05-21,Foxborough,United States,Gillette Stadium,Phoebe Bridgers Gracie Abrams,66666.0,66666.0,6,42.0878,-71.2587,,,
+26,2023-05-26,East Rutherford,United States,MetLife Stadium,Phoebe Bridgers Gayle,72545.0,72545.0,6,40.813778,-74.07431,,,
+27,2023-05-27,East Rutherford,United States,MetLife Stadium,Phoebe Bridgers Gracie Abrams,72545.0,72545.0,6,40.813778,-74.07431,,,
+28,2023-05-28,East Rutherford,United States,MetLife Stadium,Phoebe Bridgers Owenn,72545.0,72545.0,6,40.813778,-74.07431,,,
+29,2023-06-02,Chicago,United States,Soldier Field,Girl in Red Owenn,50000.0,50000.0,6,41.862366,-87.617256,,,
+30,2023-06-03,Chicago,United States,Soldier Field,Girl in Red Owenn,50000.0,50000.0,6,41.862366,-87.617256,,,
+31,2023-06-04,Chicago,United States,Soldier Field,Muna Gracie Abrams,50000.0,50000.0,6,41.862366,-87.617256,,,
+32,2023-06-09,Detroit,United States,Ford Field,Girl in Red Gracie Abrams,59331.0,59331.0,6,42.340115,-83.046341,,,
+33,2023-06-10,Detroit,United States,Ford Field,Girl in Red Owenn,59330.0,59330.0,6,42.340115,-83.046341,,,
+34,2023-06-16,Pittsburgh,United States,Acrisure Stadium,Girl in Red Gracie Abrams,73117.0,73117.0,6,40.4469,-80.0158,,,
+35,2023-06-17,Pittsburgh,United States,Acrisure Stadium,Girl in Red Owenn,73117.0,73117.0,6,40.4469,-80.0158,,,
+36,2023-06-23,Minneapolis,United States,U.S. Bank Stadium,Girl in Red Gracie Abrams,64453.0,64453.0,6,44.9737,-93.257,,,
+37,2023-06-24,Minneapolis,United States,U.S. Bank Stadium,Girl in Red Owenn,64453.0,64453.0,6,44.9737,-93.257,,,
+38,2023-06-30,Cincinnati,United States,Paycor Stadium,Muna Gracie Abrams,65000.0,65000.0,6,39.0955,-84.5161,,,
+39,2023-07-01,Cincinnati,United States,Paycor Stadium,Muna,65000.0,65000.0,6,39.0955,-84.5161,,,
+40,2023-07-07,Kansas City,United States,GEHA Field at Arrowhead Stadium,Muna Gracie Abrams,55000.0,55000.0,6,39.049,-94.4839,,,
+41,2023-07-08,Kansas City,United States,GEHA Field at Arrowhead Stadium,Muna Gracie Abrams,55000.0,55000.0,6,39.049,-94.4839,,,
+42,2023-07-14,Denver,United States,Empower Field at Mile High,Muna Gracie Abrams,75000.0,75000.0,6,39.7439,-105.0201,,,
+43,2023-07-15,Denver,United States,Empower Field at Mile High,Muna Gracie Abrams,75000.0,75000.0,6,39.7439,-105.0201,,,
+44,2023-07-22,Seattle,United States,Lumen Field,Haim Gracie Abrams,72171.0,72171.0,6,47.5952,-122.3316,,,
+45,2023-07-23,Seattle,United States,Lumen Field,Haim Gracie Abrams,72171.0,72171.0,6,47.5952,-122.3316,,,
+46,2023-07-28,Santa Clara,United States,Levi's Stadium,Haim Gracie Abrams,70000.0,70000.0,6,37.403,-121.97,,,
+47,2023-07-29,Santa Clara,United States,Levi's Stadium,Haim Gracie Abrams,70000.0,70000.0,6,37.403,-121.97,,,
+48,2023-08-03,Inglewood,United States,SoFi Stadium,Haim Gracie Abrams,70000.0,70000.0,6,33.9535,-118.3392,,,
+49,2023-08-04,Inglewood,United States,SoFi Stadium,Haim Owenn,70000.0,70000.0,6,33.9535,-118.3392,,,
+50,2023-08-05,Inglewood,United States,SoFi Stadium,Haim Gayle,70000.0,70000.0,6,33.9535,-118.3392,,,
+51,2023-08-07,Inglewood,United States,SoFi Stadium,Haim Gracie Abrams,70000.0,70000.0,6,33.9535,-118.3392,,,
+52,2023-08-08,Inglewood,United States,SoFi Stadium,Haim Gracie Abrams,70000.0,70000.0,6,33.9535,-118.3392,,,
+53,2023-08-09,Inglewood,United States,SoFi Stadium,Haim Gayle,70000.0,70000.0,6,33.9535,-118.3392,,,
+54,2023-08-24,Mexico City,Mexico,Foro Sol,Sabrina Carpenter,45000.0,45000.0,6,19.4042,-99.0907,,,
+55,2023-08-25,Mexico City,Mexico,Foro Sol,Sabrina Carpenter,45000.0,45000.0,6,19.4042,-99.0907,,,
+56,2023-08-26,Mexico City,Mexico,Foro Sol,Sabrina Carpenter,45000.0,45000.0,6,19.4042,-99.0907,,,
+57,2023-08-27,Mexico City,Mexico,Foro Sol,Sabrina Carpenter,45000.0,45000.0,6,19.4042,-99.0907,,,
+58,2023-11-09,Buenos Aires,Argentina,Estadio River Plate,Sabrina Carpenter Louta,73334.0,73334.0,6,-34.5455,-58.4494,,,
+59,2023-11-11,Buenos Aires,Argentina,Estadio River Plate,Sabrina Carpenter Louta,73333.0,73333.0,6,-34.5455,-58.4494,,,
+60,2023-11-12,Buenos Aires,Argentina,Estadio River Plate,Sabrina Carpenter Louta,73333.0,73333.0,6,-34.5455,-58.4494,,,
+61,2023-11-17,Rio de Janeiro,Brazil,Estádio Olímpico Nilton Santos,Sabrina Carpenter,60000.0,60000.0,6,-22.893194,-43.2935691,,,
+62,2023-11-19,Rio de Janeiro,Brazil,Estádio Olímpico Nilton Santos,Sabrina Carpenter,60000.0,60000.0,6,-22.893194,-43.2935691,,,
+63,2023-11-20,Rio de Janeiro,Brazil,Estádio Olímpico Nilton Santos,Sabrina Carpenter,60000.0,60000.0,6,-22.893194,-43.2935691,,,
+64,2023-11-24,São Paulo,Brazil,Allianz Parque,Sabrina Carpenter,50000.0,50000.0,6,-23.5273,-46.678,,,
+65,2023-11-25,São Paulo,Brazil,Allianz Parque,Sabrina Carpenter,50000.0,50000.0,6,-23.5273,-46.678,,,
+66,2023-11-26,São Paulo,Brazil,Allianz Parque,Sabrina Carpenter,50000.0,50000.0,6,-23.5273,-46.678,,,
+67,2024-02-07,Tokyo,Japan,Tokyo Dome,—,55000.0,55000.0,6,35.7056,139.7519,,,
+68,2024-02-08,Tokyo,Japan,Tokyo Dome,—,55000.0,55000.0,6,35.7056,139.7519,,,
+69,2024-02-09,Tokyo,Japan,Tokyo Dome,—,55000.0,55000.0,6,35.7056,139.7519,,,
+70,2024-02-10,Tokyo,Japan,Tokyo Dome,—,55000.0,55000.0,6,35.7056,139.7519,,,
+71,2024-02-16,Melbourne,Australia,Melbourne Cricket Ground,Sabrina Carpenter,96000.0,96000.0,6,-37.819909,144.983225,,,
+72,2024-02-17,Melbourne,Australia,Melbourne Cricket Ground,Sabrina Carpenter,96000.0,96000.0,6,-37.819909,144.983225,,,
+73,2024-02-18,Melbourne,Australia,Melbourne Cricket Ground,Sabrina Carpenter,96000.0,96000.0,6,-37.819909,144.983225,,,
+74,2024-02-23,Sydney,Australia,Accor Stadium,—,80000.0,80000.0,6,-33.8474,151.0631,,,
+75,2024-02-24,Sydney,Australia,Accor Stadium,Sabrina Carpenter,80000.0,80000.0,6,-33.8474,151.0631,,,
+76,2024-02-25,Sydney,Australia,Accor Stadium,Sabrina Carpenter,80000.0,80000.0,6,-33.8474,151.0631,,,
+77,2024-02-26,Sydney,Australia,Accor Stadium,Sabrina Carpenter,80000.0,80000.0,6,-33.8474,151.0631,,,
+78,2024-03-02,Singapore,Singapore,Singapore National Stadium,Sabrina Carpenter,63000.0,63000.0,6,1.3020909,103.8763295,,,
+79,2024-03-03,Singapore,Singapore,Singapore National Stadium,Sabrina Carpenter,63000.0,63000.0,6,1.3020909,103.8763295,,,
+80,2024-03-04,Singapore,Singapore,Singapore National Stadium,Sabrina Carpenter,63000.0,63000.0,6,1.3020909,103.8763295,,,
+81,2024-03-07,Singapore,Singapore,Singapore National Stadium,Sabrina Carpenter,63000.0,63000.0,6,1.3020909,103.8763295,,,
+82,2024-03-08,Singapore,Singapore,Singapore National Stadium,Sabrina Carpenter,63000.0,63000.0,6,1.3020909,103.8763295,,,
+83,2024-03-09,Singapore,Singapore,Singapore National Stadium,Sabrina Carpenter,63000.0,63000.0,6,1.3020909,103.8763295,,,
+84,2024-05-09,Nanterre,France,Paris La Défense Arena,Paramore,45000.0,45000.0,7,48.8956767,2.2296581,,,
+85,2024-05-10,Nanterre,France,Paris La Défense Arena,Paramore,45000.0,45000.0,7,48.8956767,2.2296581,,,
+86,2024-05-11,Nanterre,France,Paris La Défense Arena,Paramore,45000.0,45000.0,7,48.8956767,2.2296581,,,
+87,2024-05-12,Nanterre,France,Paris La Défense Arena,Paramore,45000.0,45000.0,7,48.8956767,2.2296581,,,
+88,2024-05-17,Stockholm,Sweden,Friends Arena,Paramore,59560.0,59560.0,7,59.3728,18.0006,,,
+89,2024-05-18,Stockholm,Sweden,Friends Arena,Paramore,59560.0,59560.0,7,59.3728,18.0006,,,
+90,2024-05-19,Stockholm,Sweden,Friends Arena,Paramore,59559.0,59559.0,7,59.3728,18.0006,,,
+91,2024-05-24,Lisbon,Portugal,Estádio da Luz,Paramore,60000.0,60000.0,7,38.7526893,-9.1846899,,,
+92,2024-05-25,Lisbon,Portugal,Estádio da Luz,Paramore,60000.0,60000.0,7,38.7526893,-9.1846899,,,
+93,2024-05-29,Madrid,Spain,Estadio Santiago Bernabéu,Paramore,65000.0,65000.0,7,40.4530225,-3.687422,,,
+94,2024-05-30,Madrid,Spain,Estadio Santiago Bernabéu,Paramore,65000.0,65000.0,7,40.4530225,-3.687422,,,
+95,2024-06-02,Décines-Charpieu,France,Groupama Stadium,Paramore,61000.0,61000.0,7,45.7652,4.9827,,,
+96,2024-06-03,Décines-Charpieu,France,Groupama Stadium,Paramore,61000.0,61000.0,7,45.7652,4.9827,,,
+97,2024-06-07,Edinburgh,Scotland,Murrayfield Stadium,Paramore,73000.0,73000.0,7,55.9423132,-3.2408951,,,
+98,2024-06-08,Edinburgh,Scotland,Murrayfield Stadium,Paramore,73000.0,73000.0,7,55.9423132,-3.2408951,,,
+99,2024-06-09,Edinburgh,Scotland,Murrayfield Stadium,Paramore,73000.0,73000.0,7,55.9423132,-3.2408951,,,
+100,2024-06-13,Liverpool,England,Anfield,Paramore,62000.0,62000.0,7,53.4309164,-2.9609314,,,
+101,2024-06-14,Liverpool,England,Anfield,Paramore,62000.0,62000.0,7,53.4309164,-2.9609314,,,
+102,2024-06-15,Liverpool,England,Anfield,Paramore,62000.0,62000.0,7,53.4309164,-2.9609314,,,
+103,2024-06-18,Cardiff,Wales,Principality Stadium,Paramore,70000.0,70000.0,7,51.4782,-3.1827,,,
+104,2024-06-21,London,England,Wembley Stadium,Paramore Mette,94139.0,94139.0,7,51.556,-0.2796,,,
+105,2024-06-22,London,England,Wembley Stadium,Paramore Griff,94139.0,94139.0,7,51.556,-0.2796,,,
+106,2024-06-23,London,England,Wembley Stadium,Paramore Benson Boone,94139.0,94139.0,7,51.556,-0.2796,,,
+107,2024-06-28,Dublin,Ireland,Aviva Stadium,Paramore,50000.0,50000.0,7,53.3351,-6.2285,,,
+108,2024-06-29,Dublin,Ireland,Aviva Stadium,Paramore,50000.0,50000.0,7,53.3351,-6.2285,,,
+109,2024-06-30,Dublin,Ireland,Aviva Stadium,Paramore,50000.0,50000.0,7,53.3351,-6.2285,,,
+110,2024-07-04,Amsterdam,Netherlands,Johan Cruyff Arena,Paramore,55000.0,55000.0,7,52.3730796,4.8924534,,,
+111,2024-07-05,Amsterdam,Netherlands,Johan Cruyff Arena,Paramore,55000.0,55000.0,7,52.3730796,4.8924534,,,
+112,2024-07-06,Amsterdam,Netherlands,Johan Cruyff Arena,Paramore,55000.0,55000.0,7,52.3730796,4.8924534,,,
+113,2024-07-09,Zürich,Switzerland,Letzigrund,Paramore,47500.0,47500.0,7,47.3828206,8.5037387,,,
+114,2024-07-10,Zürich,Switzerland,Letzigrund,Paramore,47500.0,47500.0,7,47.3828206,8.5037387,,,
+115,2024-07-13,Milan,Italy,San Siro,Paramore,80000.0,80000.0,7,45.4782003,9.123964,,,
+116,2024-07-14,Milan,Italy,San Siro,Paramore,80000.0,80000.0,7,45.4782003,9.123964,,,
+117,2024-07-17,Gelsenkirchen,Germany,Veltins-Arena,Paramore,60000.0,60000.0,7,51.5545,7.0675,,,
+118,2024-07-18,Gelsenkirchen,Germany,Veltins-Arena,Paramore,60000.0,60000.0,7,51.5545,7.0675,,,
+119,2024-07-19,Gelsenkirchen,Germany,Veltins-Arena,Paramore,60000.0,60000.0,7,51.5545,7.0675,,,
+120,2024-07-23,Hamburg,Germany,Volksparkstadion,Paramore,50000.0,50000.0,7,53.5875,9.8986,,,
+121,2024-07-24,Hamburg,Germany,Volksparkstadion,Paramore,50000.0,50000.0,7,53.5875,9.8986,,,
+122,2024-07-27,Munich,Germany,Olympiastadion,Paramore,74000.0,74000.0,7,48.1731,11.5466,,,
+123,2024-07-28,Munich,Germany,Olympiastadion,Paramore,74000.0,74000.0,7,48.1731,11.5466,,,
+124,2024-08-01,Warsaw,Poland,PGE Narodowy,Paramore,65000.0,65000.0,7,52.2394,21.0458,,,
+125,2024-08-02,Warsaw,Poland,PGE Narodowy,Paramore,65000.0,65000.0,7,52.2394,21.0458,,,
+126,2024-08-03,Warsaw,Poland,PGE Narodowy,Paramore,65000.0,65000.0,7,52.2394,21.0458,,,
+127,2024-08-15,London,England,Wembley Stadium,Paramore  Sofia Isella,94139.0,94139.0,7,51.556,-0.2796,,,
+128,2024-08-16,London,England,Wembley Stadium,Paramore  Holly Humberstone,94139.0,94139.0,7,51.556,-0.2796,,,
+129,2024-08-17,London,England,Wembley Stadium,Paramore  Suki Waterhouse,94139.0,94139.0,7,51.556,-0.2796,,,
+130,2024-08-19,London,England,Wembley Stadium,Paramore  Maisie Peters,94139.0,94139.0,7,51.556,-0.2796,,,
+131,2024-08-20,London,England,Wembley Stadium,Paramore  Raye,94139.0,94139.0,7,51.556,-0.2796,,,
+132,2024-10-18,Miami Gardens,United States,Hard Rock Stadium,Gracie Abrams,61000.0,61000.0,7,25.958,-80.2389,,,
+133,2024-10-19,Miami Gardens,United States,Hard Rock Stadium,Gracie Abrams,61000.0,61000.0,7,25.958,-80.2389,,,
+134,2024-10-20,Miami Gardens,United States,Hard Rock Stadium,Gracie Abrams,61000.0,61000.0,7,25.958,-80.2389,,,
+135,2024-10-25,New Orleans,United States,Caesars Superdome,Gracie Abrams,65000.0,65000.0,7,29.9510489,-90.0823076,,,
+136,2024-10-26,New Orleans,United States,Caesars Superdome,Gracie Abrams,65000.0,65000.0,7,29.9510489,-90.0823076,,,
+137,2024-10-27,New Orleans,United States,Caesars Superdome,Gracie Abrams,65000.0,65000.0,7,29.9510489,-90.0823076,,,
+138,2024-11-01,Indianapolis,United States,Lucas Oil Stadium,Gracie Abrams,69000.0,69000.0,7,39.7601,-86.1639,,,
+139,2024-11-02,Indianapolis,United States,Lucas Oil Stadium,Gracie Abrams,69000.0,69000.0,7,39.7601,-86.1639,,,
+140,2024-11-03,Indianapolis,United States,Lucas Oil Stadium,Gracie Abrams,69000.0,69000.0,7,39.7601,-86.1639,,,
+141,2024-11-14,Toronto,Canada,Rogers Centre,Gracie Abrams,47870.0,47870.0,7,43.6416599,-79.3891976,,,
+142,2024-11-15,Toronto,Canada,Rogers Centre,Gracie Abrams,47870.0,47870.0,7,43.6416599,-79.3891976,,,
+143,2024-11-16,Toronto,Canada,Rogers Centre,Gracie Abrams,47870.0,47870.0,7,43.6416599,-79.3891976,,,
+144,2024-11-21,Toronto,Canada,Rogers Centre,Gracie Abrams,47870.0,47870.0,7,43.6416599,-79.3891976,,,
+145,2024-11-22,Toronto,Canada,Rogers Centre,Gracie Abrams,47870.0,47870.0,7,43.6416599,-79.3891976,,,
+146,2024-11-23,Toronto,Canada,Rogers Centre,Gracie Abrams,47870.0,47870.0,7,43.6416599,-79.3891976,,,
+147,2024-12-06,Vancouver,Canada,BC Place,Gracie Abrams,53334.0,53334.0,7,49.2768,-123.1116,,,
+148,2024-12-07,Vancouver,Canada,BC Place,Gracie Abrams,53333.0,53333.0,7,49.2768,-123.1116,,,
+149,2024-12-08,Vancouver,Canada,BC Place,Gracie Abrams,53333.0,53333.0,7,49.2768,-123.1116,,,
+150,,Total,Total,Total,Total,10168008.0,,7,59.98466,23.5959136,,,
+151,2009-04-23,Evansville,United States,Roberts Municipal Stadium,,7463.0,7463.0,1,37.970495,-87.5715641,"Gloriana
+Kellie Pickler",360617.0,
+152,2009-04-24,Jonesboro,United States,Convocation Center,,7822.0,7822.0,1,35.8453739,-90.6703443,"Gloriana
+Kellie Pickler",340328.0,
+153,2009-04-25,St. Louis,United States,Scottrade Center,,13764.0,13764.0,1,38.6268005,-90.20262,"Gloriana
+Kellie Pickler",650420.0,
+154,2009-04-28,Alexandria,United States,Bishop Ireton High School,,,,1,38.8090294,-77.0808841,"Gloriana
+Kellie Pickler",,
+155,2009-04-30,North Charleston,United States,North Charleston Coliseum,,8751.0,8751.0,1,32.865567,-80.0223423,"Gloriana
+Kellie Pickler",398154.0,
+156,2009-05-01,Jacksonville,United States,Jacksonville Veterans Memorial Arena,,11072.0,11072.0,1,30.3257439,-81.6449801,"Gloriana
+Kellie Pickler",507012.0,
+157,2009-05-02,Biloxi,United States,Mississippi Coast Coliseum,,9436.0,9436.0,1,30.3943904,-88.9739883,"Gloriana
+Kellie Pickler",437313.0,
+158,2009-05-06,London,England,Shepherd's Bush Empire,,3395.0,3395.0,1,51.5034474,-0.2244489,—,200664.0,
+159,2009-05-07,London,England,Shepherd's Bush Empire,,3394.0,3394.0,1,51.5034474,-0.2244489,—,200664.0,
+160,2009-05-14,Spokane,United States,Spokane Arena,,10798.0,10798.0,1,47.6664718,-117.4231203,"Gloriana
+Kellie Pickler",482146.0,
+161,2009-05-15,Seattle,United States,KeyArena,,12061.0,12061.0,1,47.6219014,-122.3539905,"Gloriana
+Kellie Pickler",528637.0,
+162,2009-05-16,Portland,United States,Rose Garden Arena,,13226.0,13226.0,1,45.5315787,-122.6668337,"Gloriana
+Kellie Pickler",613284.0,
+163,2009-05-17,Nampa,United States,Ford Arena,,8970.0,8970.0,1,43.6080574,-116.5080492,"Gloriana
+Kellie Pickler",413622.0,
+164,2009-05-21,Glendale,United States,Jobing.com Arena,,13052.0,13052.0,1,33.5319666,-112.2613181,"Gloriana
+Kellie Pickler",647923.0,
+165,2009-05-22,Los Angeles,United States,Staples Center,,4550.0,4550.0,1,34.0429979,-118.2671352,"Gloriana
+Kellie Pickler",240314.0,
+166,2009-05-23,Paradise,United States,Mandalay Bay Events Center,,8311.0,8311.0,1,36.0906483,-115.1790209,"Gloriana
+Kellie Pickler",551051.0,
+167,2009-05-24,San Diego,United States,Valley View Casino Center,,10174.0,10174.0,1,33.2195241,-116.9730009,"Gloriana
+Kellie Pickler",502689.0,
+168,2009-05-26,Salt Lake City,United States,EnergySolutions Arena,,13042.0,13042.0,1,40.7683274,-111.9010551,"Gloriana
+Kellie Pickler",555207.0,
+169,2009-06-04,New Brockton,United States,BamaJam Farms,,,,1,31.3857239,-85.9293861,—,,
+170,2009-06-11,Columbia,United States,Merriweather Post Pavilion,,17619.0,17619.0,1,39.2088351,-76.8625061,"Gloriana
+Kellie Pickler",608438.0,
+171,2009-06-12,Greensboro,United States,Greensboro Coliseum,,14641.0,14641.0,1,36.0618209,-79.8174039,"Gloriana
+Kellie Pickler",690959.0,
+172,2009-06-24,Oshkosh,United States,Ford Festival Park,,,,1,43.9607336,-88.5909394,—,,
+173,2009-06-25,Cadott,United States,Amphitheatre Concert Grounds,,,,1,45.0445878,-91.1840534,—,,
+174,2009-07-08,Calgary,Canada,Pengrowth Saddledome,,,,1,51.0374124,-114.0519642,"Gloriana
+Kellie Pickler",,
+175,2009-07-09,Edmonton,Canada,Rexall Place,,33910.0,44500.0,1,53.5325073,-113.60386,—,2540906.0,
+176,2009-07-10,Craven,Canada,Big Valley Park,,,,1,50.7072638,-104.809204,—,,
+177,2009-07-11,Winnipeg,Canada,MTS Centre,,11369.0,11369.0,1,49.8925939,-97.1437389,"Gloriana
+Kellie Pickler",512487.0,
+178,2009-07-16,Twin Lakes,United States,Country Thunder Festival,,,,1,43.5596779,-93.4229885,—,,
+179,2009-07-17,Columbus,United States,Value City Arena,,,,1,40.0076033,-83.0249567,"Gloriana
+Kellie Pickler",,
+180,2009-07-18,Charleston,United States,Charleston Civic Center,,,,1,38.3561795,-81.6406084,"Gloriana
+Kellie Pickler",,
+181,2009-07-23,Cheyenne,United States,Cheyenne Frontier Days Arena,,,,1,41.139981,-104.820246,Kellie Pickler,,
+182,2009-07-24,Rapid City,United States,Barnett Arena,,,,1,44.0806041,-103.228023,"Gloriana
+Kellie Pickler",,
+183,2009-07-25,Minot,United States,North Dakota State Fair Grandstand,,,,1,48.23251,-101.296273,—,,
+184,2009-08-01,Philadelphia,United States,Wachovia Spectrum,,,,1,39.9527237,-75.1635262,"Gloriana
+Kellie Pickler",,
+185,2009-08-07,Detroit Lakes,United States,Soo Pass Ranch,,,,1,46.817181,-95.845325,"Brooks & Dunn
+Craig Morgan",,
+186,2009-08-09,Omaha,United States,Qwest Center Omaha,,,,1,41.2636669,-95.9279385,"Gloriana
+Kellie Pickler",,
+187,2009-08-22,Chelmsford,England,Hylands Park,,,,1,51.7118686,0.4329385,—,,
+188,2009-08-23,Weston-under-Lizard,England,Weston Park,,,,1,52.6849394,-2.2850271,—,,
+189,2009-08-27,New York City,United States,Madison Square Garden,,13597.0,13597.0,1,40.7505129,-73.9935159,"Gloriana
+Kellie Pickler",976062.0,
+190,2009-08-28,Uncasville,United States,Mohegan Sun Arena,,7507.0,7507.0,1,41.4911056,-72.0897112,"Gloriana
+Kellie Pickler",296306.0,
+191,2009-08-29,University Park,United States,Bryce Jordan Center,,,,1,40.808572,-77.8554679,"Gloriana
+Kellie Pickler",,
+192,2009-08-30,Louisville,United States,Freedom Hall,,,,1,38.2001655,-85.7418363,"Gloriana
+Kellie Pickler",,
+193,2009-09-03,Duluth,United States,Arena at Gwinnett Center,,,,1,33.9916013,-84.0938397,"Gloriana
+Kellie Pickler",,
+194,2009-09-04,Greenville,United States,Bi-Lo Center,,,,1,34.852706,-82.3915606,"Gloriana
+Kellie Pickler",,
+195,2009-09-05,Charlotte,United States,Time Warner Cable Arena,,,,1,35.225098,-80.8391541,"Gloriana
+Kellie Pickler",,
+196,2009-09-09,Lafayette,United States,Cajundome,,,,1,30.2130574,-92.0365594,"Gloriana
+Kellie Pickler",,
+197,2009-09-10,Bossier City,United States,CenturyTel Center,,,,1,32.4651746,-93.6736922,"Gloriana
+Kellie Pickler",,
+198,2009-09-11,Birmingham,United States,BJCC Arena,,,,1,33.5237958,-86.8128958,"Gloriana
+Kellie Pickler",,
+199,2009-09-12,Nashville,United States,Bridgestone Arena,,14269.0,14269.0,1,36.1589806,-86.7783819,"Gloriana
+Kellie Pickler",642387.0,
+200,2009-09-25,Dallas,United States,American Airlines Center,,6897.0,6897.0,1,32.7905076,-96.8102721,"Gloriana
+Kellie Pickler",314031.0,
+201,2009-09-26,North Little Rock,United States,Verizon Arena,,13978.0,13978.0,1,34.769536,-92.2670941,"Gloriana
+Kellie Pickler",654089.0,
+202,2009-09-27,Tulsa,United States,BOK Center,,,,1,36.1526653,-95.9963745,"Gloriana
+Kellie Pickler",,
+203,2009-10-01,Pittsburgh,United States,Mellon Arena,,,,1,40.4416941,-79.9900861,"Gloriana
+Kellie Pickler",,
+204,2009-10-02,Grand Rapids,United States,Van Andel Arena,,,,1,42.9622423,-85.6715921,"Gloriana
+Kellie Pickler",,
+205,2009-10-03,Cleveland,United States,Quicken Loans Arena,,15524.0,15524.0,1,41.4966862,-81.6885754,"Gloriana
+Kellie Pickler",743492.0,
+206,2009-10-08,Indianapolis,United States,Conseco Fieldhouse,,13373.0,13373.0,1,39.7639331,-86.1555024,"Gloriana
+Kellie Pickler",634876.0,
+207,2009-10-09,Rosemont,United States,Allstate Arena,,13133.0,13133.0,1,42.0052766,-87.8877714,"Gloriana
+Kellie Pickler",575448.0,
+208,2009-10-10,Rosemont,United States,Allstate Arena,,13132.0,13132.0,1,42.0052766,-87.8877714,"Gloriana
+Kellie Pickler",575448.0,
+209,2009-10-11,Minneapolis,United States,Target Center,,13563.0,13563.0,1,44.9795917,-93.2759828,"Gloriana
+Kellie Pickler",623975.0,
+210,2009-11-23,London,England,Wembley Arena,,,,1,51.559406,-0.284613,Justin Bieber,,
+211,2009-11-24,Manchester,England,Manchester Evening News Arena,,,,1,53.4880867,-2.2441724,Justin Bieber,,
+212,2010-02-04,Brisbane,Australia,Brisbane Entertainment Centre,,11334.0,11334.0,1,-27.3426971,153.0692109,Gloriana,956505.0,
+213,2010-02-06,Sydney,Australia,Acer Arena,,13515.0,13515.0,1,-33.844289,151.0622385,Gloriana,1015320.0,
+214,2010-02-07,Sydney,Australia,Acer Arena,,13515.0,13515.0,1,-33.844289,151.0622385,Gloriana,1015320.0,
+215,2010-02-08,Newcastle,Australia,Newcastle Entertainment Centre,,7180.0,7180.0,1,-32.9204641,151.7366897,Gloriana,555396.0,
+216,2010-02-10,Melbourne,Australia,Rod Laver Arena,,11747.0,11747.0,1,-37.8215688,144.9785875,Gloriana,813755.0,
+217,2010-02-11,Melbourne,Australia,Rod Laver Arena,,11746.0,11746.0,1,-37.8215688,144.9785875,Gloriana,813755.0,
+218,2010-02-12,Adelaide,Australia,Adelaide Entertainment Centre,,9066.0,9066.0,1,-34.9079418,138.5738004,Gloriana,585352.0,
+219,2010-02-17,Tokyo,Japan,Zepp Tokyo,,,,1,35.6955539,139.7008455,—,,
+220,2010-03-04,Tampa,United States,St. Pete Times Forum,,13861.0,13861.0,1,27.942704,-82.4518903,"Gloriana
+Kellie Pickler",793049.0,
+221,2010-03-05,Orlando,United States,Amway Arena,,11101.0,11101.0,1,28.5392739,-81.3840071,"Gloriana
+Kellie Pickler",598581.0,
+222,2010-03-07,Sunrise,United States,BankAtlantic Center,,13453.0,13453.0,1,26.1583701,-80.3254289,"Gloriana
+Kellie Pickler",777442.0,
+223,2010-03-10,Austin,United States,Frank Erwin Center,,11928.0,11928.0,1,30.2769192,-97.7322018,"Gloriana
+Kellie Pickler",642705.0,
+224,2010-03-11,Dallas,United States,American Airlines Center,,6897.0,6897.0,1,32.7905076,-96.8102721,"Gloriana
+Kellie Pickler",314031.0,
+225,2010-03-12,Corpus Christi,United States,American Bank Center Arena,,8423.0,8423.0,1,27.8072288,-97.393453,"Gloriana
+Kellie Pickler",501169.0,
+226,2010-03-18,Philadelphia,United States,Wachovia Center,,15180.0,15180.0,1,39.9011004,-75.1720165,"Gloriana
+Kellie Pickler",1001161.0,
+227,2010-03-19,Philadelphia,United States,Wachovia Center,,15180.0,15180.0,1,39.9011004,-75.1720165,"Gloriana
+Kellie Pickler",1001160.0,
+228,2010-03-20,Charlottesville,United States,John Paul Jones Arena,,11858.0,11858.0,1,38.0459828,-78.5066437,"Gloriana
+Kellie Pickler",664305.0,
+229,2010-03-26,Auburn Hills,United States,The Palace of Auburn Hills,,14563.0,14563.0,1,42.6875323,-83.2341028,"Gloriana
+Kellie Pickler",855796.0,
+230,2010-03-27,Auburn Hills,United States,The Palace of Auburn Hills,,14562.0,14562.0,1,42.6875323,-83.2341028,"Gloriana
+Kellie Pickler",855795.0,
+231,2010-03-28,Cincinnati,United States,U.S. Bank Arena,,11208.0,11208.0,1,39.0979261,-84.5044458,"Gloriana
+Kellie Pickler",645592.0,
+232,2010-03-31,Oklahoma City,United States,Ford Center,,11795.0,11795.0,1,35.4633961,-97.5150815,"Gloriana
+Kellie Pickler",675184.0,
+233,2010-04-01,Wichita,United States,Intrust Bank Arena,,11208.0,11208.0,1,37.6833852,-97.3319986,"Gloriana
+Kellie Pickler",610801.0,
+234,2010-04-02,Kansas City,United States,Sprint Center,,13781.0,13781.0,1,39.0972952,-94.5799495,"Gloriana
+Kellie Pickler",761110.0,
+235,2010-04-06,Denver,United States,Pepsi Center,,12996.0,12996.0,1,39.7486838,-105.007544,"Gloriana
+Kellie Pickler",748568.0,
+236,2010-04-07,Denver,United States,Pepsi Center,,12995.0,12995.0,1,39.7486838,-105.007544,"Gloriana
+Kellie Pickler",748567.0,
+237,2010-04-10,Fresno,United States,Save Mart Center,,11706.0,11706.0,1,36.809685,-119.7385104,"Gloriana
+Kellie Pickler",649488.0,
+238,2010-04-11,San Jose,United States,HP Pavilion,,12744.0,12744.0,1,37.3328603,-121.9012247,"Gloriana
+Kellie Pickler",716726.0,
+239,2010-04-15,Los Angeles,United States,Staples Center,,4549.0,4549.0,1,34.0429979,-118.2671352,"Gloriana
+Kellie Pickler",240313.0,
+240,2010-04-16,Los Angeles,United States,Staples Center,,4549.0,4549.0,1,34.0429979,-118.2671352,"Gloriana
+Kellie Pickler",240313.0,
+241,2010-04-29,Lexington,United States,Rupp Arena,,17966.0,17966.0,1,38.0494123,-84.5023586,"Gloriana
+Kellie Pickler",1024223.0,
+242,2010-04-30,Columbia,United States,Colonial Life Arena,,13429.0,13429.0,1,33.9947839,-81.0373546,"Gloriana
+Kellie Pickler",755475.0,
+243,2010-05-01,Raleigh,United States,RBC Center,,13895.0,13895.0,1,35.7803977,-78.6390989,"Gloriana
+Kellie Pickler",752303.0,
+244,2010-05-06,Des Moines,United States,Wells Fargo Arena,,13264.0,13264.0,1,41.5868654,-93.6249494,"Gloriana
+Kellie Pickler",738280.0,
+245,2010-05-07,Saint Paul,United States,Xcel Energy Center,,14914.0,14914.0,1,44.9497487,-93.0931028,"Gloriana
+Kellie Pickler",846111.0,
+246,2010-05-08,Moline,United States,iWireless Center,,10641.0,10641.0,1,41.507997,-90.5204015,"Gloriana
+Kellie Pickler",610668.0,
+247,2010-05-12,Newark,United States,Prudential Center,,13033.0,13033.0,1,40.7334302,-74.1711482,"Gloriana
+Kellie Pickler",871335.0,
+248,2010-05-13,Newark,United States,Prudential Center,,13032.0,13032.0,1,40.7334302,-74.1711482,"Gloriana
+Kellie Pickler",871334.0,
+249,2010-05-14,Uniondale,United States,Nassau Veterans Memorial Coliseum,,12916.0,12916.0,1,40.7229344,-73.5907243,"Gloriana
+Kellie Pickler",856765.0,
+250,2010-05-15,Uniondale,United States,Nassau Veterans Memorial Coliseum,,12915.0,12915.0,1,40.7229344,-73.5907243,"Gloriana
+Kellie Pickler",856764.0,
+251,2010-05-20,Ottawa,Canada,Scotiabank Place,,13376.0,13376.0,1,45.2969069,-75.9268973,"Gloriana
+Kellie Pickler",873206.0,
+252,2010-05-21,Toronto,Canada,Air Canada Centre,,15229.0,15229.0,1,43.6434337,-79.3790777,"Gloriana
+Kellie Pickler",1248845.0,
+253,2010-05-22,Toronto,Canada,Air Canada Centre,,15229.0,15229.0,1,43.6434337,-79.3790777,"Gloriana
+Kellie Pickler",1248845.0,
+254,2010-05-25,Houston,United States,Toyota Center,,11747.0,11747.0,1,29.7507473,-95.3622315,"Gloriana
+Kellie Pickler",645463.0,
+255,2010-05-26,Houston,United States,Toyota Center,,11746.0,11746.0,1,29.7507473,-95.3622315,"Gloriana
+Kellie Pickler",645463.0,
+256,2010-05-29,Baton Rouge,United States,LSU Tiger Stadium,,,,1,30.4119772,-91.1838303,—,,
+257,2010-06-01,"Washington, D.C.",United States,Verizon Center,,13645.0,13645.0,1,38.8981883,-77.0209378,"Gloriana
+Kellie Pickler",912372.0,
+258,2010-06-02,"Washington, D.C.",United States,Verizon Center,,13645.0,13645.0,1,38.8981883,-77.0209378,"Gloriana
+Kellie Pickler",912371.0,
+259,2010-06-05,Foxborough,United States,Gillette Stadium,,56868.0,56868.0,1,42.0908879,-71.2641731,"Gloriana
+Justin Bieber
+Kellie Pickler",3726157.0,
+260,2010-06-19,Nassau,The Bahamas,Imperial Ballroom,,,,1,25.0782266,-77.3383438,"Gloriana
+Kellie Pickler",,
+261,2010-07-10,Cavendish,Canada,Cavendish Beach Festival Grounds,,35000.0,35000.0,1,46.4912529,-63.3785021,—,,
+262,2011-02-09,Singapore,Singapore,Singapore Indoor Stadium,,8964.0,8964.0,2,1.3008679,103.8743508,Sezairi Sezali,916850.0,
+263,2011-02-11,Seoul,South Korea,Olympic Gymnastics Arena,,4725.0,4725.0,2,37.5666791,126.9782914,—,385374.0,
+264,2011-02-13,Osaka,Japan,Osaka-Jo Hall,,6953.0,6953.0,2,34.6896441,135.5301038,—,758113.0,
+265,2011-02-16,Tokyo,Japan,Nippon Budokan,,7978.0,7978.0,2,35.6933554,139.7498704,—,869114.0,
+266,2011-02-17,Tokyo,Japan,Nippon Budokan,,7977.0,7977.0,2,35.6933554,139.7498704,—,869113.0,
+267,2011-02-19,Quezon City,Philippines,Smart Araneta Coliseum,,12667.0,12667.0,2,14.6207157,121.0533557,Sam Concepcion,859037.0,
+268,2011-02-21,Hong Kong,China,AsiaWorld–Arena,,12573.0,12573.0,2,22.350627,114.1849161,Saito Johnny,1030633.0,
+269,2011-03-06,Brussels,Belgium,Forest National,,4622.0,4622.0,2,50.8096461,4.3260748,Tom Dice,219212.0,
+270,2011-03-07,Rotterdam,Netherlands,Sportpaleis van Ahoy,,4799.0,4799.0,2,51.8832963,4.4883655,Tom Dice,248314.0,
+271,2011-03-09,Oslo,Norway,Oslo Spektrum,,8650.0,8650.0,2,59.9129638,10.7546593,—,815246.0,
+272,2011-03-12,Oberhausen,Germany,König Pilsener Arena,,6082.0,6082.0,2,51.4900923,6.872449,Martin & James,370028.0,
+273,2011-03-15,Milan,Italy,Mediolanum Forum,,3421.0,5585.0,2,45.4013592,9.1423018,Emma Marrone,153303.0,
+274,2011-03-17,Paris,France,Zénith de Paris,,3598.0,8500.0,2,48.8942078,2.3931778,—,201781.0,
+275,2011-03-19,Madrid,Spain,Palacio de los Deportes,,3962.0,3962.0,2,40.4238624,-3.6717885,The Bright,251864.0,
+276,2011-03-22,Birmingham,England,LG Arena,,9339.0,9339.0,2,52.4484171,-1.7204631,Martin & James,508854.0,
+277,2011-03-25,Belfast,Northern Ireland,Odyssey Arena,,8058.0,8058.0,2,54.6038109,-5.91426,Ryan Sheridan,379001.0,
+278,2011-03-27,Dublin,Ireland,The O2,,8681.0,8681.0,2,53.3476206,-6.2284132,Ryan Sheridan,419806.0,
+279,2011-03-29,Manchester,England,Manchester Evening News Arena,,10488.0,11622.0,2,53.4880867,-2.2441724,Martin & James,580558.0,
+280,2011-03-30,London,England,The O2 Arena,,15265.0,15681.0,2,51.5029316,0.0031839,Martin & James,891152.0,
+281,2011-05-27,Omaha,United States,Qwest Center Omaha,,13496.0,13496.0,2,41.2636669,-95.9279385,Needtobreathe,858552.0,
+282,2011-05-28,Omaha,United States,Qwest Center Omaha,,13496.0,13496.0,2,41.2636669,-95.9279385,Needtobreathe,858552.0,
+283,2011-05-29,Des Moines,United States,Wells Fargo Arena,,13149.0,13149.0,2,41.5868654,-93.6249494,Needtobreathe,862771.0,
+284,2011-06-02,Sunrise,United States,BankAtlantic Center,,12039.0,12039.0,2,26.1583701,-80.3254289,Needtobreathe,791476.0,
+285,2011-06-03,Sunrise,United States,BankAtlantic Center,,12038.0,12038.0,2,26.1583701,-80.3254289,Needtobreathe,791475.0,
+286,2011-06-04,Orlando,United States,Amway Center,,12262.0,12262.0,2,28.5392867,-81.3838892,Needtobreathe,791980.0,
+287,2011-06-07,Columbus,United States,Nationwide Arena,,14817.0,14817.0,2,39.9691873,-83.00608,Needtobreathe,955259.0,
+288,2011-06-08,Milwaukee,United States,Bradley Center,,13748.0,13748.0,2,43.0392485,-87.9134008,Needtobreathe,897042.0,
+289,2011-06-11,Detroit,United States,Ford Field,,47992.0,47992.0,2,42.3399567,-83.0456166,Needtobreathe,3453549.0,
+290,2011-06-14,Saint Paul,United States,Xcel Energy Center,,14489.0,14489.0,2,44.9497487,-93.0931028,Needtobreathe,956869.0,
+291,2011-06-15,Saint Paul,United States,Xcel Energy Center,,14488.0,14488.0,2,44.9497487,-93.0931028,Needtobreathe,956868.0,
+292,2011-06-18,Pittsburgh,United States,Heinz Field,,52009.0,52009.0,2,40.4467166,-80.0157199,Needtobreathe,4009118.0,
+293,2011-06-21,Buffalo,United States,First Niagara Center,,14487.0,14487.0,2,42.8751467,-78.8766359,Needtobreathe,966749.0,
+294,2011-06-22,Hartford,United States,XL Center,,12436.0,12436.0,2,41.764582,-72.6908547,Needtobreathe,810165.0,
+295,2011-06-25,Foxborough,United States,Gillette Stadium,,55400.0,55400.0,2,42.0908879,-71.2641731,Needtobreathe,4013175.0,
+296,2011-06-26,Foxborough,United States,Gillette Stadium,,55400.0,55400.0,2,42.0908879,-71.2641731,Needtobreathe,4013175.0,
+297,2011-06-30,Greensboro,United States,Greensboro Coliseum,,14789.0,14789.0,2,36.0618209,-79.8174039,Needtobreathe,990701.0,
+298,2011-07-01,Knoxville,United States,Thompson–Boling Arena,,13754.0,13754.0,2,35.9511756,-83.925013,Needtobreathe,903875.0,
+299,2011-07-14,Montreal,Canada,Bell Centre,,13439.0,13439.0,2,45.4960358,-73.5692029,Needtobreathe,1254230.0,
+300,2011-07-15,Toronto,Canada,Air Canada Centre,,15072.0,15072.0,2,43.6434337,-79.3790777,Needtobreathe,1518000.0,
+301,2011-07-16,Toronto,Canada,Air Canada Centre,,15072.0,15072.0,2,43.6434337,-79.3790777,Needtobreathe,1518000.0,
+302,2011-07-19,Newark,United States,Prudential Center,,12872.0,12872.0,2,40.7334302,-74.1711482,Needtobreathe,968866.0,
+303,2011-07-20,Newark,United States,Prudential Center,,12872.0,12872.0,2,40.7334302,-74.1711482,Needtobreathe,968866.0,
+304,2011-07-23,Newark,United States,Prudential Center,,12872.0,12872.0,2,40.7334302,-74.1711482,Needtobreathe,968866.0,
+305,2011-07-24,Newark,United States,Prudential Center,,12871.0,12871.0,2,40.7334302,-74.1711482,Needtobreathe,968865.0,
+306,2011-07-28,Grand Rapids,United States,Van Andel Arena,,11012.0,11012.0,2,42.9622423,-85.6715921,Needtobreathe,724854.0,
+307,2011-07-29,Indianapolis,United States,Conseco Fieldhouse,,13329.0,13329.0,2,39.7639331,-86.1555024,Needtobreathe,877175.0,
+308,2011-07-30,Cleveland,United States,Quicken Loans Arena,,14873.0,14873.0,2,41.4966862,-81.6885754,Needtobreathe,976954.0,
+309,2011-08-02,"""Washington, D.C.""",United States,Verizon Center,,14652.0,14652.0,2,38.8981883,-77.0209378,Needtobreathe,1034395.0,
+310,2011-08-03,"""Washington, D.C.""",United States,Verizon Center,,14651.0,14651.0,2,38.8981883,-77.0209378,Needtobreathe,1034394.0,
+311,2011-08-06,Philadelphia,United States,Lincoln Financial Field,,51395.0,51395.0,2,39.9009099,-75.1674892,Needtobreathe,4268678.0,
+312,2011-08-09,Rosemont,United States,Allstate Arena,,13056.0,13056.0,2,42.0052766,-87.8877714,Needtobreathe,954802.0,
+313,2011-08-10,Rosemont,United States,Allstate Arena,,13056.0,13056.0,2,42.0052766,-87.8877714,Needtobreathe,954801.0,
+314,2011-08-13,St. Louis,United States,Scottrade Center,,13983.0,13983.0,2,38.6268005,-90.20262,Needtobreathe,925080.0,
+315,2011-08-14,St. Louis,United States,Scottrade Center,,13982.0,13982.0,2,38.6268005,-90.20262,Needtobreathe,925079.0,
+316,2011-08-18,Edmonton,Canada,Rexall Place,,12668.0,12668.0,2,53.5325073,-113.60386,Needtobreathe,1068135.0,
+317,2011-08-19,Edmonton,Canada,Rexall Place,,12668.0,12668.0,2,53.5325073,-113.60386,Needtobreathe,1068135.0,
+318,2011-08-23,Los Angeles,United States,Staples Center,,13725.0,13725.0,2,34.0429979,-118.2671352,Needtobreathe,981789.0,
+319,2011-08-24,Los Angeles,United States,Staples Center,,13725.0,13725.0,2,34.0429979,-118.2671352,Needtobreathe,981789.0,
+320,2011-08-27,Los Angeles,United States,Staples Center,,13725.0,13725.0,2,34.0429979,-118.2671352,Needtobreathe,981788.0,
+321,2011-08-28,Los Angeles,United States,Staples Center,,13725.0,13725.0,2,34.0429979,-118.2671352,Needtobreathe,981788.0,
+322,2011-09-01,San Jose,United States,HP Pavilion,,12414.0,12414.0,2,37.3328603,-121.9012247,Needtobreathe,912724.0,
+323,2011-09-02,San Jose,United States,HP Pavilion,,12413.0,12413.0,2,37.3328603,-121.9012247,Needtobreathe,912724.0,
+324,2011-09-03,Sacramento,United States,Power Balance Pavilion,,12432.0,12432.0,2,38.6474476,-121.4990511,Needtobreathe,934326.0,
+325,2011-09-06,Portland,United States,Rose Garden Arena,,13610.0,13610.0,2,45.5315787,-122.6668337,Needtobreathe,903445.0,
+326,2011-09-07,Tacoma,United States,Tacoma Dome,,19904.0,19904.0,2,47.2368873,-122.4269522,Needtobreathe,1289430.0,
+327,2011-09-10,Vancouver,Canada,Rogers Arena,,13015.0,13015.0,2,49.2779085,-123.1089417,Needtobreathe,1095340.0,
+328,2011-09-11,Vancouver,Canada,Rogers Arena,,13015.0,13015.0,2,49.2779085,-123.1089417,Needtobreathe,1095340.0,
+329,2011-09-16,Nashville,United States,Bridgestone Arena,,14089.0,14089.0,2,36.1589806,-86.7783819,Needtobreathe,920567.0,
+330,2011-09-17,Nashville,United States,Bridgestone Arena,,14089.0,14089.0,2,36.1589806,-86.7783819,Needtobreathe,920567.0,
+331,2011-09-20,Bossier City,United States,CenturyLink Center,,11510.0,11510.0,2,32.4651746,-93.6736922,Needtobreathe,728546.0,
+332,2011-09-21,Tulsa,United States,BOK Center,,12546.0,12546.0,2,36.1526653,-95.9963745,Needtobreathe,907573.0,
+333,2011-09-24,Kansas City,United States,Arrowhead Stadium,,48562.0,48562.0,2,39.0489357,-94.4839993,Needtobreathe,3148046.0,
+334,2011-09-27,Denver,United States,Pepsi Center,,12908.0,12908.0,2,39.7486838,-105.007544,Needtobreathe,834916.0,
+335,2011-09-28,Salt Lake City,United States,EnergySolutions Arena,,13720.0,13720.0,2,40.7683274,-111.9010551,Needtobreathe,896946.0,
+336,2011-10-01,Atlanta,United States,Philips Arena,,13122.0,13122.0,2,33.7573698,-84.3963848,Needtobreathe,863331.0,
+337,2011-10-02,Atlanta,United States,Philips Arena,,13122.0,13122.0,2,33.7573698,-84.3963848,Needtobreathe,863330.0,
+338,2011-10-04,North Little Rock,United States,Verizon Arena,,13566.0,13566.0,2,34.769536,-92.2670941,Needtobreathe,856123.0,
+339,2011-10-05,New Orleans,United States,New Orleans Arena,,12943.0,12943.0,2,29.9490392,-90.082069,Needtobreathe,830289.0,
+340,2011-10-08,Arlington,United States,Cowboys Stadium,,55451.0,55451.0,2,32.7478502,-97.0928337,Needtobreathe,4337062.0,
+341,2011-10-11,Louisville,United States,KFC Yum! Center,,14848.0,14848.0,2,38.2576964,-85.7538599,Needtobreathe,1003828.0,
+342,2011-10-14,Lubbock,United States,United Spirit Arena,,10419.0,10419.0,2,33.5804027,-101.8859684,Needtobreathe,710426.0,
+343,2011-10-15,Oklahoma City,United States,Chesapeake Energy Arena,,11592.0,11592.0,2,35.4633961,-97.5150815,Needtobreathe,758364.0,
+344,2011-10-20,San Diego,United States,Valley View Casino Center,,10834.0,10834.0,2,33.2195241,-116.9730009,Needtobreathe,792634.0,
+345,2011-10-21,Glendale,United States,Jobing.com Arena,,13515.0,13515.0,2,33.5319666,-112.2613181,Needtobreathe,913013.0,
+346,2011-10-22,Glendale,United States,Jobing.com Arena,,13514.0,13514.0,2,33.5319666,-112.2613181,Needtobreathe,913012.0,
+347,2011-10-25,San Antonio,United States,AT&T Center,,13851.0,13851.0,2,29.4270504,-98.4375071,Needtobreathe,901535.0,
+348,2011-10-26,Austin,United States,Frank Erwin Center,,11999.0,11999.0,2,30.2769192,-97.7322018,Needtobreathe,752078.0,
+349,2011-10-29,Lexington,United States,Rupp Arena,,16237.0,16237.0,2,38.0494123,-84.5023586,Needtobreathe,1041935.0,
+350,2011-10-30,Memphis,United States,FedExForum,,12604.0,12604.0,2,35.1382401,-90.0506946,Needtobreathe,820036.0,
+351,2011-11-05,Houston,United States,Minute Maid Park,,42095.0,42095.0,2,29.7572321,-95.3552344,Needtobreathe,3435756.0,
+352,2011-11-11,Jacksonville,United States,Jacksonville Veterans Memorial Arena,,11785.0,11785.0,2,30.3257439,-81.6449801,Needtobreathe,749099.0,
+353,2011-11-12,Tampa,United States,St. Pete Times Forum,,13695.0,13695.0,2,27.942704,-82.4518903,Needtobreathe,914300.0,
+354,2011-11-13,Miami,United States,American Airlines Arena,,12153.0,12153.0,2,25.7813595,-80.1879435,Needtobreathe,786904.0,
+355,2011-11-16,Charlotte,United States,Time Warner Cable Arena,,14272.0,14272.0,2,35.225098,-80.8391541,Needtobreathe,920903.0,
+356,2011-11-17,Raleigh,United States,RBC Center,,13567.0,13567.0,2,35.7803977,-78.6390989,Needtobreathe,866056.0,
+357,2011-11-18,Columbia,United States,Colonial Life Arena,,12807.0,12807.0,2,33.9947839,-81.0373546,Needtobreathe,828231.0,
+358,2011-11-21,New York City,United States,Madison Square Garden,,13326.0,13326.0,2,40.7505129,-73.9935159,Needtobreathe,994206.0,
+359,2011-11-22,New York City,United States,Madison Square Garden,,13326.0,13326.0,2,40.7505129,-73.9935159,Needtobreathe,994205.0,
+360,2012-03-02,Perth,Australia,Burswood Dome,,,,2,-31.9558967,115.8605784,Hot Chelle Rae,1878530.0,
+361,2012-03-04,Adelaide,Australia,Adelaide Entertainment Centre,,,,2,-34.9079418,138.5738004,Hot Chelle Rae,1075370.0,
+362,2012-03-06,Brisbane,Australia,Brisbane Entertainment Centre,,,,2,-27.3426971,153.0692109,Hot Chelle Rae,1208015.0,
+363,2012-03-07,Brisbane,Australia,Brisbane Entertainment Centre,,,,2,-27.3426971,153.0692109,Hot Chelle Rae,1208015.0,
+364,2012-03-09,Sydney,Australia,Allphones Arena,,,,2,-33.844289,151.0622385,Hot Chelle Rae,1710180.0,
+365,2012-03-10,Sydney,Australia,Allphones Arena,,,,2,-33.844289,151.0622385,Hot Chelle Rae,1710180.0,
+366,2012-03-12,Melbourne,Australia,Rod Laver Arena,,,,2,-37.8215688,144.9785875,Hot Chelle Rae,1383884.0,
+367,2012-03-13,Melbourne,Australia,Rod Laver Arena,,,,2,-37.8215688,144.9785875,Hot Chelle Rae,1383883.0,
+368,2012-03-14,Melbourne,Australia,Rod Laver Arena,,,,2,-37.8215688,144.9785875,Hot Chelle Rae,1383883.0,
+369,2012-03-16,Auckland,New Zealand,Vector Arena,,,,2,-36.8471826,174.7769794,Hot Chelle Rae,962854.0,
+370,2012-03-17,Auckland,New Zealand,Vector Arena,,,,2,-36.8471826,174.7769794,Hot Chelle Rae,962853.0,
+371,2012-03-18,Auckland,New Zealand,Vector Arena,,,,2,-36.8471826,174.7769794,Hot Chelle Rae,962853.0,
+372,2013-03-13,Omaha,United States,CenturyLink Center Omaha,,13939.0,13939.0,3,41.2636669,-95.9279385,,1121582.0,"Ed Sheeran
+Brett Eldredge"
+373,2013-03-14,Omaha,United States,CenturyLink Center Omaha,,13938.0,13938.0,3,41.2636669,-95.9279385,,1121582.0,"Ed Sheeran
+Brett Eldredge"
+374,2013-03-18,St. Louis,United States,Scottrade Center,,14291.0,14291.0,3,38.6268005,-90.20262,,1173102.0,"Ed Sheeran
+Brett Eldredge"
+375,2013-03-19,St. Louis,United States,Scottrade Center,,14291.0,14291.0,3,38.6268005,-90.20262,,1173101.0,"Ed Sheeran
+Brett Eldredge"
+376,2013-03-22,Charlotte,United States,Time Warner Cable Arena,,14686.0,14686.0,3,35.225098,-80.8391541,,1162733.0,"Ed Sheeran
+Brett Eldredge"
+377,2013-03-23,Columbia,United States,Colonial Life Arena,,12490.0,12490.0,3,33.9947839,-81.0373546,,996114.0,"Ed Sheeran
+Brett Eldredge"
+378,2013-03-27,Newark,United States,Prudential Center,,12689.0,12689.0,3,40.7334302,-74.1711482,,1188439.0,"Ed Sheeran
+Florida Georgia Line"
+379,2013-03-28,Newark,United States,Prudential Center,,12688.0,12688.0,3,40.7334302,-74.1711482,,1188439.0,"Ed Sheeran
+Florida Georgia Line"
+380,2013-03-29,Newark,United States,Prudential Center,,12688.0,12688.0,3,40.7334302,-74.1711482,,1188439.0,"Ed Sheeran
+Florida Georgia Line"
+381,2013-04-10,Miami,United States,American Airlines Arena,,12808.0,12808.0,3,25.7813595,-80.1879435,,1010175.0,"Ed Sheeran
+Brett Eldredge"
+382,2013-04-11,Orlando,United States,Amway Center,,12809.0,12809.0,3,28.5392867,-81.3838892,,1027064.0,"Ed Sheeran
+Brett Eldredge"
+383,2013-04-12,Orlando,United States,Amway Center,,12808.0,12808.0,3,28.5392867,-81.3838892,,1027064.0,"Ed Sheeran
+Brett Eldredge"
+384,2013-04-18,Atlanta,United States,Philips Arena,,12736.0,12736.0,3,33.7573698,-84.3963848,,1024012.0,"Ed Sheeran
+Brett Eldredge"
+385,2013-04-19,Atlanta,United States,Philips Arena,,12735.0,12735.0,3,33.7573698,-84.3963848,,1024011.0,"Ed Sheeran
+Brett Eldredge"
+386,2013-04-20,Tampa,United States,Tampa Bay Times Forum,,14080.0,14080.0,3,27.942704,-82.4518903,,1132095.0,"Ed Sheeran
+Brett Eldredge"
+387,2013-04-25,Cleveland,United States,Quicken Loans Arena,,15336.0,15336.0,3,41.4966862,-81.6885754,,1247605.0,"Ed Sheeran
+Brett Eldredge"
+388,2013-04-26,Indianapolis,United States,Bankers Life Fieldhouse,,13573.0,13573.0,3,39.7639331,-86.1555024,,1082042.0,"Ed Sheeran
+Brett Eldredge"
+389,2013-04-27,Lexington,United States,Rupp Arena,,17003.0,17003.0,3,38.0494123,-84.5023586,,1342699.0,"Ed Sheeran
+Brett Eldredge"
+390,2013-05-04,Detroit,United States,Ford Field,,48265.0,48265.0,3,42.3399567,-83.0456166,,3969059.0,"Ed Sheeran
+Austin Mahone
+Brett Eldredge"
+391,2013-05-07,Louisville,United States,KFC Yum! Center,,15135.0,15135.0,3,38.2576964,-85.7538599,,1246491.0,"Ed Sheeran
+Florida Georgia Line"
+392,2013-05-08,Columbus,United States,Nationwide Arena,,14267.0,14267.0,3,39.9691873,-83.00608,,1155170.0,"Ed Sheeran
+Florida Georgia Line"
+393,2013-05-11,"Washington, D.C.",United States,Verizon Center,,13810.0,13810.0,3,38.8981883,-77.0209378,,1244603.0,"Ed Sheeran
+Brett Eldredge"
+394,2013-05-12,"Washington, D.C.",United States,Verizon Center,,13809.0,13809.0,3,38.8981883,-77.0209378,,1244602.0,"Ed Sheeran
+Brett Eldredge"
+395,2013-05-16,Houston,United States,Toyota Center,,12467.0,12467.0,3,29.7507473,-95.3622315,,961422.0,"Ed Sheeran
+Brett Eldredge"
+396,2013-05-21,Austin,United States,Frank Erwin Center,,11916.0,11916.0,3,30.2769192,-97.7322018,,935631.0,"Ed Sheeran
+Florida Georgia Line"
+397,2013-05-22,San Antonio,United States,AT&T Center,,13974.0,13974.0,3,29.4270504,-98.4375071,,1105253.0,"Ed Sheeran
+Florida Georgia Line"
+398,2013-05-25,Arlington,United States,Cowboys Stadium,,53020.0,53020.0,3,32.7478502,-97.0928337,,4589266.0,"Ed Sheeran
+Austin Mahone
+Florida Georgia Line"
+399,2013-05-28,Glendale,United States,Jobing.com Arena,,13353.0,13353.0,3,33.5319666,-112.2613181,,1119685.0,"Ed Sheeran
+Joel Crouse"
+400,2013-05-29,Glendale,United States,Jobing.com Arena,,13352.0,13352.0,3,33.5319666,-112.2613181,,1119685.0,"Ed Sheeran
+Joel Crouse"
+401,2013-06-01,Salt Lake City,United States,EnergySolutions Arena,,14007.0,14007.0,3,40.7683274,-111.9010551,,1139360.0,"Ed Sheeran
+Joel Crouse"
+402,2013-06-02,Denver,United States,Pepsi Center,,13489.0,13489.0,3,39.7486838,-105.007544,,1076069.0,"Ed Sheeran
+Joel Crouse"
+403,2013-06-14,Toronto,Canada,Rogers Centre,,43814.0,43814.0,3,43.6416599,-79.3891976,,3931655.0,"Ed Sheeran
+Austin Mahone
+Joel Crouse"
+404,2013-06-15,Toronto,Canada,Rogers Centre,,43813.0,43813.0,3,43.6416599,-79.3891976,,3931655.0,"Ed Sheeran
+Austin Mahone
+Joel Crouse"
+405,2013-06-22,Winnipeg,Canada,Investors Group Field,,33061.0,33061.0,3,49.8077586,-97.1429177,,3175430.0,"Ed Sheeran
+Austin Mahone
+Joel Crouse"
+406,2013-06-25,Edmonton,Canada,Rexall Place,,12832.0,12832.0,3,53.5325073,-113.60386,,1189935.0,"Ed Sheeran
+Joel Crouse"
+407,2013-06-26,Edmonton,Canada,Rexall Place,,12831.0,12831.0,3,53.5325073,-113.60386,,1189935.0,"Ed Sheeran
+Joel Crouse"
+408,2013-06-29,Vancouver,Canada,BC Place Stadium,,41142.0,41142.0,3,49.2766905,-123.1120062,,3974410.0,"Ed Sheeran
+Austin Mahone
+Joel Crouse"
+409,2013-07-06,Pittsburgh,United States,Heinz Field,,56047.0,56047.0,3,40.4467166,-80.0157199,,4718518.0,"Ed Sheeran
+Austin Mahone
+Joel Crouse"
+410,2013-07-13,East Rutherford,United States,MetLife Stadium,,52399.0,52399.0,3,40.813507,-74.0743442,,4670011.0,"Ed Sheeran
+Austin Mahone
+Joel Crouse"
+411,2013-07-19,Philadelphia,United States,Lincoln Financial Field,,50639.0,50639.0,3,39.9009099,-75.1674892,,4411168.0,"Ed Sheeran
+Austin Mahone
+Joel Crouse"
+412,2013-07-20,Philadelphia,United States,Lincoln Financial Field,,50638.0,50638.0,3,39.9009099,-75.1674892,,4411167.0,"Ed Sheeran
+Austin Mahone
+Joel Crouse"
+413,2013-07-26,Foxborough,United States,Gillette Stadium,,55356.0,55356.0,3,42.0908879,-71.2641731,,4732032.0,"Ed Sheeran
+Austin Mahone
+Joel Crouse"
+414,2013-07-27,Foxborough,United States,Gillette Stadium,,55356.0,55356.0,3,42.0908879,-71.2641731,,4732031.0,"Ed Sheeran
+Austin Mahone
+Joel Crouse"
+415,2013-08-01,Des Moines,United States,Wells Fargo Arena,,13368.0,13368.0,3,41.5868654,-93.6249494,,1075576.0,"Ed Sheeran
+Florida Georgia Line"
+416,2013-08-02,Kansas City,United States,Sprint Center,,13206.0,13206.0,3,39.0972952,-94.5799495,,1046586.0,"Ed Sheeran
+Florida Georgia Line"
+417,2013-08-03,Kansas City,United States,Sprint Center,,13206.0,13206.0,3,39.0972952,-94.5799495,,1046586.0,"Ed Sheeran
+Florida Georgia Line"
+418,2013-08-06,Wichita,United States,Intrust Bank Arena,,12231.0,12231.0,3,37.6833852,-97.3319986,,983882.0,"Ed Sheeran
+Casey James"
+419,2013-08-07,Tulsa,United States,BOK Center,,10949.0,10949.0,3,36.1526653,-95.9963745,,868955.0,"Ed Sheeran
+Casey James"
+420,2013-08-10,Chicago,United States,Soldier Field,,50809.0,50809.0,3,41.8623356,-87.6176477,,4149148.0,"Ed Sheeran
+Austin Mahone
+Casey James"
+421,2013-08-15,San Diego,United States,Valley View Casino Center,,10872.0,10872.0,3,33.2195241,-116.9730009,,948541.0,"Ed Sheeran
+Casey James"
+422,2013-08-19,Los Angeles,United States,Staples Center,,13958.0,13958.0,3,34.0429979,-118.2671352,,1183616.0,"Ed Sheeran
+Casey James"
+423,2013-08-20,Los Angeles,United States,Staples Center,,13957.0,13957.0,3,34.0429979,-118.2671352,,1183616.0,"Ed Sheeran
+Casey James"
+424,2013-08-23,Los Angeles,United States,Staples Center,,13957.0,13957.0,3,34.0429979,-118.2671352,,1183616.0,"Ed Sheeran
+Casey James"
+425,2013-08-24,Los Angeles,United States,Staples Center,,13957.0,13957.0,3,34.0429979,-118.2671352,,1183615.0,"Ed Sheeran
+Casey James"
+426,2013-08-27,Sacramento,United States,Sleep Train Arena,,12795.0,12795.0,3,38.6474476,-121.4990511,,1138103.0,"Ed Sheeran
+Casey James"
+427,2013-08-30,Portland,United States,Moda Center,,13952.0,13952.0,3,45.5315787,-122.6668337,,1084760.0,"Ed Sheeran
+Casey James"
+428,2013-08-31,Tacoma,United States,Tacoma Dome,,20348.0,20348.0,3,47.2368873,-122.4269522,,1584049.0,"Ed Sheeran
+Casey James"
+429,2013-09-06,Fargo,United States,Fargodome,,21073.0,21073.0,3,46.9030223,-96.8013419,,1661578.0,"Ed Sheeran
+Casey James"
+430,2013-09-07,Saint Paul,United States,Xcel Energy Center,,14460.0,14460.0,3,44.9497487,-93.0931028,,1160469.0,"Ed Sheeran
+Casey James"
+431,2013-09-08,Saint Paul,United States,Xcel Energy Center,,14460.0,14460.0,3,44.9497487,-93.0931028,,1160468.0,"Ed Sheeran
+Casey James"
+432,2013-09-12,Greensboro,United States,Greensboro Coliseum,,13650.0,13650.0,3,36.0618209,-79.8174039,,1109253.0,"Ed Sheeran
+Casey James"
+433,2013-09-13,Raleigh,United States,PNC Arena,,13941.0,13941.0,3,35.803398,-78.7219166,,1088612.0,"Ed Sheeran
+Casey James"
+434,2013-09-14,Charlottesville,United States,John Paul Jones Arena,,12689.0,12689.0,3,38.0459828,-78.5066437,,997216.0,"Ed Sheeran
+Casey James"
+435,2013-09-19,Nashville,United States,Bridgestone Arena,,13764.0,13764.0,3,36.1589806,-86.7783819,,1112182.0,"Ed Sheeran
+Casey James"
+436,2013-09-20,Nashville,United States,Bridgestone Arena,,13764.0,13764.0,3,36.1589806,-86.7783819,,1112182.0,"Ed Sheeran
+Casey James"
+437,2013-09-21,Nashville,United States,Bridgestone Arena,,13764.0,13764.0,3,36.1589806,-86.7783819,,1112181.0,"Ed Sheeran
+Casey James"
+438,2013-11-29,Auckland,New Zealand,Vector Arena,,10267.0,10267.0,3,-36.8471826,174.7769794,Neon Trees,1033430.0,
+439,2013-11-30,Auckland,New Zealand,Vector Arena,,10266.0,10266.0,3,-36.8471826,174.7769794,Neon Trees,1033430.0,
+440,2013-12-01,Auckland,New Zealand,Vector Arena,,10266.0,10266.0,3,-36.8471826,174.7769794,Neon Trees,1033430.0,
+441,2013-12-04,Sydney,Australia,Allianz Stadium,,40930.0,40930.0,3,-33.8891572,151.2251352,"Guy Sebastian
+Neon Trees",4096060.0,
+442,2013-12-07,Brisbane,Australia,Suncorp Stadium,,38907.0,38907.0,3,-27.4648603,153.0096055,"Guy Sebastian
+Neon Trees",3895810.0,
+443,2013-12-11,Perth,Australia,nib Stadium,,21827.0,21827.0,3,-31.9457271,115.8699183,"Guy Sebastian
+Neon Trees",2364080.0,
+444,2013-12-14,Melbourne,Australia,Etihad Stadium,,47257.0,47257.0,3,-37.816529,144.947517,"Guy Sebastian
+Neon Trees",4547250.0,
+445,2014-02-01,London,England,The O2 Arena,,14948.0,14948.0,3,51.5029316,0.0031839,The Vamps,1165848.0,
+446,2014-02-02,London,England,The O2 Arena,,14948.0,14948.0,3,51.5029316,0.0031839,The Vamps,1165848.0,
+447,2014-02-04,London,England,The O2 Arena,,14948.0,14948.0,3,51.5029316,0.0031839,The Vamps,1165848.0,
+448,2014-02-07,Berlin,Germany,O2 World,,10350.0,10350.0,3,52.5063687,13.4437652,Andreas Bourani,755006.0,
+449,2014-02-10,London,England,The O2 Arena,,14948.0,14948.0,3,51.5029316,0.0031839,The Vamps,1165848.0,
+450,2014-02-11,London,England,The O2 Arena,,14948.0,14948.0,3,51.5029316,0.0031839,The Vamps,1165848.0,
+451,2014-05-30,Shanghai,China,Mercedes-Benz Arena,,12793.0,12793.0,3,31.1909263,121.488699,,1864934.0,
+452,2014-06-01,Saitama,Japan,Saitama Super Arena,,20046.0,20046.0,3,35.8951196,139.630753,CTS,1837147.0,
+453,2014-06-04,Jakarta,Indonesia,MEIS Ancol,,8130.0,8130.0,3,-6.1441524,106.8478499,Nicole Zefanya,1481473.0,
+454,2014-06-06,Pasay,Philippines,Mall of Asia Arena,,9775.0,9775.0,3,14.532191,120.9837424,Meg Bucsit,1511662.0,
+455,2014-06-09,Singapore,Singapore,Singapore Indoor Stadium,,8172.0,8172.0,3,1.3008679,103.8743508,Imprompt-3,1262040.0,
+456,2014-06-11,Kuala Lumpur,Malaysia,Putra Indoor Stadium,,7525.0,7525.0,3,3.0537311,101.6934618,IamNeeta,998608.0,
+457,2014-06-12,Singapore,Singapore,Singapore Indoor Stadium,,8172.0,8172.0,3,1.3008679,103.8743508,Imprompt-3,1262040.0,
+458,2015-05-05,Tokyo,Japan,Tokyo Dome,,50160.0,50160.0,4,35.7055705,139.7519705,—,5293414.0,
+459,2015-05-06,Tokyo,Japan,Tokyo Dome,,50160.0,50160.0,4,35.7055705,139.7519705,—,5293414.0,
+460,2015-05-15,Winchester,United States,City of Rock,,,,4,39.1852184,-78.1652404,—,,
+461,2015-05-20,Bossier City,United States,CenturyLink Center,,12459.0,12459.0,4,32.4651746,-93.6736922,Vance Joy,1458197.0,
+462,2015-05-22,Baton Rouge,United States,LSU Tiger Stadium,,50227.0,50227.0,4,30.4119772,-91.1838303,"Vance Joy
+Shawn Mendes",4119670.0,
+463,2015-05-30,Detroit,United States,Ford Field,,50703.0,50703.0,4,42.3399567,-83.0456166,"Vance Joy
+Shawn Mendes",5999690.0,
+464,2015-06-02,Louisville,United States,KFC Yum! Center,,16242.0,16242.0,4,38.2576964,-85.7538599,Vance Joy,1863281.0,
+465,2015-06-03,Cleveland,United States,Quicken Loans Arena,,15503.0,15503.0,4,41.4966862,-81.6885754,Vance Joy,1732041.0,
+466,2015-06-06,Pittsburgh,United States,Heinz Field,,54801.0,54801.0,4,40.4467166,-80.0157199,"Vance Joy
+Shawn Mendes",5836926.0,
+467,2015-06-08,Charlotte,United States,Time Warner Cable Arena,,15024.0,15024.0,4,35.225098,-80.8391541,Vance Joy,1627798.0,
+468,2015-06-09,Raleigh,United States,PNC Arena,,13886.0,13886.0,4,35.803398,-78.7219166,Vance Joy,1653762.0,
+469,2015-06-12,Philadelphia,United States,Lincoln Financial Field,,50526.0,50526.0,4,39.9009099,-75.1674892,"Vance Joy
+Shawn Mendes",5993908.0,
+470,2015-06-13,Philadelphia,United States,Lincoln Financial Field,,50526.0,50526.0,4,39.9009099,-75.1674892,"Vance Joy
+Shawn Mendes",5993908.0,
+471,2015-06-19,Cologne,Germany,Lanxess Arena,,14510.0,14510.0,4,50.9384967,6.9828844,James Bay,1027345.0,
+472,2015-06-20,Cologne,Germany,Lanxess Arena,,14510.0,14510.0,4,50.9384967,6.9828844,James Bay,1027345.0,
+473,2015-06-21,Amsterdam,Netherlands,Ziggo Dome,,11166.0,11166.0,4,52.3134068,4.937123,James Bay,800829.0,
+474,2015-06-23,Glasgow,Scotland,SSE Hydro,,11021.0,11021.0,4,55.8601411,-4.2852072,Vance Joy,1119300.0,
+475,2015-06-24,Manchester,England,Manchester Arena,,14773.0,14773.0,4,53.4880867,-2.2441724,Vance Joy,1478760.0,
+476,2015-06-27,London,England,Hyde Park,,,,4,51.5074889,-0.1622074,—,,
+477,2015-06-29,Dublin,Ireland,3Arena,,12594.0,12594.0,4,53.3481083,-6.2269939,Vance Joy,987755.0,
+478,2015-06-30,Dublin,Ireland,3Arena,,12594.0,12594.0,4,53.3481083,-6.2269939,Vance Joy,987755.0,
+479,2015-07-06,Ottawa,Canada,Canadian Tire Centre,,13480.0,13480.0,4,45.2969069,-75.9268973,Vance Joy,1325480.0,
+480,2015-07-07,Montreal,Canada,Bell Centre,,14770.0,14770.0,4,45.4960358,-73.5692029,Vance Joy,1499040.0,
+481,2015-07-10,East Rutherford,United States,MetLife Stadium,,55053.0,55053.0,4,40.813507,-74.0743442,"Vance Joy
+Shawn Mendes
+Haim",6711929.0,
+482,2015-07-11,East Rutherford,United States,MetLife Stadium,,55052.0,55052.0,4,40.813507,-74.0743442,"Vance Joy
+Shawn Mendes
+Haim",6711929.0,
+483,2015-07-13,"Washington, D.C.",United States,Nationals Park,,42507.0,42507.0,4,38.8727332,-77.0074815,"Vance Joy
+Shawn Mendes
+Haim",4865298.0,
+484,2015-07-14,"Washington, D.C.",United States,Nationals Park,,42507.0,42507.0,4,38.8727332,-77.0074815,"Vance Joy
+Shawn Mendes
+Haim",4865298.0,
+485,2015-07-18,Chicago,United States,Soldier Field,,55055.0,55055.0,4,41.8623356,-87.6176477,"Vance Joy
+Shawn Mendes
+Haim",5734944.0,
+486,2015-07-19,Chicago,United States,Soldier Field,,55054.0,55054.0,4,41.8623356,-87.6176477,"Vance Joy
+Shawn Mendes
+Haim",5734943.0,
+487,2015-07-24,Foxborough,United States,Gillette Stadium,,58425.0,58425.0,4,42.0908879,-71.2641731,"Vance Joy
+Shawn Mendes
+Haim",6266583.0,
+488,2015-07-25,Foxborough,United States,Gillette Stadium,,58424.0,58424.0,4,42.0908879,-71.2641731,"Vance Joy
+Shawn Mendes
+Haim",6266583.0,
+489,2015-08-01,Vancouver,Canada,BC Place,,41463.0,41463.0,4,49.2766905,-123.1120062,"Vance Joy
+Shawn Mendes",4081820.0,
+490,2015-08-04,Edmonton,Canada,Rexall Place,,13267.0,13267.0,4,53.5325073,-113.60386,Vance Joy,1193540.0,
+491,2015-08-05,Edmonton,Canada,Rexall Place,,13267.0,13267.0,4,53.5325073,-113.60386,Vance Joy,1193540.0,
+492,2015-08-08,Seattle,United States,CenturyLink Field,,55711.0,55711.0,4,47.5953459,-122.3316443,"Vance Joy
+Shawn Mendes",6050643.0,
+493,2015-08-14,Santa Clara,United States,Levi's Stadium,,51070.0,51070.0,4,37.4029867,-121.9696489,"Vance Joy
+Shawn Mendes",6515573.0,
+494,2015-08-15,Santa Clara,United States,Levi's Stadium,,51069.0,51069.0,4,37.4029867,-121.9696489,"Vance Joy
+Shawn Mendes",6515573.0,
+495,2015-08-17,Glendale,United States,Gila River Arena,,13260.0,13260.0,4,33.5319666,-112.2613181,Vance Joy,1514814.0,
+496,2015-08-18,Glendale,United States,Gila River Arena,,13260.0,13260.0,4,33.5319666,-112.2613181,Vance Joy,1514814.0,
+497,2015-08-21,Los Angeles,United States,Staples Center,,14113.0,14113.0,4,34.0429979,-118.2671352,"Vance Joy
+Haim",1792337.0,
+498,2015-08-22,Los Angeles,United States,Staples Center,,14113.0,14113.0,4,34.0429979,-118.2671352,"Vance Joy
+Haim",1792336.0,
+499,2015-08-24,Los Angeles,United States,Staples Center,,14113.0,14113.0,4,34.0429979,-118.2671352,"Vance Joy
+Haim",1792336.0,
+500,2015-08-25,Los Angeles,United States,Staples Center,,14112.0,14112.0,4,34.0429979,-118.2671352,"Vance Joy
+Haim",1792336.0,
+501,2015-08-26,Los Angeles,United States,Staples Center,,14112.0,14112.0,4,34.0429979,-118.2671352,"Vance Joy
+Haim",1792336.0,
+502,2015-08-29,San Diego,United States,Petco Park,,44710.0,44710.0,4,32.7071882,-117.1568773,"Vance Joy
+Shawn Mendes",5475237.0,
+503,2015-09-04,Salt Lake City,United States,EnergySolutions Arena,,14131.0,14131.0,4,40.7683274,-111.9010551,Vance Joy,1589686.0,
+504,2015-09-05,Denver,United States,Pepsi Center,,13563.0,13563.0,4,39.7486838,-105.007544,Vance Joy,1434496.0,
+505,2015-09-06,Denver,United States,Pepsi Center,,13563.0,13563.0,4,39.7486838,-105.007544,Vance Joy,1434495.0,
+506,2015-09-09,Houston,United States,Minute Maid Park,,40122.0,40122.0,4,29.7572321,-95.3552344,"Vance Joy
+Shawn Mendes",5202196.0,
+507,2015-09-11,Saint Paul,United States,Xcel Energy Center,,15042.0,15042.0,4,44.9497487,-93.0931028,Vance Joy,1838288.0,
+508,2015-09-12,Saint Paul,United States,Xcel Energy Center,,15042.0,15042.0,4,44.9497487,-93.0931028,Vance Joy,1838288.0,
+509,2015-09-13,Saint Paul,United States,Xcel Energy Center,,15042.0,15042.0,4,44.9497487,-93.0931028,Vance Joy,1838287.0,
+510,2015-09-16,Indianapolis,United States,Bankers Life Fieldhouse,,14010.0,14010.0,4,39.7639331,-86.1555024,Vance Joy,1550268.0,
+511,2015-09-17,Columbus,United States,Nationwide Arena,,14968.0,14968.0,4,39.9691873,-83.00608,Vance Joy,1684847.0,
+512,2015-09-18,Columbus,United States,Nationwide Arena,,14968.0,14968.0,4,39.9691873,-83.00608,Vance Joy,1684846.0,
+513,2015-09-21,Kansas City,United States,Sprint Center,,13929.0,13929.0,4,39.0972952,-94.5799495,Vance Joy,1483779.0,
+514,2015-09-22,Kansas City,United States,Sprint Center,,13928.0,13928.0,4,39.0972952,-94.5799495,Vance Joy,1483779.0,
+515,2015-09-25,Nashville,United States,Bridgestone Arena,,14459.0,14459.0,4,36.1589806,-86.7783819,"Vance Joy
+Haim",1677422.0,
+516,2015-09-26,Nashville,United States,Bridgestone Arena,,14458.0,14458.0,4,36.1589806,-86.7783819,"Vance Joy
+Haim",1677422.0,
+517,2015-09-28,St. Louis,United States,Scottrade Center,,14844.0,14844.0,4,38.6268005,-90.20262,"Vance Joy
+Haim",1726470.0,
+518,2015-09-29,St. Louis,United States,Scottrade Center,,14844.0,14844.0,4,38.6268005,-90.20262,"Vance Joy
+Haim",1726470.0,
+519,2015-10-02,Toronto,Canada,Rogers Centre,,49642.0,49642.0,4,43.6416599,-79.3891976,"Vance Joy
+Shawn Mendes",4335495.0,
+520,2015-10-03,Toronto,Canada,Rogers Centre,,49641.0,49641.0,4,43.6416599,-79.3891976,"Vance Joy
+Shawn Mendes",4335495.0,
+521,2015-10-08,Des Moines,United States,Wells Fargo Arena,,13969.0,13969.0,4,41.5868654,-93.6249494,Vance Joy,1566321.0,
+522,2015-10-09,Omaha,United States,CenturyLink Center Omaha,,14811.0,14811.0,4,41.2636669,-95.9279385,Vance Joy,1560711.0,
+523,2015-10-10,Omaha,United States,CenturyLink Center Omaha,,14811.0,14811.0,4,41.2636669,-95.9279385,Vance Joy,1560710.0,
+524,2015-10-12,Fargo,United States,Fargodome,,21067.0,21067.0,4,46.9030223,-96.8013419,Vance Joy,2219188.0,
+525,2015-10-17,Arlington,United States,AT&T Stadium,,62630.0,62630.0,4,32.7478502,-97.0928337,"Vance Joy
+Shawn Mendes",7396733.0,
+526,2015-10-20,Lexington,United States,Rupp Arena,,17084.0,17084.0,4,38.0494123,-84.5023586,Vance Joy,1870471.0,
+527,2015-10-21,Greensboro,United States,Greensboro Coliseum,,15079.0,15079.0,4,36.0618209,-79.8174039,Vance Joy,1662171.0,
+528,2015-10-24,Atlanta,United States,Georgia Dome,,56046.0,56046.0,4,33.7544657,-84.3898151,"Vance Joy
+Shawn Mendes",6034846.0,
+529,2015-10-27,Miami,United States,American Airlines Arena,,14044.0,14044.0,4,25.7813595,-80.1879435,Vance Joy,1527919.0,
+530,2015-10-31,Tampa,United States,Raymond James Stadium,,56987.0,56987.0,4,27.9759793,-82.5033545,"Vance Joy
+Shawn Mendes",6202515.0,
+531,2015-11-07,Singapore,Singapore,Singapore Indoor Stadium,,8863.0,8863.0,4,1.3008679,103.8743508,—,1608785.0,
+532,2015-11-08,Singapore,Singapore,Singapore Indoor Stadium,,8863.0,8863.0,4,1.3008679,103.8743508,—,1608784.0,
+533,2015-11-10,Shanghai,China,Mercedes-Benz Arena,,12586.0,12586.0,4,31.1909263,121.488699,—,1972450.0,
+534,2015-11-11,Shanghai,China,Mercedes-Benz Arena,,12586.0,12586.0,4,31.1909263,121.488699,—,1972449.0,
+535,2015-11-12,Shanghai,China,Mercedes-Benz Arena,,12586.0,12586.0,4,31.1909263,121.488699,—,1972449.0,
+536,2015-11-28,Sydney,Australia,ANZ Stadium,,75980.0,75980.0,4,-33.8471082,151.0633848,Vance Joy,6571683.0,
+537,2015-12-05,Brisbane,Australia,Suncorp Stadium,,46881.0,46881.0,4,-27.4648603,153.0096055,Vance Joy,4759471.0,
+538,2015-12-07,Adelaide,Australia,Adelaide Entertainment Centre,,10045.0,10045.0,4,-34.9079418,138.5738004,Vance Joy,1203750.0,
+539,2015-12-08,Adelaide,Australia,Adelaide Entertainment Centre,,10045.0,10045.0,4,-34.9079418,138.5738004,Vance Joy,1203749.0,
+540,2015-12-10,Melbourne,Australia,AAMI Park,,32712.0,32712.0,4,-37.8251047,144.983743,Vance Joy,3473851.0,
+541,2015-12-11,Melbourne,Australia,AAMI Park,,32712.0,32712.0,4,-37.8251047,144.983743,Vance Joy,3473851.0,
+542,2015-12-12,Melbourne,Australia,AAMI Park,,32712.0,32712.0,4,-37.8251047,144.983743,Vance Joy,3473851.0,
+543,2018-05-08,Glendale,United States,University of Phoenix Stadium,,59157.0,59157.0,5,34.1469416,-118.2478471,"Camila Cabello
+Charli XCX",7214478.0,
+544,2018-05-11,Santa Clara,United States,Levi's Stadium,,53775.0,53775.0,5,37.4029867,-121.9696489,"Camila Cabello
+Charli XCX",7003482.0,
+545,2018-05-12,Santa Clara,United States,Levi's Stadium,,53775.0,53775.0,5,37.4029867,-121.9696489,"Camila Cabello
+Charli XCX",7003481.0,
+546,2018-05-18,Pasadena,United States,Rose Bowl,,59042.0,59042.0,5,34.1613492,-118.1676674,"Camila Cabello
+Charli XCX",8125990.0,
+547,2018-05-19,Pasadena,United States,Rose Bowl,,59042.0,59042.0,5,34.1613492,-118.1676674,"Camila Cabello
+Charli XCX",8125990.0,
+548,2018-05-22,Seattle,United States,CenturyLink Field,,56021.0,56021.0,5,47.5953459,-122.3316443,Charli XCX,8672219.0,
+549,2018-05-25,Denver,United States,Sports Authority Field at Mile High,,57140.0,57140.0,5,39.743952,-105.0192228,"Camila Cabello
+Charli XCX",7926366.0,
+550,2018-06-01,Chicago,United States,Soldier Field,,52604.0,52604.0,5,41.8623356,-87.6176477,"Camila Cabello
+Charli XCX",7288349.0,
+551,2018-06-02,Chicago,United States,Soldier Field,,52604.0,52604.0,5,41.8623356,-87.6176477,"Camila Cabello
+Charli XCX",7288348.0,
+552,2018-06-08,Manchester,England,Etihad Stadium,,38629.0,38629.0,5,53.4831448,-2.2005273,"Camila Cabello
+Charli XCX",3084862.0,
+553,2018-06-09,Manchester,England,Etihad Stadium,,38629.0,38629.0,5,53.4831448,-2.2005273,"Camila Cabello
+Charli XCX",3084862.0,
+554,2018-06-15,Dublin,Ireland,Croke Park,,66517.0,66517.0,5,53.3603576,-6.2509812,"Camila Cabello
+Charli XCX",4283885.0,
+555,2018-06-16,Dublin,Ireland,Croke Park,,66517.0,66517.0,5,53.3603576,-6.2509812,"Camila Cabello
+Charli XCX",4283884.0,
+556,2018-06-22,London,England,Wembley Stadium,,71714.0,71714.0,5,51.5560695,-0.2796034,"Camila Cabello
+Charli XCX",6107467.0,
+557,2018-06-23,London,England,Wembley Stadium,,71713.0,71713.0,5,51.5560695,-0.2796034,"Camila Cabello
+Charli XCX",6107466.0,
+558,2018-06-30,Louisville,United States,Cardinal Stadium,,52138.0,52138.0,5,38.2060161,-85.7587734,"Camila Cabello
+Charli XCX",4928219.0,
+559,2018-07-07,Columbus,United States,Ohio Stadium,,62897.0,62897.0,5,40.0016458,-83.0197374,"Camila Cabello
+Charli XCX",6606529.0,
+560,2018-07-10,Landover,United States,FedExField,,47836.0,47836.0,5,38.9076875,-76.8644869,"Camila Cabello
+Charli XCX",5698002.0,
+561,2018-07-11,Landover,United States,FedExField,,47836.0,47836.0,5,38.9076875,-76.8644869,"Camila Cabello
+Charli XCX",5698002.0,
+562,2018-07-13,Philadelphia,United States,Lincoln Financial Field,,53689.0,53689.0,5,39.9009099,-75.1674892,"Camila Cabello
+Charli XCX",5975524.0,
+563,2018-07-14,Philadelphia,United States,Lincoln Financial Field,,53689.0,53689.0,5,39.9009099,-75.1674892,"Camila Cabello
+Charli XCX",5975523.0,
+564,2018-07-17,Cleveland,United States,FirstEnergy Stadium,,51323.0,51323.0,5,41.5060559,-81.6997118,"Camila Cabello
+Charli XCX",5148757.0,
+565,2018-07-20,East Rutherford,United States,MetLife Stadium,,55218.0,55218.0,5,40.813507,-74.0743442,"Camila Cabello
+Charli XCX",7343796.0,
+566,2018-07-21,East Rutherford,United States,MetLife Stadium,,55218.0,55218.0,5,40.813507,-74.0743442,"Camila Cabello
+Charli XCX",7343795.0,
+567,2018-07-22,East Rutherford,United States,MetLife Stadium,,55218.0,55218.0,5,40.813507,-74.0743442,"Camila Cabello
+Charli XCX",7343795.0,
+568,2018-07-26,Foxborough,United States,Gillette Stadium,,58255.0,58255.0,5,42.0908879,-71.2641731,"Camila Cabello
+Charli XCX",7259949.0,
+569,2018-07-27,Foxborough,United States,Gillette Stadium,,58255.0,58255.0,5,42.0908879,-71.2641731,"Camila Cabello
+Charli XCX",7259949.0,
+570,2018-07-28,Foxborough,United States,Gillette Stadium,,58254.0,58254.0,5,42.0908879,-71.2641731,"Camila Cabello
+Charli XCX",7259948.0,
+571,2018-08-03,Toronto,Canada,Rogers Centre,,50155.0,50155.0,5,43.6416599,-79.3891976,"Camila Cabello
+Charli XCX",5588500.0,
+572,2018-08-04,Toronto,Canada,Rogers Centre,,50155.0,50155.0,5,43.6416599,-79.3891976,"Camila Cabello
+Charli XCX",5588500.0,
+573,2018-08-07,Pittsburgh,United States,Heinz Field,,56445.0,56445.0,5,40.4467166,-80.0157199,"Camila Cabello
+Charli XCX",6230876.0,
+574,2018-08-10,Atlanta,United States,Mercedes-Benz Stadium,,58373.0,58373.0,5,33.7554123,-84.4008493,"Camila Cabello
+Charli XCX",9044708.0,
+575,2018-08-11,Atlanta,United States,Mercedes-Benz Stadium,,58373.0,58373.0,5,33.7554123,-84.4008493,"Camila Cabello
+Charli XCX",9044707.0,
+576,2018-08-14,Tampa,United States,Raymond James Stadium,,55909.0,55909.0,5,27.9759793,-82.5033545,"Camila Cabello
+Charli XCX",7244264.0,
+577,2018-08-18,Miami Gardens,United States,Hard Rock Stadium,,47818.0,47818.0,5,25.9579031,-80.2388497,"Camila Cabello
+Charli XCX",7072164.0,
+578,2018-08-25,Nashville,United States,Nissan Stadium,,56112.0,56112.0,5,36.1665236,-86.7713148,"Camila Cabello
+Charli XCX",9007179.0,
+579,2018-08-28,Detroit,United States,Ford Field,,49464.0,49464.0,5,42.3399567,-83.0456166,"Camila Cabello
+Charli XCX",6597852.0,
+580,2018-08-31,Minneapolis,United States,U.S. Bank Stadium,,49387.0,49387.0,5,44.9751097,-93.2593387,"Camila Cabello
+Charli XCX",5121012.0,
+581,2018-09-01,Minneapolis,United States,U.S. Bank Stadium,,49387.0,49387.0,5,44.9751097,-93.2593387,"Camila Cabello
+Charli XCX",5121012.0,
+582,2018-09-08,Kansas City,United States,Arrowhead Stadium,,58611.0,58611.0,5,39.0489357,-94.4839993,"Camila Cabello
+Charli XCX",6730138.0,
+583,2018-09-15,Indianapolis,United States,Lucas Oil Stadium,,55729.0,55729.0,5,39.7590621,-86.1638376,"Camila Cabello
+Charli XCX",6531245.0,
+584,2018-09-18,St. Louis,United States,The Dome at America's Center,,47831.0,47831.0,5,38.6327852,-90.188551,"Camila Cabello
+Charli XCX",4884054.0,
+585,2018-09-22,New Orleans,United States,Mercedes-Benz Superdome,,53172.0,53172.0,5,29.9510489,-90.0823076,"Camila Cabello
+Charli XCX",6491546.0,
+586,2018-09-29,Houston,United States,NRG Stadium,,53800.0,53800.0,5,29.6848581,-95.4108015,"Camila Cabello
+Charli XCX",9350275.0,
+587,2018-10-05,Arlington,United States,AT&T Stadium,,52501.0,52501.0,5,32.7478502,-97.0928337,"Camila Cabello
+Charli XCX",7503079.0,
+588,2018-10-06,Arlington,United States,AT&T Stadium,,52501.0,52501.0,5,32.7478502,-97.0928337,"Camila Cabello
+Charli XCX",7503078.0,
+589,2018-10-19,Perth,Australia,Optus Stadium,,50891.0,50891.0,5,-31.9558967,115.8605784,"Charli XCX
+Broods",4153658.0,
+590,2018-10-26,Melbourne,Australia,Marvel Stadium,,63027.0,63027.0,5,-37.816529,144.947517,"Charli XCX
+Broods",6755570.0,
+591,2018-11-02,Sydney,Australia,ANZ Stadium,,72805.0,72805.0,5,-33.8471082,151.0633848,"Charli XCX
+Broods",7686564.0,
+592,2018-11-06,Brisbane,Australia,The Gabba,,43907.0,43907.0,5,-27.4858851,153.0379847,"Charli XCX
+Broods",4338127.0,
+593,2018-11-09,Auckland,New Zealand,Mount Smart Stadium,,35749.0,35749.0,5,-36.9178349,174.8122802,"Charli XCX
+Broods",3617593.0,
+594,2018-11-20,Tokyo,Japan,Tokyo Dome,,50055.0,50055.0,5,35.7055705,139.7519705,Charli XCX,7429924.0,
+595,2018-11-21,Tokyo,Japan,Tokyo Dome,,50054.0,50054.0,5,35.7055705,139.7519705,Charli XCX,7429923.0,
