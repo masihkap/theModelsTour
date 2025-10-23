@@ -3,20 +3,17 @@ from geopy.geocoders import Nominatim
 from geopy.extra.rate_limiter import RateLimiter
 
 # Eras sheet has latitude/longitude data from a previous project I did
-ErasStadium = pd.read_csv('ErasTour_Post.csv').drop_duplicates(subset=['Date', 'Opening act(s)', 'Attendance', 'Venue_Capacity'])
-# ErasStadium = ErasStadium.rename(columns = {'Stadium' : 'Venue'})
-# ErasStadium['Country'] = ErasStadium['Country'].replace('United States of America', 'United States')
-# ErasStadium['Country'] = ErasStadium['Country'].replace('Canda', 'Canada')
-# ErasStadium['City'] = ErasStadium['City'].replace('Gelsenkirchsen', 'Gelsenkirchen')
-# ErasStadium['Venue'] = ErasStadium['Venue'].replace("'Roger's Centre'", 'Rogers Centre')
+
+ErasStadium = pd.read_csv('ErasTour_Post.csv').drop_duplicates(subset=['Venue', 'City', 'Country'], keep='first').reset_index(drop=True)
+ErasStadium.drop(['Date', 'Opening acts', 'Attendance', 'Tour_ID'], axis = 1, inplace = True, errors = 'ignore')
 #print(ErasStadium.head())
 
 #other tours does not have this information
-FearlessStadium = pd.read_csv('FearlessTour.csv').drop_duplicates(subset=['Date', 'Opening acts', 'Attendance', 'Revenue', 'Venue_Capacity'])
-SpeakNowStadium = pd.read_csv('SpeakNowTour.csv').drop_duplicates(subset=['Date', 'Opening acts', 'Attendance', 'Venue_Capacity'])
-RedStadium = pd.read_csv('RedTour.csv').drop_duplicates(subset=['Date', 'Opening act', 'Attendance', 'Venue_Capacity'])
-Stadium1989 = pd.read_csv('1989Tour.csv').drop_duplicates(subset=['Date', 'Opening acts', 'Attendance', 'Venue_Capacity'])
-ReputationStadium = pd.read_csv('ReputationTour.csv').drop_duplicates(subset=['Date', 'Opening acts', 'Attendance', 'Venue_Capacity'])
+FearlessStadium = pd.read_csv('FearlessTour.csv').drop_duplicates(subset=['Venue', 'City', 'Country'], keep='first').reset_index(drop=True)
+SpeakNowStadium = pd.read_csv('SpeakNowTour.csv').drop_duplicates(subset=['Venue', 'City', 'Country'], keep='first').reset_index(drop=True)
+RedStadium = pd.read_csv('RedTour.csv').drop_duplicates(subset=['Venue', 'City', 'Country'], keep='first').reset_index(drop=True)
+Stadium1989 = pd.read_csv('1989Tour.csv').drop_duplicates(subset=['Venue', 'City', 'Country'], keep='first').reset_index(drop=True)
+ReputationStadium = pd.read_csv('ReputationTour.csv').drop_duplicates(subset=['Venue', 'City', 'Country'], keep='first').reset_index(drop=True)
 
 
 ##had to find which files had these values since I did not know so took different approach from earlier
@@ -54,11 +51,12 @@ print(f'Stadium, City and country name cleansing complete.')
 
 StadiumsCombined = pd.concat([FearlessStadium, SpeakNowStadium, RedStadium, Stadium1989, ReputationStadium]
                              , ignore_index = True)
+StadiumsCombined.drop(['Date', 'Opening acts', 'Attendance', 'Tour_ID', 'Revenue'], axis = 1, inplace = True, errors = 'ignore')
 StadiumsCombinedCount1 = len(StadiumsCombined)
 
 # remove duplicates
-StadiumsCombined = StadiumsCombined.drop_duplicates()
-StadiumsPreCountDupDrop = len(StadiumsCombined)
+# StadiumsCombined = StadiumsCombined.drop_duplicates()
+# StadiumsPreCountDupDrop = len(StadiumsCombined)
 
 #add columns so the shape matches Eras
 StadiumsCombined['Latitude'] = ''
@@ -258,6 +256,7 @@ StadiumList_missing['Longitude'] = StadiumList_missing['Location'].apply(lambda 
 StadiumList_missing.drop('Location', axis=1, inplace=True)
 
 StadiumList.update(StadiumList_missing)
+StadiumList = StadiumList.drop_duplicates(subset=['Venue', 'City'], keep='first').reset_index(drop=True)
 
 
 #Create file
@@ -275,10 +274,10 @@ def add_venue_id(tour, stadium, output_file):
     merged.to_csv(output_file, index = False, encoding = 'utf-8')
     return merged
 
-add_venue_id('FearlessTour.csv', StadiumList, 'FearlessTour_VenueID.csv')
-add_venue_id('SpeakNowTour.csv', StadiumList, 'SpeakNowTour_VenueID.csv')
-add_venue_id('RedTour.csv', StadiumList, 'RedTour_VenueID.csv')
-add_venue_id('1989Tour.csv', StadiumList, '1989Tour_VenueID.csv')
-add_venue_id('ReputationTour.csv', StadiumList, 'ReputationTour_VenueID.csv')
-add_venue_id('ErasTour.csv', StadiumList, 'ErasTour_VenueID.csv')
+add_venue_id('FearlessTour.csv', StadiumList, 'FearlessTour_PostCleanse.csv')
+add_venue_id('SpeakNowTour.csv', StadiumList, 'SpeakNowTour_PostCleanse.csv')
+add_venue_id('RedTour.csv', StadiumList, 'RedTour_PostCleanse.csv')
+add_venue_id('1989Tour.csv', StadiumList, '1989Tour_PostCleanse.csv')
+add_venue_id('ReputationTour.csv', StadiumList, 'ReputationTour_PostCleanse.csv')
+add_venue_id('ErasTour.csv', StadiumList, 'ErasTour_PostCleanse.csv')
 print('Venue ID Added, files created.')

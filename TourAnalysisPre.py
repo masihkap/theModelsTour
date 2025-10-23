@@ -1,6 +1,8 @@
 import pandas as pd
 from datetime import date
 import numpy as np
+from tabulate import tabulate
+import matplotlib.pyplot as plt
 
 #attendance growth
 ##sum all concert attendance per tour/individual concerts 
@@ -84,7 +86,8 @@ print(f'Average time between album release and tour start date is {Avg_TourStart
 StadiumList = pd.read_csv('StadiumList.csv')
 
 Cities_Toured = StadiumList['City'].nunique()
-print(f'Number of distinct cities visited is: {Cities_Toured}', end='\n\n')
+print(f'Number of distinct cities visited is:{Cities_Toured}', end='\n\n')
+
 
 Countries_Toured = StadiumList['Country'].nunique()
 print(f'Number of distinct countries visited is: {Countries_Toured}', end='\n\n')
@@ -95,17 +98,30 @@ for tour, df in Tours.items():
     df['Tour'] = tour
 
 All_Tours = pd.concat(Tours.values(), ignore_index = True)
-
+All_Tours = pd.DataFrame(All_Tours)
 
 AT_Cities = All_Tours['City'].value_counts()
+AT_Cities = pd.DataFrame(AT_Cities)
 Top_10_Cities = AT_Cities.head(10)
-print(f'Top 10 visited cities are {Top_10_Cities}', end='\n\n')
+# print(f'Top 10 visited cities are {Top_10_Cities}', end='\n\n')
+
+City_Headers = ['City', 'Number of Visits']
+print(tabulate(Top_10_Cities, headers = City_Headers, tablefmt = 'fancy_grid', showindex = 'always'), end='\n\n')
+
 
 AT_Country = All_Tours['Country'].value_counts()
+AT_Country = pd.DataFrame(AT_Country)
+
 Top_10_Countries = AT_Country.head(10)
-print(f'Top 10 countries are: {Top_10_Countries}', end='\n\n')
+Country_Headers = ['County', 'Number of Visits']
+print(tabulate(Top_10_Cities, headers = Country_Headers, tablefmt = 'fancy_grid', showindex = 'always'), end='\n\n')
+# print(f'Top 10 countries are: {Top_10_Countries}', end='\n\n')
 
 AT_Venues = All_Tours['Venue'].value_counts()
+AT_Venues = pd.DataFrame(AT_Venues)
+
 Top_10_Venues = AT_Venues.head(10)
-print(f'Top 10 visited venues are {Top_10_Venues}', end='\n\n')
+Venue_Headers = ['Venue', 'Number of Visits']
+print(tabulate(Top_10_Venues, headers = Venue_Headers, tablefmt = 'fancy_grid', showindex = 'always'), end = '\n\n')
+# print(f'Top 10 visited venues are {Top_10_Venues}', end='\n\n')
 

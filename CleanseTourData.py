@@ -98,21 +98,26 @@ Red4 = pd.read_csv('tour-red IV.csv')
 #2013 dates II-II
 RedTour2013 = pd.concat([Red1, Red2], axis = 0)
 RedTour2013['Date (2013)'] = RedTour2013['Date (2013)'] + ', 2013'
-RedTour2013 = RedTour2013.rename(columns = {'Attendance (tickets sold / available)' : 'Attendance', 'Date (2013)' : 'Date'})
+RedTour2013.rename(columns = {'Attendance (tickets sold / available)' : 'Attendance'
+                              , 'Date (2013)' : 'Date'}
+                              , inplace=True)
 
 
 #2014 dates III-IV
 RedTour2014 = pd.concat([Red3, Red4])
 RedTour2014['Date (2014)'] = RedTour2014['Date (2014)'] + ', 2014'
-RedTour2014 = RedTour2014.rename(columns = {'Attendance (tickets sold / available)' : 'Attendance', 'Date (2014)' : 'Date'})
+RedTour2014.rename(columns = {'Attendance (tickets sold / available)' : 'Attendance'
+                              , 'Date (2014)' : 'Date'}
+                              , inplace=True)
 
 #Combine and cleanse
 RedTour = pd.concat([RedTour2013, RedTour2014], axis = 0)
+RedTour.rename(columns={'Opening act' : 'Opening acts'}, inplace=True)
 RedTour['Date'] = pd.to_datetime(RedTour['Date'], format = '%B %d, %Y', errors = 'coerce')
 RedTour = attendance_split(RedTour)
 RedTour['Tour_ID'] = 3
 RedTour = clean_string(RedTour)
-SpeakNowTour.drop('Attendance (tickets sold / available)', axis = 1, inplace = True)
+RedTour = RedTour.loc[:, ~RedTour.columns.duplicated()]
 
 RedTour.to_csv('RedTour.csv', index = False, encoding = 'utf-8')
 

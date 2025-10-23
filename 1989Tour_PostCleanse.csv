@@ -1,127 +1,127 @@
-Date,City,Country,Venue,Opening acts,Attendance,Revenue,Venue_Capacity,Tour_ID
-2015-05-05,Tokyo,Japan,Tokyo Dome,—,50160.0,5293414.0,50160.0,4
-2015-05-06,Tokyo,Japan,Tokyo Dome,—,50160.0,5293414.0,50160.0,4
-2015-05-15,Winchester,United States,City of Rock,—,,,,4
-2015-05-20,Bossier City,United States,CenturyLink Center,Vance Joy,12459.0,1458197.0,12459.0,4
+Date,City,Country,Venue,Opening acts,Attendance,Revenue,Venue_Capacity,Tour_ID,Venue_ID
+2015-05-05,Tokyo,Japan,Tokyo Dome,—,50160.0,5293414.0,50160.0,4,25
+2015-05-06,Tokyo,Japan,Tokyo Dome,—,50160.0,5293414.0,50160.0,4,25
+2015-05-15,Winchester,United States,City of Rock,—,,,,4,291
+2015-05-20,Bossier City,United States,CenturyLink Center,Vance Joy,12459.0,1458197.0,12459.0,4,198
 2015-05-22,Baton Rouge,United States,LSU Tiger Stadium,"Vance Joy
-Shawn Mendes",50227.0,4119670.0,50227.0,4
+Shawn Mendes",50227.0,4119670.0,50227.0,4,143
 2015-05-30,Detroit,United States,Ford Field,"Vance Joy
-Shawn Mendes",50703.0,5999690.0,50703.0,4
-2015-06-02,Louisville,United States,KFC Yum! Center,Vance Joy,16242.0,1863281.0,16242.0,4
-2015-06-03,Cleveland,United States,Quicken Loans Arena,Vance Joy,15503.0,1732041.0,15503.0,4
+Shawn Mendes",50703.0,5999690.0,50703.0,4,12
+2015-06-02,Louisville,United States,KFC Yum! Center,Vance Joy,16242.0,1863281.0,16242.0,4,207
+2015-06-03,Cleveland,United States,Quicken Loans Arena,Vance Joy,15503.0,1732041.0,15503.0,4,105
 2015-06-06,Pittsburgh,United States,Heinz Field,"Vance Joy
-Shawn Mendes",54801.0,5836926.0,54801.0,4
-2015-06-08,Charlotte,United States,Time Warner Cable Arena,Vance Joy,15024.0,1627798.0,15024.0,4
-2015-06-09,Raleigh,United States,PNC Arena,Vance Joy,13886.0,1653762.0,13886.0,4
+Shawn Mendes",54801.0,5836926.0,54801.0,4,174
+2015-06-08,Charlotte,United States,Time Warner Cable Arena,Vance Joy,15024.0,1627798.0,15024.0,4,95
+2015-06-09,Raleigh,United States,PNC Arena,Vance Joy,13886.0,1653762.0,13886.0,4,274
 2015-06-12,Philadelphia,United States,Lincoln Financial Field,"Vance Joy
-Shawn Mendes",50526.0,5993908.0,50526.0,4
+Shawn Mendes",50526.0,5993908.0,50526.0,4,8
 2015-06-13,Philadelphia,United States,Lincoln Financial Field,"Vance Joy
-Shawn Mendes",50526.0,5993908.0,50526.0,4
-2015-06-19,Cologne,Germany,Lanxess Arena,James Bay,14510.0,1027345.0,14510.0,4
-2015-06-20,Cologne,Germany,Lanxess Arena,James Bay,14510.0,1027345.0,14510.0,4
-2015-06-21,Amsterdam,Netherlands,Ziggo Dome,James Bay,11166.0,800829.0,11166.0,4
-2015-06-23,Glasgow,Scotland,SSE Hydro,Vance Joy,11021.0,1119300.0,11021.0,4
-2015-06-24,Manchester,England,Manchester Arena,Vance Joy,14773.0,1478760.0,14773.0,4
-2015-06-27,London,England,Hyde Park,—,,,,4
-2015-06-29,Dublin,Ireland,3Arena,Vance Joy,12594.0,987755.0,12594.0,4
-2015-06-30,Dublin,Ireland,3Arena,Vance Joy,12594.0,987755.0,12594.0,4
-2015-07-06,Ottawa,Canada,Canadian Tire Centre,Vance Joy,13480.0,1325480.0,13480.0,4
-2015-07-07,Montreal,Canada,Bell Centre,Vance Joy,14770.0,1499040.0,14770.0,4
+Shawn Mendes",50526.0,5993908.0,50526.0,4,8
+2015-06-19,Cologne,Germany,Lanxess Arena,James Bay,14510.0,1027345.0,14510.0,4,301
+2015-06-20,Cologne,Germany,Lanxess Arena,James Bay,14510.0,1027345.0,14510.0,4,301
+2015-06-21,Amsterdam,Netherlands,Ziggo Dome,James Bay,11166.0,800829.0,11166.0,4,302
+2015-06-23,Glasgow,Scotland,SSE Hydro,Vance Joy,11021.0,1119300.0,11021.0,4,303
+2015-06-24,Manchester,England,Manchester Arena,Vance Joy,14773.0,1478760.0,14773.0,4,304
+2015-06-27,London,England,Hyde Park,—,,,,4,305
+2015-06-29,Dublin,Ireland,3Arena,Vance Joy,12594.0,987755.0,12594.0,4,306
+2015-06-30,Dublin,Ireland,3Arena,Vance Joy,12594.0,987755.0,12594.0,4,306
+2015-07-06,Ottawa,Canada,Canadian Tire Centre,Vance Joy,13480.0,1325480.0,13480.0,4,307
+2015-07-07,Montreal,Canada,Bell Centre,Vance Joy,14770.0,1499040.0,14770.0,4,180
 2015-07-10,East Rutherford,United States,MetLife Stadium,"Vance Joy
 Shawn Mendes
-Haim",55053.0,6711929.0,55053.0,4
+Haim",55053.0,6711929.0,55053.0,4,10
 2015-07-11,East Rutherford,United States,MetLife Stadium,"Vance Joy
 Shawn Mendes
-Haim",55052.0,6711929.0,55052.0,4
+Haim",55052.0,6711929.0,55052.0,4,10
 2015-07-13,"Washington, D.C.",United States,Nationals Park,"Vance Joy
 Shawn Mendes
-Haim",42507.0,4865298.0,42507.0,4
+Haim",42507.0,4865298.0,42507.0,4,310
 2015-07-14,"Washington, D.C.",United States,Nationals Park,"Vance Joy
 Shawn Mendes
-Haim",42507.0,4865298.0,42507.0,4
+Haim",42507.0,4865298.0,42507.0,4,310
 2015-07-18,Chicago,United States,Soldier Field,"Vance Joy
 Shawn Mendes
-Haim",55055.0,5734944.0,55055.0,4
+Haim",55055.0,5734944.0,55055.0,4,11
 2015-07-19,Chicago,United States,Soldier Field,"Vance Joy
 Shawn Mendes
-Haim",55054.0,5734943.0,55054.0,4
+Haim",55054.0,5734943.0,55054.0,4,11
 2015-07-24,Foxborough,United States,Gillette Stadium,"Vance Joy
 Shawn Mendes
-Haim",58425.0,6266583.0,58425.0,4
+Haim",58425.0,6266583.0,58425.0,4,9
 2015-07-25,Foxborough,United States,Gillette Stadium,"Vance Joy
 Shawn Mendes
-Haim",58424.0,6266583.0,58424.0,4
+Haim",58424.0,6266583.0,58424.0,4,9
 2015-08-01,Vancouver,Canada,BC Place,"Vance Joy
-Shawn Mendes",41463.0,4081820.0,41463.0,4
-2015-08-04,Edmonton,Canada,Rexall Place,Vance Joy,13267.0,1193540.0,13267.0,4
-2015-08-05,Edmonton,Canada,Rexall Place,Vance Joy,13267.0,1193540.0,13267.0,4
+Shawn Mendes",41463.0,4081820.0,41463.0,4,50
+2015-08-04,Edmonton,Canada,Rexall Place,Vance Joy,13267.0,1193540.0,13267.0,4,75
+2015-08-05,Edmonton,Canada,Rexall Place,Vance Joy,13267.0,1193540.0,13267.0,4,75
 2015-08-08,Seattle,United States,CenturyLink Field,"Vance Joy
-Shawn Mendes",55711.0,6050643.0,55711.0,4
+Shawn Mendes",55711.0,6050643.0,55711.0,4,315
 2015-08-14,Santa Clara,United States,Levi's Stadium,"Vance Joy
-Shawn Mendes",51070.0,6515573.0,51070.0,4
+Shawn Mendes",51070.0,6515573.0,51070.0,4,19
 2015-08-15,Santa Clara,United States,Levi's Stadium,"Vance Joy
-Shawn Mendes",51069.0,6515573.0,51069.0,4
-2015-08-17,Glendale,United States,Gila River Arena,Vance Joy,13260.0,1514814.0,13260.0,4
-2015-08-18,Glendale,United States,Gila River Arena,Vance Joy,13260.0,1514814.0,13260.0,4
+Shawn Mendes",51069.0,6515573.0,51069.0,4,19
+2015-08-17,Glendale,United States,Gila River Arena,Vance Joy,13260.0,1514814.0,13260.0,4,317
+2015-08-18,Glendale,United States,Gila River Arena,Vance Joy,13260.0,1514814.0,13260.0,4,317
 2015-08-21,Los Angeles,United States,Staples Center,"Vance Joy
-Haim",14113.0,1792337.0,14113.0,4
+Haim",14113.0,1792337.0,14113.0,4,65
 2015-08-22,Los Angeles,United States,Staples Center,"Vance Joy
-Haim",14113.0,1792336.0,14113.0,4
+Haim",14113.0,1792336.0,14113.0,4,65
 2015-08-24,Los Angeles,United States,Staples Center,"Vance Joy
-Haim",14113.0,1792336.0,14113.0,4
+Haim",14113.0,1792336.0,14113.0,4,65
 2015-08-25,Los Angeles,United States,Staples Center,"Vance Joy
-Haim",14112.0,1792336.0,14112.0,4
+Haim",14112.0,1792336.0,14112.0,4,65
 2015-08-26,Los Angeles,United States,Staples Center,"Vance Joy
-Haim",14112.0,1792336.0,14112.0,4
+Haim",14112.0,1792336.0,14112.0,4,65
 2015-08-29,San Diego,United States,Petco Park,"Vance Joy
-Shawn Mendes",44710.0,5475237.0,44710.0,4
-2015-09-04,Salt Lake City,United States,EnergySolutions Arena,Vance Joy,14131.0,1589686.0,14131.0,4
-2015-09-05,Denver,United States,Pepsi Center,Vance Joy,13563.0,1434496.0,13563.0,4
-2015-09-06,Denver,United States,Pepsi Center,Vance Joy,13563.0,1434495.0,13563.0,4
+Shawn Mendes",44710.0,5475237.0,44710.0,4,319
+2015-09-04,Salt Lake City,United States,EnergySolutions Arena,Vance Joy,14131.0,1589686.0,14131.0,4,68
+2015-09-05,Denver,United States,Pepsi Center,Vance Joy,13563.0,1434496.0,13563.0,4,129
+2015-09-06,Denver,United States,Pepsi Center,Vance Joy,13563.0,1434495.0,13563.0,4,129
 2015-09-09,Houston,United States,Minute Maid Park,"Vance Joy
-Shawn Mendes",40122.0,5202196.0,40122.0,4
-2015-09-11,Saint Paul,United States,Xcel Energy Center,Vance Joy,15042.0,1838288.0,15042.0,4
-2015-09-12,Saint Paul,United States,Xcel Energy Center,Vance Joy,15042.0,1838288.0,15042.0,4
-2015-09-13,Saint Paul,United States,Xcel Energy Center,Vance Joy,15042.0,1838287.0,15042.0,4
-2015-09-16,Indianapolis,United States,Bankers Life Fieldhouse,Vance Joy,14010.0,1550268.0,14010.0,4
-2015-09-17,Columbus,United States,Nationwide Arena,Vance Joy,14968.0,1684847.0,14968.0,4
-2015-09-18,Columbus,United States,Nationwide Arena,Vance Joy,14968.0,1684846.0,14968.0,4
-2015-09-21,Kansas City,United States,Sprint Center,Vance Joy,13929.0,1483779.0,13929.0,4
-2015-09-22,Kansas City,United States,Sprint Center,Vance Joy,13928.0,1483779.0,13928.0,4
+Shawn Mendes",40122.0,5202196.0,40122.0,4,216
+2015-09-11,Saint Paul,United States,Xcel Energy Center,Vance Joy,15042.0,1838288.0,15042.0,4,136
+2015-09-12,Saint Paul,United States,Xcel Energy Center,Vance Joy,15042.0,1838288.0,15042.0,4,136
+2015-09-13,Saint Paul,United States,Xcel Energy Center,Vance Joy,15042.0,1838287.0,15042.0,4,136
+2015-09-16,Indianapolis,United States,Bankers Life Fieldhouse,Vance Joy,14010.0,1550268.0,14010.0,4,240
+2015-09-17,Columbus,United States,Nationwide Arena,Vance Joy,14968.0,1684847.0,14968.0,4,170
+2015-09-18,Columbus,United States,Nationwide Arena,Vance Joy,14968.0,1684846.0,14968.0,4,170
+2015-09-21,Kansas City,United States,Sprint Center,Vance Joy,13929.0,1483779.0,13929.0,4,128
+2015-09-22,Kansas City,United States,Sprint Center,Vance Joy,13928.0,1483779.0,13928.0,4,128
 2015-09-25,Nashville,United States,Bridgestone Arena,"Vance Joy
-Haim",14459.0,1677422.0,14459.0,4
+Haim",14459.0,1677422.0,14459.0,4,99
 2015-09-26,Nashville,United States,Bridgestone Arena,"Vance Joy
-Haim",14458.0,1677422.0,14458.0,4
+Haim",14458.0,1677422.0,14458.0,4,99
 2015-09-28,St. Louis,United States,Scottrade Center,"Vance Joy
-Haim",14844.0,1726470.0,14844.0,4
+Haim",14844.0,1726470.0,14844.0,4,54
 2015-09-29,St. Louis,United States,Scottrade Center,"Vance Joy
-Haim",14844.0,1726470.0,14844.0,4
+Haim",14844.0,1726470.0,14844.0,4,54
 2015-10-02,Toronto,Canada,Rogers Centre,"Vance Joy
-Shawn Mendes",49642.0,4335495.0,49642.0,4
+Shawn Mendes",49642.0,4335495.0,49642.0,4,49
 2015-10-03,Toronto,Canada,Rogers Centre,"Vance Joy
-Shawn Mendes",49641.0,4335495.0,49641.0,4
-2015-10-08,Des Moines,United States,Wells Fargo Arena,Vance Joy,13969.0,1566321.0,13969.0,4
-2015-10-09,Omaha,United States,CenturyLink Center Omaha,Vance Joy,14811.0,1560711.0,14811.0,4
-2015-10-10,Omaha,United States,CenturyLink Center Omaha,Vance Joy,14811.0,1560710.0,14811.0,4
-2015-10-12,Fargo,United States,Fargodome,Vance Joy,21067.0,2219188.0,21067.0,4
+Shawn Mendes",49641.0,4335495.0,49641.0,4,49
+2015-10-08,Des Moines,United States,Wells Fargo Arena,Vance Joy,13969.0,1566321.0,13969.0,4,135
+2015-10-09,Omaha,United States,CenturyLink Center Omaha,Vance Joy,14811.0,1560711.0,14811.0,4,230
+2015-10-10,Omaha,United States,CenturyLink Center Omaha,Vance Joy,14811.0,1560710.0,14811.0,4,230
+2015-10-12,Fargo,United States,Fargodome,Vance Joy,21067.0,2219188.0,21067.0,4,271
 2015-10-17,Arlington,United States,AT&T Stadium,"Vance Joy
-Shawn Mendes",62630.0,7396733.0,62630.0,4
-2015-10-20,Lexington,United States,Rupp Arena,Vance Joy,17084.0,1870471.0,17084.0,4
-2015-10-21,Greensboro,United States,Greensboro Coliseum,Vance Joy,15079.0,1662171.0,15079.0,4
+Shawn Mendes",62630.0,7396733.0,62630.0,4,3
+2015-10-20,Lexington,United States,Rupp Arena,Vance Joy,17084.0,1870471.0,17084.0,4,132
+2015-10-21,Greensboro,United States,Greensboro Coliseum,Vance Joy,15079.0,1662171.0,15079.0,4,71
 2015-10-24,Atlanta,United States,Georgia Dome,"Vance Joy
-Shawn Mendes",56046.0,6034846.0,56046.0,4
-2015-10-27,Miami,United States,American Airlines Arena,Vance Joy,14044.0,1527919.0,14044.0,4
+Shawn Mendes",56046.0,6034846.0,56046.0,4,336
+2015-10-27,Miami,United States,American Airlines Arena,Vance Joy,14044.0,1527919.0,14044.0,4,219
 2015-10-31,Tampa,United States,Raymond James Stadium,"Vance Joy
-Shawn Mendes",56987.0,6202515.0,56987.0,4
-2015-11-07,Singapore,Singapore,Singapore Indoor Stadium,—,8863.0,1608785.0,8863.0,4
-2015-11-08,Singapore,Singapore,Singapore Indoor Stadium,—,8863.0,1608784.0,8863.0,4
-2015-11-10,Shanghai,China,Mercedes-Benz Arena,—,12586.0,1972450.0,12586.0,4
-2015-11-11,Shanghai,China,Mercedes-Benz Arena,—,12586.0,1972449.0,12586.0,4
-2015-11-12,Shanghai,China,Mercedes-Benz Arena,—,12586.0,1972449.0,12586.0,4
-2015-11-28,Sydney,Australia,ANZ Stadium,Vance Joy,75980.0,6571683.0,75980.0,4
-2015-12-05,Brisbane,Australia,Suncorp Stadium,Vance Joy,46881.0,4759471.0,46881.0,4
-2015-12-07,Adelaide,Australia,Adelaide Entertainment Centre,Vance Joy,10045.0,1203750.0,10045.0,4
-2015-12-08,Adelaide,Australia,Adelaide Entertainment Centre,Vance Joy,10045.0,1203749.0,10045.0,4
-2015-12-10,Melbourne,Australia,AAMI Park,Vance Joy,32712.0,3473851.0,32712.0,4
-2015-12-11,Melbourne,Australia,AAMI Park,Vance Joy,32712.0,3473851.0,32712.0,4
-2015-12-12,Melbourne,Australia,AAMI Park,Vance Joy,32712.0,3473851.0,32712.0,4
+Shawn Mendes",56987.0,6202515.0,56987.0,4,4
+2015-11-07,Singapore,Singapore,Singapore Indoor Stadium,—,8863.0,1608785.0,8863.0,4,148
+2015-11-08,Singapore,Singapore,Singapore Indoor Stadium,—,8863.0,1608784.0,8863.0,4,148
+2015-11-10,Shanghai,China,Mercedes-Benz Arena,—,12586.0,1972450.0,12586.0,4,284
+2015-11-11,Shanghai,China,Mercedes-Benz Arena,—,12586.0,1972449.0,12586.0,4,284
+2015-11-12,Shanghai,China,Mercedes-Benz Arena,—,12586.0,1972449.0,12586.0,4,284
+2015-11-28,Sydney,Australia,ANZ Stadium,Vance Joy,75980.0,6571683.0,75980.0,4,341
+2015-12-05,Brisbane,Australia,Suncorp Stadium,Vance Joy,46881.0,4759471.0,46881.0,4,279
+2015-12-07,Adelaide,Australia,Adelaide Entertainment Centre,Vance Joy,10045.0,1203750.0,10045.0,4,115
+2015-12-08,Adelaide,Australia,Adelaide Entertainment Centre,Vance Joy,10045.0,1203749.0,10045.0,4,115
+2015-12-10,Melbourne,Australia,AAMI Park,Vance Joy,32712.0,3473851.0,32712.0,4,344
+2015-12-11,Melbourne,Australia,AAMI Park,Vance Joy,32712.0,3473851.0,32712.0,4,344
+2015-12-12,Melbourne,Australia,AAMI Park,Vance Joy,32712.0,3473851.0,32712.0,4,344
