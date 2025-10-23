@@ -2,7 +2,7 @@ import pandas as pd
 
 # Eras sheet has latitude/longitude data from a previous project I did
 ErasStadiumCol = ['City', 'State', 'Country', 'Stadium', 'Latitude', 'Longitude']
-ErasStadium = pd.read_csv('TaylorSwift_ErasTour_DatesStadiums_Geo.csv'
+ErasStadium = pd.read_csv('TaylorSwift_ErasTour_DatesStadiums_Geo.csv', usecols = ErasStadiumCol
                           )
 ErasStadium = ErasStadium.drop_duplicates()
 ErasStadium = ErasStadium.rename(columns = {'Stadium' : 'Venue'})
@@ -25,7 +25,11 @@ ErasStadium.loc[ErasStadium['City'].isin(England_Cities), 'Country'] = 'England'
 ErasStadium.loc[ErasStadium['City'] == 'Edinburg', 'Country'] = 'Scotland'
 ErasStadium.loc[ErasStadium['City'] == 'Cardiff', 'Country'] = 'Wales'
 
+#load original file
 ErasTourPre = pd.read_csv('ErasTour.csv')
+ErasTourPre = ErasTourPre.rename(columns = {'Opening act(s)' : 'Opening acts'})
+
+
 ErasStadium['City'] = ErasStadium['City'].replace('Las Vegas', 'Paradise')
 ErasStadium['City'] = ErasStadium['City'].replace('Los Angeles', 'Inglewood')
 ErasStadium['City'] = ErasStadium['City'].replace('Sao Paulo', 'São Paulo')
@@ -55,9 +59,3 @@ ErasTour = pd.merge(ErasTourPre, ErasStadium[['Venue_lower', 'City', 'Country', 
 ErasTour.drop('Venue_lower', axis = 1, inplace = True)
 ErasTour.to_csv('ErasTour_Post.csv', index = False, encoding = 'utf-8')
 print(ErasTour)
-
-
-
-
-
-#Album_Tours.to_csv("ToursPerAlbum.csv", index = False, encoding = 'utf-8')
