@@ -12,6 +12,7 @@ from datetime import datetime
 TourInfo = pd.DataFrame({'Tour_ID': [1, 2, 3, 4, 5, 6, 7]
     , 'Tour_Name': ['Fearless Tour', 'Speak Now World Tour', 'The Red Tour', 'The 1989 World Tour', 'Reputation Stadium Tour'
                     , 'The Eras Tour - Pre The Tortured Poets Department', 'The Eras Tour - Post The Tortured Poets Department']
+    , 'Revenue' : ['66839126.00', '123678576.00', '150184971.00', '250733097.00', '345675146.00', '1039263762.00', '1038354960.00']
     , 'Tour_StartDate': ['2009-04-23', '2011-02-09', '2013-03-13', '2015-05-05', '2018-05-08', '2023-03-17', '2024-05-09']
     , 'Tour_EndDate': ['2010-07-10', '2012-03-18', '2014-06-12', '2015-12-12', '2018-11-21', '2024-03-09', '2024-12-08']
 })
