@@ -1,13 +1,13 @@
-Album_ID,Album_Name,Album_ReleaseDate,Tour_ID,Tour_Name,Tour_StartDate,Tour_EndDate,DateDiff_AlbumRel_TourStart
-1,Taylor Swift,2006-10-24,0,,,,
-2,Fearless,2008-11-11,1,Fearless Tour,2009-04-23,2010-07-10,163.0
-3,Speak Now,2010-10-25,2,Speak Now World Tour,2011-02-09,2012-03-18,107.0
-4,Red,2012-10-22,3,The Red Tour,2013-03-13,2014-06-12,142.0
-5,1989,2014-10-27,4,The 1989 World Tour,2015-05-05,2015-12-12,190.0
-6,Reputation,2017-11-10,5,Reputation Stadium Tour,2018-05-08,2018-11-21,179.0
-7,Lover,2019-08-23,6,The Eras Tour - Pre The Tortured Poets Department,2023-03-17,2024-03-09,1302.0
-8,folklore,2020-07-24,6,The Eras Tour - Pre The Tortured Poets Department,2023-03-17,2024-03-09,966.0
-9,evermore,2020-12-11,6,The Eras Tour - Pre The Tortured Poets Department,2023-03-17,2024-03-09,826.0
-10,Midnights,2022-10-21,6,The Eras Tour - Pre The Tortured Poets Department,2023-03-17,2024-03-09,147.0
-11,The Tortured Poets Department,2024-04-19,7,The Eras Tour - Post The Tortured Poets Department,2024-05-09,2024-12-08,20.0
-12,The Life of a Showgirl,2025-10-03,-1,,,,
+Album_ID,Album_Name,Album_ReleaseDate,Tour_ID,Tour_Name,Revenue,Tour_StartDate,Tour_EndDate,DateDiff_AlbumRel_TourStart
+1,Taylor Swift,2006-10-24,0,,,,,
+2,Fearless,2008-11-11,1,Fearless Tour,66839126.00,2009-04-23,2010-07-10,163.0
+3,Speak Now,2010-10-25,2,Speak Now World Tour,123678576.00,2011-02-09,2012-03-18,107.0
+4,Red,2012-10-22,3,The Red Tour,150184971.00,2013-03-13,2014-06-12,142.0
+5,1989,2014-10-27,4,The 1989 World Tour,250733097.00,2015-05-05,2015-12-12,190.0
+6,Reputation,2017-11-10,5,Reputation Stadium Tour,345675146.00,2018-05-08,2018-11-21,179.0
+7,Lover,2019-08-23,6,The Eras Tour - Pre The Tortured Poets Department,1039263762.00,2023-03-17,2024-03-09,1302.0
+8,folklore,2020-07-24,6,The Eras Tour - Pre The Tortured Poets Department,1039263762.00,2023-03-17,2024-03-09,966.0
+9,evermore,2020-12-11,6,The Eras Tour - Pre The Tortured Poets Department,1039263762.00,2023-03-17,2024-03-09,826.0
+10,Midnights,2022-10-21,6,The Eras Tour - Pre The Tortured Poets Department,1039263762.00,2023-03-17,2024-03-09,147.0
+11,The Tortured Poets Department,2024-04-19,7,The Eras Tour - Post The Tortured Poets Department,1038354960.00,2024-05-09,2024-12-08,20.0
+12,The Life of a Showgirl,2025-10-03,-1,,,,,

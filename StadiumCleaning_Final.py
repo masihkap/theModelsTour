@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 from geopy.geocoders import Nominatim
 from geopy.extra.rate_limiter import RateLimiter
 
@@ -19,7 +20,7 @@ ReputationStadium = pd.read_csv('ReputationTour.csv').drop_duplicates(subset=['V
 ##had to find which files had these values since I did not know so took different approach from earlier
 find_value_Wash = 'Washington'
 if find_value_Wash in SpeakNowStadium['City'].values:
-    SpeakNowStadium.replace(find_value_Wash, '"Washington, D.C."', inplace = True)
+    SpeakNowStadium.replace(find_value_Wash, "Washington, D.C.", inplace = True)
 else:
     print(f'{find_value_Wash} was not found')
 
@@ -68,6 +69,11 @@ StadiumsCountEras = len(ErasStadium)
 StadiumList = pd.concat([ErasStadium, StadiumsCombined], ignore_index = True).drop_duplicates()
 print(f'Stadium List has been created')
 
+#add if stadium is open
+ClosedStadium = ['Frank Erwin Center', 'Georgia Dome', 'The Palace of Auburn Hills', 'Roberts Municipal Stadium', 'Bradley Center'
+                 , 'Burswood Dome', 'Wachovia Spectrum', 'Mellon Arena', 'Power Balance Pavilion', 'Sleep Train Arena']
+StadiumList['Operational'] = np.where(StadiumList['Venue'].isin(ClosedStadium), 'Closed', 'Open')
+
 #add primary key
 StadiumList.insert(0, "Venue_ID", range(1, len(StadiumList) + 1))
 
@@ -103,7 +109,7 @@ StadiumAltNames_dict = {
         'FirstEnergy Stadium', 'Quicken Loans Arena', 'Sports Authority Field at Mile High',
         'Gila River Arena', 'Jobing.com Arena', 'Minute Maid Park',
         'Bankers Life Fieldhouse', 'Conseco Fieldhouse',
-        'GEHA FIELD AT ARROWHEAD STADIUM', 'Sprint Center', 'Staples Center',
+        'GEHA Field at Arrowhead Stadium', 'Sprint Center', 'Staples Center',
         'Cardinal Stadium', 'American Airlines Arena', 'Mercedes-Benz Superdome',
         'New Orleans Arena', 'Chesapeake Energy Arena', 'Ford Center',
         'CenturyLink Center Omaha', 'Qwest Center Omaha', 'Amway Center',
@@ -124,7 +130,7 @@ StadiumAltNames_dict = {
         'LSU Tiger Stadium', 'Imperial Ballroom', 'Cavendish Beach Festival Grounds',
         'Olympic Gymnastics Arena', 'AsiaWorld–Arena', 'Sportpaleis van Ahoy',
         'LG Arena', 'Burswood Dome', 'MEIS Ancol', 'City of Rock',
-        'SSE Hydro', 'Georgia Dome', 'Optus Stadium'
+        'SSE Hydro'
     ],
     'City': [
         'Melbourne', 'Perth', 'Sydney', 'Sydney', 'Sydney',
@@ -153,7 +159,7 @@ StadiumAltNames_dict = {
         'Auburn Hills', 'Des Moines', 'Moline', 'Baton Rouge',
         'Nassau', 'Cavendish', 'Seoul', 'Hong Kong',
         'Rotterdam', 'Birmingham', 'Perth', 'Jakarta',
-        'Winchester', 'Glasgow', 'Atlanta', 'Perth'
+        'Winchester', 'Glasgow'
     ],
     'Country': [
         'Australia', 'Australia', 'Australia', 'Australia', 'Australia',
@@ -182,7 +188,7 @@ StadiumAltNames_dict = {
         'United States', 'United States', 'United States', 'United States',
         'The Bahamas', 'Canada', 'South Korea', 'China',
         'Netherlands', 'England', 'Australia', 'Indonesia',
-        'United States', 'Scotland', 'United States', 'Australia'
+        'United States', 'Scotland'
     ],
     'Alternate_Name': [
         'Marvel Stadium', 'HBF Park', 'Qudos Bank Arena', 'Qudos Bank Arena', 'Accor Stadium',
@@ -215,7 +221,6 @@ StadiumAltNames_dict = {
         'Cavendish Beach Events Centre', 'KSPO Dome', 'AsiaWorld–Arena',
         'Rotterdam Ahoy', 'Resorts World Arena', 'Burswood Dome',
         'JIExpo Kemayoran', 'MGM Resorts Festival Grounds', 'OVO Hydro',
-        'Georgia Dome', 'Optus Stadium'
     ]
 }
 
@@ -260,7 +265,7 @@ StadiumList = StadiumList.drop_duplicates(subset=['Venue', 'City'], keep='first'
 
 
 #Create file
-StadiumList.to_csv("StadiumList.csv", index = False, encoding = 'utf-8')
+StadiumList.to_csv("StadiumList.csv", index = False, encoding = 'utf-8', doublequote = False)  ##fix Washington, D.C. duplicated with extra ""
 print(f'StadiumList CSV created')
 
 

@@ -1,240 +1,239 @@
-Venue_ID,City,Country,Venue,Venue_Capacity,Latitude,Longitude
-1,Glendale,United States,State Farm Stadium,70000.0,33.527283,-112.263275
-2,Paradise,United States,Allegiant Stadium,,36.090794,-115.183952
-3,Arlington,United States,AT&T Stadium,70203.0,32.747841,-97.093628
-4,Tampa,United States,Raymond James Stadium,68820.0,27.975958,-82.503693
-5,Houston,United States,NRG Stadium,72220.0,29.68486,-95.411667
-6,Atlanta,United States,Mercedes-Benz Stadium,70000.0,33.755489,-84.401993
-7,Nashville,United States,Nissan Stadium,71000.0,36.166479,-86.7712898
-8,Philadelphia,United States,Lincoln Financial Field,67567.0,39.900898,-75.168098
-9,Foxborough,United States,Gillette Stadium,66667.0,42.0878,-71.2587
-10,East Rutherford,United States,MetLife Stadium,72545.0,40.813778,-74.07431
-11,Chicago,United States,Soldier Field,50000.0,41.862366,-87.617256
-12,Detroit,United States,Ford Field,59331.0,42.340115,-83.046341
-13,Pittsburgh,United States,Acrisure Stadium,73117.0,40.4469,-80.0158
-14,Minneapolis,United States,U.S. Bank Stadium,64453.0,44.9737,-93.257
-15,Cincinnati,United States,Paycor Stadium,65000.0,39.0955,-84.5161
-16,Kansas City,United States,GEHA Field at Arrowhead Stadium,55000.0,39.049,-94.4839
-17,Denver,United States,Empower Field at Mile High,75000.0,39.7439,-105.0201
-18,Seattle,United States,Lumen Field,72171.0,47.5952,-122.3316
-19,Santa Clara,United States,Levi's Stadium,70000.0,37.403,-121.97
-20,Inglewood,United States,SoFi Stadium,70000.0,33.9535,-118.3392
-21,Mexico City,Mexico,Foro Sol,45000.0,19.4042,-99.0907
-22,Buenos Aires,Argentina,Estadio River Plate,73334.0,-34.5455,-58.4494
-23,Rio de Janeiro,Brazil,Estádio Olímpico Nilton Santos,60000.0,-22.893194,-43.2935691
-24,São Paulo,Brazil,Allianz Parque,50000.0,-23.5273,-46.678
-25,Tokyo,Japan,Tokyo Dome,55000.0,35.7056,139.7519
-26,Melbourne,Australia,Melbourne Cricket Ground,96000.0,-37.819909,144.983225
-27,Sydney,Australia,Accor Stadium,80000.0,-33.8474,151.0631
-28,Singapore,Singapore,Singapore National Stadium,63000.0,1.3020909,103.8763295
-29,Nanterre,France,Paris La Défense Arena,45000.0,48.8956767,2.2296581
-30,Stockholm,Sweden,Friends Arena,59560.0,59.3728,18.0006
-31,Lisbon,Portugal,Estádio da Luz,60000.0,38.7526893,-9.1846899
-32,Madrid,Spain,Estadio Santiago Bernabéu,65000.0,40.4530225,-3.687422
-33,Décines-Charpieu,France,Groupama Stadium,61000.0,45.7652,4.9827
-34,Edinburgh,Scotland,Murrayfield Stadium,73000.0,55.9423132,-3.2408951
-35,Liverpool,England,Anfield,62000.0,53.4309164,-2.9609314
-36,Cardiff,Wales,Principality Stadium,70000.0,51.4782,-3.1827
-37,London,England,Wembley Stadium,94139.0,51.556,-0.2796
-38,Dublin,Ireland,Aviva Stadium,50000.0,53.3351,-6.2285
-39,Amsterdam,Netherlands,Johan Cruyff Arena,55000.0,52.3730796,4.8924534
-40,Zürich,Switzerland,Letzigrund,47500.0,47.3828206,8.5037387
-41,Milan,Italy,San Siro,80000.0,45.4782003,9.123964
-42,Gelsenkirchen,Germany,Veltins-Arena,60000.0,51.5545,7.0675
-43,Hamburg,Germany,Volksparkstadion,50000.0,53.5875,9.8986
-44,Munich,Germany,Olympiastadion,74000.0,48.1731,11.5466
-45,Warsaw,Poland,PGE Narodowy,65000.0,52.2394,21.0458
-46,Miami Gardens,United States,Hard Rock Stadium,61000.0,25.958,-80.2389
-47,New Orleans,United States,Caesars Superdome,65000.0,29.9510489,-90.0823076
-48,Indianapolis,United States,Lucas Oil Stadium,69000.0,39.7601,-86.1639
-49,Toronto,Canada,Rogers Centre,47870.0,43.6416599,-79.3891976
-50,Vancouver,Canada,BC Place,53334.0,49.2768,-123.1116
-51,Total,Total,Total,,59.98466,23.5959136
-52,Evansville,United States,Roberts Municipal Stadium,7463.0,37.970495,-87.5715641
-53,Jonesboro,United States,Convocation Center,7822.0,35.8453739,-90.6703443
-54,St. Louis,United States,Scottrade Center,13764.0,38.6268005,-90.20262
-55,Alexandria,United States,Bishop Ireton High School,,38.8090294,-77.0808841
-56,North Charleston,United States,North Charleston Coliseum,8751.0,32.865567,-80.0223423
-57,Jacksonville,United States,Jacksonville Veterans Memorial Arena,11072.0,30.3257439,-81.6449801
-58,Biloxi,United States,Mississippi Coast Coliseum,9436.0,30.3943904,-88.9739883
-59,London,England,Shepherd's Bush Empire,3395.0,51.5034474,-0.2244489
-60,Spokane,United States,Spokane Arena,10798.0,47.6664718,-117.4231203
-61,Seattle,United States,KeyArena,12061.0,47.6219014,-122.3539905
-62,Portland,United States,Rose Garden Arena,13226.0,45.5315787,-122.6668337
-63,Nampa,United States,Ford Arena,8970.0,43.6080574,-116.5080492
-64,Glendale,United States,Jobing.com Arena,13052.0,33.5319666,-112.2613181
-65,Los Angeles,United States,Staples Center,4550.0,34.0429979,-118.2671352
-66,Paradise,United States,Mandalay Bay Events Center,8311.0,36.0906483,-115.1790209
-67,San Diego,United States,Valley View Casino Center,10174.0,33.2195241,-116.9730009
-68,Salt Lake City,United States,EnergySolutions Arena,13042.0,40.7683274,-111.9010551
-69,New Brockton,United States,BamaJam Farms,,31.3857239,-85.9293861
-70,Columbia,United States,Merriweather Post Pavilion,17619.0,39.2088351,-76.8625061
-71,Greensboro,United States,Greensboro Coliseum,14641.0,36.0618209,-79.8174039
-72,Oshkosh,United States,Ford Festival Park,,43.9607336,-88.5909394
-73,Cadott,United States,Amphitheatre Concert Grounds,,45.0445878,-91.1840534
-74,Calgary,Canada,Pengrowth Saddledome,,51.0374124,-114.0519642
-75,Edmonton,Canada,Rexall Place,44500.0,53.5325073,-113.60386
-76,Craven,Canada,Big Valley Park,,50.7072638,-104.809204
-77,Winnipeg,Canada,MTS Centre,11369.0,49.8925939,-97.1437389
-78,Twin Lakes,United States,Country Thunder Festival,,43.5596779,-93.4229885
-79,Columbus,United States,Value City Arena,,40.0076033,-83.0249567
-80,Charleston,United States,Charleston Civic Center,,38.3561795,-81.6406084
-81,Cheyenne,United States,Cheyenne Frontier Days Arena,,41.139981,-104.820246
-82,Rapid City,United States,Barnett Arena,,44.0806041,-103.228023
-83,Minot,United States,North Dakota State Fair Grandstand,,48.23251,-101.296273
-84,Philadelphia,United States,Wachovia Spectrum,,39.9527237,-75.1635262
-85,Detroit Lakes,United States,Soo Pass Ranch,,46.817181,-95.845325
-86,Omaha,United States,Qwest Center Omaha,,41.2636669,-95.9279385
-87,Chelmsford,England,Hylands Park,,51.7118686,0.4329385
-88,Weston-under-Lizard,England,Weston Park,,52.6849394,-2.2850271
-89,New York City,United States,Madison Square Garden,13597.0,40.7505129,-73.9935159
-90,Uncasville,United States,Mohegan Sun Arena,7507.0,41.4911056,-72.0897112
-91,University Park,United States,Bryce Jordan Center,,40.808572,-77.8554679
-92,Louisville,United States,Freedom Hall,,38.2001655,-85.7418363
-93,Duluth,United States,Arena at Gwinnett Center,,33.9916013,-84.0938397
-94,Greenville,United States,Bi-Lo Center,,34.852706,-82.3915606
-95,Charlotte,United States,Time Warner Cable Arena,,35.225098,-80.8391541
-96,Lafayette,United States,Cajundome,,30.2130574,-92.0365594
-97,Bossier City,United States,CenturyTel Center,,32.4651746,-93.6736922
-98,Birmingham,United States,BJCC Arena,,33.5237958,-86.8128958
-99,Nashville,United States,Bridgestone Arena,14269.0,36.1589806,-86.7783819
-100,Dallas,United States,American Airlines Center,6897.0,32.7905076,-96.8102721
-101,North Little Rock,United States,Verizon Arena,13978.0,34.769536,-92.2670941
-102,Tulsa,United States,BOK Center,,36.1526653,-95.9963745
-103,Pittsburgh,United States,Mellon Arena,,40.4416941,-79.9900861
-104,Grand Rapids,United States,Van Andel Arena,,42.9622423,-85.6715921
-105,Cleveland,United States,Quicken Loans Arena,15524.0,41.4966862,-81.6885754
-106,Indianapolis,United States,Conseco Fieldhouse,13373.0,39.7639331,-86.1555024
-107,Rosemont,United States,Allstate Arena,13133.0,42.0052766,-87.8877714
-108,Minneapolis,United States,Target Center,13563.0,44.9795917,-93.2759828
-109,London,England,Wembley Arena,,51.559406,-0.284613
-110,Manchester,England,Manchester Evening News Arena,,53.4880867,-2.2441724
-111,Brisbane,Australia,Brisbane Entertainment Centre,11334.0,-27.3426971,153.0692109
-112,Sydney,Australia,Acer Arena,13515.0,-33.844289,151.0622385
-113,Newcastle,Australia,Newcastle Entertainment Centre,7180.0,-32.9204641,151.7366897
-114,Melbourne,Australia,Rod Laver Arena,11747.0,-37.8215688,144.9785875
-115,Adelaide,Australia,Adelaide Entertainment Centre,9066.0,-34.9079418,138.5738004
-116,Tokyo,Japan,Zepp Tokyo,,35.6955539,139.7008455
-117,Tampa,United States,St. Pete Times Forum,13861.0,27.942704,-82.4518903
-118,Orlando,United States,Amway Arena,11101.0,28.5392739,-81.3840071
-119,Sunrise,United States,BankAtlantic Center,13453.0,26.1583701,-80.3254289
-120,Austin,United States,Frank Erwin Center,11928.0,30.2769192,-97.7322018
-121,Corpus Christi,United States,American Bank Center Arena,8423.0,27.8072288,-97.393453
-122,Philadelphia,United States,Wachovia Center,15180.0,39.9011004,-75.1720165
-123,Charlottesville,United States,John Paul Jones Arena,11858.0,38.0459828,-78.5066437
-124,Auburn Hills,United States,The Palace of Auburn Hills,14563.0,42.6875323,-83.2341028
-125,Cincinnati,United States,U.S. Bank Arena,11208.0,39.0979261,-84.5044458
-126,Oklahoma City,United States,Ford Center,11795.0,35.4633961,-97.5150815
-127,Wichita,United States,Intrust Bank Arena,11208.0,37.6833852,-97.3319986
-128,Kansas City,United States,Sprint Center,13781.0,39.0972952,-94.5799495
-129,Denver,United States,Pepsi Center,12996.0,39.7486838,-105.007544
-130,Fresno,United States,Save Mart Center,11706.0,36.809685,-119.7385104
-131,San Jose,United States,HP Pavilion,12744.0,37.3328603,-121.9012247
-132,Lexington,United States,Rupp Arena,17966.0,38.0494123,-84.5023586
-133,Columbia,United States,Colonial Life Arena,13429.0,33.9947839,-81.0373546
-134,Raleigh,United States,RBC Center,13895.0,35.7803977,-78.6390989
-135,Des Moines,United States,Wells Fargo Arena,13264.0,41.5868654,-93.6249494
-136,Saint Paul,United States,Xcel Energy Center,14914.0,44.9497487,-93.0931028
-137,Moline,United States,iWireless Center,10641.0,41.507997,-90.5204015
-138,Newark,United States,Prudential Center,13033.0,40.7334302,-74.1711482
-139,Uniondale,United States,Nassau Veterans Memorial Coliseum,12916.0,40.7229344,-73.5907243
-140,Ottawa,Canada,Scotiabank Place,13376.0,45.2969069,-75.9268973
-141,Toronto,Canada,Air Canada Centre,15229.0,43.6434337,-79.3790777
-142,Houston,United States,Toyota Center,11747.0,29.7507473,-95.3622315
-143,Baton Rouge,United States,LSU Tiger Stadium,,30.4119772,-91.1838303
-144,"Washington, D.C.",United States,Verizon Center,13645.0,38.8981883,-77.0209378
-146,Nassau,The Bahamas,Imperial Ballroom,,25.0782266,-77.3383438
-147,Cavendish,Canada,Cavendish Beach Festival Grounds,35000.0,46.4912529,-63.3785021
-148,Singapore,Singapore,Singapore Indoor Stadium,8964.0,1.3008679,103.8743508
-149,Seoul,South Korea,Olympic Gymnastics Arena,4725.0,37.5666791,126.9782914
-150,Osaka,Japan,Osaka-Jo Hall,6953.0,34.6896441,135.5301038
-151,Tokyo,Japan,Nippon Budokan,7978.0,35.6933554,139.7498704
-152,Quezon City,Philippines,Smart Araneta Coliseum,12667.0,14.6207157,121.0533557
-153,Hong Kong,China,AsiaWorld–Arena,12573.0,22.350627,114.1849161
-154,Brussels,Belgium,Forest National,4622.0,50.8096461,4.3260748
-155,Rotterdam,Netherlands,Sportpaleis van Ahoy,4799.0,51.8832963,4.4883655
-156,Oslo,Norway,Oslo Spektrum,8650.0,59.9129638,10.7546593
-157,Oberhausen,Germany,König Pilsener Arena,6082.0,51.4900923,6.872449
-158,Milan,Italy,Mediolanum Forum,5585.0,45.4013592,9.1423018
-159,Paris,France,Zénith de Paris,8500.0,48.8942078,2.3931778
-160,Madrid,Spain,Palacio de los Deportes,3962.0,40.4238624,-3.6717885
-161,Birmingham,England,LG Arena,9339.0,52.4484171,-1.7204631
-162,Belfast,Northern Ireland,Odyssey Arena,8058.0,54.6038109,-5.91426
-163,Dublin,Ireland,The O2,8681.0,53.3476206,-6.2284132
-165,London,England,The O2 Arena,15681.0,51.5029316,0.0031839
-169,Orlando,United States,Amway Center,12262.0,28.5392867,-81.3838892
-170,Columbus,United States,Nationwide Arena,14817.0,39.9691873,-83.00608
-171,Milwaukee,United States,Bradley Center,13748.0,43.0392485,-87.9134008
-174,Pittsburgh,United States,Heinz Field,52009.0,40.4467166,-80.0157199
-175,Buffalo,United States,First Niagara Center,14487.0,42.8751467,-78.8766359
-176,Hartford,United States,XL Center,12436.0,41.76848,-72.6770215
-179,Knoxville,United States,Thompson–Boling Arena,13754.0,35.9511756,-83.925013
-180,Montreal,Canada,Bell Centre,13439.0,45.4960358,-73.5692029
-186,"""Washington, D.C.""",United States,Verizon Center,14652.0,38.8981883,-77.0209378
-193,Sacramento,United States,Power Balance Pavilion,12432.0,38.6474476,-121.4990511
-195,Tacoma,United States,Tacoma Dome,19904.0,47.2368873,-122.4269522
-196,Vancouver,Canada,Rogers Arena,13015.0,49.2779085,-123.1089417
-198,Bossier City,United States,CenturyLink Center,11510.0,32.4651746,-93.6736922
-200,Kansas City,United States,Arrowhead Stadium,48562.0,39.0489357,-94.4839993
-203,Atlanta,United States,Philips Arena,13122.0,33.7573698,-84.3963848
-205,New Orleans,United States,New Orleans Arena,12943.0,29.9490392,-90.082069
-206,Arlington,United States,Cowboys Stadium,55451.0,32.7478502,-97.0928337
-207,Louisville,United States,KFC Yum! Center,14848.0,38.2576964,-85.7538599
-208,Lubbock,United States,United Spirit Arena,10419.0,33.5804027,-101.8859684
-209,Oklahoma City,United States,Chesapeake Energy Arena,11592.0,35.4633961,-97.5150815
-212,San Antonio,United States,AT&T Center,13851.0,29.4270504,-98.4375071
-215,Memphis,United States,FedExForum,12604.0,35.1382401,-90.0506946
-216,Houston,United States,Minute Maid Park,42095.0,29.7572321,-95.3552344
-219,Miami,United States,American Airlines Arena,12153.0,25.7813595,-80.1879435
-224,Perth,Australia,Burswood Dome,,-31.9558967,115.8605784
-227,Sydney,Australia,Allphones Arena,,-33.844289,151.0622385
-229,Auckland,New Zealand,Vector Arena,,-36.8471826,174.7769794
-230,Omaha,United States,CenturyLink Center Omaha,13939.0,41.2636669,-95.9279385
-238,Tampa,United States,Tampa Bay Times Forum,14080.0,27.942704,-82.4518903
-240,Indianapolis,United States,Bankers Life Fieldhouse,13573.0,39.7639331,-86.1555024
-254,Winnipeg,Canada,Investors Group Field,33061.0,49.8077586,-97.1429177
-256,Vancouver,Canada,BC Place Stadium,41142.0,49.2766905,-123.1120062
-268,Sacramento,United States,Sleep Train Arena,12795.0,38.6474476,-121.4990511
-269,Portland,United States,Moda Center,13952.0,45.5315787,-122.6668337
-271,Fargo,United States,Fargodome,21073.0,46.9030223,-96.8013419
-274,Raleigh,United States,PNC Arena,13941.0,35.803398,-78.7219166
-278,Sydney,Australia,Allianz Stadium,40930.0,-33.8891572,151.2251352
-279,Brisbane,Australia,Suncorp Stadium,38907.0,-27.4648603,153.0096055
-280,Perth,Australia,nib Stadium,21827.0,-31.9457271,115.8699183
-281,Melbourne,Australia,Etihad Stadium,47257.0,-37.816529,144.947517
-283,Berlin,Germany,O2 World,10350.0,52.5063687,13.4437652
-284,Shanghai,China,Mercedes-Benz Arena,12793.0,31.1909263,121.488699
-285,Saitama,Japan,Saitama Super Arena,20046.0,35.8951196,139.630753
-286,Jakarta,Indonesia,MEIS Ancol,8130.0,-6.1441524,106.8478499
-287,Pasay,Philippines,Mall of Asia Arena,9775.0,14.532191,120.9837424
-289,Kuala Lumpur,Malaysia,Putra Indoor Stadium,7525.0,3.0537311,101.6934618
-291,Winchester,United States,City of Rock,,39.1852184,-78.1652404
-301,Cologne,Germany,Lanxess Arena,14510.0,50.9384967,6.9828844
-302,Amsterdam,Netherlands,Ziggo Dome,11166.0,52.3134068,4.937123
-303,Glasgow,Scotland,SSE Hydro,11021.0,55.8601411,-4.2852072
-304,Manchester,England,Manchester Arena,14773.0,53.4880867,-2.2441724
-305,London,England,Hyde Park,,51.5074889,-0.1622074
-306,Dublin,Ireland,3Arena,12594.0,53.3481201,-6.2271784
-307,Ottawa,Canada,Canadian Tire Centre,13480.0,45.2969069,-75.9268973
-310,"Washington, D.C.",United States,Nationals Park,42507.0,38.8727332,-77.0074815
-315,Seattle,United States,CenturyLink Field,55711.0,47.5953459,-122.3316443
-317,Glendale,United States,Gila River Arena,13260.0,33.5319666,-112.2613181
-319,San Diego,United States,Petco Park,44710.0,32.7071882,-117.1568773
-336,Atlanta,United States,Georgia Dome,56046.0,33.7544657,-84.3898151
-341,Sydney,Australia,ANZ Stadium,75980.0,-33.8471082,151.0633848
-344,Melbourne,Australia,AAMI Park,32712.0,-37.8251047,144.983743
-345,Glendale,United States,University of Phoenix Stadium,59157.0,34.1469416,-118.2478471
-347,Pasadena,United States,Rose Bowl,59042.0,34.1613492,-118.1676674
-349,Denver,United States,Sports Authority Field at Mile High,57140.0,39.743952,-105.0192228
-351,Manchester,England,Etihad Stadium,38629.0,53.4831448,-2.2005273
-352,Dublin,Ireland,Croke Park,66517.0,53.3603576,-6.2509812
-354,Louisville,United States,Cardinal Stadium,52138.0,38.2060161,-85.7587734
-355,Columbus,United States,Ohio Stadium,62897.0,40.0016458,-83.0197374
-356,Landover,United States,FedExField,47836.0,38.9076875,-76.8644869
-358,Cleveland,United States,FirstEnergy Stadium,51323.0,41.5060559,-81.6997118
-371,St. Louis,United States,The Dome at America's Center,47831.0,38.6327852,-90.188551
-372,New Orleans,United States,Mercedes-Benz Superdome,53172.0,29.9510489,-90.0823076
-375,Perth,Australia,Optus Stadium,50891.0,-31.9558967,115.8605784
-376,Melbourne,Australia,Marvel Stadium,63027.0,-37.816529,144.947517
-378,Brisbane,Australia,The Gabba,43907.0,-27.4858851,153.0379847
-379,Auckland,New Zealand,Mount Smart Stadium,35749.0,-36.9178349,174.8122802
+Venue_ID,City,Country,Venue,Venue_Capacity,Latitude,Longitude,Operational
+1,Glendale,United States,State Farm Stadium,70000.0,33.527283,-112.263275,Open
+2,Paradise,United States,Allegiant Stadium,,36.090794,-115.183952,Open
+3,Arlington,United States,AT&T Stadium,70203.0,32.747841,-97.093628,Open
+4,Tampa,United States,Raymond James Stadium,68820.0,27.975958,-82.503693,Open
+5,Houston,United States,NRG Stadium,72220.0,29.68486,-95.411667,Open
+6,Atlanta,United States,Mercedes-Benz Stadium,70000.0,33.755489,-84.401993,Open
+7,Nashville,United States,Nissan Stadium,71000.0,36.166479,-86.7712898,Open
+8,Philadelphia,United States,Lincoln Financial Field,67567.0,39.900898,-75.168098,Open
+9,Foxborough,United States,Gillette Stadium,66667.0,42.0878,-71.2587,Open
+10,East Rutherford,United States,MetLife Stadium,72545.0,40.813778,-74.07431,Open
+11,Chicago,United States,Soldier Field,50000.0,41.862366,-87.617256,Open
+12,Detroit,United States,Ford Field,59331.0,42.340115,-83.046341,Open
+13,Pittsburgh,United States,Acrisure Stadium,73117.0,40.4469,-80.0158,Open
+14,Minneapolis,United States,U.S. Bank Stadium,64453.0,44.9737,-93.257,Open
+15,Cincinnati,United States,Paycor Stadium,65000.0,39.0955,-84.5161,Open
+16,Kansas City,United States,GEHA Field at Arrowhead Stadium,55000.0,39.049,-94.4839,Open
+17,Denver,United States,Empower Field at Mile High,75000.0,39.7439,-105.0201,Open
+18,Seattle,United States,Lumen Field,72171.0,47.5952,-122.3316,Open
+19,Santa Clara,United States,Levi's Stadium,70000.0,37.403,-121.97,Open
+20,Inglewood,United States,SoFi Stadium,70000.0,33.9535,-118.3392,Open
+21,Mexico City,Mexico,Foro Sol,45000.0,19.4042,-99.0907,Open
+22,Buenos Aires,Argentina,Estadio River Plate,73334.0,-34.5455,-58.4494,Open
+23,Rio de Janeiro,Brazil,Estádio Olímpico Nilton Santos,60000.0,-22.893194,-43.2935691,Open
+24,São Paulo,Brazil,Allianz Parque,50000.0,-23.5273,-46.678,Open
+25,Tokyo,Japan,Tokyo Dome,55000.0,35.7056,139.7519,Open
+26,Melbourne,Australia,Melbourne Cricket Ground,96000.0,-37.819909,144.983225,Open
+27,Sydney,Australia,Accor Stadium,80000.0,-33.8474,151.0631,Open
+28,Singapore,Singapore,Singapore National Stadium,63000.0,1.3020909,103.8763295,Open
+29,Nanterre,France,Paris La Défense Arena,45000.0,48.8956767,2.2296581,Open
+30,Stockholm,Sweden,Friends Arena,59560.0,59.3728,18.0006,Open
+31,Lisbon,Portugal,Estádio da Luz,60000.0,38.7526893,-9.1846899,Open
+32,Madrid,Spain,Estadio Santiago Bernabéu,65000.0,40.4521778,-3.6876573,Open
+33,Décines-Charpieu,France,Groupama Stadium,61000.0,45.7652,4.9827,Open
+34,Edinburgh,Scotland,Murrayfield Stadium,73000.0,55.9423132,-3.2408951,Open
+35,Liverpool,England,Anfield,62000.0,53.4309164,-2.9609314,Open
+36,Cardiff,Wales,Principality Stadium,70000.0,51.4782,-3.1827,Open
+37,London,England,Wembley Stadium,94139.0,51.556,-0.2796,Open
+38,Dublin,Ireland,Aviva Stadium,50000.0,53.3351,-6.2285,Open
+39,Amsterdam,Netherlands,Johan Cruyff Arena,55000.0,52.3730796,4.8924534,Open
+40,Zürich,Switzerland,Letzigrund,47500.0,47.3828206,8.5037387,Open
+41,Milan,Italy,San Siro,80000.0,45.4782003,9.123964,Open
+42,Gelsenkirchen,Germany,Veltins-Arena,60000.0,51.5545,7.0675,Open
+43,Hamburg,Germany,Volksparkstadion,50000.0,53.5875,9.8986,Open
+44,Munich,Germany,Olympiastadion,74000.0,48.1731,11.5466,Open
+45,Warsaw,Poland,PGE Narodowy,65000.0,52.2394,21.0458,Open
+46,Miami Gardens,United States,Hard Rock Stadium,61000.0,25.958,-80.2389,Open
+47,New Orleans,United States,Caesars Superdome,65000.0,29.9510489,-90.0823076,Open
+48,Indianapolis,United States,Lucas Oil Stadium,69000.0,39.7601,-86.1639,Open
+49,Toronto,Canada,Rogers Centre,47870.0,43.6416599,-79.3891976,Open
+50,Vancouver,Canada,BC Place,53334.0,49.2768,-123.1116,Open
+51,Total,Total,Total,,59.98466,23.5959136,Open
+52,Evansville,United States,Roberts Municipal Stadium,7463.0,37.970495,-87.5715641,Closed
+53,Jonesboro,United States,Convocation Center,7822.0,35.8453739,-90.6703443,Open
+54,St. Louis,United States,Scottrade Center,13764.0,38.6268005,-90.20262,Open
+55,Alexandria,United States,Bishop Ireton High School,,38.8090294,-77.0808841,Open
+56,North Charleston,United States,North Charleston Coliseum,8751.0,32.865567,-80.0223423,Open
+57,Jacksonville,United States,Jacksonville Veterans Memorial Arena,11072.0,30.3257439,-81.6449801,Open
+58,Biloxi,United States,Mississippi Coast Coliseum,9436.0,30.3943904,-88.9739883,Open
+59,London,England,Shepherd's Bush Empire,3395.0,51.5034474,-0.2244489,Open
+60,Spokane,United States,Spokane Arena,10798.0,47.6664718,-117.4231203,Open
+61,Seattle,United States,KeyArena,12061.0,47.6219014,-122.3539905,Open
+62,Portland,United States,Rose Garden Arena,13226.0,45.5315787,-122.6668337,Open
+63,Nampa,United States,Ford Arena,8970.0,43.6080574,-116.5080492,Open
+64,Glendale,United States,Jobing.com Arena,13052.0,33.5319666,-112.2613181,Open
+65,Los Angeles,United States,Staples Center,4550.0,34.0429979,-118.2671352,Open
+66,Paradise,United States,Mandalay Bay Events Center,8311.0,36.0906483,-115.1790209,Open
+67,San Diego,United States,Valley View Casino Center,10174.0,33.2195241,-116.9730009,Open
+68,Salt Lake City,United States,EnergySolutions Arena,13042.0,40.7683274,-111.9010551,Open
+69,New Brockton,United States,BamaJam Farms,,31.3857239,-85.9293861,Open
+70,Columbia,United States,Merriweather Post Pavilion,17619.0,39.2088351,-76.8625061,Open
+71,Greensboro,United States,Greensboro Coliseum,14641.0,36.0434343,-79.8455352,Open
+72,Oshkosh,United States,Ford Festival Park,,43.9607336,-88.5909394,Open
+73,Cadott,United States,Amphitheatre Concert Grounds,,45.0445878,-91.1840534,Open
+74,Calgary,Canada,Pengrowth Saddledome,,51.0374124,-114.0519642,Open
+75,Edmonton,Canada,Rexall Place,44500.0,53.5325073,-113.60386,Open
+76,Craven,Canada,Big Valley Park,,50.7072638,-104.809204,Open
+77,Winnipeg,Canada,MTS Centre,11369.0,49.8925939,-97.1437389,Open
+78,Twin Lakes,United States,Country Thunder Festival,,43.5596779,-93.4229885,Open
+79,Columbus,United States,Value City Arena,,40.0076033,-83.0249567,Open
+80,Charleston,United States,Charleston Civic Center,,38.3561795,-81.6406084,Open
+81,Cheyenne,United States,Cheyenne Frontier Days Arena,,41.139981,-104.820246,Open
+82,Rapid City,United States,Barnett Arena,,44.0806041,-103.228023,Open
+83,Minot,United States,North Dakota State Fair Grandstand,,48.23251,-101.296273,Open
+84,Philadelphia,United States,Wachovia Spectrum,,39.9527237,-75.1635262,Closed
+85,Detroit Lakes,United States,Soo Pass Ranch,,46.817181,-95.845325,Open
+86,Omaha,United States,Qwest Center Omaha,,41.2636669,-95.9279385,Open
+87,Chelmsford,England,Hylands Park,,51.7118686,0.4329385,Open
+88,Weston-under-Lizard,England,Weston Park,,52.6849394,-2.2850271,Open
+89,New York City,United States,Madison Square Garden,13597.0,40.7505129,-73.9935159,Open
+90,Uncasville,United States,Mohegan Sun Arena,7507.0,41.4911056,-72.0897112,Open
+91,University Park,United States,Bryce Jordan Center,,40.808572,-77.8554679,Open
+92,Louisville,United States,Freedom Hall,,38.2001655,-85.7418363,Open
+93,Duluth,United States,Arena at Gwinnett Center,,33.9916013,-84.0938397,Open
+94,Greenville,United States,Bi-Lo Center,,34.852706,-82.3915606,Open
+95,Charlotte,United States,Time Warner Cable Arena,,35.225098,-80.8391541,Open
+96,Lafayette,United States,Cajundome,,30.2130574,-92.0365594,Open
+97,Bossier City,United States,CenturyTel Center,,32.4651746,-93.6736922,Open
+98,Birmingham,United States,BJCC Arena,,33.5237958,-86.8128958,Open
+99,Nashville,United States,Bridgestone Arena,14269.0,36.1589806,-86.7783819,Open
+100,Dallas,United States,American Airlines Center,6897.0,32.7905076,-96.8102721,Open
+101,North Little Rock,United States,Verizon Arena,13978.0,34.769536,-92.2670941,Open
+102,Tulsa,United States,BOK Center,,36.1526653,-95.9963745,Open
+103,Pittsburgh,United States,Mellon Arena,,40.4416941,-79.9900861,Closed
+104,Grand Rapids,United States,Van Andel Arena,,42.9622423,-85.6715921,Open
+105,Cleveland,United States,Quicken Loans Arena,15524.0,41.4966862,-81.6885754,Open
+106,Indianapolis,United States,Conseco Fieldhouse,13373.0,39.7639331,-86.1555024,Open
+107,Rosemont,United States,Allstate Arena,13133.0,42.0052766,-87.8877714,Open
+108,Minneapolis,United States,Target Center,13563.0,44.9795917,-93.2759828,Open
+109,London,England,Wembley Arena,,51.559406,-0.284613,Open
+110,Manchester,England,Manchester Evening News Arena,,53.4880867,-2.2441724,Open
+111,Brisbane,Australia,Brisbane Entertainment Centre,11334.0,-27.3426971,153.0692109,Open
+112,Sydney,Australia,Acer Arena,13515.0,-33.844289,151.0622385,Open
+113,Newcastle,Australia,Newcastle Entertainment Centre,7180.0,-32.9204641,151.7366897,Open
+114,Melbourne,Australia,Rod Laver Arena,11747.0,-37.8215688,144.9785875,Open
+115,Adelaide,Australia,Adelaide Entertainment Centre,9066.0,-34.9079418,138.5738004,Open
+116,Tokyo,Japan,Zepp Tokyo,,35.6955539,139.7008455,Open
+117,Tampa,United States,St. Pete Times Forum,13861.0,27.942704,-82.4518903,Open
+118,Orlando,United States,Amway Arena,11101.0,28.5392739,-81.3840071,Open
+119,Sunrise,United States,BankAtlantic Center,13453.0,26.1583701,-80.3254289,Open
+120,Austin,United States,Frank Erwin Center,11928.0,30.2769192,-97.7322018,Closed
+121,Corpus Christi,United States,American Bank Center Arena,8423.0,27.8072288,-97.393453,Open
+122,Philadelphia,United States,Wachovia Center,15180.0,39.9011004,-75.1720165,Open
+123,Charlottesville,United States,John Paul Jones Arena,11858.0,38.0459828,-78.5066437,Open
+124,Auburn Hills,United States,The Palace of Auburn Hills,14563.0,42.6875323,-83.2341028,Closed
+125,Cincinnati,United States,U.S. Bank Arena,11208.0,39.0979262,-84.5044458,Open
+126,Oklahoma City,United States,Ford Center,11795.0,35.4633961,-97.5150815,Open
+127,Wichita,United States,Intrust Bank Arena,11208.0,37.6833852,-97.3319986,Open
+128,Kansas City,United States,Sprint Center,13781.0,39.0972952,-94.5799495,Open
+129,Denver,United States,Pepsi Center,12996.0,39.7486838,-105.007544,Open
+130,Fresno,United States,Save Mart Center,11706.0,36.809685,-119.7385104,Open
+131,San Jose,United States,HP Pavilion,12744.0,37.3328603,-121.9012247,Open
+132,Lexington,United States,Rupp Arena,17966.0,38.0494123,-84.5023586,Open
+133,Columbia,United States,Colonial Life Arena,13429.0,33.9947839,-81.0373546,Open
+134,Raleigh,United States,RBC Center,13895.0,35.7803977,-78.6390989,Open
+135,Des Moines,United States,Wells Fargo Arena,13264.0,41.5868654,-93.6249494,Open
+136,Saint Paul,United States,Xcel Energy Center,14914.0,44.9497487,-93.0931028,Open
+137,Moline,United States,iWireless Center,10641.0,41.507997,-90.5204015,Open
+138,Newark,United States,Prudential Center,13033.0,40.7334302,-74.1711482,Open
+139,Uniondale,United States,Nassau Veterans Memorial Coliseum,12916.0,40.7229344,-73.5907243,Open
+140,Ottawa,Canada,Scotiabank Place,13376.0,45.2969069,-75.9268973,Open
+141,Toronto,Canada,Air Canada Centre,15229.0,43.6434337,-79.3790777,Open
+142,Houston,United States,Toyota Center,11747.0,29.7507473,-95.3622315,Open
+143,Baton Rouge,United States,LSU Tiger Stadium,,30.4119772,-91.1838303,Open
+144,"Washington, D.C.",United States,Verizon Center,13645.0,38.8981883,-77.0209378,Open
+146,Nassau,The Bahamas,Imperial Ballroom,,25.0782266,-77.3383438,Open
+147,Cavendish,Canada,Cavendish Beach Festival Grounds,35000.0,46.4912529,-63.3785021,Open
+148,Singapore,Singapore,Singapore Indoor Stadium,8964.0,1.3008679,103.8743508,Open
+149,Seoul,South Korea,Olympic Gymnastics Arena,4725.0,37.5666791,126.9782914,Open
+150,Osaka,Japan,Osaka-Jo Hall,6953.0,34.6896441,135.5301038,Open
+151,Tokyo,Japan,Nippon Budokan,7978.0,35.6933554,139.7498704,Open
+152,Quezon City,Philippines,Smart Araneta Coliseum,12667.0,14.6207157,121.0533557,Open
+153,Hong Kong,China,AsiaWorld–Arena,12573.0,22.350627,114.1849161,Open
+154,Brussels,Belgium,Forest National,4622.0,50.8096461,4.3260748,Open
+155,Rotterdam,Netherlands,Sportpaleis van Ahoy,4799.0,51.8832963,4.4883655,Open
+156,Oslo,Norway,Oslo Spektrum,8650.0,59.9129638,10.7546593,Open
+157,Oberhausen,Germany,König Pilsener Arena,6082.0,51.4900923,6.872449,Open
+158,Milan,Italy,Mediolanum Forum,5585.0,45.4013592,9.1423018,Open
+159,Paris,France,Zénith de Paris,8500.0,48.8942078,2.3931778,Open
+160,Madrid,Spain,Palacio de los Deportes,3962.0,40.4238624,-3.6717885,Open
+161,Birmingham,England,LG Arena,9339.0,52.4484171,-1.7204631,Open
+162,Belfast,Northern Ireland,Odyssey Arena,8058.0,54.6038109,-5.91426,Open
+163,Dublin,Ireland,The O2,8681.0,53.3476206,-6.2284132,Open
+165,London,England,The O2 Arena,15681.0,51.5029316,0.0031839,Open
+169,Orlando,United States,Amway Center,12262.0,28.5392867,-81.3838892,Open
+170,Columbus,United States,Nationwide Arena,14817.0,39.9691873,-83.00608,Open
+171,Milwaukee,United States,Bradley Center,13748.0,43.0392485,-87.9134008,Closed
+174,Pittsburgh,United States,Heinz Field,52009.0,40.4467166,-80.0157199,Open
+175,Buffalo,United States,First Niagara Center,14487.0,42.8751467,-78.8766359,Open
+176,Hartford,United States,XL Center,12436.0,41.76848,-72.6770215,Open
+179,Knoxville,United States,Thompson–Boling Arena,13754.0,35.9511756,-83.925013,Open
+180,Montreal,Canada,Bell Centre,13439.0,45.4960358,-73.5692029,Open
+193,Sacramento,United States,Power Balance Pavilion,12432.0,38.6474476,-121.4990511,Closed
+195,Tacoma,United States,Tacoma Dome,19904.0,47.2368873,-122.4269522,Open
+196,Vancouver,Canada,Rogers Arena,13015.0,49.2779085,-123.1089417,Open
+198,Bossier City,United States,CenturyLink Center,11510.0,32.4651746,-93.6736922,Open
+200,Kansas City,United States,Arrowhead Stadium,48562.0,39.0489357,-94.4839993,Open
+203,Atlanta,United States,Philips Arena,13122.0,33.7573698,-84.3963848,Open
+205,New Orleans,United States,New Orleans Arena,12943.0,29.9490392,-90.082069,Open
+206,Arlington,United States,Cowboys Stadium,55451.0,32.7478502,-97.0928337,Open
+207,Louisville,United States,KFC Yum! Center,14848.0,38.2576964,-85.7538599,Open
+208,Lubbock,United States,United Spirit Arena,10419.0,33.5804027,-101.8859684,Open
+209,Oklahoma City,United States,Chesapeake Energy Arena,11592.0,35.4633961,-97.5150815,Open
+212,San Antonio,United States,AT&T Center,13851.0,29.4270504,-98.4375071,Open
+215,Memphis,United States,FedExForum,12604.0,35.1382401,-90.0506946,Open
+216,Houston,United States,Minute Maid Park,42095.0,29.7572321,-95.3552344,Open
+219,Miami,United States,American Airlines Arena,12153.0,25.7813595,-80.1879435,Open
+224,Perth,Australia,Burswood Dome,,-31.9558967,115.8605784,Closed
+227,Sydney,Australia,Allphones Arena,,-33.844289,151.0622385,Open
+229,Auckland,New Zealand,Vector Arena,,-36.8471826,174.7769794,Open
+230,Omaha,United States,CenturyLink Center Omaha,13939.0,41.2636669,-95.9279385,Open
+238,Tampa,United States,Tampa Bay Times Forum,14080.0,27.942704,-82.4518903,Open
+240,Indianapolis,United States,Bankers Life Fieldhouse,13573.0,39.7639331,-86.1555024,Open
+254,Winnipeg,Canada,Investors Group Field,33061.0,49.8077586,-97.1429177,Open
+256,Vancouver,Canada,BC Place Stadium,41142.0,49.2766905,-123.1120062,Open
+268,Sacramento,United States,Sleep Train Arena,12795.0,38.6474476,-121.4990511,Closed
+269,Portland,United States,Moda Center,13952.0,45.5315787,-122.6668337,Open
+271,Fargo,United States,Fargodome,21073.0,46.9030223,-96.8013419,Open
+274,Raleigh,United States,PNC Arena,13941.0,35.803398,-78.7219166,Open
+278,Sydney,Australia,Allianz Stadium,40930.0,-33.8891572,151.2251352,Open
+279,Brisbane,Australia,Suncorp Stadium,38907.0,-27.4648603,153.0096055,Open
+280,Perth,Australia,nib Stadium,21827.0,-31.9457271,115.8699183,Open
+281,Melbourne,Australia,Etihad Stadium,47257.0,-37.816529,144.947517,Open
+283,Berlin,Germany,O2 World,10350.0,52.5063687,13.4437652,Open
+284,Shanghai,China,Mercedes-Benz Arena,12793.0,31.1909263,121.488699,Open
+285,Saitama,Japan,Saitama Super Arena,20046.0,35.8951196,139.630753,Open
+286,Jakarta,Indonesia,MEIS Ancol,8130.0,-6.1441524,106.8478499,Open
+287,Pasay,Philippines,Mall of Asia Arena,9775.0,14.532191,120.9837424,Open
+289,Kuala Lumpur,Malaysia,Putra Indoor Stadium,7525.0,3.0537311,101.6934618,Open
+291,Winchester,United States,City of Rock,,39.1852184,-78.1652404,Open
+301,Cologne,Germany,Lanxess Arena,14510.0,50.9384967,6.9828844,Open
+302,Amsterdam,Netherlands,Ziggo Dome,11166.0,52.3137527,4.937709,Open
+303,Glasgow,Scotland,SSE Hydro,11021.0,55.8601411,-4.2852072,Open
+304,Manchester,England,Manchester Arena,14773.0,53.4880867,-2.2441724,Open
+305,London,England,Hyde Park,,51.5074889,-0.1622074,Open
+306,Dublin,Ireland,3Arena,12594.0,53.3481201,-6.2271784,Open
+307,Ottawa,Canada,Canadian Tire Centre,13480.0,45.2969069,-75.9268973,Open
+310,"Washington, D.C.",United States,Nationals Park,42507.0,38.8727332,-77.0074815,Open
+315,Seattle,United States,CenturyLink Field,55711.0,47.5953459,-122.3316443,Open
+317,Glendale,United States,Gila River Arena,13260.0,33.5319666,-112.2613181,Open
+319,San Diego,United States,Petco Park,44710.0,32.7071882,-117.1568773,Open
+336,Atlanta,United States,Georgia Dome,56046.0,33.7544657,-84.3898151,Closed
+341,Sydney,Australia,ANZ Stadium,75980.0,-33.8471082,151.0633848,Open
+344,Melbourne,Australia,AAMI Park,32712.0,-37.8251047,144.983743,Open
+345,Glendale,United States,University of Phoenix Stadium,59157.0,34.1469416,-118.2478471,Open
+347,Pasadena,United States,Rose Bowl,59042.0,34.1613492,-118.1676674,Open
+349,Denver,United States,Sports Authority Field at Mile High,57140.0,39.743952,-105.0192228,Open
+351,Manchester,England,Etihad Stadium,38629.0,53.4831448,-2.2005273,Open
+352,Dublin,Ireland,Croke Park,66517.0,53.3603576,-6.2509812,Open
+354,Louisville,United States,Cardinal Stadium,52138.0,38.2060161,-85.7587734,Open
+355,Columbus,United States,Ohio Stadium,62897.0,40.0016458,-83.0197374,Open
+356,Landover,United States,FedExField,47836.0,38.9076875,-76.8644869,Open
+358,Cleveland,United States,FirstEnergy Stadium,51323.0,41.5060559,-81.6997118,Open
+371,St. Louis,United States,The Dome at America's Center,47831.0,38.6327852,-90.188551,Open
+372,New Orleans,United States,Mercedes-Benz Superdome,53172.0,29.9510489,-90.0823076,Open
+375,Perth,Australia,Optus Stadium,50891.0,-31.9558967,115.8605784,Open
+376,Melbourne,Australia,Marvel Stadium,63027.0,-37.816529,144.947517,Open
+378,Brisbane,Australia,The Gabba,43907.0,-27.4858851,153.0379847,Open
+379,Auckland,New Zealand,Mount Smart Stadium,35749.0,-36.9178349,174.8122802,Open
