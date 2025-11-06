@@ -1,0 +1,2752 @@
+{
+  "Foro Sol|Mexico City|Mexico": {
+    "latitude": 19.4050224,
+    "longitude": -99.0955714,
+    "state": null,
+    "country": null,
+    "method": "Foro Sol, Mexico City, Mexico"
+  },
+  "Estadio River Plate|Buenos Aires|Argentina": {
+    "latitude": -34.5825297,
+    "longitude": -58.3990538,
+    "state": null,
+    "country": null,
+    "method": "Estadio River Plate, Buenos Aires, Argentina"
+  },
+  "Estadio Nilton Santos|Rio de Janeiro|Brazil": {
+    "latitude": -22.893194,
+    "longitude": -43.2935691,
+    "state": null,
+    "country": null,
+    "method": "Estadio Nilton Santos, Rio de Janeiro, Brazil"
+  },
+  "Allianz Parque|Sao Paulo|Brazil": {
+    "latitude": -23.5274971,
+    "longitude": -46.6785281,
+    "state": null,
+    "country": null,
+    "method": "Allianz Parque, Sao Paulo, Brazil"
+  },
+  "Tokyo Dome|Tokyo|Japan": {
+    "latitude": 35.7055706,
+    "longitude": 139.7519705,
+    "state": null,
+    "country": null,
+    "method": "Tokyo Dome, Tokyo, Japan"
+  },
+  "MCG|Melbourne|Australia": {
+    "latitude": -37.819909,
+    "longitude": 144.983225,
+    "state": null,
+    "country": null,
+    "method": "MCG, Melbourne, Australia"
+  },
+  "Accor Stadium|Sydney|Australia": {
+    "latitude": -33.8471082,
+    "longitude": 151.0633848,
+    "state": null,
+    "country": null,
+    "method": "Accor Stadium, Sydney, Australia"
+  },
+  "National Stadium|Singapore|Singapore": {
+    "latitude": 1.304491,
+    "longitude": 103.8743437,
+    "state": null,
+    "country": null,
+    "method": "National Stadium, Singapore, Singapore"
+  },
+  "Paris La Defense Arena|Paris|France": {
+    "latitude": 48.8588897,
+    "longitude": 2.320041,
+    "state": null,
+    "country": null,
+    "method": "Paris, France"
+  },
+  "Friends Arena|Stockholm|Sweden": {
+    "latitude": 59.3725039,
+    "longitude": 18.0016672,
+    "state": null,
+    "country": null,
+    "method": "Friends Arena, Stockholm, Sweden"
+  },
+  "Estadio da Luz|Lisbon|Portugal": {
+    "latitude": 38.7526893,
+    "longitude": -9.1846899,
+    "state": null,
+    "country": null,
+    "method": "Estadio da Luz, Lisbon, Portugal"
+  },
+  "Estadio Santiago Bernabeu|Madrid|Spain": {
+    "latitude": 40.4521778,
+    "longitude": -3.6876573,
+    "state": null,
+    "country": null,
+    "method": "Estadio Santiago Bernabeu, Madrid, Spain"
+  },
+  "Groupama Stadium|Lyon|France": {
+    "latitude": 45.7653624,
+    "longitude": 4.9820543,
+    "state": null,
+    "country": null,
+    "method": "Groupama Stadium, Lyon, France"
+  },
+  "BT Murrayfield Stadium|Edinburgh|United Kingdom": {
+    "latitude": 55.9533456,
+    "longitude": -3.1883749,
+    "state": null,
+    "country": null,
+    "method": "Edinburgh, United Kingdom"
+  },
+  "Anfield Stadium|Liverpool|England": {
+    "latitude": 53.4302124,
+    "longitude": -2.9619309,
+    "state": null,
+    "country": null,
+    "method": "Anfield Stadium, Liverpool, England"
+  },
+  "Principality Stadium|Cardiff|Wales": {
+    "latitude": 51.4782485,
+    "longitude": -3.1826256,
+    "state": null,
+    "country": null,
+    "method": "Principality Stadium, Cardiff, Wales"
+  },
+  "Wembley Stadium|London|England": {
+    "latitude": 51.5560695,
+    "longitude": -0.2796034,
+    "state": null,
+    "country": null,
+    "method": "Wembley Stadium, London, England"
+  },
+  "Aviva Stadium|Dublin|Ireland": {
+    "latitude": 53.3352254,
+    "longitude": -6.2281851,
+    "state": null,
+    "country": null,
+    "method": "Aviva Stadium, Dublin, Ireland"
+  },
+  "Johan Cruijff Arena|Amsterdam|Netherlands": {
+    "latitude": 52.314353,
+    "longitude": 4.9428431,
+    "state": null,
+    "country": null,
+    "method": "Johan Cruijff Arena, Amsterdam, Netherlands"
+  },
+  "Stadion Letzigrund Zurich|Zurich|Switzerland": {
+    "latitude": 47.3828206,
+    "longitude": 8.5037387,
+    "state": null,
+    "country": null,
+    "method": "Stadion Letzigrund Zurich, Zurich, Switzerland"
+  },
+  "San Siro Stadium|Milan|Italy": {
+    "latitude": 45.4782003,
+    "longitude": 9.123964,
+    "state": null,
+    "country": null,
+    "method": "San Siro Stadium, Milan, Italy"
+  },
+  "VELTINS-Arena|Gelsenkirchen|Germany": {
+    "latitude": 51.5545938,
+    "longitude": 7.0676001,
+    "state": null,
+    "country": null,
+    "method": "VELTINS-Arena, Gelsenkirchen, Germany"
+  },
+  "Volksparkstadion|Hamburg|Germany": {
+    "latitude": 53.5871535,
+    "longitude": 9.8987056,
+    "state": null,
+    "country": null,
+    "method": "Volksparkstadion, Hamburg, Germany"
+  },
+  "Olympiastadion|Munich|Germany": {
+    "latitude": 48.1731314,
+    "longitude": 11.5464786,
+    "state": null,
+    "country": null,
+    "method": "Olympiastadion, Munich, Germany"
+  },
+  "PGE Narodowy|Warsaw|Poland": {
+    "latitude": 52.2399367,
+    "longitude": 21.0452877,
+    "state": null,
+    "country": null,
+    "method": "PGE Narodowy, Warsaw, Poland"
+  },
+  "Ernst-Happel-Stadion|Vienna|Austria": {
+    "latitude": 48.2071894,
+    "longitude": 16.4209171,
+    "state": null,
+    "country": null,
+    "method": "Ernst-Happel-Stadion, Vienna, Austria"
+  },
+  "Roger's Centre|Toronto|Canada": {
+    "latitude": 43.6534817,
+    "longitude": -79.3839347,
+    "state": null,
+    "country": null,
+    "method": "Toronto, Canada"
+  },
+  "BC Place|Vancouver|Canada": {
+    "latitude": 49.2766905,
+    "longitude": -123.1120062,
+    "state": null,
+    "country": null,
+    "method": "BC Place, Vancouver, Canada"
+  },
+  "Roberts Municipal Stadium|Evansville|United States": {
+    "latitude": 37.970495,
+    "longitude": -87.5715641,
+    "state": null,
+    "country": null,
+    "method": "Evansville, United States"
+  },
+  "Convocation Center|Jonesboro|United States": {
+    "latitude": 35.8453739,
+    "longitude": -90.6703443,
+    "state": null,
+    "country": null,
+    "method": "Convocation Center, Jonesboro, United States"
+  },
+  "Scottrade Center|St. Louis|United States": {
+    "latitude": 38.6268005,
+    "longitude": -90.20262,
+    "state": null,
+    "country": null,
+    "method": "Scottrade Center, St. Louis, United States"
+  },
+  "Bishop Ireton High School|Alexandria|United States": {
+    "latitude": 38.8090294,
+    "longitude": -77.0808841,
+    "state": null,
+    "country": null,
+    "method": "Bishop Ireton High School, Alexandria, United States"
+  },
+  "North Charleston Coliseum|North Charleston|United States": {
+    "latitude": 32.865567,
+    "longitude": -80.0223423,
+    "state": null,
+    "country": null,
+    "method": "North Charleston Coliseum, North Charleston, United States"
+  },
+  "Jacksonville Veterans Memorial Arena|Jacksonville|United States": {
+    "latitude": 30.3321838,
+    "longitude": -81.655651,
+    "state": null,
+    "country": null,
+    "method": "Jacksonville, United States"
+  },
+  "Mississippi Coast Coliseum|Biloxi|United States": {
+    "latitude": 30.3943904,
+    "longitude": -88.9739883,
+    "state": null,
+    "country": null,
+    "method": "Mississippi Coast Coliseum, Biloxi, United States"
+  },
+  "Shepherd's Bush Empire|London|England": {
+    "latitude": 51.5034474,
+    "longitude": -0.2244489,
+    "state": null,
+    "country": null,
+    "method": "Shepherd's Bush Empire, London, England"
+  },
+  "Spokane Arena|Spokane|United States": {
+    "latitude": 47.6664718,
+    "longitude": -117.4231203,
+    "state": null,
+    "country": null,
+    "method": "Spokane Arena, Spokane, United States"
+  },
+  "Rose Garden Arena|Portland|United States": {
+    "latitude": 45.5202471,
+    "longitude": -122.674194,
+    "state": null,
+    "country": null,
+    "method": "Portland, United States"
+  },
+  "Ford Arena|Nampa|United States": {
+    "latitude": 43.6080574,
+    "longitude": -116.5080492,
+    "state": null,
+    "country": null,
+    "method": "Ford Arena, Nampa, United States"
+  },
+  "Mandalay Bay Events Center|Paradise|United States": {
+    "latitude": 36.0724299,
+    "longitude": -115.1474759,
+    "state": null,
+    "country": null,
+    "method": "Paradise, United States"
+  },
+  "Valley View Casino Center|San Diego|United States": {
+    "latitude": 33.2195241,
+    "longitude": -116.9730009,
+    "state": null,
+    "country": null,
+    "method": "Valley View Casino Center, San Diego, United States"
+  },
+  "EnergySolutions Arena|Salt Lake City|United States": {
+    "latitude": 40.7683274,
+    "longitude": -111.9010551,
+    "state": null,
+    "country": null,
+    "method": "EnergySolutions Arena, Salt Lake City, United States"
+  },
+  "BamaJam Farms|New Brockton|United States": {
+    "latitude": 31.3857239,
+    "longitude": -85.9293861,
+    "state": null,
+    "country": null,
+    "method": "New Brockton, United States"
+  },
+  "Merriweather Post Pavilion|Columbia|United States": {
+    "latitude": 39.2088351,
+    "longitude": -76.8625061,
+    "state": null,
+    "country": null,
+    "method": "Merriweather Post Pavilion, Columbia, United States"
+  },
+  "Greensboro Coliseum|Greensboro|United States": {
+    "latitude": 36.0434343,
+    "longitude": -79.8455352,
+    "state": null,
+    "country": null,
+    "method": "Greensboro Coliseum, Greensboro, United States"
+  },
+  "Ford Festival Park|Oshkosh|United States": {
+    "latitude": 43.9607336,
+    "longitude": -88.5909394,
+    "state": null,
+    "country": null,
+    "method": "Ford Festival Park, Oshkosh, United States"
+  },
+  "Amphitheatre Concert Grounds|Cadott|United States": {
+    "latitude": 44.9480187,
+    "longitude": -91.1507031,
+    "state": null,
+    "country": null,
+    "method": "Cadott, United States"
+  },
+  "Pengrowth Saddledome|Calgary|Canada": {
+    "latitude": 51.0374124,
+    "longitude": -114.0519642,
+    "state": null,
+    "country": null,
+    "method": "Pengrowth Saddledome, Calgary, Canada"
+  },
+  "Rexall Place|Edmonton|Canada": {
+    "latitude": 53.5325073,
+    "longitude": -113.60386,
+    "state": null,
+    "country": null,
+    "method": "Rexall Place, Edmonton, Canada"
+  },
+  "Big Valley Park|Craven|Canada": {
+    "latitude": 50.7072638,
+    "longitude": -104.809204,
+    "state": null,
+    "country": null,
+    "method": "Craven, Canada"
+  },
+  "MTS Centre|Winnipeg|Canada": {
+    "latitude": 49.8955367,
+    "longitude": -97.1384584,
+    "state": null,
+    "country": null,
+    "method": "Winnipeg, Canada"
+  },
+  "Country Thunder Festival|Twin Lakes|United States": {
+    "latitude": 43.5596779,
+    "longitude": -93.4229885,
+    "state": null,
+    "country": null,
+    "method": "Twin Lakes, United States"
+  },
+  "Value City Arena|Columbus|United States": {
+    "latitude": 40.0076033,
+    "longitude": -83.0249567,
+    "state": null,
+    "country": null,
+    "method": "Value City Arena, Columbus, United States"
+  },
+  "Charleston Civic Center|Charleston|United States": {
+    "latitude": 38.3561795,
+    "longitude": -81.6406084,
+    "state": null,
+    "country": null,
+    "method": "Charleston Civic Center, Charleston, United States"
+  },
+  "Cheyenne Frontier Days Arena|Cheyenne|United States": {
+    "latitude": 41.139981,
+    "longitude": -104.820246,
+    "state": null,
+    "country": null,
+    "method": "Cheyenne, United States"
+  },
+  "Barnett Arena|Rapid City|United States": {
+    "latitude": 44.0806041,
+    "longitude": -103.228023,
+    "state": null,
+    "country": null,
+    "method": "Rapid City, United States"
+  },
+  "North Dakota State Fair Grandstand|Minot|United States": {
+    "latitude": 48.23251,
+    "longitude": -101.296273,
+    "state": null,
+    "country": null,
+    "method": "Minot, United States"
+  },
+  "Soo Pass Ranch|Detroit Lakes|United States": {
+    "latitude": 46.817181,
+    "longitude": -95.845325,
+    "state": null,
+    "country": null,
+    "method": "Detroit Lakes, United States"
+  },
+  "Qwest Center Omaha|Omaha|United States": {
+    "latitude": 41.2636669,
+    "longitude": -95.9279385,
+    "state": null,
+    "country": null,
+    "method": "Qwest Center Omaha, Omaha, United States"
+  },
+  "Hylands Park|Chelmsford|England": {
+    "latitude": 51.7118686,
+    "longitude": 0.4329385,
+    "state": null,
+    "country": null,
+    "method": "Hylands Park, Chelmsford, England"
+  },
+  "Weston Park|Weston-under-Lizard|England": {
+    "latitude": 52.6849394,
+    "longitude": -2.2850271,
+    "state": null,
+    "country": null,
+    "method": "Weston Park, Weston-under-Lizard, England"
+  },
+  "Madison Square Garden|New York City|United States": {
+    "latitude": 40.7505129,
+    "longitude": -73.9935159,
+    "state": null,
+    "country": null,
+    "method": "Madison Square Garden, New York City, United States"
+  },
+  "Mohegan Sun Arena|Uncasville|United States": {
+    "latitude": 41.4911056,
+    "longitude": -72.0897112,
+    "state": null,
+    "country": null,
+    "method": "Mohegan Sun Arena, Uncasville, United States"
+  },
+  "Bryce Jordan Center|University Park|United States": {
+    "latitude": 40.808572,
+    "longitude": -77.8554679,
+    "state": null,
+    "country": null,
+    "method": "Bryce Jordan Center, University Park, United States"
+  },
+  "Freedom Hall|Louisville|United States": {
+    "latitude": 38.2001655,
+    "longitude": -85.7418363,
+    "state": null,
+    "country": null,
+    "method": "Freedom Hall, Louisville, United States"
+  },
+  "Arena at Gwinnett Center|Duluth|United States": {
+    "latitude": 46.7838287,
+    "longitude": -92.1052679,
+    "state": null,
+    "country": null,
+    "method": "Duluth, United States"
+  },
+  "Bi-Lo Center|Greenville|United States": {
+    "latitude": 34.851354,
+    "longitude": -82.3984882,
+    "state": null,
+    "country": null,
+    "method": "Greenville, United States"
+  },
+  "Time Warner Cable Arena|Charlotte|United States": {
+    "latitude": 35.2272086,
+    "longitude": -80.8430827,
+    "state": null,
+    "country": null,
+    "method": "Charlotte, United States"
+  },
+  "Cajundome|Lafayette|United States": {
+    "latitude": 30.2130574,
+    "longitude": -92.0365594,
+    "state": null,
+    "country": null,
+    "method": "Cajundome, Lafayette, United States"
+  },
+  "CenturyTel Center|Bossier City|United States": {
+    "latitude": 32.4702761,
+    "longitude": -93.6746128,
+    "state": null,
+    "country": null,
+    "method": "CenturyTel Center, Bossier City, United States"
+  },
+  "BJCC Arena|Birmingham|United States": {
+    "latitude": 33.5206824,
+    "longitude": -86.8024326,
+    "state": null,
+    "country": null,
+    "method": "Birmingham, United States"
+  },
+  "American Airlines Center|Dallas|United States": {
+    "latitude": 32.7905076,
+    "longitude": -96.8102721,
+    "state": null,
+    "country": null,
+    "method": "American Airlines Center, Dallas, United States"
+  },
+  "Verizon Arena|North Little Rock|United States": {
+    "latitude": 34.769536,
+    "longitude": -92.2670941,
+    "state": null,
+    "country": null,
+    "method": "North Little Rock, United States"
+  },
+  "BOK Center|Tulsa|United States": {
+    "latitude": 36.1526653,
+    "longitude": -95.9963745,
+    "state": null,
+    "country": null,
+    "method": "BOK Center, Tulsa, United States"
+  },
+  "Van Andel Arena|Grand Rapids|United States": {
+    "latitude": 42.9622423,
+    "longitude": -85.6715921,
+    "state": null,
+    "country": null,
+    "method": "Van Andel Arena, Grand Rapids, United States"
+  },
+  "Quicken Loans Arena|Cleveland|United States": {
+    "latitude": 41.4996574,
+    "longitude": -81.6936772,
+    "state": null,
+    "country": null,
+    "method": "Cleveland, United States"
+  },
+  "Allstate Arena|Rosemont|United States": {
+    "latitude": 42.0052766,
+    "longitude": -87.8877714,
+    "state": null,
+    "country": null,
+    "method": "Allstate Arena, Rosemont, United States"
+  },
+  "Wembley Arena|London|England": {
+    "latitude": 51.559406,
+    "longitude": -0.284613,
+    "state": null,
+    "country": null,
+    "method": "Wembley Arena, London, England"
+  },
+  "Manchester Evening News Arena|Manchester|England": {
+    "latitude": 53.4794892,
+    "longitude": -2.2451148,
+    "state": null,
+    "country": null,
+    "method": "Manchester, England"
+  },
+  "Brisbane Entertainment Centre|Brisbane|Australia": {
+    "latitude": -27.3426971,
+    "longitude": 153.0692109,
+    "state": null,
+    "country": null,
+    "method": "Brisbane Entertainment Centre, Brisbane, Australia"
+  },
+  "Acer Arena|Sydney|Australia": {
+    "latitude": -33.8698439,
+    "longitude": 151.2082848,
+    "state": null,
+    "country": null,
+    "method": "Sydney, Australia"
+  },
+  "Newcastle Entertainment Centre|Newcastle|Australia": {
+    "latitude": -32.9204641,
+    "longitude": 151.7366897,
+    "state": null,
+    "country": null,
+    "method": "Newcastle Entertainment Centre, Newcastle, Australia"
+  },
+  "Rod Laver Arena|Melbourne|Australia": {
+    "latitude": -37.8215688,
+    "longitude": 144.9785875,
+    "state": null,
+    "country": null,
+    "method": "Rod Laver Arena, Melbourne, Australia"
+  },
+  "Adelaide Entertainment Centre|Adelaide|Australia": {
+    "latitude": -34.9079418,
+    "longitude": 138.5738004,
+    "state": null,
+    "country": null,
+    "method": "Adelaide Entertainment Centre, Adelaide, Australia"
+  },
+  "Zepp Tokyo|Tokyo|Japan": {
+    "latitude": 35.6955539,
+    "longitude": 139.7008455,
+    "state": null,
+    "country": null,
+    "method": "Zepp Tokyo, Tokyo, Japan"
+  },
+  "Amway Arena|Orlando|United States": {
+    "latitude": 28.5421109,
+    "longitude": -81.3790304,
+    "state": null,
+    "country": null,
+    "method": "Orlando, United States"
+  },
+  "BankAtlantic Center|Sunrise|United States": {
+    "latitude": 26.1666888,
+    "longitude": -80.2787573,
+    "state": null,
+    "country": null,
+    "method": "Sunrise, United States"
+  },
+  "Frank Erwin Center|Austin|United States": {
+    "latitude": 30.2769192,
+    "longitude": -97.7322018,
+    "state": null,
+    "country": null,
+    "method": "Frank Erwin Center, Austin, United States"
+  },
+  "American Bank Center Arena|Corpus Christi|United States": {
+    "latitude": 27.7635302,
+    "longitude": -97.4033191,
+    "state": null,
+    "country": null,
+    "method": "Corpus Christi, United States"
+  },
+  "John Paul Jones Arena|Charlottesville|United States": {
+    "latitude": 38.0459828,
+    "longitude": -78.5066437,
+    "state": null,
+    "country": null,
+    "method": "John Paul Jones Arena, Charlottesville, United States"
+  },
+  "The Palace of Auburn Hills|Auburn Hills|United States": {
+    "latitude": 42.6875323,
+    "longitude": -83.2341028,
+    "state": null,
+    "country": null,
+    "method": "Auburn Hills, United States"
+  },
+  "Ford Center|Oklahoma City|United States": {
+    "latitude": 35.4729886,
+    "longitude": -97.5170536,
+    "state": null,
+    "country": null,
+    "method": "Oklahoma City, United States"
+  },
+  "Intrust Bank Arena|Wichita|United States": {
+    "latitude": 37.6833852,
+    "longitude": -97.3319986,
+    "state": null,
+    "country": null,
+    "method": "Intrust Bank Arena, Wichita, United States"
+  },
+  "Save Mart Center|Fresno|United States": {
+    "latitude": 36.809685,
+    "longitude": -119.7385104,
+    "state": null,
+    "country": null,
+    "method": "Save Mart Center, Fresno, United States"
+  },
+  "HP Pavilion|San Jose|United States": {
+    "latitude": 37.3328603,
+    "longitude": -121.9012247,
+    "state": null,
+    "country": null,
+    "method": "HP Pavilion, San Jose, United States"
+  },
+  "Rupp Arena|Lexington|United States": {
+    "latitude": 38.0494123,
+    "longitude": -84.5023586,
+    "state": null,
+    "country": null,
+    "method": "Rupp Arena, Lexington, United States"
+  },
+  "Colonial Life Arena|Columbia|United States": {
+    "latitude": 33.9947839,
+    "longitude": -81.0373546,
+    "state": null,
+    "country": null,
+    "method": "Colonial Life Arena, Columbia, United States"
+  },
+  "RBC Center|Raleigh|United States": {
+    "latitude": 35.7803977,
+    "longitude": -78.6390989,
+    "state": null,
+    "country": null,
+    "method": "Raleigh, United States"
+  },
+  "Wells Fargo Arena|Des Moines|United States": {
+    "latitude": 41.5868654,
+    "longitude": -93.6249494,
+    "state": null,
+    "country": null,
+    "method": "Des Moines, United States"
+  },
+  "Xcel Energy Center|Saint Paul|United States": {
+    "latitude": 44.9497487,
+    "longitude": -93.0931028,
+    "state": null,
+    "country": null,
+    "method": "Saint Paul, United States"
+  },
+  "iWireless Center|Moline|United States": {
+    "latitude": 41.5058344,
+    "longitude": -90.5136642,
+    "state": null,
+    "country": null,
+    "method": "Moline, United States"
+  },
+  "Prudential Center|Newark|United States": {
+    "latitude": 40.7334302,
+    "longitude": -74.1711482,
+    "state": null,
+    "country": null,
+    "method": "Prudential Center, Newark, United States"
+  },
+  "Nassau Veterans Memorial Coliseum|Uniondale|United States": {
+    "latitude": 40.7229344,
+    "longitude": -73.5907243,
+    "state": null,
+    "country": null,
+    "method": "Nassau Veterans Memorial Coliseum, Uniondale, United States"
+  },
+  "Scotiabank Place|Ottawa|Canada": {
+    "latitude": 45.299071,
+    "longitude": -75.926636,
+    "state": null,
+    "country": null,
+    "method": "Scotiabank Place, Ottawa, Canada"
+  },
+  "Air Canada Centre|Toronto|Canada": {
+    "latitude": 43.6434338,
+    "longitude": -79.3790777,
+    "state": null,
+    "country": null,
+    "method": "Air Canada Centre, Toronto, Canada"
+  },
+  "LSU Tiger Stadium|Baton Rouge|United States": {
+    "latitude": 30.4494155,
+    "longitude": -91.1869659,
+    "state": null,
+    "country": null,
+    "method": "Baton Rouge, United States"
+  },
+  "Verizon Center|Washington, D.C.|United States": {
+    "latitude": 38.8950368,
+    "longitude": -77.0365427,
+    "state": null,
+    "country": null,
+    "method": "Washington, D.C., United States"
+  },
+  "Imperial Ballroom|Nassau|The Bahamas": {
+    "latitude": 25.0782266,
+    "longitude": -77.3383438,
+    "state": null,
+    "country": null,
+    "method": "Nassau, The Bahamas"
+  },
+  "Cavendish Beach Festival Grounds|Cavendish|Canada": {
+    "latitude": 46.4912529,
+    "longitude": -63.3785021,
+    "state": null,
+    "country": null,
+    "method": "Cavendish, Canada"
+  },
+  "Singapore Indoor Stadium|Singapore|Singapore": {
+    "latitude": 1.3008679,
+    "longitude": 103.8743508,
+    "state": null,
+    "country": null,
+    "method": "Singapore Indoor Stadium, Singapore, Singapore"
+  },
+  "Olympic Gymnastics Arena|Seoul|South Korea": {
+    "latitude": 37.5666791,
+    "longitude": 126.9782914,
+    "state": null,
+    "country": null,
+    "method": "Seoul, South Korea"
+  },
+  "Osaka-Jo Hall|Osaka|Japan": {
+    "latitude": 34.6896441,
+    "longitude": 135.5301038,
+    "state": null,
+    "country": null,
+    "method": "Osaka-Jo Hall, Osaka, Japan"
+  },
+  "Nippon Budokan|Tokyo|Japan": {
+    "latitude": 35.6933554,
+    "longitude": 139.7498704,
+    "state": null,
+    "country": null,
+    "method": "Nippon Budokan, Tokyo, Japan"
+  },
+  "Smart Araneta Coliseum|Quezon City|Philippines": {
+    "latitude": 14.6207157,
+    "longitude": 121.0533557,
+    "state": null,
+    "country": null,
+    "method": "Smart Araneta Coliseum, Quezon City, Philippines"
+  },
+  "AsiaWorld–Arena|Hong Kong|China": {
+    "latitude": 22.350627,
+    "longitude": 114.1849161,
+    "state": null,
+    "country": null,
+    "method": "Hong Kong, China"
+  },
+  "Forest National|Brussels|Belgium": {
+    "latitude": 50.8096461,
+    "longitude": 4.3260748,
+    "state": null,
+    "country": null,
+    "method": "Forest National, Brussels, Belgium"
+  },
+  "Sportpaleis van Ahoy|Rotterdam|Netherlands": {
+    "latitude": 51.9244424,
+    "longitude": 4.47775,
+    "state": null,
+    "country": null,
+    "method": "Rotterdam, Netherlands"
+  },
+  "Oslo Spektrum|Oslo|Norway": {
+    "latitude": 59.9129638,
+    "longitude": 10.7546593,
+    "state": null,
+    "country": null,
+    "method": "Oslo Spektrum, Oslo, Norway"
+  },
+  "König Pilsener Arena|Oberhausen|Germany": {
+    "latitude": 51.4900923,
+    "longitude": 6.872449,
+    "state": null,
+    "country": null,
+    "method": "König Pilsener Arena, Oberhausen, Germany"
+  },
+  "Mediolanum Forum|Milan|Italy": {
+    "latitude": 45.4013592,
+    "longitude": 9.1423018,
+    "state": null,
+    "country": null,
+    "method": "Mediolanum Forum, Milan, Italy"
+  },
+  "Zénith de Paris|Paris|France": {
+    "latitude": 48.8942078,
+    "longitude": 2.3931778,
+    "state": null,
+    "country": null,
+    "method": "Zénith de Paris, Paris, France"
+  },
+  "Palacio de los Deportes|Madrid|Spain": {
+    "latitude": 40.4238624,
+    "longitude": -3.6717885,
+    "state": null,
+    "country": null,
+    "method": "Palacio de los Deportes, Madrid, Spain"
+  },
+  "LG Arena|Birmingham|England": {
+    "latitude": 52.4796992,
+    "longitude": -1.9026911,
+    "state": null,
+    "country": null,
+    "method": "Birmingham, England"
+  },
+  "Odyssey Arena|Belfast|Northern Ireland": {
+    "latitude": 54.6038109,
+    "longitude": -5.91426,
+    "state": null,
+    "country": null,
+    "method": "Odyssey Arena, Belfast, Northern Ireland"
+  },
+  "The O2|Dublin|Ireland": {
+    "latitude": 53.3481201,
+    "longitude": -6.2271784,
+    "state": null,
+    "country": null,
+    "method": "The O2, Dublin, Ireland"
+  },
+  "The O2 Arena|London|England": {
+    "latitude": 51.5029316,
+    "longitude": 0.0031839,
+    "state": null,
+    "country": null,
+    "method": "The O2 Arena, London, England"
+  },
+  "Amway Center|Orlando|United States": {
+    "latitude": 28.5392739,
+    "longitude": -81.3840071,
+    "state": null,
+    "country": null,
+    "method": "Amway Center, Orlando, United States"
+  },
+  "Nationwide Arena|Columbus|United States": {
+    "latitude": 39.9691873,
+    "longitude": -83.00608,
+    "state": null,
+    "country": null,
+    "method": "Nationwide Arena, Columbus, United States"
+  },
+  "Bradley Center|Milwaukee|United States": {
+    "latitude": 43.0392485,
+    "longitude": -87.9134008,
+    "state": null,
+    "country": null,
+    "method": "Bradley Center, Milwaukee, United States"
+  },
+  "First Niagara Center|Buffalo|United States": {
+    "latitude": 42.8751467,
+    "longitude": -78.8766359,
+    "state": null,
+    "country": null,
+    "method": "First Niagara Center, Buffalo, United States"
+  },
+  "XL Center|Hartford|United States": {
+    "latitude": 41.76848,
+    "longitude": -72.6770215,
+    "state": null,
+    "country": null,
+    "method": "XL Center, Hartford, United States"
+  },
+  "Thompson–Boling Arena|Knoxville|United States": {
+    "latitude": 35.9511756,
+    "longitude": -83.925013,
+    "state": null,
+    "country": null,
+    "method": "Thompson–Boling Arena, Knoxville, United States"
+  },
+  "Bell Centre|Montreal|Canada": {
+    "latitude": 45.4960358,
+    "longitude": -73.5692029,
+    "state": null,
+    "country": null,
+    "method": "Bell Centre, Montreal, Canada"
+  },
+  "Power Balance Pavilion|Sacramento|United States": {
+    "latitude": 38.5810606,
+    "longitude": -121.493895,
+    "state": null,
+    "country": null,
+    "method": "Sacramento, United States"
+  },
+  "Tacoma Dome|Tacoma|United States": {
+    "latitude": 47.2368873,
+    "longitude": -122.4269522,
+    "state": null,
+    "country": null,
+    "method": "Tacoma Dome, Tacoma, United States"
+  },
+  "Rogers Arena|Vancouver|Canada": {
+    "latitude": 49.2779085,
+    "longitude": -123.1089417,
+    "state": null,
+    "country": null,
+    "method": "Rogers Arena, Vancouver, Canada"
+  },
+  "CenturyLink Center|Bossier City|United States": {
+    "latitude": 32.515887,
+    "longitude": -93.7336536,
+    "state": null,
+    "country": null,
+    "method": "Bossier City, United States"
+  },
+  "KFC Yum! Center|Louisville|United States": {
+    "latitude": 38.2576964,
+    "longitude": -85.7538599,
+    "state": null,
+    "country": null,
+    "method": "KFC Yum! Center, Louisville, United States"
+  },
+  "United Spirit Arena|Lubbock|United States": {
+    "latitude": 33.5804027,
+    "longitude": -101.8859684,
+    "state": null,
+    "country": null,
+    "method": "United Spirit Arena, Lubbock, United States"
+  },
+  "Chesapeake Energy Arena|Oklahoma City|United States": {
+    "latitude": 35.4633961,
+    "longitude": -97.5150815,
+    "state": null,
+    "country": null,
+    "method": "Chesapeake Energy Arena, Oklahoma City, United States"
+  },
+  "AT&T Center|San Antonio|United States": {
+    "latitude": 29.4270504,
+    "longitude": -98.4375071,
+    "state": null,
+    "country": null,
+    "method": "AT&T Center, San Antonio, United States"
+  },
+  "FedExForum|Memphis|United States": {
+    "latitude": 35.1382401,
+    "longitude": -90.0506946,
+    "state": null,
+    "country": null,
+    "method": "FedExForum, Memphis, United States"
+  },
+  "Burswood Dome|Perth|Australia": {
+    "latitude": -31.9558967,
+    "longitude": 115.8605784,
+    "state": null,
+    "country": null,
+    "method": "Perth, Australia"
+  },
+  "Allphones Arena|Sydney|Australia": {
+    "latitude": -33.8698439,
+    "longitude": 151.2082848,
+    "state": null,
+    "country": null,
+    "method": "Sydney, Australia"
+  },
+  "Vector Arena|Auckland|New Zealand": {
+    "latitude": -36.8471826,
+    "longitude": 174.7769794,
+    "state": null,
+    "country": null,
+    "method": "Vector Arena, Auckland, New Zealand"
+  },
+  "CenturyLink Center Omaha|Omaha|United States": {
+    "latitude": 41.2625935,
+    "longitude": -95.9280755,
+    "state": null,
+    "country": null,
+    "method": "CenturyLink Center Omaha, Omaha, United States"
+  },
+  "Rogers Centre|Toronto|Canada": {
+    "latitude": 43.6416599,
+    "longitude": -79.3891976,
+    "state": null,
+    "country": null,
+    "method": "Rogers Centre, Toronto, Canada"
+  },
+  "Investors Group Field|Winnipeg|Canada": {
+    "latitude": 49.8955367,
+    "longitude": -97.1384584,
+    "state": null,
+    "country": null,
+    "method": "Winnipeg, Canada"
+  },
+  "BC Place Stadium|Vancouver|Canada": {
+    "latitude": 49.2766905,
+    "longitude": -123.1120062,
+    "state": null,
+    "country": null,
+    "method": "BC Place Stadium, Vancouver, Canada"
+  },
+  "Sleep Train Arena|Sacramento|United States": {
+    "latitude": 38.5810606,
+    "longitude": -121.493895,
+    "state": null,
+    "country": null,
+    "method": "Sacramento, United States"
+  },
+  "Moda Center|Portland|United States": {
+    "latitude": 45.5315787,
+    "longitude": -122.6668337,
+    "state": null,
+    "country": null,
+    "method": "Moda Center, Portland, United States"
+  },
+  "Fargodome|Fargo|United States": {
+    "latitude": 46.9030223,
+    "longitude": -96.8013419,
+    "state": null,
+    "country": null,
+    "method": "Fargodome, Fargo, United States"
+  },
+  "PNC Arena|Raleigh|United States": {
+    "latitude": 35.803398,
+    "longitude": -78.7219166,
+    "state": null,
+    "country": null,
+    "method": "PNC Arena, Raleigh, United States"
+  },
+  "Allianz Stadium|Sydney|Australia": {
+    "latitude": -33.8891572,
+    "longitude": 151.2251352,
+    "state": null,
+    "country": null,
+    "method": "Allianz Stadium, Sydney, Australia"
+  },
+  "Suncorp Stadium|Brisbane|Australia": {
+    "latitude": -27.4648603,
+    "longitude": 153.0096055,
+    "state": null,
+    "country": null,
+    "method": "Suncorp Stadium, Brisbane, Australia"
+  },
+  "nib Stadium|Perth|Australia": {
+    "latitude": -31.9558967,
+    "longitude": 115.8605784,
+    "state": null,
+    "country": null,
+    "method": "Perth, Australia"
+  },
+  "Etihad Stadium|Melbourne|Australia": {
+    "latitude": -37.816529,
+    "longitude": 144.947517,
+    "state": null,
+    "country": null,
+    "method": "Etihad Stadium, Melbourne, Australia"
+  },
+  "O2 World|Berlin|Germany": {
+    "latitude": 52.5063687,
+    "longitude": 13.4437652,
+    "state": null,
+    "country": null,
+    "method": "O2 World, Berlin, Germany"
+  },
+  "Mercedes-Benz Arena|Shanghai|China": {
+    "latitude": 31.1909263,
+    "longitude": 121.488699,
+    "state": null,
+    "country": null,
+    "method": "Mercedes-Benz Arena, Shanghai, China"
+  },
+  "Saitama Super Arena|Saitama|Japan": {
+    "latitude": 35.8951196,
+    "longitude": 139.630753,
+    "state": null,
+    "country": null,
+    "method": "Saitama Super Arena, Saitama, Japan"
+  },
+  "MEIS Ancol|Jakarta|Indonesia": {
+    "latitude": -6.1754049,
+    "longitude": 106.827168,
+    "state": null,
+    "country": null,
+    "method": "Jakarta, Indonesia"
+  },
+  "Mall of Asia Arena|Pasay|Philippines": {
+    "latitude": 14.532191,
+    "longitude": 120.9837424,
+    "state": null,
+    "country": null,
+    "method": "Mall of Asia Arena, Pasay, Philippines"
+  },
+  "Putra Indoor Stadium|Kuala Lumpur|Malaysia": {
+    "latitude": 3.0537311,
+    "longitude": 101.6934618,
+    "state": null,
+    "country": null,
+    "method": "Putra Indoor Stadium, Kuala Lumpur, Malaysia"
+  },
+  "City of Rock|Winchester|United States": {
+    "latitude": 39.1852184,
+    "longitude": -78.1652404,
+    "state": null,
+    "country": null,
+    "method": "Winchester, United States"
+  },
+  "Lanxess Arena|Cologne|Germany": {
+    "latitude": 50.9384967,
+    "longitude": 6.9828844,
+    "state": null,
+    "country": null,
+    "method": "Lanxess Arena, Cologne, Germany"
+  },
+  "Ziggo Dome|Amsterdam|Netherlands": {
+    "latitude": 52.3137527,
+    "longitude": 4.937709,
+    "state": null,
+    "country": null,
+    "method": "Ziggo Dome, Amsterdam, Netherlands"
+  },
+  "SSE Hydro|Glasgow|Scotland": {
+    "latitude": 55.861155,
+    "longitude": -4.2501687,
+    "state": null,
+    "country": null,
+    "method": "Glasgow, Scotland"
+  },
+  "Manchester Arena|Manchester|England": {
+    "latitude": 53.4880867,
+    "longitude": -2.2441724,
+    "state": null,
+    "country": null,
+    "method": "Manchester Arena, Manchester, England"
+  },
+  "Hyde Park|London|England": {
+    "latitude": 51.5074889,
+    "longitude": -0.1622074,
+    "state": null,
+    "country": null,
+    "method": "Hyde Park, London, England"
+  },
+  "3Arena|Dublin|Ireland": {
+    "latitude": 53.3476206,
+    "longitude": -6.2284132,
+    "state": null,
+    "country": null,
+    "method": "3Arena, Dublin, Ireland"
+  },
+  "Canadian Tire Centre|Ottawa|Canada": {
+    "latitude": 45.2969069,
+    "longitude": -75.9268973,
+    "state": null,
+    "country": null,
+    "method": "Canadian Tire Centre, Ottawa, Canada"
+  },
+  "Nationals Park|Washington, D.C.|United States": {
+    "latitude": 38.8727332,
+    "longitude": -77.0074815,
+    "state": null,
+    "country": null,
+    "method": "Nationals Park, Washington, D.C., United States"
+  },
+  "Petco Park|San Diego|United States": {
+    "latitude": 32.7071882,
+    "longitude": -117.1568773,
+    "state": null,
+    "country": null,
+    "method": "Petco Park, San Diego, United States"
+  },
+  "ANZ Stadium|Sydney|Australia": {
+    "latitude": -33.8471082,
+    "longitude": 151.0633848,
+    "state": null,
+    "country": null,
+    "method": "ANZ Stadium, Sydney, Australia"
+  },
+  "AAMI Park|Melbourne|Australia": {
+    "latitude": -37.8251047,
+    "longitude": 144.983743,
+    "state": null,
+    "country": null,
+    "method": "AAMI Park, Melbourne, Australia"
+  },
+  "Rose Bowl|Pasadena|United States": {
+    "latitude": 34.1613492,
+    "longitude": -118.1676674,
+    "state": null,
+    "country": null,
+    "method": "Rose Bowl, Pasadena, United States"
+  },
+  "Etihad Stadium|Manchester|England": {
+    "latitude": 53.4831448,
+    "longitude": -2.2005273,
+    "state": null,
+    "country": null,
+    "method": "Etihad Stadium, Manchester, England"
+  },
+  "Croke Park|Dublin|Ireland": {
+    "latitude": 53.3603576,
+    "longitude": -6.2509812,
+    "state": null,
+    "country": null,
+    "method": "Croke Park, Dublin, Ireland"
+  },
+  "Cardinal Stadium|Louisville|United States": {
+    "latitude": 38.2060161,
+    "longitude": -85.7587734,
+    "state": null,
+    "country": null,
+    "method": "Cardinal Stadium, Louisville, United States"
+  },
+  "Ohio Stadium|Columbus|United States": {
+    "latitude": 40.0016458,
+    "longitude": -83.0197374,
+    "state": null,
+    "country": null,
+    "method": "Ohio Stadium, Columbus, United States"
+  },
+  "FedExField|Landover|United States": {
+    "latitude": 38.9253129,
+    "longitude": -76.8815433,
+    "state": null,
+    "country": null,
+    "method": "Landover, United States"
+  },
+  "FirstEnergy Stadium|Cleveland|United States": {
+    "latitude": 41.5060559,
+    "longitude": -81.6997118,
+    "state": null,
+    "country": null,
+    "method": "FirstEnergy Stadium, Cleveland, United States"
+  },
+  "Hard Rock Stadium|Miami Gardens|United States": {
+    "latitude": 25.9579031,
+    "longitude": -80.2388497,
+    "state": null,
+    "country": null,
+    "method": "Hard Rock Stadium, Miami Gardens, United States"
+  },
+  "The Dome at America's Center|St. Louis|United States": {
+    "latitude": 38.6327852,
+    "longitude": -90.188551,
+    "state": null,
+    "country": null,
+    "method": "The Dome at America's Center, St. Louis, United States"
+  },
+  "Optus Stadium|Perth|Australia": {
+    "latitude": -31.9558967,
+    "longitude": 115.8605784,
+    "state": null,
+    "country": null,
+    "method": "Perth, Australia"
+  },
+  "Marvel Stadium|Melbourne|Australia": {
+    "latitude": -37.816529,
+    "longitude": 144.947517,
+    "state": null,
+    "country": null,
+    "method": "Marvel Stadium, Melbourne, Australia"
+  },
+  "The Gabba|Brisbane|Australia": {
+    "latitude": -27.4858851,
+    "longitude": 153.0379847,
+    "state": null,
+    "country": null,
+    "method": "The Gabba, Brisbane, Australia"
+  },
+  "Mount Smart Stadium|Auckland|New Zealand": {
+    "latitude": -36.9178349,
+    "longitude": 174.8122802,
+    "state": null,
+    "country": null,
+    "method": "Mount Smart Stadium, Auckland, New Zealand"
+  },
+  "state farm stadium|glendale|united states": {
+    "latitude": 33.5277957,
+    "longitude": -112.2626719,
+    "state": null,
+    "country": null
+  },
+  "allegiant stadium|paradise|united states": {
+    "latitude": 36.0724299,
+    "longitude": -115.1474759,
+    "state": null,
+    "country": null
+  },
+  "at&t stadium|arlington|united states": {
+    "latitude": 32.7478502,
+    "longitude": -97.0928337,
+    "state": null,
+    "country": null
+  },
+  "raymond james stadium|tampa|united states": {
+    "latitude": 27.9759793,
+    "longitude": -82.5033545,
+    "state": null,
+    "country": null
+  },
+  "nrg stadium|houston|united states": {
+    "latitude": 29.6848581,
+    "longitude": -95.4108015,
+    "state": null,
+    "country": null
+  },
+  "mercedes-benz stadium|atlanta|united states": {
+    "latitude": 33.7554123,
+    "longitude": -84.4008493,
+    "state": null,
+    "country": null
+  },
+  "nissan stadium|nashville|united states": {
+    "latitude": 36.1665236,
+    "longitude": -86.7713148,
+    "state": null,
+    "country": null
+  },
+  "lincoln financial field|philadelphia|united states": {
+    "latitude": 39.9009099,
+    "longitude": -75.1674892,
+    "state": null,
+    "country": null
+  },
+  "gillette stadium|foxborough|united states": {
+    "latitude": 42.0908879,
+    "longitude": -71.2641731,
+    "state": null,
+    "country": null
+  },
+  "metlife stadium|east rutherford|united states": {
+    "latitude": 40.813507,
+    "longitude": -74.0743442,
+    "state": null,
+    "country": null
+  },
+  "soldier field|chicago|united states": {
+    "latitude": 41.8624515,
+    "longitude": -87.6167151,
+    "state": null,
+    "country": null
+  },
+  "ford field|detroit|united states": {
+    "latitude": 42.3399567,
+    "longitude": -83.0456166,
+    "state": null,
+    "country": null
+  },
+  "acrisure stadium|pittsburgh|united states": {
+    "latitude": 40.4467166,
+    "longitude": -80.0157199,
+    "state": null,
+    "country": null
+  },
+  "u.s. bank stadium|minneapolis|united states": {
+    "latitude": 44.9751097,
+    "longitude": -93.2593387,
+    "state": null,
+    "country": null
+  },
+  "paycor stadium|cincinnati|united states": {
+    "latitude": 39.0954645,
+    "longitude": -84.5160488,
+    "state": null,
+    "country": null
+  },
+  "geha field at arrowhead stadium|kansas city|united states": {
+    "latitude": 39.100105,
+    "longitude": -94.5781416,
+    "state": null,
+    "country": null
+  },
+  "empower field at mile high|denver|united states": {
+    "latitude": 39.743952,
+    "longitude": -105.0192228,
+    "state": null,
+    "country": null
+  },
+  "lumen field|seattle|united states": {
+    "latitude": 47.5953459,
+    "longitude": -122.3316443,
+    "state": null,
+    "country": null
+  },
+  "levi's stadium|santa clara|united states": {
+    "latitude": 37.4029867,
+    "longitude": -121.9696489,
+    "state": null,
+    "country": null
+  },
+  "sofi stadium|inglewood|united states": {
+    "latitude": 33.9534074,
+    "longitude": -118.3390098,
+    "state": null,
+    "country": null
+  },
+  "foro sol|mexico city|mexico": {
+    "latitude": 19.4050224,
+    "longitude": -99.0955714,
+    "state": null,
+    "country": null
+  },
+  "estadio river plate|buenos aires|argentina": {
+    "latitude": -34.5825297,
+    "longitude": -58.3990538,
+    "state": null,
+    "country": null
+  },
+  "estádio olímpico nilton santos|rio de janeiro|brazil": {
+    "latitude": -22.893194,
+    "longitude": -43.2935691,
+    "state": null,
+    "country": null
+  },
+  "allianz parque|são paulo|brazil": {
+    "latitude": -23.5274971,
+    "longitude": -46.6785281,
+    "state": null,
+    "country": null
+  },
+  "tokyo dome|tokyo|japan": {
+    "latitude": 35.7055706,
+    "longitude": 139.7519705,
+    "state": null,
+    "country": null
+  },
+  "melbourne cricket ground|melbourne|australia": {
+    "latitude": -37.819909,
+    "longitude": 144.983225,
+    "state": null,
+    "country": null
+  },
+  "accor stadium|sydney|australia": {
+    "latitude": -33.8471082,
+    "longitude": 151.0633848,
+    "state": null,
+    "country": null
+  },
+  "singapore national stadium|singapore|singapore": {
+    "latitude": 1.3020909,
+    "longitude": 103.8763295,
+    "state": null,
+    "country": null
+  },
+  "paris la défense arena|nanterre|france": {
+    "latitude": 48.8956767,
+    "longitude": 2.2296581,
+    "state": null,
+    "country": null
+  },
+  "friends arena|stockholm|sweden": {
+    "latitude": 59.3725039,
+    "longitude": 18.0016672,
+    "state": null,
+    "country": null
+  },
+  "estádio da luz|lisbon|portugal": {
+    "latitude": 38.7526893,
+    "longitude": -9.1846899,
+    "state": null,
+    "country": null
+  },
+  "estadio santiago bernabéu|madrid|spain": {
+    "latitude": 40.4521778,
+    "longitude": -3.6876573,
+    "state": null,
+    "country": null
+  },
+  "groupama stadium|décines-charpieu|france": {
+    "latitude": 45.7653624,
+    "longitude": 4.9820543,
+    "state": null,
+    "country": null
+  },
+  "murrayfield stadium|edinburgh|scotland": {
+    "latitude": 55.9423132,
+    "longitude": -3.2408951,
+    "state": null,
+    "country": null
+  },
+  "anfield|liverpool|england": {
+    "latitude": 53.4309164,
+    "longitude": -2.9609314,
+    "state": null,
+    "country": null
+  },
+  "principality stadium|cardiff|wales": {
+    "latitude": 51.4782485,
+    "longitude": -3.1826256,
+    "state": null,
+    "country": null
+  },
+  "wembley stadium|london|england": {
+    "latitude": 51.5560695,
+    "longitude": -0.2796034,
+    "state": null,
+    "country": null
+  },
+  "aviva stadium|dublin|ireland": {
+    "latitude": 53.3352254,
+    "longitude": -6.2281851,
+    "state": null,
+    "country": null
+  },
+  "johan cruyff arena|amsterdam|netherlands": {
+    "latitude": 52.3730796,
+    "longitude": 4.8924534,
+    "state": null,
+    "country": null
+  },
+  "letzigrund|zürich|switzerland": {
+    "latitude": 47.3828206,
+    "longitude": 8.5037387,
+    "state": null,
+    "country": null
+  },
+  "san siro|milan|italy": {
+    "latitude": 45.4782003,
+    "longitude": 9.123964,
+    "state": null,
+    "country": null
+  },
+  "veltins-arena|gelsenkirchen|germany": {
+    "latitude": 51.5545938,
+    "longitude": 7.0676001,
+    "state": null,
+    "country": null
+  },
+  "volksparkstadion|hamburg|germany": {
+    "latitude": 53.5871535,
+    "longitude": 9.8987056,
+    "state": null,
+    "country": null
+  },
+  "olympiastadion|munich|germany": {
+    "latitude": 48.1731314,
+    "longitude": 11.5464786,
+    "state": null,
+    "country": null
+  },
+  "pge narodowy|warsaw|poland": {
+    "latitude": 52.2399367,
+    "longitude": 21.0452877,
+    "state": null,
+    "country": null
+  },
+  "hard rock stadium|miami gardens|united states": {
+    "latitude": 25.9579031,
+    "longitude": -80.2388497,
+    "state": null,
+    "country": null
+  },
+  "caesars superdome|new orleans|united states": {
+    "latitude": 29.9510489,
+    "longitude": -90.0823076,
+    "state": null,
+    "country": null
+  },
+  "lucas oil stadium|indianapolis|united states": {
+    "latitude": 39.7590621,
+    "longitude": -86.1638376,
+    "state": null,
+    "country": null
+  },
+  "rogers centre|toronto|canada": {
+    "latitude": 43.6416599,
+    "longitude": -79.3891976,
+    "state": null,
+    "country": null
+  },
+  "bc place|vancouver|canada": {
+    "latitude": 49.2766905,
+    "longitude": -123.1120062,
+    "state": null,
+    "country": null
+  },
+  "total|total|total": {
+    "latitude": 59.98466,
+    "longitude": 23.5959136,
+    "state": null,
+    "country": null
+  },
+  "roberts municipal stadium|evansville|united states": {
+    "latitude": 37.970495,
+    "longitude": -87.5715641,
+    "state": null,
+    "country": null
+  },
+  "convocation center|jonesboro|united states": {
+    "latitude": 35.8453739,
+    "longitude": -90.6703443,
+    "state": null,
+    "country": null
+  },
+  "scottrade center|st. louis|united states": {
+    "latitude": 38.6268005,
+    "longitude": -90.20262,
+    "state": null,
+    "country": null
+  },
+  "bishop ireton high school|alexandria|united states": {
+    "latitude": 38.8090294,
+    "longitude": -77.0808841,
+    "state": null,
+    "country": null
+  },
+  "north charleston coliseum|north charleston|united states": {
+    "latitude": 32.865567,
+    "longitude": -80.0223423,
+    "state": null,
+    "country": null
+  },
+  "jacksonville veterans memorial arena|jacksonville|united states": {
+    "latitude": 30.3321838,
+    "longitude": -81.655651,
+    "state": null,
+    "country": null
+  },
+  "mississippi coast coliseum|biloxi|united states": {
+    "latitude": 30.3943904,
+    "longitude": -88.9739883,
+    "state": null,
+    "country": null
+  },
+  "shepherd's bush empire|london|england": {
+    "latitude": 51.5034474,
+    "longitude": -0.2244489,
+    "state": null,
+    "country": null
+  },
+  "spokane arena|spokane|united states": {
+    "latitude": 47.6664718,
+    "longitude": -117.4231203,
+    "state": null,
+    "country": null
+  },
+  "keyarena|seattle|united states": {
+    "latitude": 47.6219014,
+    "longitude": -122.3539905,
+    "state": null,
+    "country": null
+  },
+  "rose garden arena|portland|united states": {
+    "latitude": 45.5202471,
+    "longitude": -122.674194,
+    "state": null,
+    "country": null
+  },
+  "ford arena|nampa|united states": {
+    "latitude": 43.6080574,
+    "longitude": -116.5080492,
+    "state": null,
+    "country": null
+  },
+  "jobing.com arena|glendale|united states": {
+    "latitude": 34.1469416,
+    "longitude": -118.2478471,
+    "state": null,
+    "country": null
+  },
+  "staples center|los angeles|united states": {
+    "latitude": 34.0429979,
+    "longitude": -118.2671352,
+    "state": null,
+    "country": null
+  },
+  "mandalay bay events center|paradise|united states": {
+    "latitude": 36.0724299,
+    "longitude": -115.1474759,
+    "state": null,
+    "country": null
+  },
+  "valley view casino center|san diego|united states": {
+    "latitude": 33.2195241,
+    "longitude": -116.9730009,
+    "state": null,
+    "country": null
+  },
+  "energysolutions arena|salt lake city|united states": {
+    "latitude": 40.7683274,
+    "longitude": -111.9010551,
+    "state": null,
+    "country": null
+  },
+  "bamajam farms|new brockton|united states": {
+    "latitude": 31.3857239,
+    "longitude": -85.9293861,
+    "state": null,
+    "country": null
+  },
+  "merriweather post pavilion|columbia|united states": {
+    "latitude": 39.2088351,
+    "longitude": -76.8625061,
+    "state": null,
+    "country": null
+  },
+  "greensboro coliseum|greensboro|united states": {
+    "latitude": 36.0434343,
+    "longitude": -79.8455352,
+    "state": null,
+    "country": null
+  },
+  "ford festival park|oshkosh|united states": {
+    "latitude": 43.9607336,
+    "longitude": -88.5909394,
+    "state": null,
+    "country": null
+  },
+  "amphitheatre concert grounds|cadott|united states": {
+    "latitude": 44.9480187,
+    "longitude": -91.1507031,
+    "state": null,
+    "country": null
+  },
+  "pengrowth saddledome|calgary|canada": {
+    "latitude": 51.0374124,
+    "longitude": -114.0519642,
+    "state": null,
+    "country": null
+  },
+  "rexall place|edmonton|canada": {
+    "latitude": 53.5325073,
+    "longitude": -113.60386,
+    "state": null,
+    "country": null
+  },
+  "big valley park|craven|canada": {
+    "latitude": 50.7072638,
+    "longitude": -104.809204,
+    "state": null,
+    "country": null
+  },
+  "mts centre|winnipeg|canada": {
+    "latitude": 49.8955367,
+    "longitude": -97.1384584,
+    "state": null,
+    "country": null
+  },
+  "country thunder festival|twin lakes|united states": {
+    "latitude": 43.5596779,
+    "longitude": -93.4229885,
+    "state": null,
+    "country": null
+  },
+  "value city arena|columbus|united states": {
+    "latitude": 40.0076033,
+    "longitude": -83.0249567,
+    "state": null,
+    "country": null
+  },
+  "charleston civic center|charleston|united states": {
+    "latitude": 38.3561795,
+    "longitude": -81.6406084,
+    "state": null,
+    "country": null
+  },
+  "cheyenne frontier days arena|cheyenne|united states": {
+    "latitude": 41.139981,
+    "longitude": -104.820246,
+    "state": null,
+    "country": null
+  },
+  "barnett arena|rapid city|united states": {
+    "latitude": 44.0806041,
+    "longitude": -103.228023,
+    "state": null,
+    "country": null
+  },
+  "north dakota state fair grandstand|minot|united states": {
+    "latitude": 48.23251,
+    "longitude": -101.296273,
+    "state": null,
+    "country": null
+  },
+  "wachovia spectrum|philadelphia|united states": {
+    "latitude": 39.9527237,
+    "longitude": -75.1635262,
+    "state": null,
+    "country": null
+  },
+  "soo pass ranch|detroit lakes|united states": {
+    "latitude": 46.817181,
+    "longitude": -95.845325,
+    "state": null,
+    "country": null
+  },
+  "qwest center omaha|omaha|united states": {
+    "latitude": 41.2636669,
+    "longitude": -95.9279385,
+    "state": null,
+    "country": null
+  },
+  "hylands park|chelmsford|england": {
+    "latitude": 51.7118686,
+    "longitude": 0.4329385,
+    "state": null,
+    "country": null
+  },
+  "weston park|weston-under-lizard|england": {
+    "latitude": 52.6849394,
+    "longitude": -2.2850271,
+    "state": null,
+    "country": null
+  },
+  "madison square garden|new york city|united states": {
+    "latitude": 40.7505129,
+    "longitude": -73.9935159,
+    "state": null,
+    "country": null
+  },
+  "mohegan sun arena|uncasville|united states": {
+    "latitude": 41.4911056,
+    "longitude": -72.0897112,
+    "state": null,
+    "country": null
+  },
+  "bryce jordan center|university park|united states": {
+    "latitude": 40.808572,
+    "longitude": -77.8554679,
+    "state": null,
+    "country": null
+  },
+  "freedom hall|louisville|united states": {
+    "latitude": 38.2001655,
+    "longitude": -85.7418363,
+    "state": null,
+    "country": null
+  },
+  "arena at gwinnett center|duluth|united states": {
+    "latitude": 46.7838287,
+    "longitude": -92.1052679,
+    "state": null,
+    "country": null
+  },
+  "bi-lo center|greenville|united states": {
+    "latitude": 34.851354,
+    "longitude": -82.3984882,
+    "state": null,
+    "country": null
+  },
+  "time warner cable arena|charlotte|united states": {
+    "latitude": 35.2272086,
+    "longitude": -80.8430827,
+    "state": null,
+    "country": null
+  },
+  "cajundome|lafayette|united states": {
+    "latitude": 30.2130574,
+    "longitude": -92.0365594,
+    "state": null,
+    "country": null
+  },
+  "centurytel center|bossier city|united states": {
+    "latitude": 32.4702761,
+    "longitude": -93.6746128,
+    "state": null,
+    "country": null
+  },
+  "bjcc arena|birmingham|united states": {
+    "latitude": 33.5206824,
+    "longitude": -86.8024326,
+    "state": null,
+    "country": null
+  },
+  "bridgestone arena|nashville|united states": {
+    "latitude": 36.1589806,
+    "longitude": -86.7783819,
+    "state": null,
+    "country": null
+  },
+  "american airlines center|dallas|united states": {
+    "latitude": 32.7905076,
+    "longitude": -96.8102721,
+    "state": null,
+    "country": null
+  },
+  "verizon arena|north little rock|united states": {
+    "latitude": 34.769536,
+    "longitude": -92.2670941,
+    "state": null,
+    "country": null
+  },
+  "bok center|tulsa|united states": {
+    "latitude": 36.1526653,
+    "longitude": -95.9963745,
+    "state": null,
+    "country": null
+  },
+  "mellon arena|pittsburgh|united states": {
+    "latitude": 40.4416941,
+    "longitude": -79.9900861,
+    "state": null,
+    "country": null
+  },
+  "van andel arena|grand rapids|united states": {
+    "latitude": 42.9622423,
+    "longitude": -85.6715921,
+    "state": null,
+    "country": null
+  },
+  "quicken loans arena|cleveland|united states": {
+    "latitude": 41.4996574,
+    "longitude": -81.6936772,
+    "state": null,
+    "country": null
+  },
+  "conseco fieldhouse|indianapolis|united states": {
+    "latitude": 39.7683331,
+    "longitude": -86.1583502,
+    "state": null,
+    "country": null
+  },
+  "allstate arena|rosemont|united states": {
+    "latitude": 42.0052766,
+    "longitude": -87.8877714,
+    "state": null,
+    "country": null
+  },
+  "target center|minneapolis|united states": {
+    "latitude": 44.9795917,
+    "longitude": -93.2759828,
+    "state": null,
+    "country": null
+  },
+  "wembley arena|london|england": {
+    "latitude": 51.559406,
+    "longitude": -0.284613,
+    "state": null,
+    "country": null
+  },
+  "manchester evening news arena|manchester|england": {
+    "latitude": 53.4794892,
+    "longitude": -2.2451148,
+    "state": null,
+    "country": null
+  },
+  "brisbane entertainment centre|brisbane|australia": {
+    "latitude": -27.3426971,
+    "longitude": 153.0692109,
+    "state": null,
+    "country": null
+  },
+  "acer arena|sydney|australia": {
+    "latitude": -33.8698439,
+    "longitude": 151.2082848,
+    "state": null,
+    "country": null
+  },
+  "newcastle entertainment centre|newcastle|australia": {
+    "latitude": -32.9204641,
+    "longitude": 151.7366897,
+    "state": null,
+    "country": null
+  },
+  "rod laver arena|melbourne|australia": {
+    "latitude": -37.8215688,
+    "longitude": 144.9785875,
+    "state": null,
+    "country": null
+  },
+  "adelaide entertainment centre|adelaide|australia": {
+    "latitude": -34.9079418,
+    "longitude": 138.5738004,
+    "state": null,
+    "country": null
+  },
+  "zepp tokyo|tokyo|japan": {
+    "latitude": 35.6955754,
+    "longitude": 139.7007704,
+    "state": null,
+    "country": null
+  },
+  "st. pete times forum|tampa|united states": {
+    "latitude": 27.9477595,
+    "longitude": -82.458444,
+    "state": null,
+    "country": null
+  },
+  "amway arena|orlando|united states": {
+    "latitude": 28.5421109,
+    "longitude": -81.3790304,
+    "state": null,
+    "country": null
+  },
+  "bankatlantic center|sunrise|united states": {
+    "latitude": 26.1666888,
+    "longitude": -80.2787573,
+    "state": null,
+    "country": null
+  },
+  "frank erwin center|austin|united states": {
+    "latitude": 30.2769192,
+    "longitude": -97.7322018,
+    "state": null,
+    "country": null
+  },
+  "american bank center arena|corpus christi|united states": {
+    "latitude": 27.7635302,
+    "longitude": -97.4033191,
+    "state": null,
+    "country": null
+  },
+  "wachovia center|philadelphia|united states": {
+    "latitude": 39.9527237,
+    "longitude": -75.1635262,
+    "state": null,
+    "country": null
+  },
+  "john paul jones arena|charlottesville|united states": {
+    "latitude": 38.0459828,
+    "longitude": -78.5066437,
+    "state": null,
+    "country": null
+  },
+  "the palace of auburn hills|auburn hills|united states": {
+    "latitude": 42.6875323,
+    "longitude": -83.2341028,
+    "state": null,
+    "country": null
+  },
+  "u.s. bank arena|cincinnati|united states": {
+    "latitude": 39.0979262,
+    "longitude": -84.5044458,
+    "state": null,
+    "country": null
+  },
+  "ford center|oklahoma city|united states": {
+    "latitude": 35.4729886,
+    "longitude": -97.5170536,
+    "state": null,
+    "country": null
+  },
+  "intrust bank arena|wichita|united states": {
+    "latitude": 37.6833852,
+    "longitude": -97.3319986,
+    "state": null,
+    "country": null
+  },
+  "sprint center|kansas city|united states": {
+    "latitude": 39.0972952,
+    "longitude": -94.5799495,
+    "state": null,
+    "country": null
+  },
+  "pepsi center|denver|united states": {
+    "latitude": 39.7486838,
+    "longitude": -105.007544,
+    "state": null,
+    "country": null
+  },
+  "save mart center|fresno|united states": {
+    "latitude": 36.809685,
+    "longitude": -119.7385104,
+    "state": null,
+    "country": null
+  },
+  "hp pavilion|san jose|united states": {
+    "latitude": 37.3328603,
+    "longitude": -121.9012247,
+    "state": null,
+    "country": null
+  },
+  "rupp arena|lexington|united states": {
+    "latitude": 38.0494123,
+    "longitude": -84.5023586,
+    "state": null,
+    "country": null
+  },
+  "colonial life arena|columbia|united states": {
+    "latitude": 33.9947839,
+    "longitude": -81.0373546,
+    "state": null,
+    "country": null
+  },
+  "rbc center|raleigh|united states": {
+    "latitude": 35.7803977,
+    "longitude": -78.6390989,
+    "state": null,
+    "country": null
+  },
+  "wells fargo arena|des moines|united states": {
+    "latitude": 41.5868654,
+    "longitude": -93.6249494,
+    "state": null,
+    "country": null
+  },
+  "xcel energy center|saint paul|united states": {
+    "latitude": 44.9497487,
+    "longitude": -93.0931028,
+    "state": null,
+    "country": null
+  },
+  "iwireless center|moline|united states": {
+    "latitude": 41.5058344,
+    "longitude": -90.5136642,
+    "state": null,
+    "country": null
+  },
+  "prudential center|newark|united states": {
+    "latitude": 40.7334302,
+    "longitude": -74.1711482,
+    "state": null,
+    "country": null
+  },
+  "nassau veterans memorial coliseum|uniondale|united states": {
+    "latitude": 40.7229344,
+    "longitude": -73.5907243,
+    "state": null,
+    "country": null
+  },
+  "scotiabank place|ottawa|canada": {
+    "latitude": 45.299071,
+    "longitude": -75.926636,
+    "state": null,
+    "country": null
+  },
+  "air canada centre|toronto|canada": {
+    "latitude": 43.6434338,
+    "longitude": -79.3790777,
+    "state": null,
+    "country": null
+  },
+  "toyota center|houston|united states": {
+    "latitude": 29.7507473,
+    "longitude": -95.3622315,
+    "state": null,
+    "country": null
+  },
+  "lsu tiger stadium|baton rouge|united states": {
+    "latitude": 30.4494155,
+    "longitude": -91.1869659,
+    "state": null,
+    "country": null
+  },
+  "verizon center|washington, d.c.|united states": {
+    "latitude": 38.8950368,
+    "longitude": -77.0365427,
+    "state": null,
+    "country": null
+  },
+  "imperial ballroom|nassau|the bahamas": {
+    "latitude": 25.0782266,
+    "longitude": -77.3383438,
+    "state": null,
+    "country": null
+  },
+  "cavendish beach festival grounds|cavendish|canada": {
+    "latitude": 46.4912529,
+    "longitude": -63.3785021,
+    "state": null,
+    "country": null
+  },
+  "singapore indoor stadium|singapore|singapore": {
+    "latitude": 1.3008679,
+    "longitude": 103.8743508,
+    "state": null,
+    "country": null
+  },
+  "olympic gymnastics arena|seoul|south korea": {
+    "latitude": 37.5666791,
+    "longitude": 126.9782914,
+    "state": null,
+    "country": null
+  },
+  "osaka-jo hall|osaka|japan": {
+    "latitude": 34.6896441,
+    "longitude": 135.5301038,
+    "state": null,
+    "country": null
+  },
+  "nippon budokan|tokyo|japan": {
+    "latitude": 35.6933554,
+    "longitude": 139.7498704,
+    "state": null,
+    "country": null
+  },
+  "smart araneta coliseum|quezon city|philippines": {
+    "latitude": 14.6207157,
+    "longitude": 121.0533557,
+    "state": null,
+    "country": null
+  },
+  "asiaworld–arena|hong kong|china": {
+    "latitude": 22.350627,
+    "longitude": 114.1849161,
+    "state": null,
+    "country": null
+  },
+  "forest national|brussels|belgium": {
+    "latitude": 50.8096461,
+    "longitude": 4.3260748,
+    "state": null,
+    "country": null
+  },
+  "sportpaleis van ahoy|rotterdam|netherlands": {
+    "latitude": 51.9244424,
+    "longitude": 4.47775,
+    "state": null,
+    "country": null
+  },
+  "oslo spektrum|oslo|norway": {
+    "latitude": 59.9129638,
+    "longitude": 10.7546593,
+    "state": null,
+    "country": null
+  },
+  "könig pilsener arena|oberhausen|germany": {
+    "latitude": 51.4900923,
+    "longitude": 6.872449,
+    "state": null,
+    "country": null
+  },
+  "mediolanum forum|milan|italy": {
+    "latitude": 45.4013592,
+    "longitude": 9.1423018,
+    "state": null,
+    "country": null
+  },
+  "zénith de paris|paris|france": {
+    "latitude": 48.8942078,
+    "longitude": 2.3931778,
+    "state": null,
+    "country": null
+  },
+  "palacio de los deportes|madrid|spain": {
+    "latitude": 40.4238624,
+    "longitude": -3.6717885,
+    "state": null,
+    "country": null
+  },
+  "lg arena|birmingham|england": {
+    "latitude": 52.4796992,
+    "longitude": -1.9026911,
+    "state": null,
+    "country": null
+  },
+  "odyssey arena|belfast|northern ireland": {
+    "latitude": 54.6038109,
+    "longitude": -5.91426,
+    "state": null,
+    "country": null
+  },
+  "the o2|dublin|ireland": {
+    "latitude": 53.3481201,
+    "longitude": -6.2271784,
+    "state": null,
+    "country": null
+  },
+  "the o2 arena|london|england": {
+    "latitude": 51.5029316,
+    "longitude": 0.0031839,
+    "state": null,
+    "country": null
+  },
+  "amway center|orlando|united states": {
+    "latitude": 28.5392739,
+    "longitude": -81.3840071,
+    "state": null,
+    "country": null
+  },
+  "nationwide arena|columbus|united states": {
+    "latitude": 39.9691873,
+    "longitude": -83.00608,
+    "state": null,
+    "country": null
+  },
+  "bradley center|milwaukee|united states": {
+    "latitude": 43.0392485,
+    "longitude": -87.9134008,
+    "state": null,
+    "country": null
+  },
+  "heinz field|pittsburgh|united states": {
+    "latitude": 40.4467166,
+    "longitude": -80.0157199,
+    "state": null,
+    "country": null
+  },
+  "first niagara center|buffalo|united states": {
+    "latitude": 42.8751467,
+    "longitude": -78.8766359,
+    "state": null,
+    "country": null
+  },
+  "xl center|hartford|united states": {
+    "latitude": 41.76848,
+    "longitude": -72.6770215,
+    "state": null,
+    "country": null
+  },
+  "thompson–boling arena|knoxville|united states": {
+    "latitude": 35.9511756,
+    "longitude": -83.925013,
+    "state": null,
+    "country": null
+  },
+  "bell centre|montreal|canada": {
+    "latitude": 45.4960358,
+    "longitude": -73.5692029,
+    "state": null,
+    "country": null
+  },
+  "power balance pavilion|sacramento|united states": {
+    "latitude": 38.5810606,
+    "longitude": -121.493895,
+    "state": null,
+    "country": null
+  },
+  "tacoma dome|tacoma|united states": {
+    "latitude": 47.2368873,
+    "longitude": -122.4269522,
+    "state": null,
+    "country": null
+  },
+  "rogers arena|vancouver|canada": {
+    "latitude": 49.2779085,
+    "longitude": -123.1089417,
+    "state": null,
+    "country": null
+  },
+  "centurylink center|bossier city|united states": {
+    "latitude": 32.515887,
+    "longitude": -93.7336536,
+    "state": null,
+    "country": null
+  },
+  "arrowhead stadium|kansas city|united states": {
+    "latitude": 39.0489357,
+    "longitude": -94.4839993,
+    "state": null,
+    "country": null
+  },
+  "philips arena|atlanta|united states": {
+    "latitude": 33.7573698,
+    "longitude": -84.3963848,
+    "state": null,
+    "country": null
+  },
+  "new orleans arena|new orleans|united states": {
+    "latitude": 30.030105,
+    "longitude": -90.0505067,
+    "state": null,
+    "country": null
+  },
+  "cowboys stadium|arlington|united states": {
+    "latitude": 32.7355816,
+    "longitude": -97.1071186,
+    "state": null,
+    "country": null
+  },
+  "kfc yum! center|louisville|united states": {
+    "latitude": 38.2576964,
+    "longitude": -85.7538599,
+    "state": null,
+    "country": null
+  },
+  "united spirit arena|lubbock|united states": {
+    "latitude": 33.5804027,
+    "longitude": -101.8859684,
+    "state": null,
+    "country": null
+  },
+  "chesapeake energy arena|oklahoma city|united states": {
+    "latitude": 35.4633961,
+    "longitude": -97.5150815,
+    "state": null,
+    "country": null
+  },
+  "at&t center|san antonio|united states": {
+    "latitude": 29.4270504,
+    "longitude": -98.4375071,
+    "state": null,
+    "country": null
+  },
+  "fedexforum|memphis|united states": {
+    "latitude": 35.1382401,
+    "longitude": -90.0506946,
+    "state": null,
+    "country": null
+  },
+  "minute maid park|houston|united states": {
+    "latitude": 29.7572321,
+    "longitude": -95.3552344,
+    "state": null,
+    "country": null
+  },
+  "american airlines arena|miami|united states": {
+    "latitude": 25.7813595,
+    "longitude": -80.1879435,
+    "state": null,
+    "country": null
+  },
+  "burswood dome|perth|australia": {
+    "latitude": -31.9558967,
+    "longitude": 115.8605784,
+    "state": null,
+    "country": null
+  },
+  "allphones arena|sydney|australia": {
+    "latitude": -33.8698439,
+    "longitude": 151.2082848,
+    "state": null,
+    "country": null
+  },
+  "vector arena|auckland|new zealand": {
+    "latitude": -36.8471826,
+    "longitude": 174.7769794,
+    "state": null,
+    "country": null
+  },
+  "centurylink center omaha|omaha|united states": {
+    "latitude": 41.2625935,
+    "longitude": -95.9280755,
+    "state": null,
+    "country": null
+  },
+  "tampa bay times forum|tampa|united states": {
+    "latitude": 27.9477595,
+    "longitude": -82.458444,
+    "state": null,
+    "country": null
+  },
+  "bankers life fieldhouse|indianapolis|united states": {
+    "latitude": 39.7683331,
+    "longitude": -86.1583502,
+    "state": null,
+    "country": null
+  },
+  "investors group field|winnipeg|canada": {
+    "latitude": 49.8955367,
+    "longitude": -97.1384584,
+    "state": null,
+    "country": null
+  },
+  "bc place stadium|vancouver|canada": {
+    "latitude": 49.2766905,
+    "longitude": -123.1120062,
+    "state": null,
+    "country": null
+  },
+  "sleep train arena|sacramento|united states": {
+    "latitude": 38.5810606,
+    "longitude": -121.493895,
+    "state": null,
+    "country": null
+  },
+  "moda center|portland|united states": {
+    "latitude": 45.5315787,
+    "longitude": -122.6668337,
+    "state": null,
+    "country": null
+  },
+  "fargodome|fargo|united states": {
+    "latitude": 46.9030223,
+    "longitude": -96.8013419,
+    "state": null,
+    "country": null
+  },
+  "pnc arena|raleigh|united states": {
+    "latitude": 35.803398,
+    "longitude": -78.7219166,
+    "state": null,
+    "country": null
+  },
+  "allianz stadium|sydney|australia": {
+    "latitude": -33.8891572,
+    "longitude": 151.2251352,
+    "state": null,
+    "country": null
+  },
+  "suncorp stadium|brisbane|australia": {
+    "latitude": -27.4648603,
+    "longitude": 153.0096055,
+    "state": null,
+    "country": null
+  },
+  "nib stadium|perth|australia": {
+    "latitude": -31.9558967,
+    "longitude": 115.8605784,
+    "state": null,
+    "country": null
+  },
+  "etihad stadium|melbourne|australia": {
+    "latitude": -37.816529,
+    "longitude": 144.947517,
+    "state": null,
+    "country": null
+  },
+  "o2 world|berlin|germany": {
+    "latitude": 52.5063687,
+    "longitude": 13.4437652,
+    "state": null,
+    "country": null
+  },
+  "mercedes-benz arena|shanghai|china": {
+    "latitude": 31.1909263,
+    "longitude": 121.488699,
+    "state": null,
+    "country": null
+  },
+  "saitama super arena|saitama|japan": {
+    "latitude": 35.8951196,
+    "longitude": 139.630753,
+    "state": null,
+    "country": null
+  },
+  "meis ancol|jakarta|indonesia": {
+    "latitude": -6.1754049,
+    "longitude": 106.827168,
+    "state": null,
+    "country": null
+  },
+  "mall of asia arena|pasay|philippines": {
+    "latitude": 14.532191,
+    "longitude": 120.9837424,
+    "state": null,
+    "country": null
+  },
+  "putra indoor stadium|kuala lumpur|malaysia": {
+    "latitude": 3.0537311,
+    "longitude": 101.6934618,
+    "state": null,
+    "country": null
+  },
+  "city of rock|winchester|united states": {
+    "latitude": 39.1852184,
+    "longitude": -78.1652404,
+    "state": null,
+    "country": null
+  },
+  "lanxess arena|cologne|germany": {
+    "latitude": 50.9384967,
+    "longitude": 6.9828844,
+    "state": null,
+    "country": null
+  },
+  "ziggo dome|amsterdam|netherlands": {
+    "latitude": 52.3137527,
+    "longitude": 4.937709,
+    "state": null,
+    "country": null
+  },
+  "sse hydro|glasgow|scotland": {
+    "latitude": 55.861155,
+    "longitude": -4.2501687,
+    "state": null,
+    "country": null
+  },
+  "manchester arena|manchester|england": {
+    "latitude": 53.4880867,
+    "longitude": -2.2441724,
+    "state": null,
+    "country": null
+  },
+  "hyde park|london|england": {
+    "latitude": 51.5074889,
+    "longitude": -0.1622074,
+    "state": null,
+    "country": null
+  },
+  "3arena|dublin|ireland": {
+    "latitude": 53.3476206,
+    "longitude": -6.2284132,
+    "state": null,
+    "country": null
+  },
+  "canadian tire centre|ottawa|canada": {
+    "latitude": 45.2969069,
+    "longitude": -75.9268973,
+    "state": null,
+    "country": null
+  },
+  "nationals park|washington, d.c.|united states": {
+    "latitude": 38.8727332,
+    "longitude": -77.0074815,
+    "state": null,
+    "country": null
+  },
+  "centurylink field|seattle|united states": {
+    "latitude": 47.5953459,
+    "longitude": -122.3316443,
+    "state": null,
+    "country": null
+  },
+  "gila river arena|glendale|united states": {
+    "latitude": 34.1469416,
+    "longitude": -118.2478471,
+    "state": null,
+    "country": null
+  },
+  "petco park|san diego|united states": {
+    "latitude": 32.7071882,
+    "longitude": -117.1568773,
+    "state": null,
+    "country": null
+  },
+  "georgia dome|atlanta|united states": {
+    "latitude": 33.7544657,
+    "longitude": -84.3898151,
+    "state": null,
+    "country": null
+  },
+  "anz stadium|sydney|australia": {
+    "latitude": -33.8471082,
+    "longitude": 151.0633848,
+    "state": null,
+    "country": null
+  },
+  "aami park|melbourne|australia": {
+    "latitude": -37.8251047,
+    "longitude": 144.983743,
+    "state": null,
+    "country": null
+  },
+  "university of phoenix stadium|glendale|united states": {
+    "latitude": 34.1469416,
+    "longitude": -118.2478471,
+    "state": null,
+    "country": null
+  },
+  "rose bowl|pasadena|united states": {
+    "latitude": 34.1613492,
+    "longitude": -118.1676674,
+    "state": null,
+    "country": null
+  },
+  "sports authority field at mile high|denver|united states": {
+    "latitude": 39.7392364,
+    "longitude": -104.984862,
+    "state": null,
+    "country": null
+  },
+  "etihad stadium|manchester|england": {
+    "latitude": 53.4831448,
+    "longitude": -2.2005273,
+    "state": null,
+    "country": null
+  },
+  "croke park|dublin|ireland": {
+    "latitude": 53.3603576,
+    "longitude": -6.2509812,
+    "state": null,
+    "country": null
+  },
+  "cardinal stadium|louisville|united states": {
+    "latitude": 38.2060161,
+    "longitude": -85.7587734,
+    "state": null,
+    "country": null
+  },
+  "ohio stadium|columbus|united states": {
+    "latitude": 40.0016458,
+    "longitude": -83.0197374,
+    "state": null,
+    "country": null
+  },
+  "fedexfield|landover|united states": {
+    "latitude": 38.9253129,
+    "longitude": -76.8815433,
+    "state": null,
+    "country": null
+  },
+  "firstenergy stadium|cleveland|united states": {
+    "latitude": 41.5060559,
+    "longitude": -81.6997118,
+    "state": null,
+    "country": null
+  },
+  "the dome at america's center|st. louis|united states": {
+    "latitude": 38.6327852,
+    "longitude": -90.188551,
+    "state": null,
+    "country": null
+  },
+  "mercedes-benz superdome|new orleans|united states": {
+    "latitude": 29.9559145,
+    "longitude": -90.0730259,
+    "state": null,
+    "country": null
+  },
+  "optus stadium|perth|australia": {
+    "latitude": -31.9558967,
+    "longitude": 115.8605784,
+    "state": null,
+    "country": null
+  },
+  "marvel stadium|melbourne|australia": {
+    "latitude": -37.816529,
+    "longitude": 144.947517,
+    "state": null,
+    "country": null
+  },
+  "the gabba|brisbane|australia": {
+    "latitude": -27.4858851,
+    "longitude": 153.0379847,
+    "state": null,
+    "country": null
+  },
+  "mount smart stadium|auckland|new zealand": {
+    "latitude": -36.9178349,
+    "longitude": 174.8122802,
+    "state": null,
+    "country": null
+  },
+  "staples center|inglewood|united states": {
+    "latitude": 33.9562003,
+    "longitude": -118.353132,
+    "state": null,
+    "country": null
+  }
+}

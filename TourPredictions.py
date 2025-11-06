@@ -19,18 +19,27 @@ stadiums_open = stadiums[stadiums['Operational'].str.lower() == 'open']
 # all_tours_before = pd.concat(tour_df, ignore_index=True)
 # all_tour_count1 = all_tours_before.count()
 
+for df in [all_tours, stadiums_open]:
+    for col in ['Venue_ID', 'Venue', 'City', 'Country']:
+        if col in df.columns:
+            df[col] = df[col].astype(str).str.strip()
+
+# Merge using only Venue_ID
 all_tours = all_tours.merge(
-    stadiums_open[['Venue_ID', 'Venue', 'City', 'Country', 'Venue_Capacity']]
-    , on = ['Venue_ID', 'Country']
-    , how = 'inner'
-    , suffixes=('', '_stadium')
+    stadiums_open[['Venue_ID', 'Venue', 'City', 'Country', 'Venue_Capacity']],
+    on='Venue_ID',
+    how='inner',
+    suffixes=('', '_stadium')
 )
 
-
-for col in ['City', 'Venue', 'Venue_Capacity']:
+# Replace original columns with stadium info if available
+for col in ['City', 'Venue', 'Country', 'Venue_Capacity']:
     if f"{col}_stadium" in all_tours.columns:
         all_tours[col] = all_tours[f"{col}_stadium"]
-        all_tours.drop(columns=[f"{col}_stadium"], inplace=True, errors='ignore')
+        all_tours.drop(columns=[f"{col}_stadium"], inplace=True)
+
+# Sanity check
+print(f"Rows after merge with open stadiums: {len(all_tours)}")
 
 # ## checks
 # print(f"\nRows before merge: {len(pd.concat(tour_df, ignore_index=True))}")
@@ -145,7 +154,15 @@ print(f'Based on our prediction of {weighted_avg_days:.0f} days between album re
 
 
 #predicting starting location
-City_Start = merged_tours.sort_values('Date').groupby('Tour_ID').first().reset_index()
+for col in ['NumCities', 'NumCountries', 'Revenue', 'Venue_Capacity']:
+    if col not in tour_summary.columns:
+        tour_summary[col] = np.nan
+        
+City_Start = merged_tours.merge(
+    tour_summary[['Tour_ID', 'NumCities', 'NumCountries', 'Revenue', 'Venue_Capacity']],
+    on='Tour_ID',
+    how='left'
+)
 
 City_Start.columns = City_Start.columns.str.strip()  # remove whitespace
 
@@ -170,6 +187,10 @@ for col in ['NumCities', 'NumCountries', 'Revenue', 'Venue_Capacity']:
         City_Start[col] = 0
 
 City_Start.fillna(0, inplace = True)
+
+print(City_Start.shape)
+print(City_Start.head())
+
 
 city_encoder = LabelEncoder()
 y_city = city_encoder.fit_transform(City_Start['City'].astype(str))

@@ -1,111 +1,111 @@
 Date,City,Country,Venue,Opening acts,Attendance,Revenue,Venue_Capacity,Tour_ID,Venue_ID
-2011-02-09,Singapore,Singapore,Singapore Indoor Stadium,Sezairi Sezali,8964.0,916850,8964.0,2,148.0
-2011-02-11,Seoul,South Korea,Olympic Gymnastics Arena,—,4725.0,385374,4725.0,2,149.0
-2011-02-13,Osaka,Japan,Osaka-Jo Hall,—,6953.0,758113,6953.0,2,150.0
-2011-02-16,Tokyo,Japan,Nippon Budokan,—,7978.0,869114,7978.0,2,151.0
-2011-02-17,Tokyo,Japan,Nippon Budokan,—,7977.0,869113,7977.0,2,151.0
-2011-02-19,Quezon City,Philippines,Smart Araneta Coliseum,Sam Concepcion,12667.0,859037,12667.0,2,152.0
-2011-02-21,Hong Kong,China,AsiaWorld–Arena,Saito Johnny,12573.0,1030633,12573.0,2,153.0
-2011-03-06,Brussels,Belgium,Forest National,Tom Dice,4622.0,219212,4622.0,2,154.0
-2011-03-07,Rotterdam,Netherlands,Sportpaleis van Ahoy,Tom Dice,4799.0,248314,4799.0,2,155.0
-2011-03-09,Oslo,Norway,Oslo Spektrum,—,8650.0,815246,8650.0,2,156.0
-2011-03-12,Oberhausen,Germany,König Pilsener Arena,Martin & James,6082.0,370028,6082.0,2,157.0
-2011-03-15,Milan,Italy,Mediolanum Forum,Emma Marrone,3421.0,153303,5585.0,2,158.0
-2011-03-17,Paris,France,Zénith de Paris,—,3598.0,201781,8500.0,2,159.0
-2011-03-19,Madrid,Spain,Palacio de los Deportes,The Bright,3962.0,251864,3962.0,2,160.0
-2011-03-22,Birmingham,England,LG Arena,Martin & James,9339.0,508854,9339.0,2,161.0
-2011-03-25,Belfast,Northern Ireland,Odyssey Arena,Ryan Sheridan,8058.0,379001,8058.0,2,162.0
-2011-03-27,Dublin,Ireland,The O2,Ryan Sheridan,8681.0,419806,8681.0,2,163.0
-2011-03-29,Manchester,England,Manchester Evening News Arena,Martin & James,10488.0,580558,11622.0,2,110.0
-2011-03-30,London,England,The O2 Arena,Martin & James,15265.0,891152,15681.0,2,165.0
-2011-05-27,Omaha,United States,Qwest Center Omaha,Needtobreathe,13496.0,858552,13496.0,2,86.0
-2011-05-28,Omaha,United States,Qwest Center Omaha,Needtobreathe,13496.0,858552,13496.0,2,86.0
-2011-05-29,Des Moines,United States,Wells Fargo Arena,Needtobreathe,13149.0,862771,13149.0,2,135.0
-2011-06-02,Sunrise,United States,BankAtlantic Center,Needtobreathe,12039.0,791476,12039.0,2,119.0
-2011-06-03,Sunrise,United States,BankAtlantic Center,Needtobreathe,12038.0,791475,12038.0,2,119.0
-2011-06-04,Orlando,United States,Amway Center,Needtobreathe,12262.0,791980,12262.0,2,169.0
-2011-06-07,Columbus,United States,Nationwide Arena,Needtobreathe,14817.0,955259,14817.0,2,170.0
-2011-06-08,Milwaukee,United States,Bradley Center,Needtobreathe,13748.0,897042,13748.0,2,171.0
-2011-06-11,Detroit,United States,Ford Field,Needtobreathe,47992.0,3453549,47992.0,2,12.0
-2011-06-14,Saint Paul,United States,Xcel Energy Center,Needtobreathe,14489.0,956869,14489.0,2,136.0
-2011-06-15,Saint Paul,United States,Xcel Energy Center,Needtobreathe,14488.0,956868,14488.0,2,136.0
-2011-06-18,Pittsburgh,United States,Heinz Field,Needtobreathe,52009.0,4009118,52009.0,2,174.0
-2011-06-21,Buffalo,United States,First Niagara Center,Needtobreathe,14487.0,966749,14487.0,2,175.0
-2011-06-22,Hartford,United States,XL Center,Needtobreathe,12436.0,810165,12436.0,2,176.0
-2011-06-25,Foxborough,United States,Gillette Stadium,Needtobreathe,55400.0,4013175,55400.0,2,9.0
-2011-06-26,Foxborough,United States,Gillette Stadium,Needtobreathe,55400.0,4013175,55400.0,2,9.0
-2011-06-30,Greensboro,United States,Greensboro Coliseum,Needtobreathe,14789.0,990701,14789.0,2,71.0
-2011-07-01,Knoxville,United States,Thompson–Boling Arena,Needtobreathe,13754.0,903875,13754.0,2,179.0
-2011-07-14,Montreal,Canada,Bell Centre,Needtobreathe,13439.0,1254230,13439.0,2,180.0
-2011-07-15,Toronto,Canada,Air Canada Centre,Needtobreathe,15072.0,1518000,15072.0,2,141.0
-2011-07-16,Toronto,Canada,Air Canada Centre,Needtobreathe,15072.0,1518000,15072.0,2,141.0
-2011-07-19,Newark,United States,Prudential Center,Needtobreathe,12872.0,968866,12872.0,2,138.0
-2011-07-20,Newark,United States,Prudential Center,Needtobreathe,12872.0,968866,12872.0,2,138.0
-2011-07-23,Newark,United States,Prudential Center,Needtobreathe,12872.0,968866,12872.0,2,138.0
-2011-07-24,Newark,United States,Prudential Center,Needtobreathe,12871.0,968865,12871.0,2,138.0
-2011-07-28,Grand Rapids,United States,Van Andel Arena,Needtobreathe,11012.0,724854,11012.0,2,104.0
-2011-07-29,Indianapolis,United States,Conseco Fieldhouse,Needtobreathe,13329.0,877175,13329.0,2,106.0
-2011-07-30,Cleveland,United States,Quicken Loans Arena,Needtobreathe,14873.0,976954,14873.0,2,105.0
-2011-08-02,Washington,United States,Verizon Center,Needtobreathe,14652.0,1034395,14652.0,2,
-2011-08-03,Washington,United States,Verizon Center,Needtobreathe,14651.0,1034394,14651.0,2,
-2011-08-06,Philadelphia,United States,Lincoln Financial Field,Needtobreathe,51395.0,4268678,51395.0,2,8.0
-2011-08-09,Rosemont,United States,Allstate Arena,Needtobreathe,13056.0,954802,13056.0,2,107.0
-2011-08-10,Rosemont,United States,Allstate Arena,Needtobreathe,13056.0,954801,13056.0,2,107.0
-2011-08-13,St. Louis,United States,Scottrade Center,Needtobreathe,13983.0,925080,13983.0,2,54.0
-2011-08-14,St. Louis,United States,Scottrade Center,Needtobreathe,13982.0,925079,13982.0,2,54.0
-2011-08-18,Edmonton,Canada,Rexall Place,Needtobreathe,12668.0,1068135,12668.0,2,75.0
-2011-08-19,Edmonton,Canada,Rexall Place,Needtobreathe,12668.0,1068135,12668.0,2,75.0
-2011-08-23,Los Angeles,United States,Staples Center,Needtobreathe,13725.0,981789,13725.0,2,65.0
-2011-08-24,Los Angeles,United States,Staples Center,Needtobreathe,13725.0,981789,13725.0,2,65.0
-2011-08-27,Los Angeles,United States,Staples Center,Needtobreathe,13725.0,981788,13725.0,2,65.0
-2011-08-28,Los Angeles,United States,Staples Center,Needtobreathe,13725.0,981788,13725.0,2,65.0
-2011-09-01,San Jose,United States,HP Pavilion,Needtobreathe,12414.0,912724,12414.0,2,131.0
-2011-09-02,San Jose,United States,HP Pavilion,Needtobreathe,12413.0,912724,12413.0,2,131.0
-2011-09-03,Sacramento,United States,Power Balance Pavilion,Needtobreathe,12432.0,934326,12432.0,2,193.0
-2011-09-06,Portland,United States,Rose Garden Arena,Needtobreathe,13610.0,903445,13610.0,2,62.0
-2011-09-07,Tacoma,United States,Tacoma Dome,Needtobreathe,19904.0,1289430,19904.0,2,195.0
-2011-09-10,Vancouver,Canada,Rogers Arena,Needtobreathe,13015.0,1095340,13015.0,2,196.0
-2011-09-11,Vancouver,Canada,Rogers Arena,Needtobreathe,13015.0,1095340,13015.0,2,196.0
-2011-09-16,Nashville,United States,Bridgestone Arena,Needtobreathe,14089.0,920567,14089.0,2,99.0
-2011-09-17,Nashville,United States,Bridgestone Arena,Needtobreathe,14089.0,920567,14089.0,2,99.0
-2011-09-20,Bossier City,United States,CenturyLink Center,Needtobreathe,11510.0,728546,11510.0,2,198.0
-2011-09-21,Tulsa,United States,BOK Center,Needtobreathe,12546.0,907573,12546.0,2,102.0
-2011-09-24,Kansas City,United States,Arrowhead Stadium,Needtobreathe,48562.0,3148046,48562.0,2,200.0
-2011-09-27,Denver,United States,Pepsi Center,Needtobreathe,12908.0,834916,12908.0,2,129.0
-2011-09-28,Salt Lake City,United States,EnergySolutions Arena,Needtobreathe,13720.0,896946,13720.0,2,68.0
-2011-10-01,Atlanta,United States,Philips Arena,Needtobreathe,13122.0,863331,13122.0,2,203.0
-2011-10-02,Atlanta,United States,Philips Arena,Needtobreathe,13122.0,863330,13122.0,2,203.0
-2011-10-04,North Little Rock,United States,Verizon Arena,Needtobreathe,13566.0,856123,13566.0,2,101.0
-2011-10-05,New Orleans,United States,New Orleans Arena,Needtobreathe,12943.0,830289,12943.0,2,205.0
-2011-10-08,Arlington,United States,Cowboys Stadium,Needtobreathe,55451.0,4337062,55451.0,2,206.0
-2011-10-11,Louisville,United States,KFC Yum! Center,Needtobreathe,14848.0,1003828,14848.0,2,207.0
-2011-10-14,Lubbock,United States,United Spirit Arena,Needtobreathe,10419.0,710426,10419.0,2,208.0
-2011-10-15,Oklahoma City,United States,Chesapeake Energy Arena,Needtobreathe,11592.0,758364,11592.0,2,209.0
-2011-10-20,San Diego,United States,Valley View Casino Center,Needtobreathe,10834.0,792634,10834.0,2,67.0
-2011-10-21,Glendale,United States,Jobing.com Arena,Needtobreathe,13515.0,913013,13515.0,2,64.0
-2011-10-22,Glendale,United States,Jobing.com Arena,Needtobreathe,13514.0,913012,13514.0,2,64.0
-2011-10-25,San Antonio,United States,AT&T Center,Needtobreathe,13851.0,901535,13851.0,2,212.0
-2011-10-26,Austin,United States,Frank Erwin Center,Needtobreathe,11999.0,752078,11999.0,2,120.0
-2011-10-29,Lexington,United States,Rupp Arena,Needtobreathe,16237.0,1041935,16237.0,2,132.0
-2011-10-30,Memphis,United States,FedExForum,Needtobreathe,12604.0,820036,12604.0,2,215.0
-2011-11-05,Houston,United States,Minute Maid Park,Needtobreathe,42095.0,3435756,42095.0,2,216.0
-2011-11-11,Jacksonville,United States,Jacksonville Veterans Memorial Arena,Needtobreathe,11785.0,749099,11785.0,2,57.0
-2011-11-12,Tampa,United States,St. Pete Times Forum,Needtobreathe,13695.0,914300,13695.0,2,117.0
-2011-11-13,Miami,United States,American Airlines Arena,Needtobreathe,12153.0,786904,12153.0,2,219.0
-2011-11-16,Charlotte,United States,Time Warner Cable Arena,Needtobreathe,14272.0,920903,14272.0,2,95.0
-2011-11-17,Raleigh,United States,RBC Center,Needtobreathe,13567.0,866056,13567.0,2,134.0
-2011-11-18,Columbia,United States,Colonial Life Arena,Needtobreathe,12807.0,828231,12807.0,2,133.0
-2011-11-21,New York City,United States,Madison Square Garden,Needtobreathe,13326.0,994206,13326.0,2,89.0
-2011-11-22,New York City,United States,Madison Square Garden,Needtobreathe,13326.0,994205,13326.0,2,89.0
-2012-03-02,Perth,Australia,Burswood Dome,Hot Chelle Rae,,1878530,,2,224.0
-2012-03-04,Adelaide,Australia,Adelaide Entertainment Centre,Hot Chelle Rae,,1075370,,2,115.0
-2012-03-06,Brisbane,Australia,Brisbane Entertainment Centre,Hot Chelle Rae,,1208015,,2,111.0
-2012-03-07,Brisbane,Australia,Brisbane Entertainment Centre,Hot Chelle Rae,,1208015,,2,111.0
-2012-03-09,Sydney,Australia,Allphones Arena,Hot Chelle Rae,,1710180,,2,227.0
-2012-03-10,Sydney,Australia,Allphones Arena,Hot Chelle Rae,,1710180,,2,227.0
-2012-03-12,Melbourne,Australia,Rod Laver Arena,Hot Chelle Rae,,1383884,,2,114.0
-2012-03-13,Melbourne,Australia,Rod Laver Arena,Hot Chelle Rae,,1383883,,2,114.0
-2012-03-14,Melbourne,Australia,Rod Laver Arena,Hot Chelle Rae,,1383883,,2,114.0
-2012-03-16,Auckland,New Zealand,Vector Arena,Hot Chelle Rae,,962854,,2,229.0
-2012-03-17,Auckland,New Zealand,Vector Arena,Hot Chelle Rae,,962853,,2,229.0
-2012-03-18,Auckland,New Zealand,Vector Arena,Hot Chelle Rae,,962853,,2,229.0
+2011-02-09,singapore,singapore,singapore indoor stadium,Sezairi Sezali,8964.0,916850,8964.0,2,187.0
+2011-02-11,seoul,south korea,olympic gymnastics arena,—,4725.0,385374,4725.0,2,152.0
+2011-02-13,osaka,japan,osaka-jo hall,—,6953.0,758113,6953.0,2,154.0
+2011-02-16,tokyo,japan,nippon budokan,—,7978.0,869114,7978.0,2,143.0
+2011-02-17,tokyo,japan,nippon budokan,—,7977.0,869113,7977.0,2,143.0
+2011-02-19,quezon city,philippines,smart araneta coliseum,Sam Concepcion,12667.0,859037,12667.0,2,190.0
+2011-02-21,hong kong,china,asiaworld–arena,Saito Johnny,12573.0,1030633,12573.0,2,23.0
+2011-03-06,brussels,belgium,forest national,Tom Dice,4622.0,219212,4622.0,2,80.0
+2011-03-07,rotterdam,netherlands,sportpaleis van ahoy,Tom Dice,4799.0,248314,4799.0,2,195.0
+2011-03-09,oslo,norway,oslo spektrum,—,8650.0,815246,8650.0,2,155.0
+2011-03-12,oberhausen,germany,könig pilsener arena,Martin & James,6082.0,370028,6082.0,2,106.0
+2011-03-15,milan,italy,mediolanum forum,Emma Marrone,3421.0,153303,5585.0,2,121.0
+2011-03-17,paris,france,zénith de paris,—,3598.0,201781,8500.0,2,238.0
+2011-03-19,madrid,spain,palacio de los deportes,The Bright,3962.0,251864,3962.0,2,156.0
+2011-03-22,birmingham,england,lg arena,Martin & James,9339.0,508854,9339.0,2,110.0
+2011-03-25,belfast,northern ireland,odyssey arena,Ryan Sheridan,8058.0,379001,8058.0,2,149.0
+2011-03-27,dublin,ireland,the o2,Ryan Sheridan,8681.0,419806,8681.0,2,208.0
+2011-03-29,manchester,england,manchester evening news arena,Martin & James,10488.0,580558,11622.0,2,118.0
+2011-03-30,london,england,the o2 arena,Martin & James,15265.0,891152,15681.0,2,209.0
+2011-05-27,omaha,united states,qwest center omaha,Needtobreathe,13496.0,858552,13496.0,2,170.0
+2011-05-28,omaha,united states,qwest center omaha,Needtobreathe,13496.0,858552,13496.0,2,170.0
+2011-05-29,des moines,united states,wells fargo arena,Needtobreathe,13149.0,862771,13149.0,2,230.0
+2011-06-02,sunrise,united states,bankatlantic center,Needtobreathe,12039.0,791476,12039.0,2,28.0
+2011-06-03,sunrise,united states,bankatlantic center,Needtobreathe,12038.0,791475,12038.0,2,28.0
+2011-06-04,orlando,united states,amway center,Needtobreathe,12262.0,791980,12262.0,2,18.0
+2011-06-07,columbus,united states,nationwide arena,Needtobreathe,14817.0,955259,14817.0,2,139.0
+2011-06-08,milwaukee,united states,bradley center,Needtobreathe,13748.0,897042,13748.0,2,39.0
+2011-06-11,detroit,united states,ford field,Needtobreathe,47992.0,3453549,47992.0,2,79.0
+2011-06-14,saint paul,united states,xcel energy center,Needtobreathe,14489.0,956869,14489.0,2,234.0
+2011-06-15,saint paul,united states,xcel energy center,Needtobreathe,14488.0,956868,14488.0,2,234.0
+2011-06-18,pittsburgh,united states,heinz field,Needtobreathe,52009.0,4009118,52009.0,2,92.0
+2011-06-21,buffalo,united states,first niagara center,Needtobreathe,14487.0,966749,14487.0,2,74.0
+2011-06-22,hartford,united states,xl center,Needtobreathe,12436.0,810165,12436.0,2,235.0
+2011-06-25,foxborough,united states,gillette stadium,Needtobreathe,55400.0,4013175,55400.0,2,88.0
+2011-06-26,foxborough,united states,gillette stadium,Needtobreathe,55400.0,4013175,55400.0,2,88.0
+2011-06-30,greensboro,united states,greensboro coliseum,Needtobreathe,14789.0,990701,14789.0,2,89.0
+2011-07-01,knoxville,united states,thompson–boling arena,Needtobreathe,13754.0,903875,13754.0,2,211.0
+2011-07-14,montreal,canada,bell centre,Needtobreathe,13439.0,1254230,13439.0,2,33.0
+2011-07-15,toronto,canada,air canada centre,Needtobreathe,15072.0,1518000,15072.0,2,7.0
+2011-07-16,toronto,canada,air canada centre,Needtobreathe,15072.0,1518000,15072.0,2,7.0
+2011-07-19,newark,united states,prudential center,Needtobreathe,12872.0,968866,12872.0,2,167.0
+2011-07-20,newark,united states,prudential center,Needtobreathe,12872.0,968866,12872.0,2,167.0
+2011-07-23,newark,united states,prudential center,Needtobreathe,12872.0,968866,12872.0,2,167.0
+2011-07-24,newark,united states,prudential center,Needtobreathe,12871.0,968865,12871.0,2,167.0
+2011-07-28,grand rapids,united states,van andel arena,Needtobreathe,11012.0,724854,11012.0,2,222.0
+2011-07-29,indianapolis,united states,conseco fieldhouse,Needtobreathe,13329.0,877175,13329.0,2,58.0
+2011-07-30,cleveland,united states,quicken loans arena,Needtobreathe,14873.0,976954,14873.0,2,169.0
+2011-08-02,washington,united states,verizon center,Needtobreathe,14652.0,1034395,14652.0,2,
+2011-08-03,washington,united states,verizon center,Needtobreathe,14651.0,1034394,14651.0,2,
+2011-08-06,philadelphia,united states,lincoln financial field,Needtobreathe,51395.0,4268678,51395.0,2,111.0
+2011-08-09,rosemont,united states,allstate arena,Needtobreathe,13056.0,954802,13056.0,2,12.0
+2011-08-10,rosemont,united states,allstate arena,Needtobreathe,13056.0,954801,13056.0,2,12.0
+2011-08-13,st. louis,united states,scottrade center,Needtobreathe,13983.0,925080,13983.0,2,185.0
+2011-08-14,st. louis,united states,scottrade center,Needtobreathe,13982.0,925079,13982.0,2,185.0
+2011-08-18,edmonton,canada,rexall place,Needtobreathe,12668.0,1068135,12668.0,2,173.0
+2011-08-19,edmonton,canada,rexall place,Needtobreathe,12668.0,1068135,12668.0,2,173.0
+2011-08-23,los angeles,united states,staples center,Needtobreathe,13725.0,981789,13725.0,2,
+2011-08-24,los angeles,united states,staples center,Needtobreathe,13725.0,981789,13725.0,2,
+2011-08-27,los angeles,united states,staples center,Needtobreathe,13725.0,981788,13725.0,2,
+2011-08-28,los angeles,united states,staples center,Needtobreathe,13725.0,981788,13725.0,2,
+2011-09-01,san jose,united states,hp pavilion,Needtobreathe,12414.0,912724,12414.0,2,93.0
+2011-09-02,san jose,united states,hp pavilion,Needtobreathe,12413.0,912724,12413.0,2,93.0
+2011-09-03,sacramento,united states,power balance pavilion,Needtobreathe,12432.0,934326,12432.0,2,165.0
+2011-09-06,portland,united states,rose garden arena,Needtobreathe,13610.0,903445,13610.0,2,179.0
+2011-09-07,tacoma,united states,tacoma dome,Needtobreathe,19904.0,1289430,19904.0,2,203.0
+2011-09-10,vancouver,canada,rogers arena,Needtobreathe,13015.0,1095340,13015.0,2,176.0
+2011-09-11,vancouver,canada,rogers arena,Needtobreathe,13015.0,1095340,13015.0,2,176.0
+2011-09-16,nashville,united states,bridgestone arena,Needtobreathe,14089.0,920567,14089.0,2,40.0
+2011-09-17,nashville,united states,bridgestone arena,Needtobreathe,14089.0,920567,14089.0,2,40.0
+2011-09-20,bossier city,united states,centurylink center,Needtobreathe,11510.0,728546,11510.0,2,49.0
+2011-09-21,tulsa,united states,bok center,Needtobreathe,12546.0,907573,12546.0,2,38.0
+2011-09-24,kansas city,united states,arrowhead stadium,Needtobreathe,48562.0,3148046,48562.0,2,22.0
+2011-09-27,denver,united states,pepsi center,Needtobreathe,12908.0,834916,12908.0,2,160.0
+2011-09-28,salt lake city,united states,energysolutions arena,Needtobreathe,13720.0,896946,13720.0,2,64.0
+2011-10-01,atlanta,united states,philips arena,Needtobreathe,13122.0,863331,13122.0,2,163.0
+2011-10-02,atlanta,united states,philips arena,Needtobreathe,13122.0,863330,13122.0,2,163.0
+2011-10-04,north little rock,united states,verizon arena,Needtobreathe,13566.0,856123,13566.0,2,225.0
+2011-10-05,new orleans,united states,new orleans arena,Needtobreathe,12943.0,830289,12943.0,2,140.0
+2011-10-08,arlington,united states,cowboys stadium,Needtobreathe,55451.0,4337062,55451.0,2,61.0
+2011-10-11,louisville,united states,kfc yum! center,Needtobreathe,14848.0,1003828,14848.0,2,105.0
+2011-10-14,lubbock,united states,united spirit arena,Needtobreathe,10419.0,710426,10419.0,2,218.0
+2011-10-15,oklahoma city,united states,chesapeake energy arena,Needtobreathe,11592.0,758364,11592.0,2,54.0
+2011-10-20,san diego,united states,valley view casino center,Needtobreathe,10834.0,792634,10834.0,2,220.0
+2011-10-21,glendale,united states,jobing.com arena,Needtobreathe,13515.0,913013,13515.0,2,101.0
+2011-10-22,glendale,united states,jobing.com arena,Needtobreathe,13514.0,913012,13514.0,2,101.0
+2011-10-25,san antonio,united states,at&t center,Needtobreathe,13851.0,901535,13851.0,2,24.0
+2011-10-26,austin,united states,frank erwin center,Needtobreathe,11999.0,752078,11999.0,2,82.0
+2011-10-29,lexington,united states,rupp arena,Needtobreathe,16237.0,1041935,16237.0,2,180.0
+2011-10-30,memphis,united states,fedexforum,Needtobreathe,12604.0,820036,12604.0,2,73.0
+2011-11-05,houston,united states,minute maid park,Needtobreathe,42095.0,3435756,42095.0,2,130.0
+2011-11-11,jacksonville,united states,jacksonville veterans memorial arena,Needtobreathe,11785.0,749099,11785.0,2,100.0
+2011-11-12,tampa,united states,st. pete times forum,Needtobreathe,13695.0,914300,13695.0,2,199.0
+2011-11-13,miami,united states,american airlines arena,Needtobreathe,12153.0,786904,12153.0,2,13.0
+2011-11-16,charlotte,united states,time warner cable arena,Needtobreathe,14272.0,920903,14272.0,2,212.0
+2011-11-17,raleigh,united states,rbc center,Needtobreathe,13567.0,866056,13567.0,2,172.0
+2011-11-18,columbia,united states,colonial life arena,Needtobreathe,12807.0,828231,12807.0,2,57.0
+2011-11-21,new york city,united states,madison square garden,Needtobreathe,13326.0,994206,13326.0,2,115.0
+2011-11-22,new york city,united states,madison square garden,Needtobreathe,13326.0,994205,13326.0,2,115.0
+2012-03-02,perth,australia,burswood dome,Hot Chelle Rae,,1878530,,2,43.0
+2012-03-04,adelaide,australia,adelaide entertainment centre,Hot Chelle Rae,,1075370,,2,6.0
+2012-03-06,brisbane,australia,brisbane entertainment centre,Hot Chelle Rae,,1208015,,2,41.0
+2012-03-07,brisbane,australia,brisbane entertainment centre,Hot Chelle Rae,,1208015,,2,41.0
+2012-03-09,sydney,australia,allphones arena,Hot Chelle Rae,,1710180,,2,11.0
+2012-03-10,sydney,australia,allphones arena,Hot Chelle Rae,,1710180,,2,11.0
+2012-03-12,melbourne,australia,rod laver arena,Hot Chelle Rae,,1383884,,2,175.0
+2012-03-13,melbourne,australia,rod laver arena,Hot Chelle Rae,,1383883,,2,175.0
+2012-03-14,melbourne,australia,rod laver arena,Hot Chelle Rae,,1383883,,2,175.0
+2012-03-16,auckland,new zealand,vector arena,Hot Chelle Rae,,962854,,2,223.0
+2012-03-17,auckland,new zealand,vector arena,Hot Chelle Rae,,962853,,2,223.0
+2012-03-18,auckland,new zealand,vector arena,Hot Chelle Rae,,962853,,2,223.0
