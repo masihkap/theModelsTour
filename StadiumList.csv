@@ -85,7 +85,7 @@ Venue_ID,City,Country,Venue,Venue_Capacity,Latitude,Longitude,State,Operational,
 84,stockholm,Sweden,Friends Arena,59560.0,59.3728,18.0006,,Open,Europe
 85,kansas city,United States,Geha Field At Arrowhead Stadium,55000.0,39.049,-94.4839,MO,Open,North America
 86,atlanta,United States,Georgia Dome,56046.0,33.7544657,-84.3898151,GA,Closed,North America
-87,glendale,United States,Gila River Arena,13260.0,34.1469416,-118.2478471,CA,Open,North America
+87,glendale,United States,Gila River Arena,13260.0,33.5321,-112.2612,AZ,Open,North America
 88,foxborough,United States,Gillette Stadium,66667.0,42.0878,-71.2587,MA,Open,North America
 89,greensboro,United States,Greensboro Coliseum,15079.0,36.0434343,-79.8455352,NC,Open,North America
 90,décines-charpieu,France,Groupama Stadium,61000.0,45.7652,4.9827,Auvergne-Rhône-Alpes,Open,Europe
@@ -216,7 +216,7 @@ Venue_ID,City,Country,Venue,Venue_Capacity,Latitude,Longitude,State,Operational,
 216,cincinnati,United States,U.S. Bank Arena,11208.0,39.0979262,-84.5044458,OH,Open,North America
 217,minneapolis,United States,U.S. Bank Stadium,64453.0,44.9737,-93.257,MN,Open,North America
 218,lubbock,United States,United Spirit Arena,10419.0,33.5804027,-101.8859684,TX,Open,North America
-219,glendale,United States,University Of Phoenix Stadium,59157.0,34.1469416,-118.2478471,CA,Open,North America
+219,glendale,United States,University Of Phoenix Stadium,59157.0,33.5276,-112.2626,AZ,Open,North America
 220,san diego,United States,Valley View Casino Center,10872.0,33.2195241,-116.9730009,CA,Open,North America
 221,columbus,United States,Value City Arena,,40.0076033,-83.0249567,OH,Open,North America
 222,grand rapids,United States,Van Andel Arena,11012.0,42.9622423,-85.6715921,MI,Open,North America
