@@ -3,6 +3,7 @@ from datetime import date
 import numpy as np
 from tabulate import tabulate
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 #attendance growth
 ##sum all concert attendance per tour/individual concerts 
@@ -38,9 +39,11 @@ for tour, df in Tours.items():
         total_shows = df['Date'].nunique()
 
 
+    df['Attendance'] = pd.to_numeric(df['Attendance'], errors='coerce')  # convert invalid entries to NaN
     concert_attendance = df[df['Attendance'].notna()]
+    total_attendance = concert_attendance['Attendance'].sum()
     total_shows = df['Date'].nunique()
-    avg_attendance_show = total_attendance / total_shows
+    avg_attendance_show = total_attendance / total_shows if total_shows > 0 else 0
 
     tour_summary.append({
         'Tour': tour
@@ -53,10 +56,36 @@ for tour, df in Tours.items():
 tour_summary_df = pd.DataFrame(tour_summary)
 tour_summary_df['Attendance_Growth_Previous_Tour'] = tour_summary_df['Avg_Attendance_Per_Show'].pct_change() * 100
 tour_summary_df['Attendance_Growth_Previous_Tour'] = tour_summary_df['Attendance_Growth_Previous_Tour'].round(2)
+tour_summary_df['Tour'] = tour_summary_df['Tour'].replace({'Tour1989': '1989Tour'})
 print(tour_summary_df)
 print()
 
+tour_summary_df = pd.DataFrame(tour_summary)
 
+# Sort by tour chronological order
+tour_order = ['FearlessTour', 'SpeakNowTour', 'RedTour', '1989Tour', 'ReputationTour', 'ErasTour']
+tour_summary_df['Tour'] = pd.Categorical(tour_summary_df['Tour'], categories=tour_order, ordered=True)
+tour_summary_df = tour_summary_df.sort_values('Tour')
+
+# Plot total attendance growth
+plt.figure(figsize=(10,6))
+sns.barplot(x='Tour', y='Total_Attendance', data=tour_summary_df, palette='Blues_d')
+plt.title('Total Attendance per Tour', fontsize=16)
+plt.ylabel('Total Attendance')
+plt.xlabel('Tour')
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.show()
+
+# Plot average attendance per show growth
+plt.figure(figsize=(10,6))
+sns.barplot(x='Tour', y='Avg_Attendance_Per_Show', data=tour_summary_df, palette='Greens_d')
+plt.title('Average Attendance per Show per Tour', fontsize=16)
+plt.ylabel('Average Attendance per Show')
+plt.xlabel('Tour')
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.show()
 
 
 Album_Tours = pd.read_csv('ToursPerAlbum.csv')
@@ -117,6 +146,7 @@ Tour_ID_Name = {
     6: 'ErasTour',
     7: 'ErasTour'
 }
+
 Album_Tours_copy['Tour'] = Album_Tours_copy['Tour_ID'].map(Tour_ID_Name)
 unique_revenue['Tour'] = unique_revenue['Tour_ID'].map(Tour_ID_Name)
 

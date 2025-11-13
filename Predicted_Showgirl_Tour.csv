@@ -1,0 +1,78 @@
+Start_Date,Venue,City,State,Country,Continent,Venue_Capacity,Latitude,Longitude,Nights,Reason
+2026-06-29,Rogers Centre,Toronto,ON,Canada,North America,50155.0,43.6416599,-79.3891976,2,Base+Growth
+2026-07-04,Firstenergy Stadium,Cleveland,OH,United States,North America,51323.0,41.5060559,-81.6997118,2,Base+Growth
+2026-07-09,Ford Field,Detroit,MI,United States,North America,59331.0,42.340115,-83.046341,2,Base+Growth
+2026-07-14,Ohio Stadium,Columbus,OH,United States,North America,62897.0,40.0016458,-83.0197374,2,Base+Growth
+2026-07-19,Rupp Arena,Lexington,KY,United States,North America,17966.0,38.0494123,-84.5023586,2,Base+Growth
+2026-07-24,Cardinal Stadium,Louisville,KY,United States,North America,52138.0,38.2060161,-85.7587734,2,Base+Growth
+2026-07-29,Lucas Oil Stadium,Indianapolis,IN,United States,North America,69000.0,39.7601,-86.1639,2,Base+Growth
+2026-08-03,Soldier Field,Chicago,IL,United States,North America,55055.0,41.862366,-87.617256,2,Base+Growth
+2026-08-08,Allstate Arena,Rosemont,IL,United States,North America,13133.0,42.0052766,-87.8877714,2,Base+Growth
+2026-08-13,The Dome At America'S Center,St. Louis,MO,United States,North America,47831.0,38.6327852,-90.188551,2,Base+Growth
+2026-08-18,Geha Field At Arrowhead Stadium,Kansas City,MO,United States,North America,55000.0,39.049,-94.4839,2,Base+Growth
+2026-08-23,Centurylink Center Omaha,Omaha,NE,United States,North America,14811.0,41.2625935,-95.9280755,2,Base+Growth
+2026-08-28,Wells Fargo Arena,Des Moines,IA,United States,North America,13969.0,41.5868654,-93.6249494,2,Base+Growth
+2026-09-02,Xcel Energy Center,Saint Paul,MN,United States,North America,15042.0,44.9497487,-93.0931028,2,Base+Growth
+2026-09-07,U.S. Bank Stadium,Minneapolis,MN,United States,North America,64453.0,44.9737,-93.257,2,Base+Growth
+2026-09-12,Investors Group Field,Winnipeg,MB,Canada,North America,33061.0,49.8955367,-97.1384584,2,Base+Growth
+2026-09-17,Rexall Place,Edmonton,AB,Canada,North America,44500.0,53.5325073,-113.60386,2,Base+Growth
+2026-09-22,Bc Place,Vancouver,BC,Canada,North America,53334.0,49.2768,-123.1116,2,Base+Growth
+2026-09-27,Lumen Field,Seattle,WA,United States,North America,72171.0,47.5952,-122.3316,2,Base+Growth
+2026-10-02,Levi'S Stadium,Santa Clara,CA,United States,North America,70000.0,37.403,-121.97,2,Base+Growth
+2026-10-07,Sofi Stadium,Inglewood,CA,United States,North America,70000.0,33.9535,-118.3392,2,Base+Growth
+2026-10-12,State Farm Stadium,Glendale,AZ,United States,North America,70000.0,33.527283,-112.263275,2,Base+Growth
+2026-10-17,Empower Field At Mile High,Denver,CO,United States,North America,75000.0,39.7439,-105.0201,2,Base+Growth
+2026-10-22,At&T Stadium,Arlington,TX,United States,North America,70203.0,32.747841,-97.093628,2,Base+Growth
+2026-10-27,Nrg Stadium,Houston,TX,United States,North America,72220.0,29.68486,-95.411667,2,Base+Growth
+2026-11-01,Caesars Superdome,New Orleans,LA,United States,North America,65000.0,29.9510489,-90.0823076,2,Base+Growth
+2026-11-06,Mercedes-Benz Stadium,Atlanta,GA,United States,North America,70000.0,33.755489,-84.401993,2,Base+Growth
+2026-11-11,Colonial Life Arena,Columbia,SC,United States,North America,13429.0,33.9947839,-81.0373546,2,Increased demand
+2026-11-16,Time Warner Cable Arena,Charlotte,NC,United States,North America,15024.0,35.2272086,-80.8430827,2,Base+Growth
+2026-11-21,Greensboro Coliseum,Greensboro,NC,United States,North America,15079.0,36.0434343,-79.8455352,2,Base+Growth
+2026-11-26,Pnc Arena,Raleigh,NC,United States,North America,13941.0,35.803398,-78.7219166,2,Base+Growth
+2026-12-01,Nationals Park,"Washington, D.C.",District of Columbia,United States,North America,42507.0,38.8727332,-77.0074815,2,Base+Growth
+2026-12-06,Lincoln Financial Field,Philadelphia,PA,United States,North America,67567.0,39.900898,-75.168098,2,Base+Growth
+2026-12-11,Prudential Center,Newark,NJ,United States,North America,13033.0,40.7334302,-74.1711482,2,Base+Growth
+2026-12-16,Metlife Stadium,East Rutherford,NJ,United States,North America,72545.0,40.813778,-74.07431,2,Base+Growth
+2026-12-21,Gillette Stadium,Foxborough,MA,United States,North America,66667.0,42.0878,-71.2587,2,Base+Growth
+2026-12-26,Acrisure Stadium,Pittsburgh,PA,United States,North America,73117.0,40.4469,-80.0158,2,Base+Growth
+2026-12-31,Nissan Stadium,Nashville,TN,United States,North America,71000.0,36.166479,-86.7712898,2,Base+Growth
+2027-01-05,Amway Center,Orlando,FL,United States,North America,12809.0,28.5392739,-81.3840071,2,Base+Growth
+2027-01-10,Raymond James Stadium,Tampa,FL,United States,North America,68820.0,27.975958,-82.503693,2,Base+Growth
+2027-01-15,Hard Rock Stadium,Miami Gardens,FL,United States,North America,61000.0,25.958,-80.2389,2,Base+Growth
+2027-01-20,Imperial Ballroom,Nassau,,The Bahamas,North America,,25.0782266,-77.3383438,2,Base+Growth
+2027-01-25,Foro Sol,Mexico City,Mexico City,Mexico,North America,45000.0,19.4042,-99.0907,2,Base+Growth
+2027-01-30,Estadio River Plate,Buenos Aires,Autonomous City of Buenos Aires,Argentina,South America,73334.0,-34.5455,-58.4494,2,Base+Growth
+2027-02-15,Allianz Parque,São Paulo,São Paulo,Brazil,South America,50000.0,-23.5273,-46.678,2,Base+Growth
+2027-02-20,Estádio Olímpico Nilton Santos,Rio De Janeiro,Rio de Janeiro,Brazil,South America,60000.0,-22.893194,-43.2935691,2,Base+Growth
+2027-02-25,Mount Smart Stadium,Auckland,Auckland,New Zealand,Oceania,35749.0,-36.9178349,174.8122802,2,Base+Growth
+2027-03-13,Accor Stadium,Sydney,New South Wales,Australia,Oceania,80000.0,-33.8474,151.0631,2,Base+Growth
+2027-03-18,Melbourne Cricket Ground,Melbourne,Victoria,Australia,Oceania,96000.0,-37.819909,144.983225,2,Base+Growth
+2027-03-23,Adelaide Entertainment Centre,Adelaide,South Australia,Australia,Oceania,10045.0,-34.9079418,138.5738004,2,Base+Growth
+2027-03-28,The Gabba,Brisbane,Queensland,Australia,Oceania,43907.0,-27.4858851,153.0379847,2,Base+Growth
+2027-04-02,Meis Ancol,Jakarta,,Indonesia,Asia,8130.0,-6.1754049,106.827168,2,Base+Growth
+2027-04-18,Singapore National Stadium,Singapore,,Singapore,Asia,63000.0,1.3020909,103.8763295,2,Base+Growth
+2027-04-23,Putra Indoor Stadium,Kuala Lumpur,Kuala Lumpur,Malaysia,Asia,7525.0,3.0537311,101.6934618,2,Base+Growth
+2027-04-28,Smart Araneta Coliseum,Quezon City,,Philippines,Asia,12667.0,14.6207157,121.0533557,2,Base+Growth
+2027-05-03,Mercedes-Benz Arena,Shanghai,Shanghai,China,Asia,12793.0,31.1909263,121.488699,2,Base+Growth
+2027-05-08,Olympic Gymnastics Arena,Seoul,,South Korea,Asia,4725.0,37.5666791,126.9782914,2,Base+Growth
+2027-05-13,Tokyo Dome,Tokyo,,Japan,Asia,55000.0,35.7056,139.7519,2,Base+Growth
+2027-05-18,Friends Arena,Stockholm,,Sweden,Europe,59560.0,59.3728,18.0006,2,Base+Growth
+2027-06-03,Oslo Spektrum,Oslo,,Norway,Europe,8650.0,59.9129638,10.7546593,2,Base+Growth
+2027-06-08,Johan Cruyff Arena,Amsterdam,North Holland,Netherlands,Europe,55000.0,52.3730796,4.8924534,2,Base+Growth
+2027-06-13,Veltins-Arena,Gelsenkirchen,North Rhine-Westphalia,Germany,Europe,60000.0,51.5545,7.0675,2,Base+Growth
+2027-06-18,Lanxess Arena,Cologne,North Rhine-Westphalia,Germany,Europe,14510.0,50.9384967,6.9828844,2,Base+Growth
+2027-06-23,Forest National,Brussels,,Belgium,Europe,4622.0,50.8096461,4.3260748,2,Base+Growth
+2027-06-28,Paris La Défense Arena,Nanterre,Ile-de-France,France,Europe,45000.0,48.8956767,2.2296581,2,Base+Growth
+2027-07-03,Wembley Stadium,London,England,England,Europe,94139.0,51.556,-0.2796,2,Base+Growth
+2027-07-08,Principality Stadium,Cardiff,Wales,Wales,Europe,70000.0,51.4782,-3.1827,2,Base+Growth
+2027-07-13,Etihad Stadium,Manchester,England,England,Europe,38629.0,53.4831448,-2.2005273,2,Base+Growth
+2027-07-18,Aviva Stadium,Dublin,,Ireland,Europe,50000.0,53.3351,-6.2285,2,Base+Growth
+2027-07-23,Odyssey Arena,Belfast,Northern Ireland,Northern Ireland,Europe,8058.0,54.6038109,-5.91426,2,Base+Growth
+2027-07-28,Murrayfield Stadium,Edinburgh,Scotland,Scotland,Europe,73000.0,55.9423132,-3.2408951,2,Base+Growth
+2027-08-02,Letzigrund,Zürich,Zurich,Switzerland,Europe,47500.0,47.3828206,8.5037387,2,Base+Growth
+2027-08-07,San Siro,Milan,Lombardy,Italy,Europe,80000.0,45.4782003,9.123964,2,Base+Growth
+2027-08-12,Groupama Stadium,Décines-Charpieu,Auvergne-Rhône-Alpes,France,Europe,61000.0,45.7652,4.9827,2,Base+Growth
+2027-08-17,Estadio Santiago Bernabéu,Madrid,Community of Madrid,Spain,Europe,65000.0,40.4521778,-3.6876573,2,Base+Growth
+2027-08-22,Estádio Da Luz,Lisbon,,Portugal,Europe,60000.0,38.7526893,-9.1846899,2,Base+Growth
+2027-08-27,Pge Narodowy,Warsaw,Masovian Voivodeship,Poland,Europe,65000.0,52.2394,21.0458,2,Base+Growth
