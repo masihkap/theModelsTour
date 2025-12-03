@@ -82,22 +82,25 @@ plt.figure(figsize=(10,6))
 sns.barplot(x='Tour', y='Total_Attendance', data=tour_summary_df, palette=eras_colors, hue = 'Tour')
 plt.title('Total Attendance per Tour', fontsize=16)
 plt.ylabel('Total Attendance')
+plt.ticklabel_format(style='plain', axis='y') # Disable scientific notation
+plt.gca().yaxis.set_major_formatter(plt.matplotlib.ticker.StrMethodFormatter('{x:,.0f}')) #add comma seperator
 plt.xlabel('Tour')
 plt.xticks(rotation=45)
 plt.tight_layout()
-plt.savefig(f"Total_Attendance_per_Tour", dpi=300, bbox_inches='tight')
-plt.show()
+#plt.savefig(f"Total_Attendance_per_Tour", dpi=300, bbox_inches='tight')
+#plt.show()
 
 # Plot average attendance per show growth
 plt.figure(figsize=(10,6))
 sns.barplot(x='Tour', y='Avg_Attendance_Per_Show', data=tour_summary_df, palette=eras_colors)
 plt.title('Average Attendance per Show per Tour', fontsize=16)
 plt.ylabel('Average Attendance per Show')
+plt.gca().yaxis.set_major_formatter(plt.matplotlib.ticker.StrMethodFormatter('{x:,.0f}')) #add comma seperator
 plt.xlabel('Tour')
 plt.xticks(rotation=45)
 plt.tight_layout()
-plt.savefig(f"Avg_Attendance_per_Show_per_Tour", dpi=300, bbox_inches='tight')
-plt.show()
+#plt.savefig(f"Avg_Attendance_per_Show_per_Tour", dpi=300, bbox_inches='tight')
+#plt.show()
 
 
 Album_Tours = pd.read_csv('ToursPerAlbum.csv')
@@ -211,4 +214,22 @@ Venue_Headers = ['Venue', 'Number of Visits']
 print(tabulate(Top_10_Venues, headers = Venue_Headers, tablefmt = 'fancy_grid', showindex = 'always'), end = '\n\n')
 # print(f'Top 10 visited venues are {Top_10_Venues}', end='\n\n')
 
+Album_Tours_Format = pd.DataFrame(Album_Tours)
+Album_Tours_Format['Tour_StartDate_1'] = Album_Tours_Format['Tour_StartDate'].dt.strftime('%Y-%m-%d')
+Album_Tours_Format['DateDiff_AlbumRel_TourStart_1'] = (
+    Album_Tours_Format['DateDiff_AlbumRel_TourStart']
+    .apply(lambda x: str(int(x)) if pd.notna(x) else '')
+)
+Albums_Tour_Format_Sub = Album_Tours_Format[['Album_Name', 'Album_ReleaseDate', 'Tour_Name', 'Tour_StartDate_1', 'DateDiff_AlbumRel_TourStart_1']]
+Albums_Tour_Format_Sub.columns = ['Album Name', 'Album Release Date', 'Tour Name', 'Tour Start Date', 'Date Difference (Days)']
+#print(tabulate(Albums_Tour_Format_Sub, headers = Albums_Tour_Header, tablefmt = 'fancy_grid', showindex = 'always'), end = '\n\n')
+RemoveShowgirl = Albums_Tour_Format_Sub.iloc[:-1] 
 
+
+Style = RemoveShowgirl.style.set_properties(**{'text-align': 'left'})
+Style.set_table_styles([dict(selector='th', props=[('text-align', 'left')])])
+
+import dataframe_image as dfi
+dfi.export(Style, 'albums_tour_datediff.png')
+
+print('Image created')

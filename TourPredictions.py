@@ -2,15 +2,11 @@ import pandas as pd
 import numpy as np
 from collections import defaultdict, Counter
 from geopy.distance import geodesic
-import random
-from sklearn.linear_model import LinearRegression, LogisticRegression
-from sklearn.preprocessing import LabelEncoder
+from sklearn.linear_model import LinearRegression
 import warnings
+from datetime import date
+import holidays
 warnings.filterwarnings('ignore')
-
-#"randomness" recreation
-random.seed(13)
-np.random.seed(13)
 
 #file load
 tour_file_paths = [
@@ -104,7 +100,6 @@ all_tours['Continent'] = all_tours['Continent'].fillna('Unknown').astype(str).st
 # ##filter out smaller venues
 stadiums_open = stadiums_open[stadiums_open['Venue_Capacity'] >= 50000].copy()
 
-
 #historical average check for comparison + limit predictive tour build
 shows_per_tour = all_tours.groupby('Tour_ID')['Date'].nunique().rename('Shows').reset_index()
 if not shows_per_tour.empty:
@@ -134,10 +129,6 @@ else:
     median_gap = int(round(all_tours_sorted['GapDays'].median(skipna=True))) if not all_tours_sorted['GapDays'].isna().all() else 3
     avg_tour_length_days = int(round(avg_shows_per_tour * (median_gap + 1)))
 
-# print(f'Historical averages: There were an average of {avg_shows_per_tour} shows, '
-#       f' {avg_cities_per_tour:.1f} cities and length of {avg_tour_length_days} days per tour.', '\n\n')
-
-
 #avg show attendance per tour
 tour_summary = []
 for tid, g in all_tours.groupby('Tour_ID'):
@@ -145,57 +136,68 @@ for tid, g in all_tours.groupby('Tour_ID'):
     total_shows = g['Date'].nunique()
     avg_attendace = total_attendance/total_shows if total_shows > 0 else 0
     tour_summary.append({'Tour_ID': tid, 'Avg_Attendance_Per_Show': avg_attendace})
-
 tour_summary_df = pd.DataFrame(tour_summary).sort_values('Tour_ID')
 
 #regression for attendance growth
 tour_summary_df['Prev_Avg'] = tour_summary_df['Avg_Attendance_Per_Show'].shift(1)
 tour_summary_df['Growth_Rate'] = (tour_summary_df['Avg_Attendance_Per_Show'] / tour_summary_df['Prev_Avg']) - 1
-
 growth_df = tour_summary_df.dropna(subset = ['Growth_Rate'])
-if len(growth_df) >= 2:
-    X = growth_df['Prev_Avg'].values.reshape(-1, 1)
-    y = growth_df['Avg_Attendance_Per_Show'].values
-    reg = LinearRegression().fit(X, y)
 
+##median
+# if len(growth_df) >= 1:
+#     att_growth = growth_df['Growth_Rate'].median() + 1
+# else: att_growth = 1.1 #fallback
+
+##log
+if len(growth_df) >= 2:
+    X = np.log(growth_df['Prev_Avg']).values.reshape(-1, 1)
+    y = np.log(growth_df['Avg_Attendance_Per_Show']).values
+    reg_log = LinearRegression().fit(X, y)
     last_att_avg = tour_summary_df['Avg_Attendance_Per_Show'].iloc[-1]
-    predicted_att_avg = reg.predict(np.array([[last_att_avg]]))[0]
-    att_growth = predicted_att_avg / last_att_avg
+    log_pred = reg_log.predict(np.array([[np.log(last_att_avg)]]))[0]
+    predicted_att_avg_log = np.exp(log_pred)
+    att_growth = predicted_att_avg_log / last_att_avg
 else:
-    att_growth = 1.1
+    att_growth = 1.1  # fallback
+
+## linear
+# if len(growth_df) >= 2:
+#     X = growth_df['Prev_Avg'].values.reshape(-1, 1)
+#     y = growth_df['Avg_Attendance_Per_Show'].values
+#     reg = LinearRegression().fit(X, y)
+#     last_att_avg = tour_summary_df['Avg_Attendance_Per_Show'].iloc[-1]
+#     predicted_att_avg = reg.predict(np.array([[last_att_avg]]))[0]
+#     att_growth = predicted_att_avg / last_att_avg
+# else:
+#     att_growth = 1.1
 
 print(f'Predicted attendance growth is {att_growth}')
 
+# Showgirl tour start; weighted for non-covid albums
+if 'Album_ReleaseDate' in tours_album.columns and 'Tour_StartDate' in tours_album.columns:
+    at = tours_album.copy()
+    at['DateDiff'] = (at['Tour_StartDate'] - at['Album_ReleaseDate']).dt.days
+    def assign_weight(album):
+        if album in ['Fearless', 'Speak Now', 'Red', '1989', 'Reputation', 'Midnights']:
+            return 2.0
+        elif album in ['Lover', 'folkore', 'evermore', 'The Tortured Poets Department']:
+            return 0.5
+        else:
+            return 1.0
+    at['Weight'] = at['Album_Name'].apply(assign_weight) if 'Album_Name' in at.columns else 1.0
+    diff_date_albums = at.dropna(subset=['DateDiff'])
+    if not diff_date_albums.empty:
+        weighted_avg_days = int(round(np.average(diff_date_albums['DateDiff'], weights=diff_date_albums['Weight'])))
+    else:
+        weighted_avg_days = 404 #unweighted average between album release and tour start dates
+else:
+    weighted_avg_days = 404 #unweighted average between album release and tour start dates
 
-#continent transitions
-frames = []
-for tid, g in all_tours.sort_values('Date').groupby('Tour_ID'):
-    g = g.sort_values('Date').reset_index(drop=True)
-    if g.shape[0] < 2:
-        continue
-    for i in range(len(g)-1):
-        a_cont = g.loc[i,'Continent'] if pd.notna(g.loc[i,'Continent']) else 'Unknown'
-        b_cont = g.loc[i+1,'Continent'] if pd.notna(g.loc[i+1,'Continent']) else 'Unknown'
-        days_since = (g.loc[i+1,'Date'] - g.loc[i,'Date']).days if pd.notna(g.loc[i+1,'Date']) and pd.notna(g.loc[i,'Date']) else np.nan
-        month = g.loc[i,'Date'].month if pd.notna(g.loc[i,'Date']) else 0
-        frames.append({'from_cont': a_cont, 'to_cont': b_cont, 'days_since': days_since, 'month': month})
-trans_df = pd.DataFrame(frames)
-if trans_df.empty:
-    raise ValueError("No continent transitions found in historical data; can't train ML model.")
-
-
-le_from = LabelEncoder().fit(trans_df['from_cont'])
-le_to = LabelEncoder().fit(trans_df['to_cont'])
-X = pd.DataFrame({
-    'from_enc': le_from.transform(trans_df['from_cont']),
-    'days_since': trans_df['days_since'].fillna(trans_df['days_since'].median()),
-    'month': trans_df['month'].fillna(0)
-})
-y = le_to.transform(trans_df['to_cont'])
-
-# multinomial logistic regression training
-clf = LogisticRegression(multi_class='multinomial', solver='lbfgs', max_iter=1000)
-clf.fit(X, y)
+Showgirl_ReleaseDate = pd.to_datetime(
+    tours_album.loc[tours_album['Album_Name']=='The Life of a Showgirl','Album_ReleaseDate'].iloc[0]
+    ) if 'Album_Name' in tours_album.columns else pd.Timestamp.today()
+Showgirl_Tour_StartDate = Showgirl_ReleaseDate + pd.Timedelta(days=weighted_avg_days)
+print(f"Predicted Showgirl tour start: {Showgirl_Tour_StartDate.date()} ")
 
 #city predictions
 #remove single visited cities unless on Eras Tour
@@ -272,15 +274,6 @@ if predicted_df.empty:
 
 predicted_df['Continent'] = predicted_df['Continent'].astype(str).str.strip().str.title()
 
-#some missing lat/long which is a problem for next step mapping
-missing_latlng = predicted_df[predicted_df['Latitude'].isna() | predicted_df['Longitude'].isna()]
-for i, row in missing_latlng.iterrows():
-    vid = row['Venue_ID']
-    if vid in stadiums_open['Venue_ID'].values:
-        match = stadiums_open[stadiums_open['Venue_ID'] == vid].iloc[0]
-        predicted_df.at[i, 'Latitude'] = match['Latitude']
-        predicted_df.at[i, 'Longitude'] = match['Longitude']
-
 city_coords = {r['City']:(r['Latitude'], r['Longitude']) for _, r in predicted_df.iterrows() if not pd.isna(r['Latitude']) and not pd.isna(r['Longitude'])}
 
 
@@ -313,6 +306,59 @@ def next_city_score(last_city, candidate_city, last_coords, alpha=0.5, beta=2.0,
     trans_prob = hist_trans_count / total_trans
     freq = predicted_df.loc[predicted_df['City']==candidate_city, 'HistFreq'].iloc[0]
     return alpha*dist_score + beta*trans_prob + gamma*(freq/max(1,predicted_df['HistFreq'].max()))
+
+#if cities in same state are within 100 miles of eachother, remove the smaller stadium - CA and LA
+def remove_close_small_stadiums(df, max_distance = 100):
+    df = df.copy()
+    to_remove = set()
+
+    for state, g in df.groupby('State'):
+        cities = g[['City','Latitude','Longitude','Venue_Capacity']].dropna(subset=['Latitude','Longitude']).to_dict('records')
+        for i in range(len(cities)):
+            for j in range(i+1, len(cities)):
+                city1 = cities[i]
+                city2 = cities[j]
+                coords1 = (city1['Latitude'], city1['Longitude'])
+                coords2 = (city2['Latitude'], city2['Longitude'])
+                distance = geodesic(coords1, coords2).miles
+                if distance < max_distance:
+                    # remove the smaller stadium
+                    if city1['Venue_Capacity'] <= city2['Venue_Capacity']:
+                        to_remove.add(city1['City'])
+                    else:
+                        to_remove.add(city2['City'])
+    
+    return df[~df['City'].isin(to_remove)].reset_index(drop=True)
+
+predicted_df = remove_close_small_stadiums(predicted_df, 100)
+
+
+
+#holidays
+us_holidays = holidays.UnitedStates()
+extra_holidays = {
+    (12, 24),  # Christmas Eve
+    (12, 26),  # Boxing Day
+    (12, 31),  # New Year's Eve
+}
+
+def is_blocked_date(d):
+    if hasattr(d, 'date'):  # pandas.Timestamp or datetime
+        dval = d.date()
+    else:
+        dval = d
+    # check library holidays
+    if dval in us_holidays:
+        return True
+    # check manual month/day blocks
+    if (dval.month, dval.day) in extra_holidays:
+        return True
+    return False
+
+def next_non_holiday(dt):
+    while is_blocked_date(dt):
+        dt = dt + pd.Timedelta(days=1)
+    return dt
 
 #gaps between cities
 all_tours_sorted = all_tours_filtered.sort_values(['Tour_ID','Date']).copy()
@@ -347,60 +393,7 @@ all_tours_sorted['StayNights'] = all_tours_sorted['StayNights'].apply(lambda x: 
 city_base_nights = all_tours_sorted.groupby('City')['StayNights'].mean().to_dict()
 
 
-# Showgirl tour start; weighted for non-covid albums
-if 'Album_ReleaseDate' in tours_album.columns and 'Tour_StartDate' in tours_album.columns:
-    at = tours_album.copy()
-    at['DateDiff'] = (at['Tour_StartDate'] - at['Album_ReleaseDate']).dt.days
-    def assign_weight(album):
-        if album in ['Fearless', 'Speak Now', 'Red', '1989', 'Reputation', 'Midnights']:
-            return 2.0
-        elif album in ['Lover', 'folkore', 'evermore', 'The Tortured Poets Department']:
-            return 0.5
-        else:
-            return 1.0
-    at['Weight'] = at['Album_Name'].apply(assign_weight) if 'Album_Name' in at.columns else 1.0
-    diff_date_albums = at.dropna(subset=['DateDiff'])
-    if not diff_date_albums.empty:
-        weighted_avg_days = int(round(np.average(diff_date_albums['DateDiff'], weights=diff_date_albums['Weight'])))
-    else:
-        weighted_avg_days = 404 #unweighted average between album release and tour start dates
-else:
-    weighted_avg_days = 404 #unweighted average between album release and tour start dates
-
-Showgirl_ReleaseDate = pd.to_datetime(
-    tours_album.loc[tours_album['Album_Name']=='The Life of a Showgirl','Album_ReleaseDate'].iloc[0]
-    ) if 'Album_Name' in tours_album.columns else pd.Timestamp.today()
-Showgirl_Tour_StartDate = Showgirl_ReleaseDate + pd.Timedelta(days=weighted_avg_days)
-print(f"Predicted Showgirl tour start: {Showgirl_Tour_StartDate.date()} ")
-
 #tour planning
-#if cities in same state are within 100 miles of eachother, remove the smaller stadium - CA and LA
-def remove_close_small_stadiums(df, max_distance = 100):
-    df = df.copy()
-    to_remove = set()
-
-    for state, g in df.groupby('State'):
-        cities = g[['City','Latitude','Longitude','Venue_Capacity']].dropna(subset=['Latitude','Longitude']).to_dict('records')
-        for i in range(len(cities)):
-            for j in range(i+1, len(cities)):
-                city1 = cities[i]
-                city2 = cities[j]
-                coords1 = (city1['Latitude'], city1['Longitude'])
-                coords2 = (city2['Latitude'], city2['Longitude'])
-                distance = geodesic(coords1, coords2).miles
-                if distance < max_distance:
-                    # remove the smaller stadium
-                    if city1['Venue_Capacity'] <= city2['Venue_Capacity']:
-                        to_remove.add(city1['City'])
-                    else:
-                        to_remove.add(city2['City'])
-    
-    return df[~df['City'].isin(to_remove)].reset_index(drop=True)
-
-predicted_df = remove_close_small_stadiums(predicted_df, 100)
-
-
-
 remaining = list(predicted_df['City'])
 
 ##hardcoded this due to modeling jumping around despite efforts to tame it
@@ -434,6 +427,9 @@ def compute_nights(city):
     return nights, reason
 
 nights, reason = compute_nights(start_city)
+start_dt = next_non_holiday(current_date)
+current_date = start_dt
+
 tour_plan.append({
     'Start_Date': current_date.strftime('%Y-%m-%d'),
     'Venue': start_row['Venue'],
@@ -452,7 +448,14 @@ remaining.remove(start_city)
 last_city = start_city
 last_coords = city_coords.get(last_city)
 last_continent = start_row['Continent']
-current_date += pd.Timedelta(days=nights + avg_days_btwn_gap)
+# current_date += pd.Timedelta(days=nights + avg_days_btwn_gap)
+# current_date = next_non_holiday(current_date)
+
+for _ in range(nights):
+    current_date += pd.Timedelta(days=1)
+    current_date = next_non_holiday(current_date)
+current_date += pd.Timedelta(days=avg_days_btwn_gap)
+current_date = next_non_holiday(current_date)
 
 max_iterations = 1000
 iteration = 0
@@ -477,8 +480,9 @@ while remaining and iteration < max_iterations:
             gap_days = continent_jump_days
         else:
             gap_days = avg_days_btwn_gap
-        current_date += pd.Timedelta(days=nights + gap_days)
-
+        # current_date += pd.Timedelta(days=nights + gap_days)
+        start_dt = next_non_holiday(current_date)
+        current_date = start_dt
 
         tour_plan.append({
             'Start_Date': current_date.strftime('%Y-%m-%d'),
@@ -494,10 +498,13 @@ while remaining and iteration < max_iterations:
             'Reason': reason
         })
 
+        # current_date += pd.Timedelta(days=nights)
+        for _ in range(nights):
+            current_date += pd.Timedelta(days=1)
+            current_date = next_non_holiday(current_date)
 
-        
-        #current_date += pd.Timedelta(days=nights + gap_days)
-        current_date += pd.Timedelta(days=nights)
+        current_date += pd.Timedelta(days=gap_days)
+        current_date = next_non_holiday(current_date)
 
         last_city = next_city
         last_coords = next_coords
@@ -552,8 +559,32 @@ comparison.to_csv('Predicted_vs_Historical_Comparison.csv', index=False)
 print("\nSaved Predicted_Showgirl_Tour.csv and Predicted_vs_Historical_Comparison.csv")
 
 pd.set_option('display.max_rows', 400)
-print(tour_plan_df[['Start_Date','Venue','City','State','Country','Continent','Nights','Reason','Venue_Capacity', 'Latitude', 'Longitude']].to_string(index=False))
+print(tour_plan_df[['Start_Date','Venue','City','State','Country','Continent','Nights','Reason','Venue_Capacity', 'Latitude', 'Longitude']].to_string(index=False), '\n\n')
 
 tour_plan_df.to_csv('Predicted_Showgirl_Tour.csv', index=False)
 print("Predicted tour plan saved to Predicted_Showgirl_Tour.csv")
 
+
+#output for paper:
+expanded_rows = []
+
+for _, row in tour_plan_df.iterrows():
+    start_date = pd.to_datetime(row['Start_Date'])
+    nights = int(row['Nights']) if not pd.isna(row['Nights']) else 1
+    for i in range(nights):
+        show_date = start_date + pd.Timedelta(days=i)
+        expanded_rows.append({
+            'Date': show_date.strftime('%B %d, %Y'),  # e.g., June 29, 2026
+            'Venue': row['Venue'],
+            'City': row['City'],
+            'State': row['State'],
+            'Country': row['Country']
+        })
+
+expanded_tour_df = pd.DataFrame(expanded_rows)
+
+pd.set_option('display.max_rows', 400)
+print(expanded_tour_df.to_string(index=False))
+
+expanded_tour_df.to_csv('Predicted_Showgirl_Tour_Paper.csv', index=False)
+print("Predicted tour plan saved to Predicted_Showgirl_Tour_Paper.csv")
