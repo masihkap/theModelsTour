@@ -28,27 +28,38 @@ Tours = {
 tour_summary = []
 
 for tour, df in Tours.items():
-    total_row = df[df.apply(lambda row: row.astype(str).str.contains('Total', case = False).any(), axis = 1)]
-    if not total_row.empty:
-        total_attendance = total_row['Attendance'].astype(float).values[0]
-        total_shows = total_row['Date'].astype(str).str.isnumeric().sum()
+    df['Attendance'] = pd.to_numeric(df['Attendance'], errors='coerce')
+    df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
+    if tour == 'ErasTour':
+        total_row = df[df.apply(lambda row: 
+                                row.astype(str).str.contains('Total', case=False).any(), 
+                                axis=1)]
+        if not total_row.empty:
+            total_attendance = float(total_row['Attendance'].iloc[0])
+            total_shows = df['Date'].nunique()
+            total_cities = df['City'].nunique()
+
+        else:
+            concert_rows = df[df['Attendance'].notna()]
+            total_attendance = concert_rows['Attendance'].sum()
+            total_shows = df['Date'].nunique()
+            total_cities = df['City'].nunique()
     else:
-        concert_attendance = df[df['Attendance'].notna()]
-        total_attendance = concert_attendance['Attendance'].sum()
-        df['Date'] = pd.to_datetime(df['Date'])
+        # use calc for other tours
+        concert_rows = df[df['Attendance'].notna()]
+
+        total_attendance = concert_rows['Attendance'].sum()
         total_shows = df['Date'].nunique()
+        total_cities = df['City'].nunique()
 
-
-    df['Attendance'] = pd.to_numeric(df['Attendance'], errors='coerce')  # convert invalid entries to NaN
-    concert_attendance = df[df['Attendance'].notna()]
-    total_attendance = concert_attendance['Attendance'].sum()
-    total_shows = df['Date'].nunique()
-    avg_attendance_show = total_attendance / total_shows if total_shows > 0 else 0
-
+    # Average attendance per show
+    avg_attendance_show = total_attendance / total_shows if total_shows else 0
+   
     tour_summary.append({
         'Tour': tour
         , 'Total_Attendance': total_attendance
         , 'Total_Shows': total_shows
+        , 'Total_Cities': total_cities
         , 'Avg_Attendance_Per_Show': avg_attendance_show
     })
 
@@ -56,34 +67,37 @@ for tour, df in Tours.items():
 tour_summary_df = pd.DataFrame(tour_summary)
 tour_summary_df['Attendance_Growth_Previous_Tour'] = tour_summary_df['Avg_Attendance_Per_Show'].pct_change() * 100
 tour_summary_df['Attendance_Growth_Previous_Tour'] = tour_summary_df['Attendance_Growth_Previous_Tour'].round(2)
+tour_summary_df['Tour'] = tour_summary_df['Tour'].replace({'Tour1989': '1989Tour'})
 print(tour_summary_df)
 print()
 
-tour_summary_df = pd.DataFrame(tour_summary)
-
 # Sort by tour chronological order
-tour_order = ['FearlessTour', 'SpeakNowTour', 'RedTour', 'Tour1989', 'ReputationTour', 'ErasTour']
+tour_order = ['FearlessTour', 'SpeakNowTour', 'RedTour', '1989Tour', 'ReputationTour', 'ErasTour']
 tour_summary_df['Tour'] = pd.Categorical(tour_summary_df['Tour'], categories=tour_order, ordered=True)
 tour_summary_df = tour_summary_df.sort_values('Tour')
 
-# Plot total attendance growth
+# # Plot total attendance growth
+eras_colors = ['#D8B372', '#A088A2', '#7A2E39', "#8AC9E4", "#746F70", "#242E47"]
 plt.figure(figsize=(10,6))
-sns.barplot(x='Tour', y='Total_Attendance', data=tour_summary_df, palette='Blues_d')
+sns.barplot(x='Tour', y='Total_Attendance', data=tour_summary_df, palette=eras_colors, hue = 'Tour')
 plt.title('Total Attendance per Tour', fontsize=16)
 plt.ylabel('Total Attendance')
+plt.ticklabel_format(style='plain', axis='y') # Disable scientific notation
+plt.gca().yaxis.set_major_formatter(plt.matplotlib.ticker.StrMethodFormatter('{x:,.0f}')) #add comma seperator
 plt.xlabel('Tour')
 plt.xticks(rotation=45)
 plt.tight_layout()
-plt.savefig('Total_Attendance_per_Tour.png', dpi=300)
+plt.savefig(f"Total_Attendance_per_Tour", dpi=300, bbox_inches='tight')
 plt.show()
 
 # Plot average attendance per show growth
 plt.figure(figsize=(10,6))
-sns.barplot(x='Tour', y='Avg_Attendance_Per_Show', data=tour_summary_df, palette='Greens_d')
+sns.barplot(x='Tour', y='Avg_Attendance_Per_Show', data=tour_summary_df, palette=eras_colors, hue = 'Tour')
 plt.title('Average Attendance per Show per Tour', fontsize=16)
 plt.ylabel('Average Attendance per Show')
+plt.gca().yaxis.set_major_formatter(plt.matplotlib.ticker.StrMethodFormatter('{x:,.0f}')) #add comma seperator
 plt.xlabel('Tour')
 plt.xticks(rotation=45)
 plt.tight_layout()
-plt.savefig('Avg_Attendance_Per_Show_per_Tour.png', dpi=300)
+plt.savefig(f"Avg_Attendance_per_Show_per_Tour", dpi=300, bbox_inches='tight')
 plt.show()

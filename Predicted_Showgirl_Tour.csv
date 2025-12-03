@@ -1,50 +1,50 @@
 Start_Date,Venue,City,State,Country,Continent,Venue_Capacity,Latitude,Longitude,Nights,Reason
 2026-06-29,Rogers Centre,Toronto,ON,Canada,North America,50155.0,43.6416599,-79.3891976,3,Increased Demand
-2026-07-12,Firstenergy Stadium,Cleveland,OH,United States,North America,51323.0,41.5060559,-81.6997118,2,Base
-2026-07-22,Ford Field,Detroit,MI,United States,North America,59331.0,42.340115,-83.046341,4,High Demand
-2026-08-01,Ohio Stadium,Columbus,OH,United States,North America,62897.0,40.0016458,-83.0197374,2,Base
-2026-08-10,Paycor Stadium,Cincinnati,OH,United States,North America,65000.0,39.0955,-84.5161,3,Increased Demand
-2026-08-19,Cardinal Stadium,Louisville,KY,United States,North America,52138.0,38.2060161,-85.7587734,2,Base
-2026-08-27,Lucas Oil Stadium,Indianapolis,IN,United States,North America,69000.0,39.7601,-86.1639,2,Base
-2026-09-06,Soldier Field,Chicago,IL,United States,North America,55055.0,41.862366,-87.617256,4,High Demand
-2026-09-17,U.S. Bank Stadium,Minneapolis,MN,United States,North America,64453.0,44.9737,-93.257,3,Increased Demand
-2026-09-26,Geha Field At Arrowhead Stadium,Kansas City,MO,United States,North America,55000.0,39.049,-94.4839,2,Base
-2026-10-06,At&T Stadium,Arlington,TX,United States,North America,70203.0,32.747841,-97.093628,4,High Demand
-2026-10-16,Nrg Stadium,Houston,TX,United States,North America,72220.0,29.68486,-95.411667,2,Base
-2026-10-25,Caesars Superdome,New Orleans,LA,United States,North America,65000.0,29.9510489,-90.0823076,3,Increased Demand
-2026-11-03,Mercedes-Benz Stadium,Atlanta,GA,United States,North America,70000.0,33.755489,-84.401993,2,Base
-2026-11-11,Nissan Stadium,Nashville,TN,United States,North America,71000.0,36.166479,-86.7712898,2,Base
-2026-11-21,Acrisure Stadium,Pittsburgh,PA,United States,North America,73117.0,40.4469,-80.0158,4,High Demand
-2026-12-02,Lincoln Financial Field,Philadelphia,PA,United States,North America,67567.0,39.900898,-75.168098,3,Increased Demand
-2026-12-13,Metlife Stadium,East Rutherford,NJ,United States,North America,72545.0,40.813778,-74.07431,4,High Demand
-2026-12-25,Gillette Stadium,Foxborough,MA,United States,North America,66667.0,42.0878,-71.2587,4,High Demand
-2027-01-05,Raymond James Stadium,Tampa,FL,United States,North America,68820.0,27.975958,-82.503693,3,Increased Demand
-2027-01-16,Hard Rock Stadium,Miami Gardens,FL,United States,North America,61000.0,25.958,-80.2389,4,High Demand
-2027-01-26,Empower Field At Mile High,Denver,CO,United States,North America,75000.0,39.7439,-105.0201,2,Base
-2027-02-03,State Farm Stadium,Glendale,AZ,United States,North America,70000.0,33.527283,-112.263275,2,Base
-2027-02-15,Sofi Stadium,Inglewood,CA,United States,North America,70000.0,33.9535,-118.3392,6,Massive Demand
-2027-03-01,Levi'S Stadium,Santa Clara,CA,United States,North America,70000.0,37.403,-121.97,4,High Demand
-2027-03-12,Lumen Field,Seattle,WA,United States,North America,72171.0,47.5952,-122.3316,3,Increased Demand
-2027-03-22,Bc Place,Vancouver,BC,Canada,North America,53334.0,49.2768,-123.1116,3,Increased Demand
-2027-04-14,Allianz Parque,São Paulo,São Paulo,Brazil,South America,50000.0,-23.5273,-46.678,6,Massive Demand
-2027-04-30,Estádio Olímpico Nilton Santos,Rio De Janeiro,Rio de Janeiro,Brazil,South America,60000.0,-22.893194,-43.2935691,6,Massive Demand
-2027-05-16,Estadio River Plate,Buenos Aires,Autonomous City of Buenos Aires,Argentina,South America,73334.0,-34.5455,-58.4494,6,Massive Demand
-2027-06-07,Melbourne Cricket Ground,Melbourne,Victoria,Australia,Oceania,96000.0,-37.819909,144.983225,2,Base
-2027-06-16,Accor Stadium,Sydney,New South Wales,Australia,Oceania,80000.0,-33.8474,151.0631,3,Increased Demand
-2027-06-26,Optus Stadium,Perth,Western Australia,Australia,Oceania,50891.0,-31.9558967,115.8605784,3,Increased Demand
-2027-07-15,Singapore National Stadium,Singapore,,Singapore,Asia,63000.0,1.3020909,103.8763295,2,Base
-2027-07-24,Tokyo Dome,Tokyo,,Japan,Asia,55000.0,35.7056,139.7519,3,Increased Demand
-2027-08-16,Friends Arena,Stockholm,,Sweden,Europe,59560.0,59.3728,18.0006,6,Massive Demand
-2027-09-01,Pge Narodowy,Warsaw,Masovian Voivodeship,Poland,Europe,65000.0,52.2394,21.0458,6,Massive Demand
-2027-09-17,Olympiastadion,Munich,Bavaria,Germany,Europe,74000.0,48.1731,11.5466,6,Massive Demand
-2027-09-30,San Siro,Milan,Lombardy,Italy,Europe,80000.0,45.4782003,9.123964,3,Increased Demand
-2027-10-13,Groupama Stadium,Décines-Charpieu,Auvergne-Rhône-Alpes,France,Europe,61000.0,45.7652,4.9827,6,Massive Demand
-2027-10-29,Veltins-Arena,Gelsenkirchen,North Rhine-Westphalia,Germany,Europe,60000.0,51.5545,7.0675,6,Massive Demand
-2027-11-11,Johan Cruyff Arena,Amsterdam,North Holland,Netherlands,Europe,55000.0,52.3730796,4.8924534,3,Increased Demand
-2027-11-20,Wembley Stadium,London,England,England,Europe,94139.0,51.556,-0.2796,2,Base
-2027-12-02,Principality Stadium,Cardiff,Wales,Wales,Europe,70000.0,51.4782,-3.1827,6,Massive Demand
-2027-12-18,Anfield,Liverpool,England,England,Europe,62000.0,53.4309164,-2.9609314,6,Massive Demand
-2027-12-31,Aviva Stadium,Dublin,,Ireland,Europe,50000.0,53.3351,-6.2285,3,Increased Demand
-2028-01-13,Murrayfield Stadium,Edinburgh,Scotland,Scotland,Europe,73000.0,55.9423132,-3.2408951,6,Massive Demand
-2028-01-26,Estadio Santiago Bernabéu,Madrid,Community of Madrid,Spain,Europe,65000.0,40.4521778,-3.6876573,3,Increased Demand
-2028-02-08,Estádio Da Luz,Lisbon,,Portugal,Europe,60000.0,38.7526893,-9.1846899,6,Massive Demand
+2026-07-06,Firstenergy Stadium,Cleveland,OH,United States,North America,51323.0,41.5060559,-81.6997118,2,Base
+2026-07-12,Ford Field,Detroit,MI,United States,North America,59331.0,42.340115,-83.046341,4,High Demand
+2026-07-20,Ohio Stadium,Columbus,OH,United States,North America,62897.0,40.0016458,-83.0197374,2,Base
+2026-07-26,Paycor Stadium,Cincinnati,OH,United States,North America,65000.0,39.0955,-84.5161,3,Increased Demand
+2026-08-02,Cardinal Stadium,Louisville,KY,United States,North America,52138.0,38.2060161,-85.7587734,2,Base
+2026-08-08,Lucas Oil Stadium,Indianapolis,IN,United States,North America,69000.0,39.7601,-86.1639,2,Base
+2026-08-14,Soldier Field,Chicago,IL,United States,North America,55055.0,41.862366,-87.617256,4,High Demand
+2026-08-22,U.S. Bank Stadium,Minneapolis,MN,United States,North America,64453.0,44.9737,-93.257,3,Increased Demand
+2026-08-29,Geha Field At Arrowhead Stadium,Kansas City,MO,United States,North America,55000.0,39.049,-94.4839,2,Base
+2026-09-04,At&T Stadium,Arlington,TX,United States,North America,70203.0,32.747841,-97.093628,4,High Demand
+2026-09-13,Nrg Stadium,Houston,TX,United States,North America,72220.0,29.68486,-95.411667,2,Base
+2026-09-19,Caesars Superdome,New Orleans,LA,United States,North America,65000.0,29.9510489,-90.0823076,3,Increased Demand
+2026-09-26,Mercedes-Benz Stadium,Atlanta,GA,United States,North America,70000.0,33.755489,-84.401993,2,Base
+2026-10-02,Nissan Stadium,Nashville,TN,United States,North America,71000.0,36.166479,-86.7712898,2,Base
+2026-10-08,Acrisure Stadium,Pittsburgh,PA,United States,North America,73117.0,40.4469,-80.0158,4,High Demand
+2026-10-17,Lincoln Financial Field,Philadelphia,PA,United States,North America,67567.0,39.900898,-75.168098,3,Increased Demand
+2026-10-24,Metlife Stadium,East Rutherford,NJ,United States,North America,72545.0,40.813778,-74.07431,4,High Demand
+2026-11-01,Gillette Stadium,Foxborough,MA,United States,North America,66667.0,42.0878,-71.2587,4,High Demand
+2026-11-09,Raymond James Stadium,Tampa,FL,United States,North America,68820.0,27.975958,-82.503693,3,Increased Demand
+2026-11-17,Hard Rock Stadium,Miami Gardens,FL,United States,North America,61000.0,25.958,-80.2389,4,High Demand
+2026-11-25,Empower Field At Mile High,Denver,CO,United States,North America,75000.0,39.7439,-105.0201,2,Base
+2026-12-02,State Farm Stadium,Glendale,AZ,United States,North America,70000.0,33.527283,-112.263275,2,Base
+2026-12-08,Sofi Stadium,Inglewood,CA,United States,North America,70000.0,33.9535,-118.3392,4,High Demand
+2026-12-16,Levi'S Stadium,Santa Clara,CA,United States,North America,70000.0,37.403,-121.97,4,High Demand
+2026-12-27,Lumen Field,Seattle,WA,United States,North America,72171.0,47.5952,-122.3316,3,Increased Demand
+2027-01-03,Bc Place,Vancouver,BC,Canada,North America,53334.0,49.2768,-123.1116,3,Increased Demand
+2027-01-10,Allianz Parque,São Paulo,São Paulo,Brazil,South America,50000.0,-23.5273,-46.678,4,High Demand
+2027-01-28,Estádio Olímpico Nilton Santos,Rio De Janeiro,Rio de Janeiro,Brazil,South America,60000.0,-22.893194,-43.2935691,4,High Demand
+2027-02-05,Estadio River Plate,Buenos Aires,Autonomous City of Buenos Aires,Argentina,South America,73334.0,-34.5455,-58.4494,4,High Demand
+2027-02-13,Melbourne Cricket Ground,Melbourne,Victoria,Australia,Oceania,96000.0,-37.819909,144.983225,2,Base
+2027-03-02,Accor Stadium,Sydney,New South Wales,Australia,Oceania,80000.0,-33.8474,151.0631,3,Increased Demand
+2027-03-09,Optus Stadium,Perth,Western Australia,Australia,Oceania,50891.0,-31.9558967,115.8605784,3,Increased Demand
+2027-03-16,Singapore National Stadium,Singapore,,Singapore,Asia,63000.0,1.3020909,103.8763295,2,Base
+2027-04-01,Tokyo Dome,Tokyo,,Japan,Asia,55000.0,35.7056,139.7519,3,Increased Demand
+2027-04-08,Friends Arena,Stockholm,,Sweden,Europe,59560.0,59.3728,18.0006,4,High Demand
+2027-04-26,Pge Narodowy,Warsaw,Masovian Voivodeship,Poland,Europe,65000.0,52.2394,21.0458,4,High Demand
+2027-05-04,Olympiastadion,Munich,Bavaria,Germany,Europe,74000.0,48.1731,11.5466,4,High Demand
+2027-05-12,San Siro,Milan,Lombardy,Italy,Europe,80000.0,45.4782003,9.123964,3,Increased Demand
+2027-05-19,Groupama Stadium,Décines-Charpieu,Auvergne-Rhône-Alpes,France,Europe,61000.0,45.7652,4.9827,4,High Demand
+2027-05-27,Veltins-Arena,Gelsenkirchen,North Rhine-Westphalia,Germany,Europe,60000.0,51.5545,7.0675,4,High Demand
+2027-06-05,Johan Cruyff Arena,Amsterdam,North Holland,Netherlands,Europe,55000.0,52.3730796,4.8924534,3,Increased Demand
+2027-06-12,Wembley Stadium,London,England,England,Europe,94139.0,51.556,-0.2796,2,Base
+2027-06-20,Principality Stadium,Cardiff,Wales,Wales,Europe,70000.0,51.4782,-3.1827,4,High Demand
+2027-06-28,Anfield,Liverpool,England,England,Europe,62000.0,53.4309164,-2.9609314,4,High Demand
+2027-07-06,Aviva Stadium,Dublin,,Ireland,Europe,50000.0,53.3351,-6.2285,3,Increased Demand
+2027-07-13,Murrayfield Stadium,Edinburgh,Scotland,Scotland,Europe,73000.0,55.9423132,-3.2408951,4,High Demand
+2027-07-21,Estadio Santiago Bernabéu,Madrid,Community of Madrid,Spain,Europe,65000.0,40.4521778,-3.6876573,3,Increased Demand
+2027-07-28,Estádio Da Luz,Lisbon,,Portugal,Europe,60000.0,38.7526893,-9.1846899,4,High Demand
